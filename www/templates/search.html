@@ -1,0 +1,17 @@
+<ion-view view-title="Search">
+  <ion-content class="padding">
+  <div class="list list-inset">
+    <label class="item item-input">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="text" placeholder="Search" ng-change="search = true" ng-model="searchText">
+    </label>
+  </div>
+    <ion-list ng-show="search">
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures | limitTo:10 | filter:searchText" ng-class-even="'search-even'" type="item-text-wrap" href="#/scripture/{{chat.id}}">
+        <p class="gurmukhi">{{scripture.gurmukhi}}</p>
+        <p class="transliteration">{{scripture.transliteration}}</p>
+        <p class="translation">{{scripture.translation}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
