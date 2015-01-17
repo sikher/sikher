@@ -23,7 +23,10 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SettingsCtrl', function($scope) {
-  $scope.settings = {
-    enableFriends: true
-  };
+  $scope.settingsOptions = [
+    {value: 'page', label: 'Page'},
+    {value: 'slides', label: 'Slides'}
+  ];
+
+  $scope.settings = $scope.settingsOptions[0];
 });
