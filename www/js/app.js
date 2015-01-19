@@ -30,7 +30,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   $stateProvider
 
   // setup an abstract state for the tabs directive
-    .state('tab', {
+  .state('tab', {
     abstract: true,
     templateUrl: "templates/tabs.html"
   })
@@ -46,12 +46,20 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       }
     }
   })
-
+  .state('tab.view', {
+    url: '/view/:hymnId',
+    views: {
+      'search': {
+        templateUrl: 'templates/view-page.html',
+        controller: 'ViewCtrl'
+      }
+    }
+  })
   .state('tab.random', {
     url: '/random',
     views: {
-      'random': {
-        templateUrl: 'templates/search.html',
+      'search': {
+        templateUrl: 'templates/view-page.html',
         controller: 'RandomCtrl'
       }
     }
@@ -65,7 +73,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
           controller: 'FavouritesCtrl'
         }
       }
-    })
+  })
 
   .state('tab.prayers', {
       url: '/prayers',

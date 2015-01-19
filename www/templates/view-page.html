@@ -1,14 +1,11 @@
-<!--
-This template loads for the 'tab.friend-detail' state (app.js)
-'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
-The FriendsCtrl pulls data from the Friends service (service.js)
-The Friends service returns an array of friend data
--->
-<ion-view view-title="{{prayer.name}}">
+<ion-view view-title="">
   <ion-content class="padding">
-    <h3>Notes</h3>
-    <p>
-      {{prayer.notes}}
-    </p>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap">
+        <p class="gurmukhi">{{scripture.gurmukhi}}</p>
+        <p class="transliteration">{{scripture.transliteration}}</p>
+        <p class="translation">{{scripture.translation}}</p>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>

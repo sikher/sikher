@@ -1,10 +1,32 @@
 angular.module('starter.services', [])
 
-.factory('Scripture', function() {
-  // Might use a resource here that returns a JSON array
+.factory('Data', function() {
 
-  // Some fake testing data
-  var scriptures = [
+  return {
+        all: function(data) {
+          return data;
+        },
+        remove: function(data, dataId) {
+          data.splice(data.indexOf(dataId), 1);
+        },
+        get: function(data, dataId) {
+          return [data[dataId]];
+        },
+        filter: function(data, dataId, field) {
+          var output = [];
+          for (var i = 0; i < data.length; i++) {
+            if (parseInt(data[i][field]) === parseInt(dataId)) {
+              output.push(data[i]);
+            }
+          }
+          return output;
+        }
+    }
+})
+
+.factory('Scripture', function() {
+
+  var data = [
   {
     "id":1,
     "scripture":"sggs",
@@ -592,36 +614,26 @@ angular.module('starter.services', [])
     "translation":"If I am pleasing to Him, then that is my pilgrimage and cleansing bath. Without pleasing Him, what good are ritual cleansings?",
     "gurmukhi_search":"qnjqBvBknk",
     "transliteration_search":"tnjtbvbknk"
+  },
+  {
+    "id":50,
+    "scripture":"sggs",
+    "page":2,
+    "line":11,
+    "hymn":6,
+    "gurmukhi":"qIriQ nwvw jy iqsu Bwvw ivxu Bwxy ik nwie krI ]",
+    "transliteration":"Theerathh Naavaa Jae This Bhaavaa Vin Bhaanae K Naae Karee ||",
+    "translation":"If I am pleasing to Him, then that is my pilgrimage and cleansing bath. Without pleasing Him, what good are ritual cleansings?",
+    "gurmukhi_search":"qnjqBvBknk",
+    "transliteration_search":"tnjtbvbknk"
   }
 ];
 
-  return {
-    all: function() {
-      return scriptures;
-    },
-    remove: function(scripture) {
-      scriptures.splice(scriptures.indexOf(scripture), 1);
-    },
-    get: function(scriptureId) {
-      for (var i = 0; i < scriptures.length; i++) {
-        if (scriptures[i].id === parseInt(scriptureId)) {
-          return scriptures[i];
-        }
-      }
-      return null;
-    }
-  }
+return data;
 })
 
-/**
- * A simple example service that returns some data.
- */
 .factory('Prayers', function() {
-  // Might use a resource here that returns a JSON array
-
-  // Some fake testing data
-  // Some fake testing data
-  var prayers = [{
+  var data = [{
     id: 0,
     name: 'Jap Ji Sahib',
     description: 'Song of the Soul',
@@ -654,23 +666,11 @@ angular.module('starter.services', [])
   }];
 
 
-  return {
-    all: function() {
-      return prayers;
-    },
-    get: function(prayerId) {
-      // Simple index lookup
-      return prayers[prayerId];
-    }
-  }
+  return data;
 })
 
 .factory('Favourites', function() {
-  // Might use a resource here that returns a JSON array
-
-  // Some fake testing data
-  // Some fake testing data
-  var favourites = [{
+  var data = [{
     "id":47,
     "scripture":"sggs",
     "page":2,
@@ -708,16 +708,6 @@ angular.module('starter.services', [])
   }];
 
 
-  return {
-    all: function() {
-      return favourites;
-    },
-    remove: function(scripture) {
-      favourites.splice(favourites.indexOf(scripture), 1);
-    },
-    get: function(prayerId) {
-      // Simple index lookup
-      return favourites[prayerId];
-    }
-  }
+  return data;
+
 });
