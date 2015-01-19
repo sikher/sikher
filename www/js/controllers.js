@@ -26,7 +26,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers) {
-  $scope.prayer = Data.get(Prayers, $stateParams.prayerId);
+  $scope.prayers = Data.get(Prayers, $stateParams.prayerId);
+  $scope.prayer = $scope.prayers[0];
 })
 
 .controller('SettingsCtrl', function($scope) {

@@ -4,6 +4,7 @@
     <label class="item item-input">
       <i class="icon ion-search placeholder-icon"></i>
       <input type="text" placeholder="Search" ng-change="search = true" ng-model="searchText">
+      <span ng-show="search" class="badge badge-positive">{{(scriptures|filter:searchText).length}}</span>
     </label>
   </div>
     <ion-list ng-show="search">
