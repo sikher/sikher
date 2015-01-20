@@ -662,7 +662,7 @@ return data;
   {
     id: 6,
     name: 'Kirtan Sohila',
-    description: 'Song of Sleep',
+    description: 'Song of Rest',
   }];
 
 

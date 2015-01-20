@@ -1,8 +1,17 @@
-<ion-view view-title="{{prayer.name}}">
-  <ion-content class="padding">
-    <h3>Notes</h3>
-    <p>
-      {{prayer.notes}}
-    </p>
+<ion-view>
+  <ion-content class="padding base03">
+	<ion-slide-box on-slide-changed="slideHasChanged($index)">
+	  <ion-slide ng-repeat="scripture in scriptures">
+	  	<div class="box">
+			<h1 class="gurmukhi blue">{{scripture.gurmukhi}}</h1>
+		</div>
+		<div class="box">
+			<h1 class="transliteration yellow">{{scripture.transliteration}}</h1>
+		</div>
+		<div class="box">
+			<h1 class="translation base1">{{scripture.translation}}</h1>
+		</div>
+	  </ion-slide>
+	</ion-slide-box>
   </ion-content>
 </ion-view>

@@ -59,7 +59,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     url: '/random',
     views: {
       'search': {
-        templateUrl: 'templates/view-page.html',
+        templateUrl: 'templates/view-slides.html',
         controller: 'RandomCtrl'
       }
     }
