@@ -1,11 +1,13 @@
 <ion-view view-title="Settings">
   <ion-content>
-    <div class="list">
+    <div class="list" ng-controller="SettingsCtrl">
       <label class="item item-input item-select">
         <div class="input-label">
           View As
         </div>
-        <select ng-model="settings" ng-options="setting.label for setting in settingsOptions">
+        <select ng-model="viewAs" ng-change="updateSettings();">
+          <option value="page">Page</option>
+          <option value="slides">Slides</option>
         </select>
       </label>
     </div>

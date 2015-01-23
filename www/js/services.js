@@ -1,5 +1,18 @@
 angular.module('starter.services', [])
 
+.factory('Settings', function() {
+
+    var data = {
+        viewAs : 'page'
+    }
+
+    return {
+        all: function(){ return data; },
+        get: function(setting){ return data[setting]; },
+        set: function(setting, value){ data[setting] = value; }
+    }
+})
+
 .factory('Data', function() {
 
   return {
@@ -665,7 +678,6 @@ return data;
     description: 'Song of Rest',
   }];
 
-
   return data;
 })
 
@@ -707,7 +719,5 @@ return data;
     "transliteration_search":"tnjtbvbknk"
   }];
 
-
   return data;
-
 });

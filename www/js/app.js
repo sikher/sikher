@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'door3.css'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -38,6 +38,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Each tab has its own nav history stack:
 
   .state('tab.search', {
+    cache: false,
     url: '/',
     views: {
       'search': {
@@ -47,19 +48,22 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     }
   })
   .state('tab.view', {
-    url: '/view/:hymnId',
+    cache: false,
+    url: '/view/:viewAs/:hymnId',
     views: {
       'search': {
-        templateUrl: 'templates/view-page.html',
+        templateUrl: function ($stateParams){
+          return 'templates/view-' + $stateParams.viewAs + '.html';
+        },
         controller: 'ViewCtrl'
       }
     }
   })
   .state('tab.random', {
+    cache: false,
     url: '/random',
     views: {
       'search': {
-        templateUrl: 'templates/view-slides.html',
         controller: 'RandomCtrl'
       }
     }

@@ -8,7 +8,7 @@
     </label>
   </div>
     <ion-list ng-show="search">
-      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures | filter:searchText" ng-class-even="'search-even'" type="item-text-wrap" href="#/view/{{scripture.hymn}}">
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures | filter:searchText" ng-class-even="'search-even'" type="item-text-wrap" href="#/view/{{viewAs}}/{{scripture.hymn}}">
         <p class="gurmukhi">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
         <p class="translation">{{scripture.translation}}</p>

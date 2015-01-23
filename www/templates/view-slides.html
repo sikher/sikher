@@ -1,4 +1,4 @@
-<ion-view>
+<ion-view view-title="">
   <ion-content class="padding base03">
 	<ion-slide-box on-slide-changed="slideHasChanged($index)">
 	  <ion-slide ng-repeat="scripture in scriptures">
@@ -13,5 +13,14 @@
 		</div>
 	  </ion-slide>
 	</ion-slide-box>
+	<a class="icon ion-close-round slide-navigator-close" title="Close Slideshow" ng-click="closeSlideshow()"></a>
+	<i class="icon ion-chevron-right slide-navigator-next" title="Next Slide" ng-click="nextSlide()"></i>
+	<i class="icon ion-chevron-left slide-navigator-previous" title="Previous Slide" ng-click="previousSlide()"></i>
+	<i class="icon ion-ios-browsers slide-navigator-open" title="Open Navigator" ng-click="toggleNavigator()"></i>
+	<div class="slide-navigator" ng-show="showNavigator">
+		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in scriptures">
+			<a ng-click="gotoSlide($index)">{{scripture.gurmukhi}}</a>
+		</p>
+	</div>
   </ion-content>
 </ion-view>
