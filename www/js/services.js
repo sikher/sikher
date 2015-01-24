@@ -19,6 +19,13 @@ angular.module('starter.services', [])
         all: function(data) {
           return data;
         },
+        add: function(dataFrom, dataTo, dataId) {
+          console.log(dataFrom, dataTo, dataId)
+          var obj = this.filter(dataFrom, dataId, 'id');
+          console.log(obj)
+          dataTo.push(obj[0]);
+          console.log(dataTo);
+        },
         remove: function(data, dataId) {
           data.splice(data.indexOf(dataId), 1);
         },

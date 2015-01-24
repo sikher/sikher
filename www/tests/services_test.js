@@ -4,7 +4,6 @@ describe('Services', function() {
   var Data;
 
   beforeEach(inject(function(_Data_){
-    // The injector unwraps the underscores (_) from around the parameter names when matching
     Data = _Data_;
   }));
 
@@ -32,6 +31,23 @@ describe('Services', function() {
     it('returns three hymns', function(){
       $scope.scriptures = Data.filter(data, $stateParams, 'hymn');
       expect($scope.scriptures.length).toEqual(3);
+    });
+
+    it('return a hymn by id', function(){
+      $stateParams = 2;
+      $scope.scriptures = Data.filter(data, $stateParams, 'id');
+      expect($scope.scriptures.length).toEqual(1);
+      expect($scope.scriptures[0]).toEqual({ id: 2, hymn: 6, page: 1 });
+    });
+
+    it('add a hymn by id', function(){
+      $stateParams = 3;
+      $scope.scriptures = Data.all(data);
+      expect($scope.scriptures.length).toEqual(5);
+
+      Data.add(data, data, $stateParams);
+      $scope.scriptures = Data.all(data);
+      expect($scope.scriptures.length).toEqual(6);
     });
   });
 });
