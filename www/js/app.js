@@ -39,7 +39,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
   .state('tab.search', {
     cache: false,
-    url: '/',
+    url: '/search',
     views: {
       'search': {
         templateUrl: 'templates/search.html',
@@ -63,7 +63,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
     cache: false,
     url: '/random',
     views: {
-      'search': {
+      'random': {
         controller: 'RandomCtrl'
       }
     }
@@ -110,6 +110,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/search');
 
 });

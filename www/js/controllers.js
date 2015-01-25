@@ -58,7 +58,6 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SettingsCtrl', function($scope, Settings) {
-
   $scope.viewAs = Settings.get('viewAs');
 
   $scope.updateSettings = function() {
