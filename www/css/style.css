@@ -8,6 +8,7 @@
 .gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: Prabhki; font-size: 20px; line-height: normal; padding: 5px 0; }
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
+.tabs { font-size: 32px; }
 
 /* Really small mobiles */
 @media (max-width: 767px) {
@@ -27,6 +28,9 @@
 	.item p { font-size: 16px; }
 	.item h2 { font-size: 18px; }
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 16px; }
+	span.tab-title.ng-binding { display: none; }
+	.tab-item .icon { font-size: 48px; }
+	.tabs { font-size: 48px; }
 }
  
 /* Medium devices (desktops, 992px and up) */
@@ -36,6 +40,9 @@
 	.translation, .item h2.translation, .item p.translation { }
 	.item p { }
 	.item h2 { }
+	span.tab-title.ng-binding { }
+	.tab-item .icon { }
+	.tabs { }
 }
  
 /* Large devices (large desktops, 1200px and up) */
@@ -46,6 +53,9 @@
 	.item p { font-size: 18px; }
 	.item h2 { font-size: 20px; }
 	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 18px; }
+	span.tab-title.ng-binding { }
+	.tab-item .icon { font-size: 48px; }
+	.tabs { height: 48px; }
 }
 
 
