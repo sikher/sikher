@@ -16,6 +16,7 @@
 	.translation, .item h2.translation, .item p.translation { }
 	.item p { }
 	.item h2 { }
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -25,6 +26,7 @@
 	.translation, .item h2.translation, .item p.translation { font-size: 18px; }
 	.item p { font-size: 16px; }
 	.item h2 { font-size: 18px; }
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 16px; }
 }
  
 /* Medium devices (desktops, 992px and up) */
@@ -43,6 +45,7 @@
 	.translation, .item h2.translation, .item p.translation { font-size: 20px; }
 	.item p { font-size: 18px; }
 	.item h2 { font-size: 20px; }
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 18px; }
 }
 
 
