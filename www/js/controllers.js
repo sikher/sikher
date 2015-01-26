@@ -52,7 +52,8 @@ angular.module('starter.controllers', [])
   $scope.prayers = Data.all(Prayers);
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css) {
+  $css.bind({href: 'css/prayers-detail.css'}, $scope);
   $scope.prayers = Data.get(Prayers, $stateParams.prayerId);
   $scope.prayer = $scope.prayers[0];
 })
