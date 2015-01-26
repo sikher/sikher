@@ -9,4 +9,40 @@
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
 
+/* Really small mobiles */
+@media (max-width: 767px) {
+	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 22px; }
+	.transliteration, .item h2.transliteration, .item p.transliteration  { }
+	.translation, .item h2.translation, .item p.translation { }
+	.item p { }
+	.item h2 { }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 24px; }
+	.transliteration, .item h2.transliteration, .item p.transliteration  { font-size: 18px; }
+	.translation, .item h2.translation, .item p.translation { font-size: 18px; }
+	.item p { font-size: 16px; }
+	.item h2 { font-size: 18px; }
+}
+ 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { }
+	.transliteration, .item h2.transliteration, .item p.transliteration  { }
+	.translation, .item h2.translation, .item p.translation { }
+	.item p { }
+	.item h2 { }
+}
+ 
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 26px; }
+	.transliteration, .item h2.transliteration, .item p.transliteration  { font-size: 20px; }
+	.translation, .item h2.translation, .item p.translation { font-size: 20px; }
+	.item p { font-size: 18px; }
+	.item h2 { font-size: 20px; }
+}
+
 
