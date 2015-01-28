@@ -1,7 +1,22 @@
 angular.module('starter.controllers', [])
 
-.controller('SearchCtrl', function($scope, Data, Scripture, Settings) {
-  $scope.scriptures = Data.all(Scripture);
+.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $rootScope) {
+  $scope.showResults = false;
+  $scope.loading = false;
+  $scope.scriptures = {};
+
+  $scope.getResults = function() {
+    $scope.loading = true;
+    $scope.showResults = false;
+    
+    Scripture.getResults($scope.searchText).then(function(res){
+      $scope.loading = false;
+      $scope.scriptures = res.data;
+      console.log('controller', res.data);
+      $scope.showResults = true;
+    });
+  }
+
   $scope.viewAs = Settings.get('viewAs');
 })
 

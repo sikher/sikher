@@ -18,11 +18,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
-
-  $rootScope.goHome = function() { $state.transitionTo('tab.search', {}, { 
-      reload: true, inherit: true, notify: true 
-    }); $css.removeAll(); }
   });
+
+  $rootScope.goHome = function() {
+    $state.transitionTo('tab.search', {}, { reload: true, inherit: true, notify: true });
+    $css.removeAll();
+  }
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
