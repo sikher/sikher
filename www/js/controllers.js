@@ -8,7 +8,7 @@ angular.module('starter.controllers', [])
   $scope.getResults = function() {
     $scope.loading = true;
     $scope.showResults = false;
-    
+
     Scripture.getResults($scope.searchText).then(function(res){
       $scope.loading = false;
       $scope.scriptures = res.data;
@@ -21,6 +21,16 @@ angular.module('starter.controllers', [])
 })
 
 .controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $cordovaSocialSharing){
+  $scope.loading = true;
+  $scope.showResults = false;
+
+  Scripture.getHymn($stateParams.hymnId).then(function(res){
+    $scope.loading = false;
+    $scope.scriptures = res.data;
+    console.log('controller', res.data);
+    $scope.showResults = true;
+  });
+
   if($stateParams.viewAs === 'page')
   {
     $scope.share = function(id)
@@ -33,8 +43,6 @@ angular.module('starter.controllers', [])
     {
       Data.add(Scripture, Favourites, id);
     }
-
-    $scope.scriptures = Data.filter(Scripture, $stateParams.hymnId, 'hymn');
   }
   else if($stateParams.viewAs === 'slides')
   {
@@ -45,12 +53,11 @@ angular.module('starter.controllers', [])
     $scope.gotoSlide = function (index) { $ionicSlideBoxDelegate.slide(index); }
     $scope.showNavigator = false;
     $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
-    $scope.scriptures = Data.filter(Scripture, $stateParams.hymnId, 'hymn');
   }
 })
 
 .controller('RandomCtrl', function($scope, Data, Scripture, Settings, $state) {
-  var max_hymns = 6;
+  var max_hymns = 9990;
   $scope.random = function() { return Math.floor((Math.random() * max_hymns) + 1) }
   $state.go('tab.view', { viewAs: Settings.get('viewAs'), hymnId : $scope.random() });
 })

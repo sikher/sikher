@@ -1,6 +1,6 @@
 <ion-view view-title="">
-  <ion-content class="padding base03">
-	<ion-slide-box on-slide-changed="slideHasChanged($index)">
+  <ion-content ng-controller="ViewCtrl" class="padding base03">
+	<ion-slide-box ng-if="showResults" on-slide-changed="slideHasChanged($index)">
 	  <ion-slide ng-repeat="scripture in scriptures">
 	  	<div class="box">
 			<h1 class="gurmukhi blue">{{scripture.gurmukhi}}</h1>

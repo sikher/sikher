@@ -41,7 +41,7 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http, $q) {
+.factory('Scripture', function($http) {
 
 return {
     getResults : function(query, field, sql) {
@@ -53,17 +53,17 @@ return {
     },
     getHymn : function(query, field, sql) {
         var query = query || 8;
-        var field = field || 'transliteration_search';
+        var field = field || 'hymn';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
 
         return this.http(sql);
     },
-    http : function(sql, url, method, responseType) {
-        var data = [];
+    http : function(sql, url, method, responseType, cache) {
         var sql = sql;
         var url = url || '/db/sikher.db';
         var method = method || 'GET';
         var responseType = responseType || 'arraybuffer';
+        var cache = cache || true;
 
         delete $http.defaults.headers.common['X-Requested-With'];
 
@@ -76,6 +76,7 @@ return {
         }
 
         function applyTransform(result) {
+            var data = [];
             var uInt8Array = new Uint8Array(result);
             var db = new SQL.Database(uInt8Array);
             var stmt = db.prepare(sql);
@@ -92,7 +93,8 @@ return {
           url: url,
           method: method,
           responseType: responseType,
-          transformResponse: appendTransform($http.defaults.transformResponse, function(res) { return applyTransform(res); })
+          transformResponse: appendTransform($http.defaults.transformResponse, function(res) { return applyTransform(res); }),
+          cache: cache
         });
 
         return req;

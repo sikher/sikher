@@ -1,6 +1,6 @@
 <ion-view view-title="">
-  <ion-content>
-    <ion-list>
+  <ion-content ng-controller="ViewCtrl">
+    <ion-list ng-if="showResults">
       <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap">
         <p class="gurmukhi">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
