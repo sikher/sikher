@@ -47,7 +47,7 @@ return {
     getResults : function(query, field, sql) {
         var query = query || 'mmlg';
         var field = field || 'transliteration_search';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 20";
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 10";
 
         return this.http(sql);
     },

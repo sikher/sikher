@@ -7,6 +7,10 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'door3.css', 'ngCordova'])
 
+.constant('$ionicLoadingConfig', {
+  template: 'Loading...',
+})
+
 .run(function($ionicPlatform, $rootScope, $state, $css) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard

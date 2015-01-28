@@ -1,31 +1,34 @@
 angular.module('starter.controllers', [])
 
-.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $rootScope) {
+.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading) {
   $scope.showResults = false;
-  $scope.loading = false;
-  $scope.scriptures = {};
+  $scope.viewAs = Settings.get('viewAs');
+  $scope.scriptures = [];
 
   $scope.getResults = function() {
-    $scope.loading = true;
+
     $scope.showResults = false;
 
     Scripture.getResults($scope.searchText).then(function(res){
-      $scope.loading = false;
+      $ionicLoading.hide();
       $scope.scriptures = res.data;
       console.log('controller', res.data);
       $scope.showResults = true;
     });
   }
 
-  $scope.viewAs = Settings.get('viewAs');
+  $scope.showLoading = function()
+  {
+    $ionicLoading.show();
+  }
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $cordovaSocialSharing){
-  $scope.loading = true;
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $cordovaSocialSharing, $ionicLoading){
+  $ionicLoading.show();
   $scope.showResults = false;
 
   Scripture.getHymn($stateParams.hymnId).then(function(res){
-    $scope.loading = false;
+    $ionicLoading.hide();
     $scope.scriptures = res.data;
     console.log('controller', res.data);
     $scope.showResults = true;
