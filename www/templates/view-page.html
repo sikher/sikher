@@ -6,10 +6,7 @@
         <p class="transliteration">{{scripture.transliteration}}</p>
         <p class="translation">{{scripture.translation}}</p>
 
-        <ion-option-button class="button-positive" ng-click="share(scripture.id)">
-        	<i class="icon ion-android-share-alt" title="Share"></i>
-        </ion-option-button>
-        <ion-option-button class="button-positive" ng-click="favourite(scripture.id)">
+        <ion-option-button class="button-positive" ng-click="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)">
         	<i class="icon ion-heart" title="Favourite"></i>
         </ion-option-button>
       </ion-item>

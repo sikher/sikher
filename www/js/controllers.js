@@ -6,13 +6,12 @@ angular.module('starter.controllers', [])
   $scope.scriptures = [];
 
   $scope.getResults = function() {
-
+    $ionicLoading.show();
     $scope.showResults = false;
 
     Scripture.getResults($scope.searchText).then(function(res){
       $ionicLoading.hide();
       $scope.scriptures = res.data;
-      console.log('controller', res.data);
       $scope.showResults = true;
     });
   }
@@ -23,28 +22,23 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $cordovaSocialSharing, $ionicLoading){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading){
   $ionicLoading.show();
   $scope.showResults = false;
 
   Scripture.getHymn($stateParams.hymnId).then(function(res){
     $ionicLoading.hide();
     $scope.scriptures = res.data;
-    console.log('controller', res.data);
     $scope.showResults = true;
   });
 
   if($stateParams.viewAs === 'page')
   {
-    $scope.share = function(id)
+    $scope.favourite = function(id, hymn, gurmukhi)
     {
-      var line = Data.filter(Scripture, id, 'id');
-      $cordovaSocialSharing.share(line[0].translation, 'Page '+line[0].page+' of the Sikh Holy Scripture', null, 'http://searchgurbani.com/guru_granth_sahib/ang/'+line[0].page);
-    }
-
-    $scope.favourite = function(id)
-    {
-      Data.add(Scripture, Favourites, id);
+      var obj = [{ id: id, hymn: hymn, gurmukhi: gurmukhi}];
+      Data.add(obj, Favourites, id);
+      console.log(id, hymn, gurmukhi, obj);
     }
   }
   else if($stateParams.viewAs === 'slides')

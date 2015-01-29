@@ -85,7 +85,6 @@ return {
                 data.push(stmt.getAsObject())
             }
             db.close();
-            console.log('service', data);
             return data;
         }
 
