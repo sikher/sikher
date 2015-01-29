@@ -72,7 +72,7 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver) {
   $ionicLoading.show();
   $css.bind({href: 'css/prayers-detail.css'}, $scope);
 
@@ -83,16 +83,11 @@ angular.module('starter.controllers', [])
 
     $scope.prayer = $scope.prayers[$stateParams.prayerId];
 
-    $scope.getAudio = function() {
-      if(isMobile.Android()) { $scope.prayer.audio = '/android_asset/www' + $scope.prayer.audio }
-      else { return $scope.prayer.audio }
-    }
-
     Prayers.get($scope.prayer.file).then(function(res){
       $ionicLoading.hide();
+      $scope.prayer.audio = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
     })
-
   })
 })
 

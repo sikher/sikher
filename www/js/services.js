@@ -41,7 +41,7 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http) {
+.factory('Scripture', function($http, URLResolver) {
 
 return {
     getResults : function(query, field, sql) {
@@ -58,12 +58,12 @@ return {
 
         return this.http(sql);
     },
-    http : function(sql, url, method, responseType, cache) {
+    http : function(sql, url) {
         var sql = sql;
         var url = url || '/db/sikher.db';
-        var method = method || 'GET';
-        var responseType = responseType || 'arraybuffer';
-        var cache = cache || true;
+        var method = 'GET';
+        var responseType = 'arraybuffer';
+        var cache = true;
 
         delete $http.defaults.headers.common['X-Requested-With'];
 
@@ -89,7 +89,7 @@ return {
         }
 
         var req = $http({
-          url: url,
+          url: URLResolver.resolve(url),
           method: method,
           responseType: responseType,
           transformResponse: appendTransform($http.defaults.transformResponse, function(res) { return applyTransform(res); }),
@@ -102,15 +102,15 @@ return {
 
 })
 
-.factory('Prayers', function($http) {
+.factory('Prayers', function($http, URLResolver) {
   return {
-    get : function(url,method,cache){
+    get : function(url){
         var url = url || '/db/prayers.json';
-        var method = method || 'GET';
-        var cache = cache || true;
+        var method = 'GET';
+        var cache = true;
 
         var req = $http({
-          url: url,
+          url: URLResolver.resolve(url),
           method: method,
           cache: cache
         });
@@ -140,4 +140,14 @@ return {
         localStorage.setItem(STORAGE_ID, JSON.stringify(values));
     }
   };
+})
+
+.factory('URLResolver', function(){
+
+  return {
+    resolve: function(url) {
+      if(isMobile.Android()) { return 'file:///android_asset/www' + url }
+      else { return url }
+    }
+  }
 });

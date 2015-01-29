@@ -1,6 +1,6 @@
 <ion-view ng-controller="PrayersDetailCtrl" view-title="{{prayer.name}}">
-	<audio class="audio-wrapper" controls preload crossorigin="anonymous" ng-if="prayer">
-	  <source src="{{getAudio()}}" type="audio/mpeg">
+	<audio class="audio-wrapper" controls preload crossorigin="anonymous">
+	  <source src="{{prayer.audio}}" type="audio/mpeg">
 	</audio>
   <ion-content class="space-top">
     <ion-list>
