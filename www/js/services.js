@@ -120,8 +120,24 @@ return {
   };
 })
 
-.factory('Favourites', function() {
-  var data = [];
+.factory('Favourites', function(Store) {
+  var data = Store.get('sikher_favourites');
 
   return data;
+})
+
+.factory('Store', function(){
+  
+  return {
+    get: function (STORAGE_ID)
+    {
+        var STORAGE_ID = STORAGE_ID || 'sikher';
+        return JSON.parse(localStorage.getItem(STORAGE_ID) || '[]');
+    },
+    set: function (STORAGE_ID, values)
+    {
+        var STORAGE_ID = STORAGE_ID || 'sikher';
+        localStorage.setItem(STORAGE_ID, JSON.stringify(values));
+    }
+  };
 });

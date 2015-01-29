@@ -17,7 +17,7 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store){
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -33,7 +33,8 @@ angular.module('starter.controllers', [])
     {
       var obj = [{ id: id, hymn: hymn, gurmukhi: gurmukhi}];
       Data.add(obj, Favourites, id);
-      console.log(id, hymn, gurmukhi, obj);
+      Store.set('sikher_favourites', Favourites)
+
     }
   }
   else if($stateParams.viewAs === 'slides')
@@ -54,11 +55,12 @@ angular.module('starter.controllers', [])
   $state.go('tab.view', { viewAs: Settings.get('viewAs'), hymnId : $scope.random() });
 })
 
-.controller('FavouritesCtrl', function($scope, Data, Favourites, Settings) {
+.controller('FavouritesCtrl', function($scope, Data, Favourites, Settings, Store) {
   $scope.viewAs = Settings.get('viewAs');
   $scope.favourites = Data.all(Favourites);
   $scope.remove = function(id) {
     Data.remove(Favourites, id);
+    Store.set('sikher_favourites', Favourites);
   }
 })
 
