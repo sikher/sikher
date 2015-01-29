@@ -49,7 +49,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('RandomCtrl', function($scope, Data, Scripture, Settings, $state) {
-  var max_hymns = 9990;
+  var max_hymns = 5540;
   $scope.random = function() { return Math.floor((Math.random() * max_hymns) + 1) }
   $state.go('tab.view', { viewAs: Settings.get('viewAs'), hymnId : $scope.random() });
 })
@@ -76,7 +76,7 @@ angular.module('starter.controllers', [])
 
   Prayers.get()
   .then(function(res){
-    
+
     $scope.prayers = res.data;
 
     $scope.prayer = $scope.prayers[$stateParams.prayerId];
