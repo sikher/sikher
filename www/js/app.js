@@ -9,9 +9,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 
 .constant('$ionicLoadingConfig', {
   template: 'Loading...',
+  duration: 10000
 })
 
-.run(function($ionicPlatform, $rootScope, $state, $css) {
+.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -27,6 +28,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   $rootScope.goHome = function() {
     $state.transitionTo('tab.search', {}, { reload: true, inherit: true, notify: true });
     $css.removeAll();
+  }
+
+  $rootScope.showLoading = function()
+  {
+    $ionicLoading.show();
   }
 })
 

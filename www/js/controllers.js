@@ -15,11 +15,6 @@ angular.module('starter.controllers', [])
       $scope.showResults = true;
     });
   }
-
-  $scope.showLoading = function()
-  {
-    $ionicLoading.show();
-  }
 })
 
 .controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading){
@@ -67,14 +62,36 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('PrayersCtrl', function($scope, Data, Prayers) {
-  $scope.prayers = Data.all(Prayers);
+.controller('PrayersCtrl', function($scope, Data, Prayers, $ionicLoading) {
+  $ionicLoading.show();
+  Prayers.get().then(function(res){
+    $ionicLoading.hide();
+    $scope.prayers = res.data;
+  })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading) {
+  $ionicLoading.show();
   $css.bind({href: 'css/prayers-detail.css'}, $scope);
-  $scope.prayers = Data.get(Prayers, $stateParams.prayerId);
-  $scope.prayer = $scope.prayers[0];
+
+  Prayers.get()
+  .then(function(res){
+    
+    $scope.prayers = res.data;
+
+    $scope.prayer = $scope.prayers[$stateParams.prayerId];
+
+    $scope.getAudio = function() {
+      if(isMobile.Android()) { $scope.prayer.audio = '/android_asset/www' + $scope.prayer.audio }
+      else { return $scope.prayer.audio }
+    }
+
+    Prayers.get($scope.prayer.file).then(function(res){
+      $ionicLoading.hide();
+      $scope.prayer.data = res.data;
+    })
+
+  })
 })
 
 .controller('SettingsCtrl', function($scope, Settings) {

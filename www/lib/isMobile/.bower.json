@@ -1,0 +1,15 @@
+{
+  "name": "isMobile",
+  "_cacheHeaders": {
+    "ETag": "\"75e027c69ebec26cedc24f619ef86b98\"",
+    "Content-Length": "617",
+    "Content-Type": "text/plain",
+    "Content-Disposition": "inline"
+  },
+  "_release": "e-tag:75e027c69",
+  "main": "index.js",
+  "_source": "https://gist.githubusercontent.com/jasdeepkhalsa/1283afd332fc282f6b44/raw/96ba6b33f906a652cc512342c05b75b850184505/isMobile.js",
+  "_target": "*",
+  "_originalSource": "https://gist.githubusercontent.com/jasdeepkhalsa/1283afd332fc282f6b44/raw/96ba6b33f906a652cc512342c05b75b850184505/isMobile.js",
+  "_direct": true
+}

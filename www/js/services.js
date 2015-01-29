@@ -102,60 +102,22 @@ return {
 
 })
 
-.factory('Prayers', function() {
-  var data = [{
-    id: 0,
-    name: 'Jap Ji Sahib',
-    description: 'Song of the Soul',
-    audio: '/audio/01_Japji_Sahib.mp3',
-    data: [
-  {
-    "id":1,
-    "scripture":"sggs",
-    "page":1,
-    "line":1,
-    "hymn":1,
-    "gurmukhi":"< siq nwmu krqw purKu inrBau inrvYru Akwl mUriq AjUnI sYBM gur pRswid ]",
-    "transliteration":"Ikoankaar Sathnaam Karathaa Purakh Nirabho Niravair Akaal Moorath Ajoonee Saibhan Gurprasaadh ||",
-    "translation":"One Universal Creator God, TheName Is Truth  Creative Being Personified No Fear No Hatred Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace~",
-    "gurmukhi_search":"<snkpnnAmAsgp",
-    "transliteration_search":"iskpnnamasgp"
-  }]
-  }, {
-    id: 1,
-    name: 'Jaap Sahib',
-    description: 'Song of Recitation',
-    audio: '/audio/02_Jaap_Sahib.mp3'
-  }, {
-    id: 2,
-    name: 'Tav Prasad Savaiye',
-    description: 'Song By Thy Grace',
-    audio: '/audio/03_Tav_Prasaad_Svaiye.mp3'
-  }, {
-    id: 3,
-    name: 'Chaupai Sahib',
-    description: 'Song of the Poet',
-    audio: '/audio/04_Chaupai_Sahib.mp3'
-  }, {
-    id: 4,
-    name: 'Anand Sahib',
-    description: 'Song of Bliss',
-    audio: '/audio/05_Anand_Sahib.mp3'
-  },
-  {
-    id: 5,
-    name: 'Rehraas Sahib',
-    description: 'Song of Continued Essence',
-    audio: '/audio/06_Rehraas_Sahib.mp3'
-  },
-  {
-    id: 6,
-    name: 'Kirtan Sohila',
-    description: 'Song of Rest',
-    audio: '/audio/07_Kirtan_Sohila.mp3'
-  }];
+.factory('Prayers', function($http) {
+  return {
+    get : function(url,method,cache){
+        var url = url || '/db/prayers.json';
+        var method = method || 'GET';
+        var cache = cache || true;
 
-  return data;
+        var req = $http({
+          url: url,
+          method: method,
+          cache: cache
+        });
+
+        return req;
+    }
+  };
 })
 
 .factory('Favourites', function() {

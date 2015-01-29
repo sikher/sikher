@@ -6,7 +6,8 @@
     "ionicons": "~2.0.1",
     "angular-css": "~1.0.6",
     "ngCordova": "~0.1.11-alpha",
-    "sql.js": "https://github.com/kripken/sql.js.git"
+    "sql.js": "https://github.com/kripken/sql.js.git",
+    "isMobile": "https://gist.githubusercontent.com/jasdeepkhalsa/1283afd332fc282f6b44/raw/96ba6b33f906a652cc512342c05b75b850184505/isMobile.js"
   },
   "resolutions": {
     "angular": ">= 1.0.8"
