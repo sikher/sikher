@@ -3,3 +3,5 @@
 h3:first-child { padding: 0 10px; }
 .tab-nav.tabs { display: none; }
 .has-tabs, .bar-footer.has-tabs { bottom: 0; }
+.has-header { top: 44px !important; }
+.has-tabs-top { top: auto; }
