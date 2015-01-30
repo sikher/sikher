@@ -72,7 +72,7 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $cordovaMedia) {
   $ionicLoading.show();
   $css.bind({href: 'css/prayers-detail.css'}, $scope);
 
@@ -85,7 +85,7 @@ angular.module('starter.controllers', [])
 
     Prayers.get($scope.prayer.file).then(function(res){
       $ionicLoading.hide();
-      $scope.prayer.audio = URLResolver.resolve($scope.prayer.audio);
+      $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
     })
   })

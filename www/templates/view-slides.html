@@ -17,10 +17,10 @@
 	<i class="icon ion-chevron-right slide-navigator-next" title="Next Slide" ng-click="nextSlide()"></i>
 	<i class="icon ion-chevron-left slide-navigator-previous" title="Previous Slide" ng-click="previousSlide()"></i>
 	<i class="icon ion-ios-browsers slide-navigator-open" title="Open Navigator" ng-click="toggleNavigator()"></i>
-	<div class="slide-navigator" ng-show="showNavigator">
+	<ion-content direction="xy" class="slide-navigator" ng-show="showNavigator">
 		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in scriptures">
 			<a ng-click="gotoSlide($index)">{{scripture.gurmukhi}}</a>
 		</p>
-	</div>
+	</ion-content>
   </ion-content>
 </ion-view>

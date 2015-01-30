@@ -6,16 +6,13 @@ ion-nav-bar { display: none; }
 .slider-pager { bottom: 5px; }
 .box { width: 100%; height: 33.3333%; max-width: 100%; max-height: 33.3333%; padding:0; margin: 0; }
 .slider, .scroll { width: 100%; height: 100%; padding: 0; margin: 0; }
-.slide-navigator { width: 50%; height: 50%; max-width: 50%; max-height: 30%; padding:10px; margin: 0; border-radius: 10px; position: absolute; bottom: 30px; right: 0; z-index: 99999; background-color: rgba(0,0,0,0.5); white-space: nowrap; overflow: auto; overflow-y: scroll; overflow-x: scroll; }
-.slide-navigator::-webkit-scrollbar { display: block; width: 10px; }
-.slide-navigator::-webkit-scrollbar-corner { background: rgba(0,0,0,0.5); }
-.slide-navigator::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); border-radius: 10px; }
-.slide-navigator::-webkit-scrollbar-thumb { border-radius: 10px; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); }
+.slide-navigator { width: 50%; height: 35%; max-width: 50%; padding:5px 10px; margin: 0; border-radius: 10px; position: absolute; bottom: 30px; right: 0; z-index: 99999; background-color: rgba(0,0,0,0.5); white-space: nowrap; overflow: auto; overflow-y: scroll; overflow-x: scroll; }
+.slide-navigator.scroll-content { bottom: 30px; right: 0; top: auto; left: auto; }
 .slide-navigator-close { position: absolute; top: 0; right: 0; }
 .slide-navigator-open { position: absolute; bottom: 0; right: 0; }
 .slide-navigator-next { position: absolute; right: 0; top: 50%; }
 .slide-navigator-previous { position: absolute; left: 0; top: 50%; }
-.ion-ios-browsers-outline, .ion-ios-browsers, .ion-close-round, .ion-chevron-right, .ion-chevron-left { font-size: 25px; color: rgba(0,0,0,0.2); z-index:9999; cursor: pointer; }
+.ion-ios-browsers-outline, .ion-ios-browsers, .ion-close-round, .ion-chevron-right, .ion-chevron-left { font-size: 25px; color: rgba(0,0,0,0.3); z-index:9999; cursor: pointer; }
 .ion-ios-browsers-outline:hover, .ion-ios-browsers:hover, .ion-close-round:hover, .ion-chevron-right:hover, .ion-chevron-left:hover { color: rgba(0,0,0,0.5); z-index:9999; cursor: pointer; }
 .slide-navigator-gurmukhi { font-size: 16px; }
 p.slide-navigator-gurmukhi { margin: 0; padding: 0; }
@@ -36,7 +33,7 @@ p.slide-navigator-gurmukhi { margin: 0; padding: 0; }
 	h1.gurmukhi { font-size: 50px; }
 	h1.transliteration { }
 	h1.translation { }
-	.slide-navigator { bottom: 40px; }
+	.slide-navigator, .slide-navigator.scroll-content { bottom: 40px; }
 	.slide-navigator-gurmukhi { font-size: 22px; }
 	.ion-ios-browsers-outline, .ion-ios-browsers, .ion-close-round, .ion-chevron-right, .ion-chevron-left { font-size: 35px; }
 }
