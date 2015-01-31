@@ -3,7 +3,7 @@
   <div class="list list-inset">
     <label class="item item-input">
       <i class="icon ion-search placeholder-icon"></i>
-      <input type="text" placeholder="Search" ng-change="getResults()" ng-model="searchText" autofocus>
+      <input type="text" placeholder="Search by First Letters" ng-change="getResults()" ng-model="searchText" autofocus>
       <span ng-show="showResults" class="badge badge-positive">{{(scriptures|filter:searchText).length}}</span>
     </label>
   </div>
