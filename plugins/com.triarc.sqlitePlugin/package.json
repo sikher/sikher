@@ -1,0 +1,19 @@
+{
+    "version": "1.0.3",
+    "name": "com.triarc.sqliteplugin",
+    "cordova_name": "Brodysoft SQLitePlugin",
+    "description": "Native interface to SQLite for PhoneGap/Cordova. Allows you to use more storage and provides more flexibility than the standard Web SQL database (window.openDatabase).",
+    "license": "MIT",
+    "platforms": [
+        "android",
+        "amazon-fireos",
+        "ios",
+        "wp8"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.3.0"
+        }
+    ]
+}
