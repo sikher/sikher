@@ -3,9 +3,10 @@
   <div class="list list-inset">
     <label class="item item-input">
       <i class="icon ion-search placeholder-icon"></i>
-      <input type="text" placeholder="Search by First Letters" ng-change="getResults()" ng-model="searchText" autofocus>
-      <span ng-show="showResults" class="badge badge-positive">{{(scriptures|filter:searchText).length}}</span>
+      <input type="text" id="search" placeholder="Search by First Letters" ng-model="searchText">
     </label>
+    <button class="button button-outline button-stable button-search-style" ng-click="getResults()">Search</button>
+    <div class="badge badge-positive badge-search-style" ng-show="showResults">{{scriptures.length}}</div>
   </div>
     <ion-list ng-show="searchText">
       <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" href="#/view/{{viewAs}}/{{scripture.hymn}}" ng-click="showLoading()">

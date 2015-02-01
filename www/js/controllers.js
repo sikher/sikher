@@ -1,6 +1,7 @@
 angular.module('starter.controllers', [])
 
-.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading) {
+.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus) {
+  Focus('search');
   $scope.showResults = false;
   $scope.viewAs = Settings.get('viewAs');
   $scope.scriptures = [];
@@ -10,6 +11,7 @@ angular.module('starter.controllers', [])
     $scope.showResults = false;
 
     Scripture.getResults($scope.searchText).then(function(res){
+      cordova.plugins.Keyboard.close();
       $ionicLoading.hide();
       $scope.scriptures = res.data;
       $scope.showResults = true;
