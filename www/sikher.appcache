@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# r.1
+# r.2
 
 CACHE:
 /
@@ -22,7 +22,6 @@ lib/ngCordova/dist/ng-cordova.min.js
 js/app.js
 js/controllers.js
 js/services.js
-db/sikher.db
 db/prayers.json
 db/japji.json
 db/jaap.json
@@ -38,6 +37,7 @@ audio/04_Chaupai_Sahib.mp3
 audio/05_Anand_Sahib.mp3
 audio/06_Rehraas_Sahib.mp3
 audio/07_Kirtan_Sohila.mp3
+# db/sikher.db - Cannot cache SQLite Databases in App Cache
 
 
 NETWORK:
