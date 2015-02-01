@@ -11,7 +11,7 @@ angular.module('starter.controllers', [])
     $scope.showResults = false;
 
     Scripture.getResults($scope.searchText).then(function(res){
-      cordova.plugins.Keyboard.close();
+      if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
       $ionicLoading.hide();
       $scope.scriptures = res.data;
       $scope.showResults = true;
