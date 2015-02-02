@@ -8,7 +8,7 @@
     <button class="button button-outline button-stable button-search-style" ng-click="getResults()">Search</button>
     <div class="badge badge-positive badge-search-style" ng-show="showResults">{{scriptures.length}}</div>
   </div>
-    <ion-list ng-show="searchText">
+    <ion-list ng-show="showResults">
       <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" href="#/view/{{viewAs}}/{{scripture.hymn}}" ng-click="showLoading()">
         <p class="gurmukhi">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
