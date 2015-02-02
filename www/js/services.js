@@ -41,7 +41,7 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http, URLResolver) {
+.factory('Scripture', function($http, $q, URLResolver) {
 
 return {
     getResults : function(query, field, sql) {
@@ -58,45 +58,29 @@ return {
 
         return this.http(sql);
     },
-    http : function(sql, url) {
+    http : function(sql) {
         var sql = sql;
-        var url = url || '/db/sikher.db';
-        var method = 'GET';
-        var responseType = 'arraybuffer';
-        var cache = true;
+        var url = URLResolver.resolve('/db/sikher.db');
+        var defer = $q.defer();
 
-        delete $http.defaults.headers.common['X-Requested-With'];
+        if (!!window.Worker)
+        {
+            var worker = new Worker("js/worker.js"); // You can find worker.sql.js in this repo
 
-        function appendTransform(defaults, transform) {
-          // We can't guarantee that the default transformation is an array
-          defaults = angular.isArray(defaults) ? defaults : [defaults];
+            worker.postMessage({
+                url: url,
+                sql: sql
+            });
 
-          // Append the new transformation to the defaults
-          return defaults.concat(transform);
+            worker.onmessage = function(e) {
+                defer.resolve(e.data);
+                worker.terminate();
+            };
+
+            worker.onerror = function(e) {console.log("Worker error: ", e)};
         }
 
-        function applyTransform(result) {
-            var data = [];
-            var uInt8Array = new Uint8Array(result);
-            var db = new SQL.Database(uInt8Array);
-            var stmt = db.prepare(sql);
-            while(stmt.step())
-            {
-                data.push(stmt.getAsObject())
-            }
-            db.close();
-            return data;
-        }
-
-        var req = $http({
-          url: URLResolver.resolve(url),
-          method: method,
-          responseType: responseType,
-          transformResponse: appendTransform($http.defaults.transformResponse, function(res) { return applyTransform(res); }),
-          cache: cache
-        });
-
-        return req;
+        return defer.promise;
     }
 }
 

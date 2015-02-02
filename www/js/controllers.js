@@ -13,7 +13,7 @@ angular.module('starter.controllers', [])
     Scripture.getResults($scope.searchText).then(function(res){
       if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
       $ionicLoading.hide();
-      $scope.scriptures = res.data;
+      $scope.scriptures = res;
       $scope.showResults = true;
     });
   }
@@ -25,7 +25,7 @@ angular.module('starter.controllers', [])
 
   Scripture.getHymn($stateParams.hymnId).then(function(res){
     $ionicLoading.hide();
-    $scope.scriptures = res.data;
+    $scope.scriptures = res;
     $scope.showResults = true;
   });
 

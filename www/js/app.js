@@ -8,8 +8,7 @@
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'door3.css', 'ngCordova'])
 
 .constant('$ionicLoadingConfig', {
-  template: 'Loading...',
-  duration: 10000
+  template: 'Loading...'
 })
 
 .run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading) {
