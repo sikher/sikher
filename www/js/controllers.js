@@ -19,7 +19,7 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup){
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -36,6 +36,10 @@ angular.module('starter.controllers', [])
       var obj = [{ id: id, hymn: hymn, gurmukhi: gurmukhi}];
       Data.add(obj, Favourites, id);
       Store.set('sikher_favourites', Favourites)
+      $ionicPopup.alert({
+           title: 'Saved to Favourites',
+           template: 'You successfully saved this hymn to Favourites'
+         });
 
     }
   }
