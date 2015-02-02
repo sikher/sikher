@@ -4,7 +4,7 @@
       <p>You currently have no favourites</p>
     </ion-item>
     <ion-list>
-      <ion-item class="item-remove-animate item-icon-right" ng-repeat="favourite in favourites" type="item-text-wrap" href="#/view/{{viewAs}}/{{favourite.hymn}}">
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="favourite in favourites track by $index" type="item-text-wrap" href="#/view/{{viewAs}}/{{favourite.hymn}}">
         <p class="gurmukhi">{{favourite.gurmukhi}}</p>
 
         <ion-option-button class="button-assertive" ng-click="remove(favourite)">
