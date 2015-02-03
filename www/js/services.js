@@ -110,6 +110,12 @@ return {
   return data;
 })
 
+.factory('RecentSearches', function(Store) {
+  var data = Store.get('sikher_recent');
+
+  return data;
+})
+
 .factory('Store', function(){
   
   return {

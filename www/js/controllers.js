@@ -1,10 +1,11 @@
 angular.module('starter.controllers', [])
 
-.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus) {
+.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches) {
   Focus('search');
   $scope.showResults = false;
   $scope.viewAs = Settings.get('viewAs');
   $scope.scriptures = [];
+  $scope.searches = RecentSearches;
 
   $scope.getResults = function() {
     $ionicLoading.show();
@@ -15,8 +16,15 @@ angular.module('starter.controllers', [])
       $ionicLoading.hide();
       $scope.scriptures = res;
       $scope.showResults = true;
+      if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
     });
   }
+
+  $scope.addToRecentSearches = function() {
+    RecentSearches.push($scope.searchText);
+    Store.set('sikher_recent', RecentSearches);
+  }
+
 })
 
 .controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup){
