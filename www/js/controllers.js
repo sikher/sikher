@@ -47,8 +47,7 @@ angular.module('starter.controllers', [])
       $ionicPopup.alert({
            title: 'Saved to Favourites',
            template: 'You successfully saved this hymn to Favourites'
-         });
-
+      });
     }
   }
   else if($stateParams.viewAs === 'slides')
@@ -105,10 +104,23 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('SettingsCtrl', function($scope, Settings) {
+.controller('SettingsCtrl', function($scope, Settings, Store, RecentSearches, $ionicPopup, $window) {
   $scope.viewAs = Settings.get('viewAs');
 
   $scope.updateSettings = function() {
     Settings.set('viewAs',$scope.viewAs);
+  }
+
+  $scope.clearRecentSearches = function() {
+    RecentSearches = [];
+    Store.set('sikher_recent', RecentSearches);
+    var popup_confirm_clear = $ionicPopup.alert({
+         title: 'Cleared Recent Searches',
+         template: 'You successfully cleared your recent searches'
+    });
+
+    popup_confirm_clear.then(function(res){
+      $window.location.reload();
+    })
   }
 });

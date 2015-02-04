@@ -1,6 +1,7 @@
 /* Ionic CSS Overrides */
 .item, .item h1, .item h2, .item h3, .item h4, .item h5, .item h6, .item p, .item-content, .item-content h1, .item-content h2, .item-content h3, .item-content h4, .item-content h5, .item-content h6, .item-content p { white-space: normal; }
 .item-complex.item-icon-right .item-content { padding-right: 16px; }
+.input-label { width: 45% }
 
 /* Sikher CSS */
 @font-face { font-family: Prabhki; src: url('../fonts/prabhki.ttf'); }
@@ -11,6 +12,7 @@
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
 .tabs { font-size: 32px; }
+.button-settings-clear { position: absolute; right: 20px; bottom: 0; }
 
 /* Really small mobiles */
 @media (max-width: 767px) {
