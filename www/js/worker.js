@@ -2,24 +2,7 @@ importScripts('sql.js');
 
 onmessage = function(message){
 
-	http(message.data.url,message.data.sql);
-
-	function http(url, sql)
-	{
-		var url = url;
-		var sql = sql;
-
-		var xhr = new XMLHttpRequest();
-		xhr.open('GET', url, true);
-		xhr.responseType = 'arraybuffer';
-
-		xhr.onload = function(e) {
-		  postMessage(applyTransform(this.response, sql));
-		  close();
-		};
-
-		xhr.send();
-	}
+	postMessage(applyTransform(message.data.arraybuffer, message.data.sql));
 
 	function applyTransform(result, sql)
 	{

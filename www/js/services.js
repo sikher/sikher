@@ -61,24 +61,37 @@ return {
     http : function(sql) {
         var sql = sql;
         var url = URLResolver.resolve('/db/sikher.db');
+        var method = 'GET';
+        var responseType = 'arraybuffer';
+        var cache = true;
         var defer = $q.defer();
 
-        if (!!window.Worker)
-        {
-            var worker = new Worker("js/worker.js"); // You can find worker.sql.js in this repo
+        delete $http.defaults.headers.common['X-Requested-With'];
 
-            worker.postMessage({
-                url: url,
-                sql: sql
-            });
+        $http({
+          url: url,
+          method: method,
+          responseType: responseType,
+          cache: cache
+        })
+        .then(function(result){
 
-            worker.onmessage = function(e) {
-                defer.resolve(e.data);
-                worker.terminate();
-            };
+          var worker = new Worker("js/worker.js"); // You can find worker.sql.js in this repo
 
-            worker.onerror = function(e) {console.log("Worker error: ", e)};
-        }
+          worker.postMessage({
+              arraybuffer: result.data,
+              sql: sql
+          });
+
+          worker.onmessage = function(e) {
+              defer.resolve(e.data);
+              worker.terminate();
+              console.log(e);
+          };
+
+          worker.onerror = function(e) {console.log("Worker error: ", e)};
+
+        });
 
         return defer.promise;
     }
