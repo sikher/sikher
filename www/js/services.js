@@ -60,7 +60,7 @@ return {
     },
     http : function(sql) {
         var sql = sql;
-        var url = URLResolver.resolve('/db/sikher.db');
+        var url = URLResolver.resolve('db/sikher.db');
         var method = 'GET';
         var responseType = 'arraybuffer';
         var cache = true;
@@ -102,7 +102,7 @@ return {
 .factory('Prayers', function($http, URLResolver) {
   return {
     get : function(url){
-        var url = url || '/db/prayers.json';
+        var url = url || 'db/prayers.json';
         var method = 'GET';
         var cache = true;
 
@@ -149,7 +149,7 @@ return {
 
   return {
     resolve: function(url) {
-      if(isMobile.Android()) { return 'file:///android_asset/www' + url }
+      if(isMobile.Android()) { return 'file:///android_asset/www/' + url }
       else { return url }
     }
   }
