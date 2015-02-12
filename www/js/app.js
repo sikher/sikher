@@ -11,7 +11,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
   template: 'Loading...'
 })
 
-.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading) {
+.value('SikherDB',null)
+
+.run(function($ionicPlatform, $rootScope, $state, $window, $css, $ionicLoading, Scripture) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -23,6 +25,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+
+    $ionicLoading.show({template: 'Initializing Database...'});
+    Scripture.http('').then(function() { $ionicLoading.hide(); });
   });
 
   $rootScope.goHome = function() {

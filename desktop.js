@@ -23,7 +23,7 @@ app.on('ready', function() {
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/www/index.html');
   mainWindow.maximize();
-  mainWindow.openDevTools(); // For debugging
+  //mainWindow.openDevTools(); // For debugging
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {

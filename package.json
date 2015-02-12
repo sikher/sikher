@@ -1,7 +1,7 @@
 {
   "name": "sikher",
   "version": "1.0.0",
-  "main":"main.js",
+  "main":"desktop.js",
   "description": "sikher: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",

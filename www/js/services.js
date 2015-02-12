@@ -41,18 +41,18 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http, $q, URLResolver) {
+.factory('Scripture', function($http, $q, URLResolver, SikherDB) {
 
 return {
     getResults : function(query, field, sql) {
-        var query = query || 'mmlg';
+        var query = query || '';
         var field = field || 'transliteration_search';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 10";
 
         return this.http(sql);
     },
     getHymn : function(query, field, sql) {
-        var query = query || 8;
+        var query = query || 1;
         var field = field || 'hymn';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
 
@@ -66,32 +66,43 @@ return {
         var cache = true;
         var defer = $q.defer();
 
-        delete $http.defaults.headers.common['X-Requested-With'];
+        if(SikherDB === null)
+        {
+          delete $http.defaults.headers.common['X-Requested-With'];
 
-        $http({
-          url: url,
-          method: method,
-          responseType: responseType,
-          cache: cache
-        })
-        .then(function(result){
+          $http({
+            url: url,
+            method: method,
+            responseType: responseType,
+            cache: cache
+          })
+          .then(function(result){
+            SikherDB = result.data;
+            callSQLWorker(SikherDB);
+          });
+        }
+        else
+        {
+          callSQLWorker(SikherDB);
+        }
 
+
+        function callSQLWorker(db)
+        {
           var worker = new Worker("js/worker.js"); // You can find worker.sql.js in this repo
 
           worker.postMessage({
-              arraybuffer: result.data,
+              arraybuffer: db,
               sql: sql
           });
 
           worker.onmessage = function(e) {
               defer.resolve(e.data);
               worker.terminate();
-              console.log(e);
           };
 
-          worker.onerror = function(e) {console.log("Worker error: ", e)};
-
-        });
+          worker.onerror = function(e) {defer.resolve(e.data);};
+        }
 
         return defer.promise;
     }
