@@ -21,13 +21,9 @@ Features include:
 For more screenshots please go here: https://www.flickr.com/photos/thesikherproject/sets/72157650494678686/
 
 ## Installation
-_Currently we only have releases for Android. But in time, we will also have releases for iPhone and iPad (if you are a developer who can help us with testing on iOS please come forward!)_
+_Currently we only have releases for Android & Desktop (Windows, Linux and Mac). But in time, we will also have releases for iPhone and iPad (if you are a developer who can help us with testing on iOS please come forward!)_
 
-_In the meantime, you may view the app on the web at http://web.sikher.com_
-
-### Step 1 - Download the package
-
-Download the .zip archive and unzip it to a location of your choice:
+To install Sikher, first download the .zip archive and unzip it to a location of your choice:
 
 	https://github.com/sikher/sikher/archive/master.zip
 
@@ -39,12 +35,36 @@ Download the .zip archive and unzip it to a location of your choice:
 
 	git clone https://github.com/sikher/sikher.git
 
-### Step 2 - Install it on your phone
+### Mobile & Tablet
 * You will find the `.apk` app file for Android in the `dist/` folder.
 * We would recommend you connect your phone to your computer via USB
 * Then save the app file to your phone's memory where you can access it
 * You *may* need to download a file browsing app from the Google Play store so you can access the file
 * You *may* also need to enable the installation of apps from Unknown sources by enabling: `Settings -> Security -> Unknown sources`
+
+### Desktop
+
+_Currently to setup the Desktop version of Sikher you will need to know the basics of the command-line. We hope to make this process much easier in the future for everyone._
+
+* First download and install [**Node.js**](http://nodejs.org/)
+* Start the command-line or `Terminal` by searching `cmd` or `Terminal` in your system
+* Then on the command-line using the `cd` command, navigate to where you downloaded this repository e.g. `cd Desktop\Sikher`
+* Now type in the command `npm install`
+* Once this has completed successfully simply type the command `grunt` - this will create a `desktop` folder
+* Then depending on your platform you can start Sikher Desktop with one of the following commands. Please note that each of the commands end in a dot `.`:
+    * Windows - `desktop\atom.exe .`
+    * Mac - `desktop/Atom.app .`
+    * Linux - `desktop/atom .`
+
+### Web
+
+You may view the latest version of the app on the web at http://web.sikher.com without needing to download this repository.
+
+Alternatively, if you would like to upload your own web version of the app to your Apache server then simply upload all the contents of this repository to the root directory on your server which should be totally empty. We recommend you setup a subdomain for this e.g. _web.yourserver.com_.
+
+You will also have to change the `.htaccess` file's following rule to your domain/subdomain: `RewriteRule ^www/(.*) http://your.domain.com/$1 [R=301,L]`
+
+_Please note: Currently we only support deployment to Apache servers out-of-the-box. You are welcome to try deploying to other servers e.g. nginx but you may have to re-create all the .htaccess rules for your server_
 
 # Developer
 If you're interested in contributing to the app as a developer we would love for you to **send us some pull requests** and **log some issues at https://github.com/sikher/sikher/issues**!
