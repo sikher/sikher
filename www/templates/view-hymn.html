@@ -1,15 +1,14 @@
-<ion-view view-title="">
+<ion-view view-title="" on-swipe-right="previousHymn()" on-swipe-left="nextHymn()">
+    <i class="icon ion-chevron-right hymn-next" title="Next Hymn" ng-click="nextHymn()"></i>
+    <i class="icon ion-chevron-left hymn-previous" title="Previous Hymn" ng-click="previousHymn()"></i>
   <ion-content ng-controller="ViewCtrl">
-    <ion-list ng-if="showResults">
-      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap">
+    <ion-list ng-if="showResults" can-swipe="false">
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" ng-dblclick="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)">
         <p class="gurmukhi">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
         <p class="translation">{{scripture.translation}}</p>
-
-        <ion-option-button class="button-positive" ng-click="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)">
-        	<i class="icon ion-heart" title="Favourite"></i>
-        </ion-option-button>
       </ion-item>
+      <ion-item ng-if="scriptures==0">Sorry, this hymn could not be found</ion-item>
     </ion-list>
   </ion-content>
 </ion-view>

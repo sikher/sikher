@@ -39,6 +39,8 @@ angular.module('starter.controllers', [])
 
   if($stateParams.viewAs === 'hymn')
   {
+    $scope.nextHymn = function() { $state.go($state.$current, {viewAs: $stateParams.viewAs, hymnId : Number($stateParams.hymnId) + 1}); }
+    $scope.previousHymn = function() { $state.go($state.$current, {viewAs: $stateParams.viewAs, hymnId : Number($stateParams.hymnId) - 1}); }
     $scope.favourite = function(id, hymn, gurmukhi)
     {
       var obj = [{ id: id, hymn: hymn, gurmukhi: gurmukhi}];

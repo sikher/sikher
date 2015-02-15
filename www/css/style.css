@@ -14,6 +14,12 @@
 .tabs { font-size: 32px; }
 .button-settings-clear { position: absolute; right: 20px; bottom: 0; }
 
+/* Classes for Hymn */
+.hymn-next { position: absolute; right: 2px; bottom: 55px; z-index: 9999; }
+.hymn-previous { position: absolute; left: 2px; bottom: 55px; z-index: 9999; }
+.ion-chevron-right, .ion-chevron-left { font-size: 25px; color: rgba(0,0,0,0.1); z-index:9999; cursor: pointer; }
+.ion-chevron-right:hover, .ion-chevron-left:hover { color: rgba(0,0,0,0.3); z-index:9999; cursor: pointer; }
+
 /* Really small mobiles */
 @media (max-width: 767px) {
 	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 22px; }
@@ -35,6 +41,7 @@
 	span.tab-title.ng-binding { display: none; }
 	.tab-item .icon { font-size: 48px; }
 	.tabs { font-size: 48px; }
+	.ion-chevron-right, .ion-chevron-left { font-size: 35px; }
 }
  
 /* Medium devices (desktops, 992px and up) */
