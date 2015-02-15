@@ -4,7 +4,8 @@ angular.module('starter.services', [])
 
     var data = {
         viewAs : 'hymn',
-        font : 'gurbaniakhar'
+        font : 'gurbaniakhar',
+        search : 'gurmukhi_search'
     }
 
     return {

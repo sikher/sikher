@@ -3,6 +3,7 @@ angular.module('starter.controllers', [])
 .controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches) {
   Focus('search');
   $scope.showResults = false;
+  $scope.search = Settings.get('search');
   $scope.viewAs = Settings.get('viewAs');
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
@@ -11,7 +12,7 @@ angular.module('starter.controllers', [])
     $ionicLoading.show();
     $scope.showResults = false;
 
-    Scripture.getResults($scope.searchText).then(function(res){
+    Scripture.getResults($scope.searchText, $scope.search).then(function(res){
       if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
       $ionicLoading.hide();
       $scope.scriptures = res;
@@ -117,13 +118,14 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SettingsCtrl', function($scope, Settings, Store, RecentSearches, $ionicPopup, $window) {
+  $scope.search = Settings.get('search');
   $scope.viewAs = Settings.get('viewAs');
   $scope.font = Settings.get('font');
 
   $scope.updateSettings = function() {
+    Settings.set('search', $scope.search);
     Settings.set('viewAs',$scope.viewAs);
     Settings.set('font',$scope.font);
-    console.log($scope.font);
   }
 
   $scope.clearRecentSearches = function() {

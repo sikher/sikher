@@ -3,6 +3,15 @@
     <div class="list" ng-controller="SettingsCtrl">
       <label class="item item-input item-select">
         <div class="input-label">
+          Search By
+        </div>
+        <select ng-model="search" id="search" ng-change="updateSettings();">
+          <option value="gurmukhi_search">Gurmukhi</option>
+          <option value="transliteration_search">Transliteration</option>
+        </select>
+      </label>
+      <label class="item item-input item-select">
+        <div class="input-label">
           View As
         </div>
         <select ng-model="viewAs" id="viewAs" ng-change="updateSettings();">

@@ -65,6 +65,15 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
     return false;
   }
+
+  $rootScope.checkSearch = function()
+  {
+    var search = Settings.get('search');
+
+    if(search === 'gurmukhi_search') { return true; }
+
+    return false;
+  }
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
