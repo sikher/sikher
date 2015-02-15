@@ -106,18 +106,17 @@ angular.module('starter.controllers', [])
 
 .controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout) {
   $ionicLoading.show();
+  $scope.showResults = false;
 
-  Prayers.get()
-  .then(function(res){
-
+  Prayers.get().then(function(res){
     $scope.prayers = res.data;
-
     $scope.prayer = $scope.prayers[$stateParams.prayerId];
 
     Prayers.get($scope.prayer.file).then(function(res){
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
       $ionicLoading.hide();
+      $scope.showResults = true;
     })
   })
 
@@ -129,6 +128,11 @@ angular.module('starter.controllers', [])
   {
     $css.bind({href: 'css/view-slides.css'}, $scope);
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
+    $scope.nextSlide = function() { $ionicSlideBoxDelegate.next(); }
+    $scope.previousSlide = function() { $ionicSlideBoxDelegate.previous(); }
+    $scope.gotoSlide = function (index) { $ionicSlideBoxDelegate.slide(index); }
+    $scope.showNavigator = false;
+    $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
   }
 })
 
