@@ -3,7 +3,7 @@ angular.module('starter.services', [])
 .factory('Settings', function() {
 
     var data = {
-        viewAs : 'page'
+        viewAs : 'hymn'
     }
 
     return {

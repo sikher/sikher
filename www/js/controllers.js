@@ -37,7 +37,7 @@ angular.module('starter.controllers', [])
     $scope.showResults = true;
   });
 
-  if($stateParams.viewAs === 'page')
+  if($stateParams.viewAs === 'hymn')
   {
     $scope.favourite = function(id, hymn, gurmukhi)
     {
