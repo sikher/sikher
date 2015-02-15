@@ -27,7 +27,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope){
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -59,6 +59,17 @@ angular.module('starter.controllers', [])
     $scope.gotoSlide = function (index) { $ionicSlideBoxDelegate.slide(index); }
     $scope.showNavigator = false;
     $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
+    $rootScope.keyPress = function(event) {
+        if(event.which === 39)
+        {
+          $ionicSlideBoxDelegate.next();
+        }
+
+        if(event.which === 37)
+        {
+          $ionicSlideBoxDelegate.previous();
+        }
+    };
   }
 })
 
