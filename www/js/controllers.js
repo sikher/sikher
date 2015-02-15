@@ -35,6 +35,7 @@ angular.module('starter.controllers', [])
   Scripture.getHymn($stateParams.hymnId).then(function(res){
     $ionicLoading.hide();
     $scope.scriptures = res;
+    $scope.page = res[0].page;
     $scope.showResults = true;
   });
 
