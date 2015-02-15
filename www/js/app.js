@@ -13,7 +13,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.run(function($ionicPlatform, $rootScope, $state, $window, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
+.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -33,10 +33,6 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   $rootScope.goHome = function() {
     $state.transitionTo('tab.search', {}, { reload: true, inherit: true, notify: true });
     $css.removeAll();
-    if(window.process)
-    {
-      $window.location.reload();
-    }
   }
 
   $rootScope.showLoading = function()
