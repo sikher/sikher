@@ -13,7 +13,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.run(function($ionicPlatform, $rootScope, $state, $window, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate) {
+.run(function($ionicPlatform, $rootScope, $state, $window, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -44,7 +44,8 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
     $ionicLoading.show();
   }
 
-  $rootScope.keyPress = function(event) {
+  $rootScope.keyPress = function(event)
+  {
       if(event.which === 39)
       {
         $ionicSlideBoxDelegate.next();
@@ -54,7 +55,16 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
       {
         $ionicSlideBoxDelegate.previous();
       }
-  };
+  }
+
+  $rootScope.font = function()
+  {
+    var font = Settings.get('font');
+
+    if(font === 'prabhki') { return true; }
+
+    return false;
+  }
 })
 
 .config(function($stateProvider, $urlRouterProvider) {

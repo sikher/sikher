@@ -3,7 +3,8 @@ angular.module('starter.services', [])
 .factory('Settings', function() {
 
     var data = {
-        viewAs : 'hymn'
+        viewAs : 'hymn',
+        font : 'gurbaniakhar'
     }
 
     return {

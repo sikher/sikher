@@ -18,7 +18,7 @@
   </div>
     <ion-list ng-show="showResults">
       <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" href="#/view/{{viewAs}}/{{scripture.hymn}}" ng-click="showLoading()">
-        <p class="gurmukhi">{{scripture.gurmukhi}}</p>
+        <p class="gurmukhi" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
         <p class="translation">{{scripture.translation}}</p>
       </ion-item>

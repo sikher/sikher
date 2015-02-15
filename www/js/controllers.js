@@ -118,9 +118,12 @@ angular.module('starter.controllers', [])
 
 .controller('SettingsCtrl', function($scope, Settings, Store, RecentSearches, $ionicPopup, $window) {
   $scope.viewAs = Settings.get('viewAs');
+  $scope.font = Settings.get('font');
 
   $scope.updateSettings = function() {
     Settings.set('viewAs',$scope.viewAs);
+    Settings.set('font',$scope.font);
+    console.log($scope.font);
   }
 
   $scope.clearRecentSearches = function() {

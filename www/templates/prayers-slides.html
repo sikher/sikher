@@ -3,7 +3,7 @@
 	<ion-slide-box ng-if="showResults" on-slide-changed="slideHasChanged($index)" show-pager="false">
 	  <ion-slide ng-repeat="scripture in prayer.data">
 	  	<div class="box">
-			<h1 class="gurmukhi blue">{{scripture.gurmukhi}}</h1>
+			<h1 class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</h1>
 		</div>
 		<div class="box">
 			<h1 class="transliteration yellow">{{scripture.transliteration}}</h1>

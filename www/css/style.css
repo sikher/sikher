@@ -4,11 +4,13 @@
 .input-label { width: 45% }
 
 /* Sikher CSS */
+@font-face { font-family: GurbaniAkhar; src: url('../fonts/gurbaniakhar.ttf'); }
 @font-face { font-family: Prabhki; src: url('../fonts/prabhki.ttf'); }
 .search-even, .search-even .item-content { background-color: #fdfdfd; }
 .button-search-style { position: absolute; z-index: 9999; top: 0; right: 0; }
 .badge-search-style { position: absolute; top: 12px; right: 86px; height: auto; width: 35px; z-index: 2; }
-.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: Prabhki; font-size: 20px; line-height: normal; padding: 5px 0; color: #000000; }
+.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: GurbaniAkhar; font-size: 20px; line-height: normal; padding: 5px 0; color: #000000; }
+.prabhki { font-family: Prabhki !important; }
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
 .tabs { font-size: 32px; }
