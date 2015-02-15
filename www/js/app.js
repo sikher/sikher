@@ -33,6 +33,10 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   $rootScope.goHome = function() {
     $state.transitionTo('tab.search', {}, { reload: true, inherit: true, notify: true });
     $css.removeAll();
+    if(window.process)
+    {
+      $window.location.reload();
+    }
   }
 
   $rootScope.showLoading = function()
