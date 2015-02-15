@@ -7,6 +7,7 @@
 @font-face { font-family: GurbaniAkhar; src: url('../fonts/gurbaniakhar.ttf'); }
 @font-face { font-family: Prabhki; src: url('../fonts/prabhki.ttf'); }
 input#search { line-height: 145%; }
+	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 20px; }
 .search-even, .search-even .item-content { background-color: #fdfdfd; }
 .button-search-style { position: absolute; z-index: 9999; top: 0; right: 0; }
 .badge-search-style { position: absolute; top: 12px; right: 86px; height: auto; width: 35px; z-index: 2; }
@@ -31,7 +32,6 @@ input#search { line-height: 145%; }
 	.translation, .item h2.translation, .item p.translation { }
 	.item p { }
 	.item h2 { }
-	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { }
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -41,7 +41,6 @@ input#search { line-height: 145%; }
 	.translation, .item h2.translation, .item p.translation { font-size: 18px; }
 	.item p { font-size: 16px; }
 	.item h2 { font-size: 18px; }
-	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 16px; }
 	span.tab-title.ng-binding { display: none; }
 	.tab-item .icon { font-size: 48px; }
 	.tabs { font-size: 48px; }
@@ -67,7 +66,6 @@ input#search { line-height: 145%; }
 	.translation, .item h2.translation, .item p.translation { font-size: 20px; }
 	.item p { font-size: 18px; }
 	.item h2 { font-size: 20px; }
-	textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] { font-size: 18px; }
 	span.tab-title.ng-binding { }
 	.tab-item .icon { font-size: 48px; }
 	.tabs { height: 48px; }
