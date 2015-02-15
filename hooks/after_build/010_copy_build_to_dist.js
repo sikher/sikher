@@ -9,7 +9,7 @@ if(cmd_args.test(process.env.CORDOVA_CMDLINE))
 	var rootdir = process.argv[2];
 	var dist_dir = path.join(rootdir, 'dist');
 	var build_files = [
-		[path.join(rootdir, 'platforms/android/ant-build/CordovaApp-release-unsigned.apk'), path.join(dist_dir, 'Sikher-release.apk')]
+		[path.join(rootdir, 'platforms/android/ant-build/CordovaApp-debug.apk'), path.join(dist_dir, 'Sikher-debug.apk')]
 	]
 
 	build_files.forEach(function(val, index, array) {

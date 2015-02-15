@@ -4,6 +4,8 @@ Welcome to the very first open source gurbani search app for mobile, tablet and 
 
 We have designed this app _Medium.com style_, which is minimalistic, highly usable and beautifully designed.
 
+Current: **Version 1.0.1**
+
 ![Sikher - Hymn](https://farm9.staticflickr.com/8569/15784435493_bd3d336f28.jpg "Sikher - Hymn")
 ![Sikher - Slide View](https://farm8.staticflickr.com/7306/16404482375_57632035e2.jpg "Sikher - Slide View")
 
@@ -11,11 +13,13 @@ Features include:
 
 * Daily Prayers with Audio
 * Random Inspirational Hymn
-* Search by First Letters (Roman only)
+* Search by First Letters (Gurmukhi & Roman) or Page
 * Recent Searches
 * Add to Favourites
 * Page and Slide view (carefully designed for projecting onto a screen)
+* Choice of fonts: Gurbani Akhar or Prabhki
 * Can be used 100% offline
+* Available for Mobile/Tablet (Android) and Desktop (Windows, Mac, Linux)
 * More exciting and innovative features to come...see the Roadmap below
 
 For more screenshots please go here: https://www.flickr.com/photos/thesikherproject/sets/72157650494678686/
@@ -109,16 +113,11 @@ _Note: iOS development requires Mac OS X. iOS simulator through the Ionic CLI re
 ## Roadmap
 _In order of importance_
 
-### Version 1.0.1
-* Rename page view to hymn view - to avoid confusion
-* After viewing a hymn, buttons should be offered to see the previous or next hymn
-* Information about the author, page and hymn should be given in search results and page view
-* If a number is entered into the search all results from that page will appear
-
 ### Version 1.0.2
-* Build and test app on iOS platform including iPhone and iPad (we need a developer who has a Mac, iPhone and iPad to help us with this)
-* Autoscrolling feature for prayers which can be set to scroll at a constant pace, increased or slower pace, or disabled completely
+* Information about the author and melody should be given in search results and page view
 * Hymns can be pushed from one app to another (via [PeerJS](http://peerjs.com/))
+* Autoscrolling feature for prayers which can be set to scroll at a constant pace, increased or slower pace, or disabled completely (under consideration)
+* Build and test app on iOS platform including iPhone and iPad (we need a developer who has a Mac, iPhone and iPad to help us with this)
 
 ### Version 1.0.3
 * Clicking any word brings up a dictionary popover
