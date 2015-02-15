@@ -3,8 +3,8 @@ angular.module('starter.controllers', [])
 .controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches) {
   Focus('search');
   $scope.showResults = false;
-  $scope.search = Settings.get('search');
-  $scope.viewAs = Settings.get('viewAs');
+  $scope.search = Settings['search'];
+  $scope.viewAs = Settings['viewAs'];
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
 
@@ -63,8 +63,8 @@ angular.module('starter.controllers', [])
       Data.add(obj, Favourites, id);
       Store.set('sikher_favourites', Favourites)
       $ionicPopup.alert({
-           title: 'Saved to Favourites',
-           template: 'You successfully saved this hymn to Favourites'
+           title: 'Favourite Added',
+           template: 'This hymn has been added to your favourites'
       });
     }
   }
@@ -83,11 +83,11 @@ angular.module('starter.controllers', [])
 .controller('RandomCtrl', function($scope, Settings, $state) {
   var max_hymns = 5540;
   $scope.random = function() { return Math.floor((Math.random() * max_hymns) + 1) }
-  $state.go('tab.view', { viewAs: Settings.get('viewAs'), hymnId : $scope.random() });
+  $state.go('tab.view', { viewAs: Settings['viewAs'], hymnId : $scope.random() });
 })
 
 .controller('FavouritesCtrl', function($scope, Data, Favourites, Settings, Store) {
-  $scope.viewAs = Settings.get('viewAs');
+  $scope.viewAs = Settings['viewAs'];
   $scope.favourites = Data.all(Favourites);
   $scope.remove = function(id) {
     Data.remove(Favourites, id);
@@ -97,7 +97,7 @@ angular.module('starter.controllers', [])
 
 .controller('PrayersCtrl', function($scope, Data, Prayers, $ionicLoading, Settings) {
   $ionicLoading.show();
-  $scope.viewAs = Settings.get('viewAs');
+  $scope.viewAs = Settings['viewAs'];
   Prayers.get().then(function(res){
     $ionicLoading.hide();
     $scope.prayers = res.data;
@@ -137,22 +137,29 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SettingsCtrl', function($scope, Settings, Store, RecentSearches, $ionicPopup, $window) {
-  $scope.search = Settings.get('search');
-  $scope.viewAs = Settings.get('viewAs');
-  $scope.font = Settings.get('font');
+  $scope.search = Settings['search'];
+  $scope.viewAs = Settings['viewAs'];
+  $scope.font = Settings['font'];
 
   $scope.updateSettings = function() {
-    Settings.set('search', $scope.search);
-    Settings.set('viewAs',$scope.viewAs);
-    Settings.set('font',$scope.font);
+    Settings['search'] = $scope.search;
+    Settings['viewAs'] = $scope.viewAs;
+    Settings['font'] = $scope.font;
+
+    Store.set('sikher_settings', Settings);
+
+    $ionicPopup.alert({
+         title: 'Settings Saved',
+         template: 'Your settings have been saved'
+    });
   }
 
   $scope.clearRecentSearches = function() {
     RecentSearches = [];
     Store.set('sikher_recent', RecentSearches);
     var popup_confirm_clear = $ionicPopup.alert({
-         title: 'Cleared Recent Searches',
-         template: 'You successfully cleared your recent searches'
+         title: 'Recent Searches Cleared',
+         template: 'Your recent searches have been cleared'
     });
 
     popup_confirm_clear.then(function(res){

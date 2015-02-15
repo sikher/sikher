@@ -55,7 +55,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
   $rootScope.font = function()
   {
-    var font = Settings.get('font');
+    var font = Settings['font'];
 
     if(font === 'prabhki') { return true; }
 
@@ -64,7 +64,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
   $rootScope.checkSearch = function()
   {
-    var search = Settings.get('search');
+    var search = Settings['search'];
 
     if(search === 'gurmukhi_search') { return true; }
 

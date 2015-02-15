@@ -1,17 +1,23 @@
 angular.module('starter.services', [])
 
-.factory('Settings', function() {
+.factory('Settings', function(Store) {
+    var store = 'sikher_settings';
+    var data = Store.get(store);
 
-    var data = {
+    var defaults = {
         viewAs : 'hymn',
         font : 'gurbaniakhar',
         search : 'gurmukhi_search'
     }
 
-    return {
-        all: function(){ return data; },
-        get: function(setting){ return data[setting]; },
-        set: function(setting, value){ data[setting] = value; }
+    if(data.length===0)
+    {
+      Store.set(store,defaults);
+      return Store.get(store);
+    }
+    else
+    {
+      return Store.get(store);
     }
 })
 
