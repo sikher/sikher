@@ -11,14 +11,27 @@ angular.module('starter.controllers', [])
   $scope.getResults = function() {
     $ionicLoading.show();
     $scope.showResults = false;
-
-    Scripture.getResults($scope.searchText, $scope.search).then(function(res){
-      if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
-      $ionicLoading.hide();
-      $scope.scriptures = res;
-      $scope.showResults = true;
-      if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
-    });
+    var page_search = /^\d+$/;
+    if(page_search.test($scope.searchText))
+    {
+      Scripture.getPage($scope.searchText).then(function(res){
+        if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
+        $ionicLoading.hide();
+        $scope.scriptures = res;
+        $scope.showResults = true;
+        if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
+      });
+    }
+    else
+    {
+      Scripture.getResults($scope.searchText, $scope.search).then(function(res){
+        if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
+        $ionicLoading.hide();
+        $scope.scriptures = res;
+        $scope.showResults = true;
+        if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
+      });
+    }
   }
 
   $scope.addToRecentSearches = function() {

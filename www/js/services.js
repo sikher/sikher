@@ -60,6 +60,13 @@ return {
 
         return this.http(sql);
     },
+    getPage : function(query) {
+        var query = query || 1;
+        var field = field || 'page';
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
+
+        return this.http(sql);
+    },
     http : function(sql) {
         var sql = sql;
         var url = URLResolver.resolve('db/sikher.db');
