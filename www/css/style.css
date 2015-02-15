@@ -6,10 +6,12 @@
 /* Sikher CSS */
 @font-face { font-family: GurbaniAkhar; src: url('../fonts/gurbaniakhar.ttf'); }
 @font-face { font-family: Prabhki; src: url('../fonts/prabhki.ttf'); }
+input#search { line-height: 145%; }
 .search-even, .search-even .item-content { background-color: #fdfdfd; }
 .button-search-style { position: absolute; z-index: 9999; top: 0; right: 0; }
 .badge-search-style { position: absolute; top: 12px; right: 86px; height: auto; width: 35px; z-index: 2; }
-.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: GurbaniAkhar; font-size: 20px; line-height: normal; padding: 5px 0; color: #000000; }
+.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: GurbaniAkhar;  line-height: normal; padding: 5px 0; color: #000000; }
+.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 20px !important; }
 .prabhki { font-family: Prabhki !important; }
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
@@ -24,7 +26,7 @@
 
 /* Really small mobiles */
 @media (max-width: 767px) {
-	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 22px; }
+	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 22px !important; }
 	.transliteration, .item h2.transliteration, .item p.transliteration  { }
 	.translation, .item h2.translation, .item p.translation { }
 	.item p { }
@@ -34,7 +36,7 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 24px; }
+	.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 24px !important; }
 	.transliteration, .item h2.transliteration, .item p.transliteration  { font-size: 18px; }
 	.translation, .item h2.translation, .item p.translation { font-size: 18px; }
 	.item p { font-size: 16px; }
