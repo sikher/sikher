@@ -13,7 +13,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.run(function($ionicPlatform, $rootScope, $state, $window, $css, $ionicLoading, Scripture) {
+.run(function($ionicPlatform, $rootScope, $state, $window, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -43,6 +43,18 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   {
     $ionicLoading.show();
   }
+
+  $rootScope.keyPress = function(event) {
+      if(event.which === 39)
+      {
+        $ionicSlideBoxDelegate.next();
+      }
+
+      if(event.which === 37)
+      {
+        $ionicSlideBoxDelegate.previous();
+      }
+  };
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -105,6 +117,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   })
 
   .state('tab.prayers', {
+      cache: false,
       url: '/prayers',
       views: {
         'prayers': {
@@ -114,10 +127,13 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
       }
     })
     .state('tab.prayers-detail', {
-      url: '/prayers/:prayerId',
+      cache: false,
+      url: '/prayers/:viewAs/:prayerId',
       views: {
         'prayers': {
-          templateUrl: 'templates/prayers-detail.html',
+          templateUrl: function ($stateParams){
+            return 'templates/prayers-' + $stateParams.viewAs + '.html';
+          },
           controller: 'PrayersDetailCtrl'
         }
       }

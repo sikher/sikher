@@ -1,7 +1,7 @@
 <ion-view view-title="Prayers">
   <ion-content ng-controller="PrayersCtrl">
     <ion-list ng-if="prayers">
-      <ion-item ng-repeat="prayer in prayers" type="item-text-wrap" href="#/prayers/{{prayer.id}}" ng-click="showLoading()">
+      <ion-item ng-repeat="prayer in prayers" type="item-text-wrap" href="#/prayers/{{viewAs}}/{{prayer.id}}" ng-click="showLoading()">
         <h2>{{prayer.name}}</h2>
         <p>{{prayer.description}}</p>
       </ion-item>

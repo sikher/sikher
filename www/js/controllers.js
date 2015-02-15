@@ -61,17 +61,6 @@ angular.module('starter.controllers', [])
     $scope.gotoSlide = function (index) { $ionicSlideBoxDelegate.slide(index); }
     $scope.showNavigator = false;
     $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
-    $rootScope.keyPress = function(event) {
-        if(event.which === 39)
-        {
-          $ionicSlideBoxDelegate.next();
-        }
-
-        if(event.which === 37)
-        {
-          $ionicSlideBoxDelegate.previous();
-        }
-    };
   }
 })
 
@@ -90,17 +79,17 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('PrayersCtrl', function($scope, Data, Prayers, $ionicLoading) {
+.controller('PrayersCtrl', function($scope, Data, Prayers, $ionicLoading, Settings) {
   $ionicLoading.show();
+  $scope.viewAs = Settings.get('viewAs');
   Prayers.get().then(function(res){
     $ionicLoading.hide();
     $scope.prayers = res.data;
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $cordovaMedia) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout) {
   $ionicLoading.show();
-  $css.bind({href: 'css/prayers-detail.css'}, $scope);
 
   Prayers.get()
   .then(function(res){
@@ -110,11 +99,21 @@ angular.module('starter.controllers', [])
     $scope.prayer = $scope.prayers[$stateParams.prayerId];
 
     Prayers.get($scope.prayer.file).then(function(res){
-      $ionicLoading.hide();
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
+      $ionicLoading.hide();
     })
   })
+
+  if($stateParams.viewAs === 'hymn')
+  {
+    $css.bind({href: 'css/prayers-hymn.css'}, $scope);
+  }
+  else if($stateParams.viewAs === 'slides')
+  {
+    $css.bind({href: 'css/view-slides.css'}, $scope);
+    $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
+  }
 })
 
 .controller('SettingsCtrl', function($scope, Settings, Store, RecentSearches, $ionicPopup, $window) {
