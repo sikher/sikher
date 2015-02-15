@@ -3,7 +3,7 @@
   <div class="list list-inset">
     <label class="item item-input">
       <i class="icon ion-search placeholder-icon"></i>
-      <input type="text" id="search" placeholder="Search by First Letters" ng-model="searchText" on-enter="getResults()" ng-class="{gurmukhi:checkSearch()}">
+      <input type="text" id="search" placeholder="First Letters" ng-model="searchText" on-enter="getResults()" ng-class="{gurmukhi:checkSearch()}">
     </label>
     <button class="button button-outline button-stable button-search-style" ng-click="getResults()">Search</button>
     <div class="badge badge-positive badge-search-style" ng-show="showResults">{{scriptures.length}}</div>
