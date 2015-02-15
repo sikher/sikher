@@ -31,8 +31,8 @@ p.slide-navigator-gurmukhi { margin: 0; padding: 0; }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	h1.gurmukhi { font-size: 50px; }
-	h1.transliteration { }
-	h1.translation { }
+	h1.transliteration { font-size: 36px; }
+	h1.translation { font-size: 36px; }
 	.slide-navigator, .slide-navigator.scroll-content { bottom: 40px; }
 	.slide-navigator-gurmukhi { font-size: 22px; }
 	.ion-ios-browsers-outline, .ion-ios-browsers, .ion-close-round, .ion-chevron-right, .ion-chevron-left { font-size: 35px; }
