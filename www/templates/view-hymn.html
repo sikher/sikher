@@ -3,7 +3,7 @@
     <i class="icon ion-chevron-left hymn-previous" title="Previous Hymn" ng-click="previousHymn()"></i>
   <ion-content ng-controller="ViewCtrl">
     <ion-list ng-if="showResults" can-swipe="false">
-      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" ng-dblclick="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)" on-tap="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)">
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" ng-dblclick="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)" on-double-tap="favourite(scripture._id,scripture.hymn,scripture.gurmukhi)">
         <p class="gurmukhi" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
         <p class="translation">{{scripture.translation}}</p>
