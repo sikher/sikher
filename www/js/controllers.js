@@ -36,6 +36,7 @@ angular.module('starter.controllers', [])
     $ionicLoading.hide();
     $scope.scriptures = res;
     $scope.page = res[0].page;
+    $scope.scriptureName = res[0].scripture;
     $scope.showResults = true;
   });
 
