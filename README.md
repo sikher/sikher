@@ -113,13 +113,13 @@ _Note: iOS development requires Mac OS X. iOS simulator through the Ionic CLI re
 ## Roadmap
 _In order of importance_
 
-### Version 1.0.2
+### Version 1.0.3
 * Information about the author and melody should be given in search results and page view
 * Hymns can be pushed from one app to another (via [PeerJS](http://peerjs.com/))
 * Autoscrolling feature for prayers which can be set to scroll at a constant pace, increased or slower pace, or disabled completely (under consideration)
 * Build and test app on iOS platform including iPhone and iPad (we need a developer who has a Mac, iPhone and iPad to help us with this)
 
-### Version 1.0.3
+### Version 1.0.4
 * Clicking any word brings up a dictionary popover
 * Ability to update the app if any updated files are released
 * Give user a tour on first use of the app
