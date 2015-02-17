@@ -4,7 +4,7 @@ Welcome to the very first open source gurbani search app for mobile, tablet and 
 
 We have designed this app _Medium.com style_, which is minimalistic, highly usable and beautifully designed.
 
-Current: **Version 1.0.1**
+Current: **Version 1.0.2**
 
 ![Sikher - Hymn](https://farm9.staticflickr.com/8569/15784435493_bd3d336f28.jpg "Sikher - Hymn")
 ![Sikher - Slide View](https://farm8.staticflickr.com/7306/16404482375_57632035e2.jpg "Sikher - Slide View")
