@@ -1,7 +1,7 @@
 {
   "name": "angular-css",
   "main": "./angular-css.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "http://door3.github.io/angular-css",
   "authors": [
     "Alex Castillo <alex@castillo.io>"
@@ -33,14 +33,13 @@
     "test",
     "tests"
   ],
-  "_release": "1.0.6",
+  "_release": "1.0.7",
   "_resolution": {
     "type": "version",
-    "tag": "v1.0.6",
-    "commit": "e0d6816e1fd80190f8b8324e52d0f075ae936a26"
+    "tag": "v1.0.7",
+    "commit": "06232156c8c21aeee0626a3a6bf4d0499516c7e8"
   },
   "_source": "git://github.com/door3/angular-css.git",
   "_target": "~1.0.6",
-  "_originalSource": "angular-css",
-  "_direct": true
+  "_originalSource": "angular-css"
 }

@@ -2,10 +2,10 @@
   "name": "sikher",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0-beta.14",
+    "ionic": "driftyco/ionic-bower#1.0.1",
     "ionicons": "~2.0.1",
     "angular-css": "~1.0.6",
-    "ngCordova": "~0.1.11-alpha",
+    "ngCordova": "~0.1.17-alpha",
     "sql.js": "https://github.com/kripken/sql.js.git",
     "isMobile": "https://gist.githubusercontent.com/jasdeepkhalsa/1283afd332fc282f6b44/raw/96ba6b33f906a652cc512342c05b75b850184505/isMobile.js"
   },
