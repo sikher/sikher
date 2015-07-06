@@ -104,7 +104,7 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout, $ionicSlideBoxDelegate, Slicer, DataLimit) {
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -115,6 +115,8 @@ angular.module('starter.controllers', [])
     Prayers.get($scope.prayer.file).then(function(res){
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
+      $scope.prayer.dataSlice = Slicer.slice(res.data,0);
+      console.log($scope.prayer.dataSlice);
       $ionicLoading.hide();
       $scope.showResults = true;
     })
@@ -128,9 +130,48 @@ angular.module('starter.controllers', [])
   {
     $css.bind({href: 'css/view-slides.css'}, $scope);
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
-    $scope.nextSlide = function() { $ionicSlideBoxDelegate.next(); }
-    $scope.previousSlide = function() { $ionicSlideBoxDelegate.previous(); }
-    $scope.gotoSlide = function (index) { $ionicSlideBoxDelegate.slide(index); }
+    $scope.nextSlide = function(fullIndex) { $scope.needMore(fullIndex, 'next'); }
+    $scope.previousSlide = function(fullIndex) { $scope.needMore(fullIndex, 'previous'); }
+    $scope.gotoSlide = function (fullIndex) { $ionicSlideBoxDelegate.slide(fullIndex); }
+    $scope.needMore = function(fullIndex, direction) {
+      var index = $ionicSlideBoxDelegate.currentIndex();
+
+      console.log('index', index, 'fullIndex', fullIndex, 'direction', direction);
+
+      if(Slicer.isEnd(index) === true) {
+        if(direction === 'next') {
+          $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex);
+          console.log('Here is the slice', $scope.prayer.dataSlice);
+          $ionicSlideBoxDelegate.update();
+          $ionicSlideBoxDelegate.slide(0);
+          console.log('Showing first slide');
+          return;
+        }
+      }
+
+      if(Slicer.isStart(index) === true) {
+        if(direction === 'previous') {
+          if(fullIndex === 1) { return; } // If scripture is at beginning, line 1, do not allow to go back
+          
+          $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex-2);
+          console.log('Here is the slice', $scope.prayer.dataSlice);
+          $ionicSlideBoxDelegate.update();
+          $ionicSlideBoxDelegate.slide(DataLimit - 1);
+          console.log('Showing end slide');
+          return;
+        }
+      }
+
+      if(direction === 'next') {
+        $ionicSlideBoxDelegate.next();
+        return;
+      }
+
+      if(direction === 'previous') {
+        $ionicSlideBoxDelegate.previous();
+        return;
+      }
+    }
     $scope.showNavigator = false;
     $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
   }

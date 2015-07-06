@@ -13,6 +13,8 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
+.value('DataLimit',5)
+
 .run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
