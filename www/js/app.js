@@ -13,7 +13,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.value('DataLimit',5)
+.value('DataLimit',20)
 
 .run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
   $ionicPlatform.ready(function() {

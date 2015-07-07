@@ -201,28 +201,24 @@ return {
       var multiplier = Math.floor(index / DataLimit);
       var start = multiplier * DataLimit;
       var end = start + DataLimit;
-      console.log('Return slice', 'Multipler:', multiplier, 'Start:', start, 'End', end);
+      // console.log('Return slice', 'Multipler:', multiplier, 'Start:', start, 'End', end);
       return data.slice(start,end);
     },
     isEnd: function(index){
       if(index >= DataLimit-1)
       {
-        console.log('iEnd is true:');
         return true;
       }
       else{
-        console.log('isEnd is false:');
         return false;
       }
     },
     isStart: function(index){
       if(index <= 0)
       {
-        console.log('isStart is true:');
         return true;
       }
       else{
-        console.log('isStart is false:');
         return false;
       }
     }

@@ -18,8 +18,8 @@
 	  </ion-slide>
 	</ion-slide-box>
 	<ion-content direction="xy" class="slide-navigator" ng-show="showNavigator">
-		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in prayer.dataSlice">
-			<a ng-click="gotoSlide($index)">{{scripture.gurmukhi}}</a>
+		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in ::prayer.data">
+			<a ng-click="gotoSlide(scripture._id)">{{scripture.gurmukhi}}</a>
 		</p>
 	</ion-content>
   </ion-content>

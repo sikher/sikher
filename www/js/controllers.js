@@ -116,7 +116,6 @@ angular.module('starter.controllers', [])
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
       $scope.prayer.dataSlice = Slicer.slice(res.data,0);
-      console.log($scope.prayer.dataSlice);
       $ionicLoading.hide();
       $scope.showResults = true;
     })
@@ -132,19 +131,34 @@ angular.module('starter.controllers', [])
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
     $scope.nextSlide = function(fullIndex) { $scope.needMore(fullIndex, 'next'); }
     $scope.previousSlide = function(fullIndex) { $scope.needMore(fullIndex, 'previous'); }
-    $scope.gotoSlide = function (fullIndex) { $ionicSlideBoxDelegate.slide(fullIndex); }
+    $scope.gotoSlide = function (fullIndex) {
+      for(var i=0;i<$scope.prayer.dataSlice.length;i++){
+        if($scope.prayer.dataSlice[i]._id === fullIndex) {
+          $ionicSlideBoxDelegate.slide(fullIndex - 1 % DataLimit);
+          return;
+        }
+      }
+
+      $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex);
+      $ionicSlideBoxDelegate.update();
+      $ionicSlideBoxDelegate.slide(fullIndex - 1 % DataLimit);
+    }
     $scope.needMore = function(fullIndex, direction) {
+
+      // TODO:
+      // Let's make sure this works with swipe too
+      // At truly the end of the data set, after which is returns empty, do not do anything
+      // Try to ensure that once a new slice is received there is some kind of slide transition
+
       var index = $ionicSlideBoxDelegate.currentIndex();
 
-      console.log('index', index, 'fullIndex', fullIndex, 'direction', direction);
+      // console.log('index', index, 'fullIndex', fullIndex, 'direction', direction);
 
       if(Slicer.isEnd(index) === true) {
         if(direction === 'next') {
           $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex);
-          console.log('Here is the slice', $scope.prayer.dataSlice);
           $ionicSlideBoxDelegate.update();
-          $ionicSlideBoxDelegate.slide(0);
-          console.log('Showing first slide');
+          $ionicSlideBoxDelegate.slide(0); // Showing first slide
           return;
         }
       }
@@ -154,10 +168,8 @@ angular.module('starter.controllers', [])
           if(fullIndex === 1) { return; } // If scripture is at beginning, line 1, do not allow to go back
           
           $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex-2);
-          console.log('Here is the slice', $scope.prayer.dataSlice);
           $ionicSlideBoxDelegate.update();
-          $ionicSlideBoxDelegate.slide(DataLimit - 1);
-          console.log('Showing end slide');
+          $ionicSlideBoxDelegate.slide(DataLimit - 1); // Showing end slide
           return;
         }
       }
