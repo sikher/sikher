@@ -48,7 +48,9 @@ To install Sikher, first download the .zip archive and unzip it to a location of
 
 ### Desktop
 
-_Currently to setup the Desktop version of Sikher you will need to know the basics of the command-line. We hope to make this process much easier in the future for everyone._
+_Please go to the [Releases](https://github.com/sikher/sikher/releases) page to download Sikher for your system_
+
+#### Building Desktop From Source (for Developers)
 
 * First download and install [**Node.js**](http://nodejs.org/)
 * Start the command-line or `Terminal` by searching `cmd` or `Terminal` in your system
@@ -56,9 +58,26 @@ _Currently to setup the Desktop version of Sikher you will need to know the basi
 * Now type in the command `npm install`
 * Once this has completed successfully simply type the command `grunt` - this will create a `desktop` folder
 * Then depending on your platform you can start Sikher Desktop with one of the following commands. Please note that each of the commands end in a dot `.`:
-    * Windows - `desktop\atom.exe .`
-    * Mac - `desktop/Atom.app .`
-    * Linux - `desktop/atom .`
+    * Windows - `desktop\electron.exe .`
+    * Mac - `desktop/Electron.app .`
+    * Linux - `desktop/electron .`
+
+#### Creating Packages for Windows, Linux and Mac (for Developers)
+
+* Ensure you have done `npm install` in the root of the repository
+* Now use the Terminal command to build to all platforms under the `/dist` folder:
+
+		electron-packager ./ Sikher --platform=all --arch=all --version=0.29.2 --out=./dist/
+
+* To create a package for a specific system e.g. linux 64bit use:
+
+		electron-packager ./ Sikher --platform=linux --arch=x64 --version=0.29.2 --out=./dist/
+
+_Please Note: The second argument is the app name i.e. `Sikher`._
+
+_Please take the `--version` number from the [latest releases page for Electron](https://github.com/atom/electron/releases) (just don't include the `v`) :)_
+
+_[Full instructions here](https://github.com/maxogden/electron-packager)_
 
 ### Web
 
