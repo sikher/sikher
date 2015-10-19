@@ -193,34 +193,4 @@ return {
         element.focus();
     });
   };
-})
-
-.factory('Slicer', function(DataLimit, $ionicSlideBoxDelegate) {
-  return {
-    slice: function(data, index){
-      var multiplier = Math.floor(index / DataLimit);
-      var start = multiplier * DataLimit;
-      var end = start + DataLimit;
-      // console.log('Return slice', 'Multipler:', multiplier, 'Start:', start, 'End', end);
-      return data.slice(start,end);
-    },
-    isEnd: function(index){
-      if(index >= DataLimit-1)
-      {
-        return true;
-      }
-      else{
-        return false;
-      }
-    },
-    isStart: function(index){
-      if(index <= 0)
-      {
-        return true;
-      }
-      else{
-        return false;
-      }
-    }
-  }
 });

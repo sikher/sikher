@@ -5,15 +5,13 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers', 'starter.services', 'starter.filters', 'door3.css', 'ngCordova'])
+angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers', 'starter.services', 'starter.services.slicer', 'starter.filters', 'door3.css', 'ngCordova'])
 
 .constant('$ionicLoadingConfig', {
   template: 'Loading...'
 })
 
 .value('SikherDB',null)
-
-.value('DataLimit',20)
 
 .run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
   $ionicPlatform.ready(function() {

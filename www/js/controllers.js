@@ -104,7 +104,25 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout, $ionicSlideBoxDelegate, Slicer, DataLimit) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout, $ionicSlideBoxDelegate, Slicer) {
+
+    $scope.handlers = {};
+
+    $scope.handlers.onTouchEnd = function(direction, event, index, length, slides) {
+      $scope.needMore(direction);
+      return;
+    };
+
+    $scope.handlers.onPrevEnd = function(index, length, slides){
+      $scope.needMore('previous');
+      return;
+    };
+
+    $scope.handlers.onNextEnd = function(index, length, slides){
+      $scope.needMore('next');
+      return;
+    };
+
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -115,7 +133,8 @@ angular.module('starter.controllers', [])
     Prayers.get($scope.prayer.file).then(function(res){
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
-      $scope.prayer.dataSlice = Slicer.slice(res.data,0);
+      Slicer.init({data: res.data, datalimit: 5, buffer: 1, set: 0});
+      $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
       $ionicLoading.hide();
       $scope.showResults = true;
     })
@@ -129,61 +148,53 @@ angular.module('starter.controllers', [])
   {
     $css.bind({href: 'css/view-slides.css'}, $scope);
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
-    $scope.nextSlide = function(fullIndex) { $scope.needMore(fullIndex, 'next'); }
-    $scope.previousSlide = function(fullIndex) { $scope.needMore(fullIndex, 'previous'); }
+
     $scope.gotoSlide = function (fullIndex) {
-      for(var i=0;i<$scope.prayer.dataSlice.length;i++){
-        if($scope.prayer.dataSlice[i]._id === fullIndex) {
-          $ionicSlideBoxDelegate.slide(fullIndex - 1 % DataLimit);
-          return;
-        }
-      }
+      // TODO: Finish function by calculating set with a fullIndex?
+    }
 
-      $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex);
+    $scope.nextSlide = function(){
+      $ionicSlideBoxDelegate.next();
+    };
+
+    $scope.previousSlide = function(){
+      $ionicSlideBoxDelegate.previous();
+    };
+
+    $scope.needMore = function(direction) {
       $ionicSlideBoxDelegate.update();
-      $ionicSlideBoxDelegate.slide(fullIndex - 1 % DataLimit);
-    }
-    $scope.needMore = function(fullIndex, direction) {
+      if(Slicer.needData($ionicSlideBoxDelegate.currentIndex()))
+      {
+        console.log('BEFORE NEED MORE', 'direction:', direction, 'index', $ionicSlideBoxDelegate.currentIndex(), 'set', Slicer.getCurrentSet(), 'startindex', Slicer.getStartIndex());
 
-      // TODO:
-      // Let's make sure this works with swipe too
-      // At truly the end of the data set, after which is returns empty, do not do anything
-      // Try to ensure that once a new slice is received there is some kind of slide transition
-
-      var index = $ionicSlideBoxDelegate.currentIndex();
-
-      // console.log('index', index, 'fullIndex', fullIndex, 'direction', direction);
-
-      if(Slicer.isEnd(index) === true) {
         if(direction === 'next') {
-          $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex);
+          console.log('Existing set', Slicer.getCurrentSet());
+          Slicer.update({set:Slicer.getCurrentSet()+1});
+          console.log('New set', Slicer.getCurrentSet());
+          $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
           $ionicSlideBoxDelegate.update();
-          $ionicSlideBoxDelegate.slide(0); // Showing first slide
+          $ionicSlideBoxDelegate.slide(Slicer.getStartIndex());
+          console.log('AFTER NEED MORE', 'direction:', direction, 'index', $ionicSlideBoxDelegate.currentIndex(), 'set', Slicer.getCurrentSet(), 'startindex', Slicer.getStartIndex());
+          console.log('==================================================================');
           return;
         }
-      }
 
-      if(Slicer.isStart(index) === true) {
         if(direction === 'previous') {
-          if(fullIndex === 1) { return; } // If scripture is at beginning, line 1, do not allow to go back
-          
-          $scope.prayer.dataSlice = Slicer.slice($scope.prayer.data, fullIndex-2);
+          // TODO: Set not updating to previous so data coming back is wrong
+          console.log('Existing set', Slicer.getCurrentSet());
+          var _set = Slicer.getCurrentSet()-1;
+          Slicer.update({set:_set});
+          console.log('New set', Slicer.getCurrentSet());
+          $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
           $ionicSlideBoxDelegate.update();
-          $ionicSlideBoxDelegate.slide(DataLimit - 1); // Showing end slide
+          $ionicSlideBoxDelegate.slide(Slicer.getEndIndex());
+          console.log('AFTER NEED MORE', 'direction:', direction, 'index', $ionicSlideBoxDelegate.currentIndex(), 'set', Slicer.getCurrentSet(), 'endindex', Slicer.getEndIndex());
+          console.log('==================================================================');
           return;
         }
-      }
-
-      if(direction === 'next') {
-        $ionicSlideBoxDelegate.next();
-        return;
-      }
-
-      if(direction === 'previous') {
-        $ionicSlideBoxDelegate.previous();
-        return;
       }
     }
+
     $scope.showNavigator = false;
     $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
   }

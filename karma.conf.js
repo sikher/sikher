@@ -11,6 +11,7 @@ module.exports = function(config){
       'www/lib/angular-ui-router/release/angular-ui-router.js',
       'www/lib/angular-mocks/angular-mocks.js',
       'www/lib/ionic/js/ionic-angular.js',
+      {pattern: 'www/js/worker.js', included: false},
       'www/js/**/*.js',
       'www/templates/**/*.js',
       'www/tests/**/*.js'

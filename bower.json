@@ -2,7 +2,7 @@
   "name": "sikher",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.1",
+    "ionic": "https://github.com/jasdeepkhalsa/ionic.git",
     "ionicons": "~2.0.1",
     "angular-css": "~1.0.6",
     "ngCordova": "~0.1.17-alpha",

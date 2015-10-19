@@ -8160,15 +8160,23 @@ ionic.views.Slider = ionic.views.View.inherit({
 
     function prev(slideSpeed) {
 
+      options.handlers.onPrevStart && options.handlers.onPrevStart(index, slides.length, slides);
+
       if (options.continuous) slide(index - 1, slideSpeed);
       else if (index) slide(index - 1, slideSpeed);
+
+      options.handlers.onPrevEnd && options.handlers.onPrevEnd(index, slides.length, slides);
 
     }
 
     function next(slideSpeed) {
 
+      options.handlers.onNextStart && options.handlers.onNextStart(index, slides.length, slides);
+
       if (options.continuous) slide(index + 1, slideSpeed);
       else if (index < slides.length - 1) slide(index + 1, slideSpeed);
+
+      options.handlers.onNextEnd && options.handlers.onNextEnd(index, slides.length, slides);
 
     }
 
@@ -8338,6 +8346,8 @@ ionic.views.Slider = ionic.views.View.inherit({
       },
       start: function(event) {
 
+        options.handlers.onTouchStart && options.handlers.onTouchStart(event, index, slides.length, slides);
+
         var touches = event.touches[0];
 
         // measure start values
@@ -8430,7 +8440,7 @@ ionic.views.Slider = ionic.views.View.inherit({
         }
 
       },
-      end: function() {
+      end: function(event) {
 
         // measure duration
         var duration = +new Date() - start.time;
@@ -8487,6 +8497,12 @@ ionic.views.Slider = ionic.views.View.inherit({
             }
 
             options.callback && options.callback(index, slides[index]);
+
+            if(direction){ // (true:right (next), false:left (previous))
+              options.handlers.onTouchEnd && options.handlers.onTouchEnd('next', event, index, slides.length, slides);
+            } else {
+              options.handlers.onTouchEnd && options.handlers.onTouchEnd('previous', event, index, slides.length, slides);
+            }
 
           } else {
 
@@ -8637,6 +8653,8 @@ ionic.views.Slider = ionic.views.View.inherit({
       // trigger setup
       setup();
 
+      options.handlers.onLoadStart && options.handlers.onLoadStart(index, slides.length, slides);
+
       // start auto slideshow if applicable
       if (delay) begin();
 
@@ -8662,9 +8680,13 @@ ionic.views.Slider = ionic.views.View.inherit({
         // set resize event on window
         window.addEventListener('resize', events, false);
 
+        options.handlers.onLoadEnd && options.handlers.onLoadEnd(index, slides.length, slides);
+
       } else {
 
         window.onresize = function () { setup(); }; // to play nice with old IE
+
+        options.handlers.onLoadEnd && options.handlers.onLoadEnd(index, slides.length, slides);
 
       }
     };
@@ -54467,6 +54489,7 @@ IonicModule
  * @param {expression=} pager-click Expression to call when a pager is clicked (if show-pager is true). Is passed the 'index' variable.
  * @param {expression=} on-slide-changed Expression called whenever the slide is changed.  Is passed an '$index' variable.
  * @param {expression=} active-slide Model to bind the current slide to.
+ * @param {object=} on-handlers Add an object of event handlers including onLoadStart, onLoadEnd, onTouchStart, onTouchEnd, onPrevStart, onPrevEnd, onNextStart and onNextEnd.
  */
 IonicModule
 .directive('ionSlideBox', [
@@ -54488,6 +54511,7 @@ function($timeout, $compile, $ionicSlideBoxDelegate, $ionicHistory, $ionicScroll
       pagerClick: '&',
       disableScroll: '@',
       onSlideChanged: '&',
+      onHandlers: '=',
       activeSlide: '=?'
     },
     controller: ['$scope', '$element', '$attrs', function($scope, $element, $attrs) {
@@ -54502,6 +54526,7 @@ function($timeout, $compile, $ionicSlideBoxDelegate, $ionicHistory, $ionicScroll
         auto: slideInterval,
         continuous: continuous,
         startSlide: $scope.activeSlide,
+        handlers: $scope.onHandlers || {},
         slidesChanged: function() {
           $scope.currentSlide = slider.currentIndex();
 
