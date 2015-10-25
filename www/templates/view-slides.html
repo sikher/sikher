@@ -1,7 +1,7 @@
 <ion-view view-title="">
   <ion-content ng-controller="ViewCtrl" class="padding base03">
 	<ion-slide-box ng-if="showResults" on-slide-changed="slideHasChanged($index)">
-	  <ion-slide ng-repeat="scripture in scriptures">
+	  <ion-slide ng-repeat="scripture in ::scriptures">
 	  	<div class="box">
 			<h1 class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</h1>
 		</div>
@@ -18,7 +18,7 @@
 	<i class="icon ion-chevron-left slide-navigator-previous" title="Previous Slide" ng-click="previousSlide()"></i>
 	<i class="icon ion-ios-browsers slide-navigator-open" title="Open Navigator" ng-click="toggleNavigator()"></i>
 	<ion-content direction="xy" class="slide-navigator" ng-show="showNavigator">
-		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in scriptures">
+		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in ::scriptures">
 			<a ng-click="gotoSlide($index)">{{scripture.gurmukhi}}</a>
 		</p>
 	</ion-content>

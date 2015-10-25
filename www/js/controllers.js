@@ -104,7 +104,25 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout, $ionicSlideBoxDelegate, Slicer) {
+
+    $scope.handlers = {};
+
+    $scope.handlers.onTouchEnd = function(direction, event, index, length, slides) {
+      $scope.needMore(direction);
+      return;
+    };
+
+    $scope.handlers.onPrevEnd = function(index, length, slides){
+      $scope.needMore('previous');
+      return;
+    };
+
+    $scope.handlers.onNextEnd = function(index, length, slides){
+      $scope.needMore('next');
+      return;
+    };
+
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -115,6 +133,8 @@ angular.module('starter.controllers', [])
     Prayers.get($scope.prayer.file).then(function(res){
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
+      Slicer.init({data: res.data, datalimit: 20, buffer: 2, set: 0});
+      $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
       $ionicLoading.hide();
       $scope.showResults = true;
     })
@@ -128,9 +148,45 @@ angular.module('starter.controllers', [])
   {
     $css.bind({href: 'css/view-slides.css'}, $scope);
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
-    $scope.nextSlide = function() { $ionicSlideBoxDelegate.next(); }
-    $scope.previousSlide = function() { $ionicSlideBoxDelegate.previous(); }
-    $scope.gotoSlide = function (index) { $ionicSlideBoxDelegate.slide(index); }
+
+    $scope.gotoSlide = function (fullIndex) {
+      var index = fullIndex % Slicer.getDataLimit();
+      Slicer.update({set:Slicer.getSet(fullIndex)});
+      $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
+      $ionicSlideBoxDelegate.update();
+      $ionicSlideBoxDelegate.slide(index);
+    }
+
+    $scope.nextSlide = function(){
+      $ionicSlideBoxDelegate.next();
+    };
+
+    $scope.previousSlide = function(){
+      $ionicSlideBoxDelegate.previous();
+    };
+
+    $scope.needMore = function(direction) {
+      $ionicSlideBoxDelegate.update();
+      if(Slicer.needData($ionicSlideBoxDelegate.currentIndex()))
+      {
+        if(direction === 'next') {
+          Slicer.update({set:Slicer.getCurrentSet()+1});
+          $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
+          $ionicSlideBoxDelegate.update();
+          $ionicSlideBoxDelegate.slide(Slicer.getStartIndex());
+          return;
+        }
+
+        if(direction === 'previous') {
+          Slicer.update({set:Slicer.getCurrentSet()-1});
+          $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
+          $ionicSlideBoxDelegate.update();
+          $ionicSlideBoxDelegate.slide(Slicer.getEndIndex());
+          return;
+        }
+      }
+    }
+
     $scope.showNavigator = false;
     $scope.toggleNavigator = function() { if($scope.showNavigator===false) { $scope.showNavigator = true; } else { $scope.showNavigator = false; } }
   }

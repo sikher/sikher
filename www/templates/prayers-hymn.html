@@ -4,7 +4,7 @@
 	</audio>
   <ion-content class="space-top">
     <ion-list>
-      <ion-item ng-repeat="scripture in prayer.data" ng-class-even="'search-even'" type="item-text-wrap">
+      <ion-item ng-repeat="scripture in ::prayer.data" ng-class-even="'search-even'" type="item-text-wrap">
         <p class="gurmukhi" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
         <p class="transliteration">{{scripture.transliteration}}</p>
         <p class="translation">{{scripture.translation}}</p>
