@@ -133,7 +133,7 @@ angular.module('starter.controllers', [])
     Prayers.get($scope.prayer.file).then(function(res){
       $scope.prayer.audioURI = URLResolver.resolve($scope.prayer.audio);
       $scope.prayer.data = res.data;
-      Slicer.init({data: res.data, datalimit: 5, buffer: 1, set: 0});
+      Slicer.init({data: res.data, datalimit: 20, buffer: 2, set: 0});
       $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
       $ionicLoading.hide();
       $scope.showResults = true;
@@ -150,7 +150,11 @@ angular.module('starter.controllers', [])
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
 
     $scope.gotoSlide = function (fullIndex) {
-      // TODO: Finish function by calculating set with a fullIndex?
+      var index = fullIndex % Slicer.getDataLimit();
+      Slicer.update({set:Slicer.getSet(fullIndex)});
+      $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
+      $ionicSlideBoxDelegate.update();
+      $ionicSlideBoxDelegate.slide(index);
     }
 
     $scope.nextSlide = function(){
@@ -165,31 +169,19 @@ angular.module('starter.controllers', [])
       $ionicSlideBoxDelegate.update();
       if(Slicer.needData($ionicSlideBoxDelegate.currentIndex()))
       {
-        console.log('BEFORE NEED MORE', 'direction:', direction, 'index', $ionicSlideBoxDelegate.currentIndex(), 'set', Slicer.getCurrentSet(), 'startindex', Slicer.getStartIndex());
-
         if(direction === 'next') {
-          console.log('Existing set', Slicer.getCurrentSet());
           Slicer.update({set:Slicer.getCurrentSet()+1});
-          console.log('New set', Slicer.getCurrentSet());
           $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
           $ionicSlideBoxDelegate.update();
           $ionicSlideBoxDelegate.slide(Slicer.getStartIndex());
-          console.log('AFTER NEED MORE', 'direction:', direction, 'index', $ionicSlideBoxDelegate.currentIndex(), 'set', Slicer.getCurrentSet(), 'startindex', Slicer.getStartIndex());
-          console.log('==================================================================');
           return;
         }
 
         if(direction === 'previous') {
-          // TODO: Set not updating to previous so data coming back is wrong
-          console.log('Existing set', Slicer.getCurrentSet());
-          var _set = Slicer.getCurrentSet()-1;
-          Slicer.update({set:_set});
-          console.log('New set', Slicer.getCurrentSet());
+          Slicer.update({set:Slicer.getCurrentSet()-1});
           $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
           $ionicSlideBoxDelegate.update();
           $ionicSlideBoxDelegate.slide(Slicer.getEndIndex());
-          console.log('AFTER NEED MORE', 'direction:', direction, 'index', $ionicSlideBoxDelegate.currentIndex(), 'set', Slicer.getCurrentSet(), 'endindex', Slicer.getEndIndex());
-          console.log('==================================================================');
           return;
         }
       }

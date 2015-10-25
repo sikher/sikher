@@ -11,15 +11,15 @@
 		<div class="box">
 			<h1 class="translation base1">{{scripture.translation}}</h1>
 		</div>
-		<a class="icon ion-close-round slide-navigator-close" title="Close Slideshow" ng-click="closePrayersSlideshow()"></a>
-		<i class="icon ion-chevron-right slide-navigator-next" title="Next Slide" ng-click="nextSlide(scripture._id)"></i>
-		<i class="icon ion-chevron-left slide-navigator-previous" title="Previous Slide" ng-click="previousSlide(scripture._id)"></i>
-		<i class="icon ion-ios-browsers slide-navigator-open" title="Open Navigator" ng-click="toggleNavigator()"></i>
 	  </ion-slide>
 	</ion-slide-box>
+	<a class="icon ion-close-round slide-navigator-close" title="Close Slideshow" ng-click="closePrayersSlideshow()"></a>
+	<i class="icon ion-chevron-right slide-navigator-next" title="Next Slide" ng-click="nextSlide()"></i>
+	<i class="icon ion-chevron-left slide-navigator-previous" title="Previous Slide" ng-click="previousSlide()"></i>
+	<i class="icon ion-ios-browsers slide-navigator-open" title="Open Navigator" ng-click="toggleNavigator()"></i>
 	<ion-content direction="xy" class="slide-navigator" ng-show="showNavigator">
-		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in ::prayer.data">
-			<a ng-click="gotoSlide(scripture._id)">{{scripture.gurmukhi}}</a>
+		<p class="gurmukhi blue slide-navigator-gurmukhi" ng-repeat="scripture in ::prayer.data track by $index">
+			<a ng-click="gotoSlide($index)">{{scripture.gurmukhi}}</a>
 		</p>
 	</ion-content>
   </ion-content>

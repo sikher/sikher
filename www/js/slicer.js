@@ -11,15 +11,15 @@ angular.module('starter.services.slicer', [])
       data = config.data;
     }
 
-    if (config.set) {
+    if (config.set || config.set === 0) {
       set = config.set;
     }
 
-    if (config.datalimit) {
+    if (config.datalimit || config.datalimit === 0) {
       datalimit = config.datalimit;
     }
 
-    if (config.buffer) {
+    if (config.buffer || config.buffer === 0) {
       buffer = config.buffer;
     }
   }
@@ -49,7 +49,7 @@ angular.module('starter.services.slicer', [])
   }
 
   function getEndIndex() {
-    return datalimit - buffer;
+    return datalimit - buffer - 1;
   }
 
   function needData(index) {
@@ -77,6 +77,22 @@ angular.module('starter.services.slicer', [])
     return false;
   }
 
+  function getDataLimit() {
+    return datalimit;
+  }
+
+  function getBuffer() {
+    return buffer;
+  }
+
+  function getSet(fullIndex) {
+    return (fullIndex - (fullIndex % datalimit)) / (datalimit - (buffer * 2));
+  }
+
+  function getFullindex(index){
+    return index + ((datalimit - (buffer * 2)) * set);
+  }
+
   return {
     startSet: startSet,
     endSet: endSet,
@@ -88,9 +104,11 @@ angular.module('starter.services.slicer', [])
     needData: needData,
     init: init,
     update: init,
-    set : set,
-    data : data,
-    datalimit : datalimit,
-    buffer : buffer
+    set: set,
+    data: data,
+    getDataLimit: getDataLimit,
+    getBuffer: getBuffer,
+    getSet: getSet,
+    getFullindex: getFullindex
   };
 });
