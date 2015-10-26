@@ -7,9 +7,9 @@ var cmd_args = /release/gi;
 if(cmd_args.test(process.env.CORDOVA_CMDLINE))
 {
 	var rootdir = process.argv[2];
-	var dist_dir = path.join(rootdir, 'dist');
+	var dist_dir = path.join(rootdir, '../sikher-dist');
 	var build_files = [
-		[path.join(rootdir, 'platforms/android/ant-build/CordovaApp-debug.apk'), path.join(dist_dir, 'Sikher-debug.apk')]
+		[path.join(rootdir, 'platforms/android/build/outputs/apk/android-release-unsigned.apk'), path.join(dist_dir, 'Sikher-android.apk')]
 	]
 
 	build_files.forEach(function(val, index, array) {
