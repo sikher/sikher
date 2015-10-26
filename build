@@ -24,7 +24,7 @@ echo "PLATFORM: $PLATFORM (options: all, linux, win32, darwin),\nPLATFORM TYPE: 
 
 # Create Packages
 echo "Let's create the packages..."
-`electron-packager ./ $APPNAME --platform=$PLATFORM --arch=$ARCH --version=$ELECTRON --out=$OUT --icon=./resources/icon.png --app-bundle-id=$APPNAME --app-version=$VERSION --version-string.CompanyName="$APPNAME" --version-string.ProductName="$APPNAME" --version-string.ProductVersion="$VERSION" --prune --overwrite --asar --ignore="(platforms|hooks|plugins|node_modules)"`
+`electron-packager ./ $APPNAME --platform=$PLATFORM --arch=$ARCH --version=$ELECTRON --out=$OUT --icon=./resources/icon.png --app-bundle-id=$APPNAME --app-version=$VERSION --version-string.CompanyName="$APPNAME" --version-string.ProductName="$APPNAME" --version-string.ProductVersion="$VERSION" --prune --overwrite --asar --ignore="platforms|hooks|plugins|node_modules|desktop/(locales|.dat|electron|.so|.bin|version|license|lib)"`
 
 # Zip Packages
 #echo "Let's zip up those packages now..."
