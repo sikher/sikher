@@ -59,6 +59,13 @@ return {
 
         return this.http(sql);
     },
+    getResultsByTranslation : function(query, field, sql) {
+        var query = query || '';
+        var field = field || 'translation';
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 10";
+
+        return this.http(sql);
+    },
     getHymn : function(query, field, sql) {
         var query = query || 1;
         var field = field || 'hymn';

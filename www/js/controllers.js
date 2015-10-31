@@ -24,13 +24,26 @@ angular.module('starter.controllers', [])
     }
     else
     {
-      Scripture.getResults($scope.searchText, $scope.search).then(function(res){
-        if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
-        $ionicLoading.hide();
-        $scope.scriptures = res;
-        $scope.showResults = true;
-        if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
-      });
+      console.warn($scope.search);
+      if($scope.search === 'translation')
+      {
+        Scripture.getResultsByTranslation($scope.searchText, $scope.search).then(function(res){
+          if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
+          $ionicLoading.hide();
+          $scope.scriptures = res;
+          $scope.showResults = true;
+          if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
+        });
+      }
+      else {
+        Scripture.getResults($scope.searchText, $scope.search).then(function(res){
+          if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
+          $ionicLoading.hide();
+          $scope.scriptures = res;
+          $scope.showResults = true;
+          if($scope.searchText.length > 0) { $scope.addToRecentSearches(); }
+        });
+      }
     }
   }
 
