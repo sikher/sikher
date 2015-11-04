@@ -9,9 +9,10 @@ We have designed this app to be minimalistic, highly usable and beautiful.
 
 Features include:
 
+* Search the Sikh Scriptures including Guru Granth Sahib, Dasam Granth, Bhai Gurdas Vaaran & Kabit Savaiye, Bhai Nand Lal's Bani & Amrit Kirtan
 * Daily Prayers with Audio
 * Random Inspirational Hymn (Hukamnama)
-* Search by First Letters (Gurmukhi & Roman) or Page
+* Search by First Letters (Gurmukhi & Roman), Translation (English) or Page
 * Recent Searches
 * Add to Favourites
 * Page and Slide view (carefully designed for projecting onto a screen)

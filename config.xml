@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.sikher241288" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.sikher.sikher" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Sikher</name>
-  <description>
-        The Open Source Gurbani Searcher
-    </description>
-  <author email="info@sikher.com" href="http://www.sikher.com/">
-      The Sikher Team
-    </author>
+  <description>Sikher for Mobile, Tablet & Desktop</description>
+  <author email="info@sikher.com" href="http://www.sikher.com/">Sikher</author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
