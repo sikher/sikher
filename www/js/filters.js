@@ -6,10 +6,10 @@ angular.module('starter.filters', [])
   	var scriptures = {
 	  	'sggs':'Guru Granth Sahib',
 	    'bgv' : 'Bhai Gurdas Vaaran',
-	    'kbg' : 'Kabit Bhai Gurdas',
-	    'bnl' : 'Bhai Nand Lal',
+	    'kbg' : 'Bhai Gurdas Kabit Savaiye',
+	    'bnl' : 'Bhai Nand Lal Bani',
 	    'dgs' : 'Dasam Granth Sahib',
-	    'misc' : 'Amrit Keertan'
+	    'misc' : 'Amrit Kirtan'
 	}
 
 	return scriptures[scripture];
