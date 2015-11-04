@@ -13,17 +13,6 @@ android:
     - sys-img-x86-android-17
 install:
     - npm install
+    - npm install -g cordova
+    - npm install -g ionic
     - ionic platform add android
-after_success:
-    - cordova build --release
-    - ./build
-deploy:
-  provider: releases
-  api_key:
-    secure: ga9UIxjpcLGygESstxql+LO4u5DRjFK9zeKGq+WSAhqtU3chTbqenEDC0BCu5BmmIPoRyn2U+LCPy7OaI3m/syOF9axa/rsejtCZElJKYQ+/AwY1jfv9Vh9qi1W/yOXrCaMkEOCrVpcjN1ZlsZSfPXnKFdjz4v3XmV7hJF3tQr8=
-  file:
-    - dist/*.zip
-    - dist/*.apk
-  skip_cleanup: true
-  on:
-    repo: sikher/sikher
