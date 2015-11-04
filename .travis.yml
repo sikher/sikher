@@ -9,7 +9,6 @@ install:
     - npm install -g cordova
     - npm install -g ionic
     - ionic platform add android
-    - grunt
 script:
     - mkdir ../sikher-dist/
     - ./build
