@@ -4,6 +4,14 @@ angular.module('starter.controllers', [])
   Focus('search');
   $scope.showResults = false;
   $scope.search = Settings['search'];
+  if($scope.search === 'translation')
+  {
+    $scope.searchPlaceholder = 'Whole Words';
+  }
+  else
+  {
+    $scope.searchPlaceholder = 'First Letters';
+  }
   $scope.viewAs = Settings['viewAs'];
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
