@@ -193,7 +193,7 @@ angular.module('starter.controllers', [])
           Slicer.update({set:Slicer.getCurrentSet()+1});
           $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
           $ionicSlideBoxDelegate.update();
-          $ionicSlideBoxDelegate.slide(Slicer.getStartIndex());
+          $ionicSlideBoxDelegate.slide(Slicer.getStartIndex(),0);
           return;
         }
 
@@ -201,7 +201,7 @@ angular.module('starter.controllers', [])
           Slicer.update({set:Slicer.getCurrentSet()-1});
           $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
           $ionicSlideBoxDelegate.update();
-          $ionicSlideBoxDelegate.slide(Slicer.getEndIndex());
+          $ionicSlideBoxDelegate.slide(Slicer.getEndIndex(),0);
           return;
         }
       }
