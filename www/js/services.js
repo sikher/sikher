@@ -49,7 +49,7 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http, $q, URLResolver, SikherDB) {
+.factory('Scripture', function($http, $q, URLResolver, SikherDB, $window) {
 
 return {
     getResults : function(query, field, sql) {
@@ -81,12 +81,32 @@ return {
         return this.http(sql);
     },
     http : function(sql) {
+        var db = String('sikher.db');
         var sql = sql;
-        var url = URLResolver.resolve('db/sikher.db');
+        var url = URLResolver.resolve(db);
         var method = 'GET';
         var responseType = 'arraybuffer';
         var cache = true;
         var defer = $q.defer();
+
+        if(isMobile.Android()) {
+          if(!SikherDB)
+          {
+            SikherDB = $window.sqlitePlugin.openDatabase({name:db,createFromLocation: 1});
+            console.warn('opening db', SikherDB);
+          }
+
+          SikherDB.executeSql(sql,[],function(res) {
+            var arr = [];
+            for(var i=0;i<res.rows.length;i++){
+              arr.push(res.rows.item(i));
+            }
+            defer.resolve(arr);
+          },function (err) {
+            defer.resolve(err);
+          });
+          return defer.promise;
+        }
 
         if(SikherDB === null)
         {
@@ -123,7 +143,9 @@ return {
               worker.terminate();
           };
 
-          worker.onerror = function(e) {defer.resolve(e.data);};
+          worker.onerror = function(e) {
+            defer.resolve(e.data);
+          };
         }
 
         return defer.promise;
@@ -163,7 +185,7 @@ return {
 })
 
 .factory('Store', function(){
-  
+
   return {
     get: function (STORAGE_ID)
     {

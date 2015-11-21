@@ -26,8 +26,12 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
       StatusBar.styleDefault();
     }
 
-    $ionicLoading.show({template: 'Initializing Database...'});
-    Scripture.http('').then(function() { $ionicLoading.hide(); });
+    if(isMobile.Android()) {
+      return;
+    } else {
+      $ionicLoading.show({template: 'Initializing Database...'});
+      Scripture.http('').then(function() { $ionicLoading.hide(); });
+    }
   });
 
   $rootScope.goHome = function() {

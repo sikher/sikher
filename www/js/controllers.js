@@ -24,7 +24,6 @@ angular.module('starter.controllers', [])
     }
     else
     {
-      console.warn($scope.search);
       if($scope.search === 'translation')
       {
         Scripture.getResultsByTranslation($scope.searchText, $scope.search).then(function(res){

@@ -3,9 +3,9 @@
   "description": "Sikher for Mobile, Tablet & Desktop",
   "version": "1.0.4",
   "main": "desktop.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/sikher/sikher.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sikher/sikher.git"
   },
   "dependencies": {
     "grunt": "^0.4.5",
@@ -32,7 +32,8 @@
   "cordovaPlugins": [
     "com.ionic.keyboard",
     "org.apache.cordova.console",
-    "org.apache.cordova.device"
+    "org.apache.cordova.device",
+    "https://github.com/litehelpers/Cordova-sqlite-storage.git"
   ],
   "cordovaPlatforms": [
     "android"

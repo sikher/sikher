@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.sikher.sikher" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Sikher</name>
-  <description>Sikher for Mobile, Tablet & Desktop</description>
+  <description>Sikher for Mobile, Tablet &amp; Desktop</description>
   <author email="info@sikher.com" href="http://www.sikher.com/">Sikher</author>
   <content src="index.html"/>
   <access origin="*"/>
