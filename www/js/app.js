@@ -28,7 +28,13 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
     if(isMobile.Android()) {
       return;
-    } else {
+    }
+
+    if(navigator.onLine && !window.process)
+    {
+      return;
+    }
+    else {
       $ionicLoading.show({template: 'Initializing Database...'});
       Scripture.http('').then(function() { $ionicLoading.hide(); });
     }

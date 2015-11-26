@@ -21,6 +21,53 @@ angular.module('starter.services', [])
     }
 })
 
+.factory('Api', function(){
+  return {
+    urls: {
+      getRecords:'http://localhost:8000/api/v2/sikher/_table/scriptures'
+    },
+    token: '554f96cee54388368eebc27d3dd31ca0b83a01c97946d52c03e4b2ff7ba0b7ce',
+    contentType: 'application/json; charset=utf-8',
+    ajax: function(url, method, callback, headers, data) {
+        try {
+            var req = new(XMLHttpRequest || ActiveXObject)('MSXML2.XMLHTTP.3.0'); // Does XMLHttpRequest exist? If not, it's probably an older version of Internet Explorer
+            req.open(method, url, true); // the method is either GET or POST in our case, the url which we want to call to get data from and TRUE to make it an asynchronous request
+            if (headers) {
+                for(var header in headers){
+                  req.setRequestHeader(header, headers[header]); // Set custom headers
+                }
+            }
+            req.onreadystatechange = function () {
+                req.readyState > 3 && callback && callback(req.responseText, req); // When the response comes back call the callback function
+            };
+
+            if (data) {
+                req.send(data) // Send with data
+            } else {
+                req.send(); // Send without data
+            }
+
+        } catch (e) {
+            window.console && console.error(e); // If there is an error, show it in the browser's F12 console
+        }
+    },
+    getResults: function(callback, params){
+      var url = this.urls['getRecords'];
+
+      if(params){
+        url += params;
+      }
+
+      var method = 'GET';
+      var headers = {
+        'Content-type':this.contentType,
+        'X-DreamFactory-API-Key':this.token
+      };
+      this.ajax(url, method, callback, headers);
+    }
+  }
+})
+
 .factory('Data', function() {
 
   return {
@@ -49,38 +96,38 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http, $q, URLResolver, SikherDB, $window) {
+.factory('Scripture', function($http, $q, URLResolver, SikherDB, $window, Api) {
 
 return {
     getResults : function(query, field, sql) {
         var query = query || '';
         var field = field || 'transliteration_search';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 10";
-
-        return this.http(sql);
+        var params = '?filter='+field + ' like '+query+'%&limit=10';
+        return this.http(sql, params);
     },
     getResultsByTranslation : function(query, field, sql) {
         var query = query || '';
         var field = field || 'translation';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 10";
-
-        return this.http(sql);
+        var params = '?filter='+field + ' like %'+query+'%&limit=10';
+        return this.http(sql, params);
     },
     getHymn : function(query, field, sql) {
         var query = query || 1;
         var field = field || 'hymn';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
-
-        return this.http(sql);
+        var params = '?filter='+field+'='+query;
+        return this.http(sql, params);
     },
     getPage : function(query) {
         var query = query || 1;
         var field = field || 'page';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
-
-        return this.http(sql);
+        var params = '?filter='+field+'='+query;
+        return this.http(sql, params);
     },
-    http : function(sql) {
+    http : function(sql, params) {
         var db = String('sikher.db');
         var sql = sql;
         var url = URLResolver.resolve(db);
@@ -89,6 +136,7 @@ return {
         var cache = true;
         var defer = $q.defer();
 
+        // If mobile let's use the native SQLite access functionality
         if(isMobile.Android()) {
           if(!SikherDB)
           {
@@ -108,44 +156,61 @@ return {
           return defer.promise;
         }
 
-        if(SikherDB === null)
+        // If online, but not on desktop, we'll use the Sikher API instead
+        if(navigator.onLine && !window.process)
         {
-          delete $http.defaults.headers.common['X-Requested-With'];
-
-          $http({
-            url: url,
-            method: method,
-            responseType: responseType,
-            cache: cache
-          })
-          .then(function(result){
-            SikherDB = result.data;
-            callSQLWorker(SikherDB);
-          });
+          Api.getResults(function(res) {
+            var res = JSON.parse(res);
+            if(res.resource)
+            {
+              defer.resolve(res.resource);
+            }
+            else
+            {
+              defer.resolve(res);
+            }
+          },params);
         }
         else
         {
-          callSQLWorker(SikherDB);
-        }
+          if(SikherDB === null)
+          {
+            delete $http.defaults.headers.common['X-Requested-With'];
 
+            $http({
+              url: url,
+              method: method,
+              responseType: responseType,
+              cache: cache
+            })
+            .then(function(result){
+              SikherDB = result.data;
+              callSQLWorker(SikherDB);
+            });
+          }
+          else
+          {
+            callSQLWorker(SikherDB);
+          }
 
-        function callSQLWorker(db)
-        {
-          var worker = new Worker("js/worker.js"); // You can find worker.sql.js in this repo
+          function callSQLWorker(db)
+          {
+            var worker = new Worker("js/worker.js"); // You can find worker.sql.js in this repo
 
-          worker.postMessage({
-              arraybuffer: db,
-              sql: sql
-          });
+            worker.postMessage({
+                arraybuffer: db,
+                sql: sql
+            });
 
-          worker.onmessage = function(e) {
+            worker.onmessage = function(e) {
+                defer.resolve(e.data);
+                worker.terminate();
+            };
+
+            worker.onerror = function(e) {
               defer.resolve(e.data);
-              worker.terminate();
-          };
-
-          worker.onerror = function(e) {
-            defer.resolve(e.data);
-          };
+            };
+          }
         }
 
         return defer.promise;
