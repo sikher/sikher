@@ -24,9 +24,9 @@ angular.module('starter.services', [])
 .factory('Api', function(){
   return {
     urls: {
-      getRecords:'http://localhost:8000/api/v2/sikher/_table/scriptures'
+      getRecords:'http://api2.sikher.com:80/api/v2/sikher/_table/scriptures'
     },
-    token: '554f96cee54388368eebc27d3dd31ca0b83a01c97946d52c03e4b2ff7ba0b7ce',
+    token: '627bf1d549ffe89818706ec2f3cba4259c690f999eff2990042797fed4f10b7b',
     contentType: 'application/json; charset=utf-8',
     ajax: function(url, method, callback, headers, data) {
         try {
