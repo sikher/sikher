@@ -19,10 +19,10 @@
     <ion-list ng-show="showResults">
       <ion-item ng-if="scriptures.length==0">Sorry, no results were found</ion-item>
       <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in scriptures" ng-class-even="'search-even'" type="item-text-wrap" href="#/view/{{viewAs}}/{{scripture.hymn}}" ng-click="showLoading()">
-        <p class="gurmukhi" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
-        <p class="transliteration">{{scripture.transliteration}}</p>
-        <p class="translation">{{scripture.translation}}</p>
-        <p class="translation">Page: {{scripture.page}} - {{scripture.scripture | scripture}}</p>
+        <p class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
+        <p class="transliteration yellow">{{scripture.transliteration}}</p>
+        <p class="translation base1">{{scripture.translation}}</p>
+        <p class="translation base1 italic">Page: {{scripture.page}} - {{scripture.scripture | scripture}}</p>
       </ion-item>
       <ion-item ng-if="scriptures.length==10">Only the first 10 results were shown, please make your search more specific</ion-item>
     </ion-list>

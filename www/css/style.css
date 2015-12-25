@@ -11,13 +11,17 @@ input#search { line-height: 145%; }
 .search-even, .search-even .item-content { background-color: #fdfdfd; }
 .button-search-style { position: absolute; z-index: 9999; top: 0; right: 0; }
 .badge-search-style { position: absolute; top: 12px; right: 86px; height: auto; width: 35px; z-index: 2; }
-.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: GurbaniAkhar; line-height: normal; padding: 5px 0; color: #000000; }
+.gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: GurbaniAkhar; line-height: normal; padding: 5px 0; }
 .gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 20px; }
 .prabhki { font-family: Prabhki !important; }
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
 .tabs { font-size: 32px; }
 .button-settings-clear { position: absolute; right: 20px; bottom: 0; }
+.item p.blue, h1, h2, .item p.gurmukhi { color: #268bd2 }
+.item p.yellow { color: #b58900 }
+.item p.base1 { color: #93a1a1 }
+.italic { font-style: italic }
 
 /* Classes for Hymn */
 .hymn-next { position: absolute; right: 2px; top: 50%; z-index: 9999; }
@@ -70,5 +74,3 @@ input#search { line-height: 145%; }
 	.tab-item .icon { font-size: 48px; }
 	.tabs { height: 48px; }
 }
-
-

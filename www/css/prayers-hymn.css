@@ -5,3 +5,6 @@ h3:first-child { padding: 0 10px; }
 .has-tabs, .bar-footer.has-tabs { bottom: 0; }
 .has-header { top: 44px !important; }
 .has-tabs-top { top: auto; }
+.blue { color: #268bd2 }
+.yellow { color: #b58900 }
+.base1 { color: #93a1a1 }
