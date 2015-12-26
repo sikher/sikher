@@ -61,7 +61,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter){
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -71,6 +71,7 @@ angular.module('starter.controllers', [])
     $scope.page = res[0].page;
     $scope.scriptureName = res[0].scripture;
     $scope.showResults = true;
+    $window.document.title = 'Page ' + $scope.page + ' - ' + $filter('scripture')($scope.scriptureName);
   });
 
   if($stateParams.viewAs === 'hymn')
@@ -124,7 +125,7 @@ angular.module('starter.controllers', [])
   })
 })
 
-.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout, $ionicSlideBoxDelegate, Slicer) {
+.controller('PrayersDetailCtrl', function($scope, $stateParams, Data, Prayers, $css, $ionicLoading, URLResolver, $state, $timeout, $ionicSlideBoxDelegate, Slicer, $window) {
 
     $scope.handlers = {};
 
@@ -157,6 +158,7 @@ angular.module('starter.controllers', [])
       $scope.prayer.dataSlice = Slicer.getData(Slicer.getCurrentSet());
       $ionicLoading.hide();
       $scope.showResults = true;
+      $window.document.title = $scope.prayer.name;
     })
   })
 
