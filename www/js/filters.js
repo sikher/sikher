@@ -15,4 +15,19 @@ angular.module('starter.filters', [])
 	return scriptures[scripture];
 
     }
- });
+ })
+
+.filter('placeholder',function() {
+    return function(searchType) {
+
+    var searchTypes = {
+        // Search type : [ placeholder text, font type, search type]
+        'gurmukhi_search':['A`Kr','gurmukhi','letters'],
+        'gurmukhi' : ['lPz','gurmukhi','words'],
+        'transliteration_search' : ['First Letters','english','letters'],
+        'translation' : ['Whole Words','english','words']
+    }
+
+    return searchTypes[searchType];
+    }
+});

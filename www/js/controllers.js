@@ -1,17 +1,10 @@
 angular.module('starter.controllers', [])
 
-.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches) {
+.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches, $filter) {
   Focus('search');
   $scope.showResults = false;
   $scope.search = Settings['search'];
-  if($scope.search === 'translation')
-  {
-    $scope.searchPlaceholder = 'Whole Words';
-  }
-  else
-  {
-    $scope.searchPlaceholder = 'First Letters';
-  }
+  $scope.searchPlaceholder = $filter('placeholder')($scope.search)[0];
   $scope.viewAs = Settings['viewAs'];
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
@@ -32,9 +25,9 @@ angular.module('starter.controllers', [])
     }
     else
     {
-      if($scope.search === 'translation')
+      if($filter('placeholder')($scope.search)[2] === 'words')
       {
-        Scripture.getResultsByTranslation($scope.searchText, $scope.search).then(function(res){
+        Scripture.getResultsByWords($scope.searchText, $scope.search).then(function(res){
           if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
           $ionicLoading.hide();
           $scope.scriptures = res;
@@ -43,7 +36,7 @@ angular.module('starter.controllers', [])
         });
       }
       else {
-        Scripture.getResults($scope.searchText, $scope.search).then(function(res){
+        Scripture.getResultsByFirstLetters($scope.searchText, $scope.search).then(function(res){
           if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
           $ionicLoading.hide();
           $scope.scriptures = res;

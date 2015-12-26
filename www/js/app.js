@@ -13,7 +13,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings) {
+.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings, $filter) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -76,7 +76,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   {
     var search = Settings['search'];
 
-    if(search === 'gurmukhi_search') { return true; }
+    if($filter('placeholder')(search)[1] === 'gurmukhi') { return true; }
 
     return false;
   }

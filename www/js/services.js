@@ -99,14 +99,14 @@ angular.module('starter.services', [])
 .factory('Scripture', function($http, $q, URLResolver, SikherDB, $window, Api) {
 
 return {
-    getResults : function(query, field, sql) {
+    getResultsByFirstLetters : function(query, field, sql) {
         var query = query || '';
-        var field = field || 'transliteration_search';
+        var field = field || 'gurmukhi_search';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 10";
         var params = '?filter='+field + ' like '+query+'%&limit=10';
         return this.http(sql, params);
     },
-    getResultsByTranslation : function(query, field, sql) {
+    getResultsByWords : function(query, field, sql) {
         var query = query || '';
         var field = field || 'translation';
         var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 10";
