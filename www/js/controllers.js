@@ -54,7 +54,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter, $ionicActionSheet){
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -66,6 +66,21 @@ angular.module('starter.controllers', [])
     $scope.showResults = true;
     $window.document.title = 'Page ' + $scope.page + ' - ' + $filter('scripture')($scope.scriptureName);
   });
+
+  $scope.showActionSheet = function(id, hymn, gurmukhi) {
+    var hideSheet = $ionicActionSheet.show({
+        buttons: [
+            { text: 'Add Line to <b>Favourites</b>' }
+        ],
+        cancelText: 'Cancel',
+        buttonClicked: function(index) {
+            if(index === 0) {
+                $scope.favourite(id, hymn, gurmukhi);
+            }
+            return true;
+        }
+    });
+  }
 
   if($stateParams.viewAs === 'hymn')
   {
