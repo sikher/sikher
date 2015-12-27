@@ -69,6 +69,8 @@ angular.module('starter.controllers', [])
 
   if($stateParams.viewAs === 'hymn')
   {
+    $scope.nextHymnMobile = function() { if(isMobile.any()) $scope.nextHymn(); }
+    $scope.previousHymnMobile = function() { if(isMobile.any()) $scope.previousHymn(); }
     $scope.nextHymn = function() { $state.go($state.$current, {viewAs: $stateParams.viewAs, hymnId : Number($stateParams.hymnId) + 1}); }
     $scope.previousHymn = function() { $state.go($state.$current, {viewAs: $stateParams.viewAs, hymnId : Number($stateParams.hymnId) - 1}); }
     $scope.favourite = function(id, hymn, gurmukhi)

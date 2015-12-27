@@ -641,7 +641,7 @@ window.ionic.version = '1.0.1';
     // its native behavior. this doesnt prevent the scrolling,
     // but cancels the contextmenu, tap highlighting etc
     // set to false to disable this
-    stop_browser_behavior: 'disable-user-behavior'
+    stop_browser_behavior: false
   };
 
   // detect touchevents
@@ -5185,7 +5185,7 @@ ionic.views.Scroll = ionic.views.View.inherit({
       self.__enableScrollY = true;
       self.__hasStarted = true;
       self.doTouchStart(getEventTouches(e), e.timeStamp);
-      e.preventDefault();
+      // e.preventDefault();
     };
 
     self.touchMove = function(e) {
@@ -5298,6 +5298,7 @@ ionic.views.Scroll = ionic.views.View.inherit({
       var mousedown = false;
 
       self.mouseDown = function(e) {
+        return; // <--- This disables all mouseDown events from scrolling the page
         if ( ionic.tap.ignoreScrollStart(e) || e.target.tagName === 'SELECT' ) {
           return;
         }

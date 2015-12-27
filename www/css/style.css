@@ -2,6 +2,12 @@
 .item, .item h1, .item h2, .item h3, .item h4, .item h5, .item h6, .item p, .item-content, .item-content h1, .item-content h2, .item-content h3, .item-content h4, .item-content h5, .item-content h6, .item-content p { white-space: normal; }
 .item-complex.item-icon-right .item-content { padding-right: 16px; }
 .input-label { width: 45% }
+.scroll {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
 
 /* Sikher CSS */
 @font-face { font-family: GurbaniAkhar; src: url('../fonts/gurbaniakhar.ttf'); }
