@@ -1,6 +1,5 @@
 {
   "name": "ionic",
-  "version": "1.0.1",
   "codename": "vanadium-vaquita",
   "homepage": "https://github.com/driftyco/ionic",
   "authors": [
@@ -10,10 +9,10 @@
   ],
   "description": "Advanced HTML5 hybrid mobile app development framework.",
   "main": [
-    "css/ionic.css",
-    "fonts/*",
-    "js/ionic.js",
-    "js/ionic-angular.js"
+    "release/css/ionic.css",
+    "release/fonts/*",
+    "release/js/ionic.js",
+    "release/js/ionic-angular.js"
   ],
   "keywords": [
     "mobile",
@@ -28,19 +27,38 @@
   ],
   "license": "MIT",
   "private": false,
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "Gruntfile.js",
+    "component.json",
+    "config",
+    "examples",
+    "package.json",
+    "release/js/angular",
+    "release/js/angular-ui",
+    "scripts",
+    "test",
+    "js/controllers",
+    "js/ext",
+    "js/utils",
+    "js/views",
+    "js/_license.js",
+    "js/ionic.js"
+  ],
   "dependencies": {
     "angular": "1.3.13",
     "angular-animate": "1.3.13",
     "angular-sanitize": "1.3.13",
     "angular-ui-router": "0.2.13"
   },
-  "_release": "1.0.1",
+  "_release": "a69436325a",
   "_resolution": {
-    "type": "version",
-    "tag": "v1.0.1",
-    "commit": "160898db160981d52c4606aef22b2f064b6c2539"
+    "type": "branch",
+    "branch": "master",
+    "commit": "a69436325ac5de09eaacae4511ec987bf8eb3b8c"
   },
-  "_source": "git://github.com/driftyco/ionic-bower.git",
-  "_target": "1.0.1",
-  "_originalSource": "driftyco/ionic-bower"
+  "_source": "https://github.com/sikher/ionic.git",
+  "_target": "master",
+  "_originalSource": "https://github.com/sikher/ionic.git"
 }

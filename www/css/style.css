@@ -28,6 +28,8 @@ input#search { line-height: 145%; }
 .item p.yellow { color: #b58900 }
 .item p.base1 { color: #93a1a1 }
 .italic { font-style: italic }
+#screenshot { display:none; }
+.pointer { cursor: pointer; }
 
 /* Classes for Hymn */
 .hymn-next { position: absolute; right: 2px; top: 50%; z-index: 9999; }

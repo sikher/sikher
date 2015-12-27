@@ -33,7 +33,8 @@
     "com.ionic.keyboard",
     "org.apache.cordova.console",
     "org.apache.cordova.device",
-    "https://github.com/litehelpers/Cordova-sqlite-storage.git"
+    "https://github.com/litehelpers/Cordova-sqlite-storage.git",
+    "cordova-plugin-x-socialsharing"
   ],
   "cordovaPlatforms": [
     "android"

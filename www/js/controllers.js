@@ -54,7 +54,7 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter, $ionicActionSheet){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter, $ionicActionSheet, $http){
   $ionicLoading.show();
   $scope.showResults = false;
 
@@ -67,15 +67,51 @@ angular.module('starter.controllers', [])
     $window.document.title = 'Page ' + $scope.page + ' - ' + $filter('scripture')($scope.scriptureName);
   });
 
-  $scope.showActionSheet = function(id, hymn, gurmukhi) {
+  $scope.share = function(arrayId) {
+    var screenshot;
+
+    // On Desktop
+    if (window.process) {
+        return true;
+    }
+
+    if (arrayId) {
+        screenshot = new canvasScreenshot({data:[$scope.scriptures[arrayId]]})
+    } else {
+        screenshot = new canvasScreenshot({data:$scope.scriptures});
+    }
+
+    screenshot.then(function(image){
+        if(isMobile.any() && window.plugins.socialsharing) {
+            window.plugins.socialsharing.share(
+                null,
+                'sikher',
+                image,
+                null
+            );
+        } else {
+            window.open(image, '_blank');
+        }
+    })
+  }
+
+  $scope.showActionSheet = function(_id, hymn, gurmukhi, arrayId) {
     var hideSheet = $ionicActionSheet.show({
         buttons: [
-            { text: 'Add Line to <b>Favourites</b>' }
+            { text: 'Share Hymn' },
+            { text: 'Share Line' },
+            { text: 'Add Line to Favourites' }
         ],
         cancelText: 'Cancel',
         buttonClicked: function(index) {
             if(index === 0) {
-                $scope.favourite(id, hymn, gurmukhi);
+                $scope.share();
+            }
+            if(index === 1) {
+                $scope.share(arrayId);
+            }
+            if(index === 2) {
+                $scope.favourite(_id, hymn, gurmukhi);
             }
             return true;
         }

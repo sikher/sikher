@@ -19,6 +19,20 @@
                         {
                             "xml": "<feature name=\"SQLitePlugin\"><param name=\"android-package\" value=\"io.liteglue.SQLitePlugin\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -36,6 +50,9 @@
             "PACKAGE_NAME": "com.ionicframework.sikher241288"
         },
         "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.sikher.sikher"
+        },
+        "cordova-plugin-x-socialsharing": {
             "PACKAGE_NAME": "com.sikher.sikher"
         }
     },

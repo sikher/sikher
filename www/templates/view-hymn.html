@@ -4,11 +4,11 @@
     <i class="icon ion-chevron-left hymn-previous" title="Previous Hymn" ng-click="previousHymn()"></i>
   <ion-content ng-controller="ViewCtrl">
     <ion-list ng-if="showResults" can-swipe="false">
-      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in ::scriptures" ng-class-even="'search-even'" type="item-text-wrap">
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in ::scriptures track by $index" ng-class-even="'search-even'" type="item-text-wrap">
         <p class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
         <p class="transliteration yellow">{{scripture.transliteration}}</p>
         <p class="translation base1">{{scripture.translation}}</p>
-        <a ng-click="showActionSheet(scripture._id,scripture.hymn,scripture.gurmukhi)">
+        <a ng-click="showActionSheet(scripture._id,scripture.hymn,scripture.gurmukhi,$index)" class="pointer">
             <i class="icon ion-android-more-vertical"></i>
         </a>
       </ion-item>
