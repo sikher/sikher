@@ -30,12 +30,19 @@
           <option value="prabhki">Prabhki</option>
         </select>
       </label>
-      <label class="item item-input">
-        <div class="input-label">
-          Recent Searches
+        <div class="item buttons">
+            Recent Searches
+            <button class="button pointer float-right" ng-click="clearRecentSearches()" title="Clear Recent Searches">Clear</button>
         </div>
-        <button class="button button-settings-clear" ng-click="clearRecentSearches()">Clear</button>
-      </label>
+        <div class="item buttons">
+            Favourites (Export)
+            <button class="button pointer float-right" ng-click="exportFavourites()" title="Export" ng-disabled="favouritesBool()">Export</button>
+        </div>
+        <div class="item buttons">
+            Favourites (Import)
+            <button class="button pointer float-right" ng-click="importFavourites()" title="Export">Import</button>
+            <input class="float-right" title="Select a favourites.json file to import" type="file" accept=".json" id="favouritesImport"></input>
+        </div>
     </div>
   </ion-content>
 </ion-view>

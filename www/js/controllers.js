@@ -261,6 +261,11 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SettingsCtrl', function($scope, Settings, Store, RecentSearches, $ionicPopup, $window) {
+  var popup_settings_saved = {
+       title: 'Settings Saved',
+       template: 'Your settings have been saved'
+  };
+
   $scope.search = Settings['search'];
   $scope.viewAs = Settings['viewAs'];
   $scope.font = Settings['font'];
@@ -272,10 +277,7 @@ angular.module('starter.controllers', [])
 
     Store.set('sikher_settings', Settings);
 
-    $ionicPopup.alert({
-         title: 'Settings Saved',
-         template: 'Your settings have been saved'
-    });
+    $ionicPopup.alert(popup_settings_saved);
   }
 
   $scope.clearRecentSearches = function() {
@@ -289,5 +291,55 @@ angular.module('starter.controllers', [])
     popup_confirm_clear.then(function(res){
       $window.location.reload();
     })
+  }
+
+  $scope.favouritesBool = function() {
+      if(Store.get('sikher_favourites').length > 0) {
+          return false;
+      } else {
+          return true;
+      }
+  }
+
+  $scope.exportFavourites = function() {
+    var elem = document.createElement('a');
+    var data = JSON.stringify(Store.get('sikher_favourites'));
+    var uri = 'data:application/json;base64,' + btoa(encodeURIComponent(data).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+        return String.fromCharCode('0x' + p1);
+    }));
+
+    elem.download = 'favourites.json';
+    elem.className = 'download';
+    elem.href = uri;
+    elem.click();
+    elem = null;
+  }
+
+  $scope.importFavourites = function() {
+    console.warn('importFavourites');
+    var reader = new FileReader();
+    var elem = document.getElementById('favouritesImport');
+    var file = elem.files[0];
+    reader.onload = function(evt){
+        var confirmPopup = $ionicPopup.confirm({
+          title: 'Importing Favourites',
+          template: 'You are about to import some favourites, which will replace all your current favourites, are you sure you want to proceed?'
+        });
+        confirmPopup.then(function(yes) {
+            if(yes) {
+                Store.set('sikher_favourites', JSON.parse(evt.target.result));
+                var saved = $ionicPopup.alert(popup_settings_saved);
+                saved.then(function(){
+                    $window.location.reload();
+                });
+            } else {
+                $ionicPopup.alert({
+                     title: 'Favourites have not been changed',
+                     template: 'Relax, we did not make any changes to your favourites'
+                });
+            }
+        });
+    };
+    reader.readAsText(file);
   }
 });
