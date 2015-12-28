@@ -293,7 +293,7 @@ angular.module('starter.controllers', [])
     })
   }
 
-  $scope.favouritesBool = function() {
+  $scope.exportFavouritesBool = function() {
       if(Store.get('sikher_favourites').length > 0) {
           return false;
       } else {
@@ -301,45 +301,103 @@ angular.module('starter.controllers', [])
       }
   }
 
+  $scope.importFavouritesBool = function() {
+      if(isMobile.any()) {
+          return 'hidden';
+      } else {
+          return false;
+      }
+  }
+
   $scope.exportFavourites = function() {
-    var elem = document.createElement('a');
+    var fileName = 'favourites.json';
     var data = JSON.stringify(Store.get('sikher_favourites'));
     var uri = 'data:application/json;base64,' + btoa(encodeURIComponent(data).replace(/%([0-9A-F]{2})/g, function(match, p1) {
         return String.fromCharCode('0x' + p1);
     }));
 
-    elem.download = 'favourites.json';
-    elem.className = 'download';
-    elem.href = uri;
-    elem.click();
-    elem = null;
+     if(isMobile.any() && cordova.file) {
+        window.resolveLocalFileSystemURL(cordova.file.dataDirectory, function(dir) {
+            dir.getFile(fileName, {create:true, exclusive: false}, function(fileEntry) {
+                fileEntry.createWriter(function(fileWriter) {
+                    fileWriter.write(data);
+                    $ionicPopup.alert(popup_settings_saved);
+                }, cordovaFileFailHandler);
+            });
+        });
+    } else {
+        var elem = document.createElement('a');
+        elem.download = fileName;
+        elem.className = 'download';
+        elem.href = uri;
+        elem.click();
+        elem = null;
+    }
   }
 
   $scope.importFavourites = function() {
-    console.warn('importFavourites');
-    var reader = new FileReader();
-    var elem = document.getElementById('favouritesImport');
-    var file = elem.files[0];
-    reader.onload = function(evt){
-        var confirmPopup = $ionicPopup.confirm({
-          title: 'Importing Favourites',
-          template: 'You are about to import some favourites, which will replace all your current favourites, are you sure you want to proceed?'
-        });
-        confirmPopup.then(function(yes) {
-            if(yes) {
-                Store.set('sikher_favourites', JSON.parse(evt.target.result));
-                var saved = $ionicPopup.alert(popup_settings_saved);
-                saved.then(function(){
-                    $window.location.reload();
-                });
-            } else {
-                $ionicPopup.alert({
-                     title: 'Favourites have not been changed',
-                     template: 'Relax, we did not make any changes to your favourites'
-                });
-            }
-        });
+    var fileName = 'cdvfile://localhost/files/favourites.json';
+
+    if(isMobile.any() && cordova.file) {
+       window.resolveLocalFileSystemURL(fileName, function(File) {
+           File.file(function(file){
+               readWithFileReader(file);
+           }, cordovaFileFailHandler)
+       });
+   } else {
+       var elem = document.getElementById('favouritesImport');
+       var file = elem.files[0];
+       readWithFileReader(file);
+   }
+
+    function readWithFileReader(file) {
+        var reader = new FileReader();
+        reader.onload = function(evt){
+            var confirmPopup = $ionicPopup.confirm({
+              title: 'Importing Favourites',
+              template: 'You are about to import some favourites, which will replace all your current favourites, are you sure you want to proceed?'
+            });
+            confirmPopup.then(function(yes) {
+                if(yes) {
+                    Store.set('sikher_favourites', JSON.parse(evt.target.result));
+                    var saved = $ionicPopup.alert(popup_settings_saved);
+                    saved.then(function(){
+                        $window.location.reload();
+                    });
+                } else {
+                    $ionicPopup.alert({
+                         title: 'Favourites have not been changed',
+                         template: 'Relax, we did not make any changes to your favourites'
+                    });
+                }
+            });
+        };
+        reader.readAsText(file);
+    }
+  }
+
+  function cordovaFileFailHandler(evt) {
+    var msg = '';
+    switch (evt.code) {
+      case FileError.QUOTA_EXCEEDED_ERR:
+        msg = 'QUOTA_EXCEEDED_ERR';
+        break;
+      case FileError.NOT_FOUND_ERR:
+        msg = 'NOT_FOUND_ERR';
+        break;
+      case FileError.SECURITY_ERR:
+        msg = 'SECURITY_ERR';
+        break;
+      case FileError.INVALID_MODIFICATION_ERR:
+        msg = 'INVALID_MODIFICATION_ERR';
+        break;
+      case FileError.INVALID_STATE_ERR:
+        msg = 'INVALID_STATE_ERR';
+        break;
+      default:
+        msg = 'Unknown Error';
+        break;
     };
-    reader.readAsText(file);
+    console.warn(msg);
   }
 });

@@ -34,7 +34,8 @@
     "org.apache.cordova.console",
     "org.apache.cordova.device",
     "https://github.com/litehelpers/Cordova-sqlite-storage.git",
-    "cordova-plugin-x-socialsharing"
+    "cordova-plugin-x-socialsharing",
+    "cordova-plugin-file"
   ],
   "cordovaPlatforms": [
     "android"

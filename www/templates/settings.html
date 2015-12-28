@@ -36,12 +36,12 @@
         </div>
         <div class="item buttons">
             Favourites (Export)
-            <button class="button pointer float-right" ng-click="exportFavourites()" title="Export" ng-disabled="favouritesBool()">Export</button>
+            <button class="button pointer float-right" ng-click="exportFavourites()" title="Export" ng-disabled="exportFavouritesBool()">Export</button>
         </div>
         <div class="item buttons">
             Favourites (Import)
             <button class="button pointer float-right" ng-click="importFavourites()" title="Export">Import</button>
-            <input class="float-right" title="Select a favourites.json file to import" type="file" accept=".json" id="favouritesImport"></input>
+            <input class="float-right" title="Select a favourites.json file to import" type="file" accept=".json" id="favouritesImport" ng-class="importFavouritesBool()"></input>
         </div>
     </div>
   </ion-content>
