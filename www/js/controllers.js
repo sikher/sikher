@@ -75,7 +75,7 @@ angular.module('starter.controllers', [])
         return true;
     }
 
-    if (arrayId) {
+    if (arrayId || arrayId === 0) {
         screenshot = new canvasScreenshot({data:[$scope.scriptures[arrayId]]})
     } else {
         screenshot = new canvasScreenshot({data:$scope.scriptures});
