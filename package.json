@@ -1,7 +1,7 @@
 {
   "name": "sikher",
   "description": "Sikher for Mobile, Tablet & Desktop",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "desktop.js",
   "repository": {
     "type": "git",
