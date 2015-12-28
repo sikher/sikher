@@ -347,7 +347,14 @@ angular.module('starter.controllers', [])
    } else {
        var elem = document.getElementById('favouritesImport');
        var file = elem.files[0];
-       readWithFileReader(file);
+       if(file) {
+           readWithFileReader(file);
+       } else {
+           $ionicPopup.alert({
+               title: 'First select a file to import',
+               template: 'You must first select a file to import'
+           });
+       }
    }
 
     function readWithFileReader(file) {
