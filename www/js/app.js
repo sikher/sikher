@@ -13,7 +13,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings, $filter) {
+.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings, $filter, $window, URLResolver) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -41,8 +41,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   });
 
   $rootScope.goHome = function() {
-    $state.transitionTo('tab.search', {}, { reload: true, inherit: true, notify: true });
-    $css.removeAll();
+    $window.location.assign(URLResolver.resolve('index.html'));
   }
 
   $rootScope.showLoading = function()
@@ -99,7 +98,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   // Each tab has its own nav history stack:
 
   .state('tab.search', {
-    cache: false,
+    cache: true,
     url: '/search',
     views: {
       'search': {
