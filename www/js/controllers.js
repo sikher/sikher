@@ -9,6 +9,14 @@ angular.module('starter.controllers', [])
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
 
+  $scope.optionalField = function(field) {
+      if (field) {
+          return field + ' - ';
+      } else {
+          return '';
+      }
+  }
+
   $scope.getResults = function() {
     $ionicLoading.show();
     $scope.showResults = false;
@@ -62,6 +70,13 @@ angular.module('starter.controllers', [])
     $ionicLoading.hide();
     $scope.scriptures = res;
     $scope.page = res[0].page;
+    $scope.optionalField = function(field) {
+        if (field) {
+            return field + ' - ';
+        } else {
+            return '';
+        }
+    }
     $scope.scriptureName = res[0].scripture;
     $scope.showResults = true;
     $window.document.title = 'Page ' + $scope.page + ' - ' + $filter('scripture')($scope.scriptureName);

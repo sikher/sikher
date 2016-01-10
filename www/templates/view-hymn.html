@@ -1,5 +1,5 @@
 <ion-view on-swipe-right="previousHymnMobile()" on-swipe-left="nextHymnMobile()">
-    <ion-nav-title>Page {{page}} - {{scriptureName | scripture}}</ion-nav-title>
+    <ion-nav-title>Page {{page}} - {{optionalField(scriptures[1].author)}}{{optionalField(scriptures[1].melody)}}{{scriptureName | scripture}}</ion-nav-title>
     <i class="icon ion-chevron-right hymn-next" title="Next Hymn" ng-click="nextHymn()"></i>
     <i class="icon ion-chevron-left hymn-previous" title="Previous Hymn" ng-click="previousHymn()"></i>
   <ion-content ng-controller="ViewCtrl">

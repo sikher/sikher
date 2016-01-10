@@ -22,7 +22,7 @@
         <p class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
         <p class="transliteration yellow">{{scripture.transliteration}}</p>
         <p class="translation base1">{{scripture.translation}}</p>
-        <p class="translation base1 italic">Page: {{scripture.page}} - {{scripture.scripture | scripture}}</p>
+        <p class="translation base1 italic">Page: {{scripture.page}} - {{optionalField(scripture.author)}}{{optionalField(scripture.melody)}}{{scripture.scripture | scripture}}</p>
       </ion-item>
       <ion-item ng-if="scriptures.length==10">Only the first 10 results were shown, please make your search more specific</ion-item>
     </ion-list>
