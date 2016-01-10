@@ -148,7 +148,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('RandomCtrl', function($scope, Settings, $state) {
-  var max_hymns = 5540;
+  var max_hymns = 5911;
   $scope.random = function() { return Math.floor((Math.random() * max_hymns) + 1) }
   $state.go('tab.view', { viewAs: Settings['viewAs'], hymnId : $scope.random() });
 })
