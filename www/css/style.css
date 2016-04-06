@@ -19,6 +19,7 @@ input#search { line-height: 145%; }
 .badge-search-style { position: absolute; top: 12px; right: 86px; height: auto; width: 35px; z-index: 2; }
 .gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-family: GurbaniAkhar; line-height: normal; padding: 5px 0; }
 .gurmukhi, .item h2.gurmukhi, .item p.gurmukhi { font-size: 20px; }
+.item.recent-search { padding: 2px 0px 2px 15px; }
 .prabhki { font-family: Prabhki !important; }
 .transliteration, .item h2.transliteration, .item p.transliteration { padding: 5px 0; }
 .translation, .item h2.translation, .item p.translation { padding: 5px 0; }
