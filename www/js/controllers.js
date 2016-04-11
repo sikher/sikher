@@ -55,11 +55,29 @@ angular.module('starter.controllers', [])
     }
   }
 
-  $scope.addToRecentSearches = function() {
-    RecentSearches.push($scope.searchText);
-    Store.set('sikher_recent', RecentSearches);
-  }
+	$scope.addToRecentSearches = function () {
+		//remove from recent search if it was same as new one
+		for (var i = 0; i < RecentSearches.length; i++) {
+			if (RecentSearches[i].searchText === $scope.searchText
+				&& RecentSearches[i].searchType === $scope.search
+				) {
+				RecentSearches.splice(i, 1);
+			}
+		}
 
+		RecentSearches.push({
+			searchText: $scope.searchText,
+			searchType: $scope.search
+		});
+		Store.set('sikher_recent', RecentSearches);
+	};
+
+	$scope.getRecentSearchClass = function (searchType) {
+		if (searchType === 'gurmukhi' || searchType === 'gurmukhi_search') {
+			return 'gurmukhi';
+		}
+		return 'translation';
+	};
 })
 
 .controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter, $ionicActionSheet, $http){
