@@ -56,12 +56,12 @@ angular.module('starter.controllers', [])
   }
 
 	$scope.addToRecentSearches = function () {
-		//remove from recent search if it was same as new one
+		//stop inserting duplicate record
 		for (var i = 0; i < RecentSearches.length; i++) {
 			if (RecentSearches[i].searchText === $scope.searchText
 				&& RecentSearches[i].searchType === $scope.search
 				) {
-				RecentSearches.splice(i, 1);
+        return;
 			}
 		}
 
@@ -72,11 +72,8 @@ angular.module('starter.controllers', [])
 		Store.set('sikher_recent', RecentSearches);
 	};
 
-	$scope.getRecentSearchClass = function (searchType) {
-		if (searchType === 'gurmukhi' || searchType === 'gurmukhi_search') {
-			return 'gurmukhi';
-		}
-		return 'translation';
+  $scope.getRecentSearchClass = function (searchType) {
+    return $filter('placeholder')(searchType)[1];
 	};
 })
 
