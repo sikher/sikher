@@ -73,6 +73,9 @@ angular.module('starter.controllers', [])
 	};
 
   $scope.getRecentSearchClass = function (searchType) {
+    if (searchType === '') {
+      return;
+    }
     return $filter('placeholder')(searchType)[1];
 	};
 })
