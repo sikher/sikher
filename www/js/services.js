@@ -246,6 +246,19 @@ return {
 .factory('RecentSearches', function(Store) {
   var data = Store.get('sikher_recent');
 
+  //migrate old structure
+  if (data.length > 0 && typeof data[0] ===  'string') {
+      for (var i = 0; i < data.length; i++) {
+        if (typeof data[i] ===  'string') {
+          data[i] = {
+            searchText: data[i],
+            searchType: ''
+          };
+        }
+      }
+      Store.set('sikher_recent', data);
+  }
+
   return data;
 })
 

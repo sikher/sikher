@@ -12,8 +12,8 @@
     <div class="item item-divider">
       Recent Searches
     </div>
-    <div class="item" ng-repeat="search in searches.slice(-5).reverse() track by $index" ng-click="$parent.$parent.searchText = search; getResults();">
-      {{search}}
+    <div class="item recent-search" ng-repeat="search in searches.slice(-5).reverse() track by $index" ng-click="$parent.$parent.searchText = search.searchText; getResults();">
+        <p ng-class="getRecentSearchClass(search.searchType)">{{search.searchText}}</p>
     </div>
   </div>
     <ion-list ng-show="showResults">
