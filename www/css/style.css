@@ -35,6 +35,13 @@ input#search { line-height: 145%; }
 .float-right { float: right; }
 .download, .hidden { display: none; }
 
+/* Classes for search */
+.item.recent-search p.gurmukhi {
+	color: #444;
+	font-size: 14px;
+	padding: 0px;
+}
+
 /* Classes for Hymn */
 .hymn-next { position: absolute; right: 2px; top: 50%; z-index: 9999; }
 .hymn-previous { position: absolute; left: 2px; top: 50%; z-index: 9999; }
