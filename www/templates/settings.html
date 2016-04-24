@@ -34,6 +34,17 @@
             Recent Searches
             <button class="button pointer float-right" ng-click="clearRecentSearches()" title="Clear Recent Searches">Clear</button>
         </div>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Search Results
+          </div>
+          <select ng-model="searchResultsLimit" id="searchResultsLimit" ng-change="updateSettings();">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
         <div class="item buttons">
             Favourites (Export)
             <button class="button pointer float-right" ng-click="exportFavourites()" title="Export" ng-disabled="exportFavouritesBool()">Export</button>

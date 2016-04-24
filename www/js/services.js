@@ -7,18 +7,21 @@ angular.module('starter.services', [])
     var defaults = {
         viewAs : 'hymn',
         font : 'gurbaniakhar',
-        search : 'gurmukhi_search'
+        search : 'gurmukhi_search',
+        searchResultsLimit : 50
     }
 
     if(data.length===0)
     {
-      Store.set(store,defaults);
-      return Store.get(store);
+      Store.set(store, defaults);
+      data = defaults;
+    } else {
+        //merge defaults with current settings
+        angular.extend(data, defaults);
     }
-    else
-    {
-      return Store.get(store);
-    }
+
+    Store.set(store, data);
+    return data;
 })
 
 .factory('Api', function(){
@@ -99,10 +102,10 @@ angular.module('starter.services', [])
 .factory('Scripture', function($http, $q, URLResolver, SikherDB, $window, Api) {
 
 return {
-    getResultsByFirstLetters : function(query, field, sql) {
+    getResultsByFirstLetters : function(query, field, limit, sql) {
         var query = query || '';
         var field = field || 'gurmukhi_search';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 10";
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT " + limit;
         var params = '?filter='+field + ' like '+query+'%&limit=10';
         return this.http(sql, params);
     },

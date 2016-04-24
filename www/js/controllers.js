@@ -8,6 +8,7 @@ angular.module('starter.controllers', [])
   $scope.viewAs = Settings['viewAs'];
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
+  $scope.searchResultsLimit = Settings['searchResultsLimit'];
 
   $scope.optionalField = function(field) {
       if (field) {
@@ -44,7 +45,7 @@ angular.module('starter.controllers', [])
         });
       }
       else {
-        Scripture.getResultsByFirstLetters($scope.searchText, $scope.search).then(function(res){
+        Scripture.getResultsByFirstLetters($scope.searchText, $scope.search, $scope.searchResultsLimit).then(function(res){
           if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
           $ionicLoading.hide();
           $scope.scriptures = res;
@@ -302,6 +303,7 @@ angular.module('starter.controllers', [])
   $scope.search = Settings['search'];
   $scope.viewAs = Settings['viewAs'];
   $scope.font = Settings['font'];
+  $scope.searchResultsLimit = Settings['searchResultsLimit'];
 
   $scope.updateSettings = function() {
     Settings['search'] = $scope.search;
