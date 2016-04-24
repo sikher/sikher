@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches, $filter) {
+.controller('SearchCtrl', function($scope, Data, Scripture, Settings, $ionicLoading, Focus, Store, RecentSearches, $filter, AppSettings) {
   Focus('search');
   $scope.showResults = false;
   $scope.search = Settings['search'];
@@ -8,6 +8,7 @@ angular.module('starter.controllers', [])
   $scope.viewAs = Settings['viewAs'];
   $scope.scriptures = [];
   $scope.searches = RecentSearches;
+  $scope.totalResults = AppSettings.totalResults;
 
   $scope.optionalField = function(field) {
       if (field) {
