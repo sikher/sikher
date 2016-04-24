@@ -137,7 +137,7 @@ return {
         var defer = $q.defer();
 
         // If mobile let's use the native SQLite access functionality
-        if(isMobile.Android()) {
+        if(isMobile.Android() || isMobile.iOS()) {
           if(!SikherDB)
           {
             SikherDB = $window.sqlitePlugin.openDatabase({name:db,createFromLocation: 1});
