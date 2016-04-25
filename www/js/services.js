@@ -9,15 +9,19 @@ angular.module('starter.services', [])
         font : 'gurbaniakhar',
         search : 'gurmukhi_search',
         searchResultsLimit : 50
-    }
+    };
 
     if(data.length===0)
     {
-      Store.set(store, defaults);
       data = defaults;
     } else {
-        //merge defaults with current settings
-        angular.extend(data, defaults);
+        //update user settings with new default options
+        //TODO: use function similar to jquery extend
+        for (var key in defaults) {
+            if (typeof data[key] === 'undefined') {
+                data[key] = defaults[key];
+            }
+        }
     }
 
     Store.set(store, data);
@@ -109,10 +113,10 @@ return {
         var params = '?filter='+field + ' like '+query+'%&limit=10';
         return this.http(sql, params);
     },
-    getResultsByWords : function(query, field, sql) {
+    getResultsByWords : function(query, field, limit, sql) {
         var query = query || '';
         var field = field || 'translation';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 10";
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT " + limit;
         var params = '?filter='+field + ' like %'+query+'%&limit=10';
         return this.http(sql, params);
     },

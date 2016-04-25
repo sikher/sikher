@@ -36,7 +36,7 @@ angular.module('starter.controllers', [])
     {
       if($filter('placeholder')($scope.search)[2] === 'words')
       {
-        Scripture.getResultsByWords($scope.searchText, $scope.search).then(function(res){
+        Scripture.getResultsByWords($scope.searchText, $scope.search, $scope.searchResultsLimit).then(function(res){
           if (window.cordova && window.cordova.plugins.Keyboard) { cordova.plugins.Keyboard.close(); }
           $ionicLoading.hide();
           $scope.scriptures = res;
@@ -309,10 +309,12 @@ angular.module('starter.controllers', [])
     Settings['search'] = $scope.search;
     Settings['viewAs'] = $scope.viewAs;
     Settings['font'] = $scope.font;
+    Settings['searchResultsLimit'] = $scope.searchResultsLimit;
 
     Store.set('sikher_settings', Settings);
 
     $ionicPopup.alert(popup_settings_saved);
+    console.log(Settings);
   }
 
   $scope.clearRecentSearches = function() {
