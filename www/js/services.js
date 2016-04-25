@@ -7,24 +7,15 @@ angular.module('starter.services', [])
     var defaults = {
         viewAs : 'hymn',
         font : 'gurbaniakhar',
-        search : 'gurmukhi_search',
-        searchResultsLimit : 50
+        search : 'gurmukhi_search'
     };
 
     if(data.length===0)
     {
       data = defaults;
-    } else {
-        //update user settings with new default options
-        //TODO: use function similar to jquery extend
-        for (var key in defaults) {
-            if (typeof data[key] === 'undefined') {
-                data[key] = defaults[key];
-            }
-        }
+      Store.set(store, data);
     }
 
-    Store.set(store, data);
     return data;
 })
 
@@ -106,17 +97,17 @@ angular.module('starter.services', [])
 .factory('Scripture', function($http, $q, URLResolver, SikherDB, $window, Api) {
 
 return {
-    getResultsByFirstLetters : function(query, field, limit, sql) {
+    getResultsByFirstLetters : function(query, field, sql) {
         var query = query || '';
         var field = field || 'gurmukhi_search';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT " + limit;
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 50";
         var params = '?filter='+field + ' like '+query+'%&limit=10';
         return this.http(sql, params);
     },
-    getResultsByWords : function(query, field, limit, sql) {
+    getResultsByWords : function(query, field, sql) {
         var query = query || '';
         var field = field || 'translation';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT " + limit;
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 50";
         var params = '?filter='+field + ' like %'+query+'%&limit=10';
         return this.http(sql, params);
     },
