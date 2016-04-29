@@ -43,6 +43,15 @@
             <button class="button pointer float-right" ng-click="importFavourites()" title="Export">Import</button>
             <input class="float-right" title="Select a favourites.json file to import" type="file" accept=".json" id="favouritesImport" ng-class="importFavouritesBool()"></input>
         </div>
+        <label class="item item-input item-select">
+        <div class="input-label">
+          User mode
+        </div>
+        <select ng-model="userMode" id="userMode" ng-change="updateSettings();">
+          <option value="normal">normal</option>
+          <option value="advanced">Advanced</option>
+        </select>
+      </label>
     </div>
   </ion-content>
 </ion-view>

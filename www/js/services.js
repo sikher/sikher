@@ -7,18 +7,41 @@ angular.module('starter.services', [])
     var defaults = {
         viewAs : 'hymn',
         font : 'gurbaniakhar',
-        search : 'gurmukhi_search'
-    }
+        search : 'gurmukhi_search',
+        userMode : 'normal',
+        hymn : {
+          normal : {
+              gurmukhiFontSize: 22,
+              englishFontSize: 14,
+              transliterationFontSize: 14,
+              showEnglish : true,
+              showTransliteration : true,
+              fontSize : 'small'
+          },
+          advanced : {
+              gurmukhiFontSize: 22,
+              englishFontSize: 14,
+              transliterationFontSize: 14,
+              showEnglish : true,
+              showTransliteration : true
+          }
+        }
+    };
 
     if(data.length===0)
     {
-      Store.set(store,defaults);
-      return Store.get(store);
+      data = defaults;
+      Store.set(store, data);
+    } else {
+        //update user settings with new default options
+        for (var key in defaults) {
+            if (typeof data[key] === 'undefined') {
+                data[key] = defaults[key];
+            }
+        }
     }
-    else
-    {
-      return Store.get(store);
-    }
+
+    return data;
 })
 
 .factory('Api', function(){
@@ -102,14 +125,14 @@ return {
     getResultsByFirstLetters : function(query, field, sql) {
         var query = query || '';
         var field = field || 'gurmukhi_search';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 10";
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 50";
         var params = '?filter='+field + ' like '+query+'%&limit=10';
         return this.http(sql, params);
     },
     getResultsByWords : function(query, field, sql) {
         var query = query || '';
         var field = field || 'translation';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 10";
+        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 50";
         var params = '?filter='+field + ' like %'+query+'%&limit=10';
         return this.http(sql, params);
     },
@@ -137,7 +160,7 @@ return {
         var defer = $q.defer();
 
         // If mobile let's use the native SQLite access functionality
-        if(isMobile.Android()) {
+        if(isMobile.Android() || isMobile.iOS()) {
           if(!SikherDB)
           {
             SikherDB = $window.sqlitePlugin.openDatabase({name:db,createFromLocation: 1});
