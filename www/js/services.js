@@ -7,13 +7,38 @@ angular.module('starter.services', [])
     var defaults = {
         viewAs : 'hymn',
         font : 'gurbaniakhar',
-        search : 'gurmukhi_search'
+        search : 'gurmukhi_search',
+        userMode : 'normal',
+        hymn : {
+          normal : {
+              gurmukhiFontSize: 22,
+              englishFontSize: 14,
+              transliterationFontSize: 14,
+              showEnglish : true,
+              showTransliteration : true,
+              fontSize : 'small'
+          },
+          advanced : {
+              gurmukhiFontSize: 22,
+              englishFontSize: 14,
+              transliterationFontSize: 14,
+              showEnglish : true,
+              showTransliteration : true
+          }
+        }
     };
 
     if(data.length===0)
     {
       data = defaults;
       Store.set(store, data);
+    } else {
+        //update user settings with new default options
+        for (var key in defaults) {
+            if (typeof data[key] === 'undefined') {
+                data[key] = defaults[key];
+            }
+        }
     }
 
     return data;

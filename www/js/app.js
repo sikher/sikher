@@ -13,7 +13,25 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
 
 .value('SikherDB',null)
 
-.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings, $filter, $window, URLResolver) {
+.run(function($ionicPlatform, $rootScope, $state, $css, $ionicLoading, Scripture, $ionicSlideBoxDelegate, Settings, $filter, $window, URLResolver, $ionicSideMenuDelegate) {
+  $rootScope.currentTab = '';
+  $rootScope.showFormatSettings = false;
+  $rootScope.showHymnSettings = false;
+
+  $rootScope.$watch('currentTab', function() {
+      $rootScope.showFormatSettings = false;
+      $rootScope.showHymnSettings = false;
+      switch ($rootScope.currentTab) {
+        case 'view':
+          $rootScope.showHymnSettings = true;
+          $rootScope.showFormatSettings = true;
+          break;
+        default:
+          
+          break;
+      }
+  });
+  
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -78,7 +96,11 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
     if($filter('placeholder')(search)[1] === 'gurmukhi') { return true; }
 
     return false;
-  }
+  };
+
+  $rootScope.showSettings = function () {
+    $ionicSideMenuDelegate.toggleRight();
+  };
 })
 
 .config(function($stateProvider, $urlRouterProvider) {

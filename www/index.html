@@ -36,6 +36,8 @@
     <script src="js/filters.js"></script>
   </head>
   <body ng-app="starter" on-key-press key-press="keyPress($event)">
+    <ion-side-menus>
+  <ion-side-menu-content drag-content="false">
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
@@ -43,7 +45,10 @@
       <ion-nav-back-button>
       </ion-nav-back-button>
       <ion-nav-buttons side="secondary">
-        <button class="button" ng-click="goHome()">
+        <button class="button left" ng-click="showSettings()" ng-show="showFormatSettings">
+          <i class="icon ion-ios-settings-strong" title="Setting"></i>
+        </button>
+        <button class="button right" ng-click="goHome()">
           <i class="icon ion-ios-home" title="Home"></i>
         </button>
       </ion-nav-buttons>
@@ -54,5 +59,50 @@
       have templates inline in this html file if you'd like).
     -->
     <ion-nav-view></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="right" ng-controller="ViewCtrl">
+    <ion-header-bar class="bar bar-header">
+        <h1 class="title" ng-show="userMode === 'advanced'">Font Settings</h1>
+        </ion-header-bar>
+        <ion-content has-header="true">
+          <div class="list" ng-show="userMode === 'advanced'">
+            <div class="item item-divider">
+              Gurmukhi
+            </div>
+            <div class="item range range-positive">
+                <i class="icon ion-minus-circled"></i>
+                  <input type="range" ng-model="hymn.gurmukhiFontSize" min="10" max="100" />
+                <i class="icon ion-plus-circled"></i>
+            </div>
+            <div class="item item-divider">
+              English
+            </div>
+            <div class="item range range-positive">
+                <i class="icon ion-minus-circled"></i>
+                  <input type="range" ng-model="hymn.englishFontSize" min="8" max="100">
+                <i class="icon ion-plus-circled"></i>
+            </div>
+            <ion-toggle ng-model="hymn.showEnglish" toggle-class="toggle-positive">Show English</ion-toggle>
+            <div class="item item-divider">
+              Transliteration
+            </div>
+            <div class="item range range-positive">
+                <i class="icon ion-minus-circled"></i>
+                  <input type="range" ng-model="hymn.transliterationFontSize" min="8" max="100">
+                <i class="icon ion-plus-circled"></i>
+            </div>
+            <ion-toggle ng-model="hymn.showTransliteration" toggle-class="toggle-positive">Show Transliteration</ion-toggle>
+        </div>
+        <div class="list" ng-show="userMode === 'normal'">
+            <div class="item item-divider">
+              Font Settings
+            </div>
+            <ion-radio ng-model="hymn.fontSize" value="small">Small</ion-radio>
+            <ion-radio ng-model="hymn.fontSize" value="medium">Medium</ion-radio>
+            <ion-radio ng-model="hymn.fontSize" value="large">Large</ion-radio>
+        </div>
+        </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
   </body>
 </html>

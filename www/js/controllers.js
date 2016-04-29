@@ -80,9 +80,66 @@ angular.module('starter.controllers', [])
 	};
 })
 
-.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter, $ionicActionSheet, $http){
+.controller('ViewCtrl', function($scope, $stateParams, Data, Scripture, Favourites, $ionicSlideBoxDelegate, $css, $state, $timeout, $ionicLoading, Store, $ionicPopup, $rootScope, $window, $filter, $ionicActionSheet, $http, Settings){
   $ionicLoading.show();
   $scope.showResults = false;
+  $scope.userMode = Settings['userMode'];
+  $scope.hymn = Settings['hymn'][$scope.userMode];
+
+  if ($scope.userMode !== 'normal') {
+      $scope.hymn.fontSize = Settings['hymn']['normal']['fontSize'];
+  }
+
+  $scope.$watch('hymn.fontSize', function() {
+      $scope.fontFactor = 1;
+      switch ($scope.hymn.fontSize) {
+        case 'medium':
+          $scope.fontFactor = 2;
+          break;
+        case 'large':
+          $scope.fontFactor = 3;
+          break;
+      }
+
+      $scope.hymn.gurmukhiFontSize = $scope.fontFactor * 22;
+      $scope.hymn.englishFontSize = $scope.fontFactor * 14;
+      $scope.hymn.transliterationFontSize = $scope.fontFactor * 14;
+      Settings['hymn'][$scope.userMode]['gurmukhiFontSize'] = $scope.hymn.gurmukhiFontSize;
+      Settings['hymn'][$scope.userMode]['englishFontSize'] = $scope.hymn.englishFontSize;
+      Settings['hymn'][$scope.userMode]['transliterationFontSize'] = $scope.hymn.transliterationFontSize;
+      Settings['hymn'][$scope.userMode]['fontSize'] = $scope.hymn.fontSize;
+      Store.set('sikher_settings', Settings);
+  });
+
+  $scope.$watch('hymn.gurmukhiFontSize', function() {
+      Settings['hymn'][$scope.userMode]['gurmukhiFontSize'] = $scope.hymn.gurmukhiFontSize;
+      Store.set('sikher_settings', Settings);
+  });
+
+  $scope.$watch('hymn.englishFontSize', function() {
+      Settings['hymn'][$scope.userMode]['englishFontSize'] = $scope.hymn.englishFontSize;
+      Store.set('sikher_settings', Settings);
+  });
+
+  $scope.$watch('hymn.transliterationFontSize', function() {
+      Settings['hymn'][$scope.userMode]['transliterationFontSize'] = $scope.hymn.transliterationFontSize;
+      Store.set('sikher_settings', Settings);
+  });
+  
+  $scope.$watch('hymn.showEnglish', function() {
+      Settings['hymn'][$scope.userMode]['showEnglish'] = $scope.hymn.showEnglish;
+      Store.set('sikher_settings', Settings);
+  });
+  
+  $scope.$watch('hymn.showTransliteration', function() {
+      Settings['hymn'][$scope.userMode]['showTransliteration'] = $scope.hymn.showTransliteration;
+      Store.set('sikher_settings', Settings);
+  });
+
+  $scope.$on('$ionicView.enter', function() {
+      $rootScope.showFormatSettings = true;
+      $rootScope.showHymnSettings = true;     
+  });
 
   Scripture.getHymn($stateParams.hymnId).then(function(res){
     $ionicLoading.hide();
@@ -127,7 +184,7 @@ angular.module('starter.controllers', [])
         }
     })
   }
-
+  
   $scope.showActionSheet = function(_id, hymn, gurmukhi, arrayId) {
     var hideSheet = $ionicActionSheet.show({
         buttons: [
@@ -302,11 +359,13 @@ angular.module('starter.controllers', [])
   $scope.search = Settings['search'];
   $scope.viewAs = Settings['viewAs'];
   $scope.font = Settings['font'];
+  $scope.userMode = Settings['userMode'];
 
   $scope.updateSettings = function() {
     Settings['search'] = $scope.search;
     Settings['viewAs'] = $scope.viewAs;
     Settings['font'] = $scope.font;
+    Settings['userMode'] = $scope.userMode;
 
     Store.set('sikher_settings', Settings);
 

@@ -5,9 +5,12 @@
   <ion-content ng-controller="ViewCtrl">
     <ion-list ng-if="showResults" can-swipe="false">
       <ion-item class="item-remove-animate item-icon-right" ng-repeat="scripture in ::scriptures track by $index" ng-class-even="'search-even'" type="item-text-wrap">
-        <p class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
-        <p class="transliteration yellow">{{scripture.transliteration}}</p>
-        <p class="translation base1">{{scripture.translation}}</p>
+        <p class="gurmukhi blue" ng-class="{prabhki:font()}" 
+          style="font-size: {{hymn.gurmukhiFontSize}}px; line-height: {{hymn.gurmukhiFontSize}}px;">{{scripture.gurmukhi}}</p>
+        <p class="translation base1" ng-show="hymn.showEnglish"
+          style="font-size: {{hymn.englishFontSize}}px; line-height: {{hymn.englishFontSize}}px;">{{scripture.translation}}</p>
+        <p class="transliteration yellow" ng-show="hymn.showTransliteration"
+          style="font-size: {{hymn.transliterationFontSize}}px; line-height: {{hymn.transliterationFontSize}}px">{{scripture.transliteration}}</p>
         <a ng-click="showActionSheet(scripture._id,scripture.hymn,scripture.gurmukhi,$index)" class="pointer">
             <i class="icon ion-android-more-vertical"></i>
         </a>
