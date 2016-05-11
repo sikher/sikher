@@ -19,6 +19,12 @@ angular.module('starter.services', [])
     return data;
 })
 
+.factory('AppSettings', function() {
+    return {
+      totalResults : 50
+    };
+})
+
 .factory('Api', function(){
   return {
     urls: {
@@ -94,35 +100,39 @@ angular.module('starter.services', [])
     }
 })
 
-.factory('Scripture', function($http, $q, URLResolver, SikherDB, $window, Api) {
+.factory('Scripture', function($http, $q, URLResolver, SikherDB, $window, Api, AppSettings) {
 
 return {
     getResultsByFirstLetters : function(query, field, sql) {
         var query = query || '';
         var field = field || 'gurmukhi_search';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '"+query+"%' LIMIT 50";
-        var params = '?filter='+field + ' like '+query+'%&limit=10';
+        var sql = sql || "SELECT * FROM scriptures WHERE " + field + " LIKE '" + query
+          + "%' LIMIT " + AppSettings.totalResults;
+        var params = '?filter=' + field + ' like ' + query
+          + '%&limit=' + AppSettings.totalResults;
         return this.http(sql, params);
     },
     getResultsByWords : function(query, field, sql) {
         var query = query || '';
         var field = field || 'translation';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" LIKE '%"+query+"%' LIMIT 50";
-        var params = '?filter='+field + ' like %'+query+'%&limit=10';
+        var sql = sql || "SELECT * FROM scriptures WHERE " + field + " LIKE '%" + query
+          + "%' LIMIT " + AppSettings.totalResults;
+        var params = '?filter='+field + ' like %' + query + '%'
+          + '&limit=' + AppSettings.totalResults;
         return this.http(sql, params);
     },
     getHymn : function(query, field, sql) {
         var query = query || 1;
         var field = field || 'hymn';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
+        var sql = sql || "SELECT * FROM scriptures WHERE " + field + " = " + query;
         var params = '?filter='+field+'='+query;
         return this.http(sql, params);
     },
     getPage : function(query) {
         var query = query || 1;
         var field = field || 'page';
-        var sql = sql || "SELECT * FROM scriptures WHERE "+field+" = "+query;
-        var params = '?filter='+field+'='+query;
+        var sql = sql || "SELECT * FROM scriptures WHERE " + field + " = " + query;
+        var params = '?filter=' + field + '=' + query;
         return this.http(sql, params);
     },
     http : function(sql, params) {
