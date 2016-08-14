@@ -351,7 +351,7 @@ angular.module('starter.controllers', [])
     }));
 
      if(isMobile.any() && cordova.file) {
-        window.resolveLocalFileSystemURL(cordova.file.dataDirectory, function(dir) {
+        window.resolveLocalFileSystemURL(isMobile.iOS() ? cordova.file.syncedDataDirectory : cordova.file.externalDataDirectory, function(dir) {
             dir.getFile(fileName, {create:true, exclusive: false}, function(fileEntry) {
                 fileEntry.createWriter(function(fileWriter) {
                     fileWriter.write(data);
