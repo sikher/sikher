@@ -1,16 +1,8 @@
 {
-    "com.ionic.keyboard": {
+    "cordova-plugin-x-socialsharing": {
         "source": {
             "type": "registry",
-            "id": "com.ionic.keyboard"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.apache.cordova.console": {
-        "source": {
-            "type": "registry",
-            "id": "org.apache.cordova.console"
+            "id": "cordova-plugin-x-socialsharing@5.0.7"
         },
         "is_top_level": true,
         "variables": {}
@@ -18,24 +10,15 @@
     "org.apache.cordova.device": {
         "source": {
             "type": "registry",
-            "id": "org.apache.cordova.device"
+            "id": "cordova-plugin-device@0.3.0"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-sqlite-storage": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/litehelpers/Cordova-sqlite-storage.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-x-socialsharing": {
+    "org.apache.cordova.console": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-x-socialsharing"
+            "id": "cordova-plugin-console@0.2.13"
         },
         "is_top_level": true,
         "variables": {}
@@ -43,7 +26,23 @@
     "cordova-plugin-file": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-file"
+            "id": "cordova-plugin-file@3.0.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.ionic.keyboard": {
+        "source": {
+            "type": "registry",
+            "id": "ionic-plugin-keyboard@1.0.4"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-sqlite-storage": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-sqlite-storage@0.7.12"
         },
         "is_top_level": true,
         "variables": {}
