@@ -30,14 +30,14 @@
     "shelljs": "^0.3.0"
   },
   "cordovaPlugins": [
-    "com.ionic.keyboard",
-    "org.apache.cordova.console",
-    "org.apache.cordova.device",
-    "https://github.com/litehelpers/Cordova-sqlite-storage.git",
-    "cordova-plugin-x-socialsharing",
-    "cordova-plugin-file"
+    "ionic-plugin-keyboard@1.0.4",
+    "cordova-plugin-console@0.2.13",
+    "cordova-plugin-device@0.3.0",
+    "cordova-sqlite-storage@0.7.12",
+    "cordova-plugin-x-socialsharing@5.0.7",
+    "cordova-plugin-file@3.0.0"
   ],
   "cordovaPlatforms": [
-    "android"
+    "android@5.0.0"
   ]
 }
