@@ -5,7 +5,7 @@
       <i class="icon ion-search placeholder-icon"></i>
       <input type="text" id="search" placeholder="{{searchPlaceholder}}" ng-model="searchText" on-enter="getResults()" ng-class="{gurmukhi:checkSearch()}">
     </label>
-    <button class="button button-outline button-stable button-search-style" ng-click="getResults()">Search</button>
+    <button class="button button-outline button-stable button-search-style" ng-click="getResults()" id="searchBtn">Search</button>
     <div class="badge badge-positive badge-search-style" ng-show="showResults">{{scriptures.length}}</div>
   </div>
   <div class="list" ng-hide="showResults" ng-if="searches.length>0">

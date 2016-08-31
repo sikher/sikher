@@ -8,7 +8,7 @@ describe('Sikher App', function() {
 
   it('should automatically redirect to / when location hash/fragment is empty', function() {
     expect(browser.getLocationAbsUrl()).toMatch("/");
-    expect(element.all(by.css('ion-nav-view[name="search"]')).first().getInnerHtml()).toMatch(/view-title="Search"/);
+    expect(browser.getTitle()).toContain('Search');
   });
 
   describe('Search', function() {
@@ -18,7 +18,11 @@ describe('Sikher App', function() {
     });
 
     it('should render search when user navigates to /search', function() {
-      expect(element.all(by.css('ion-nav-view[name="search"]')).first().getInnerHtml()).toMatch(/view-title="Search"/);
+      expect(browser.getTitle()).toContain('Search');
+      element(by.model('searchText')).sendKeys("mml");
+      element(by.id('searchBtn')).click();
+      var results = element.all(by.repeater('scripture in scriptures'));
+      expect(results.count()).toBeGreaterThan(9);
     });
   });
 
@@ -29,7 +33,7 @@ describe('Sikher App', function() {
     });
 
     it('should render prayers when user navigates to /prayers', function() {
-      expect(element.all(by.css('ion-nav-view[name="prayers"]')).first().getInnerHtml()).toMatch(/view-title="Prayers"/);
+      expect(browser.getTitle()).toContain('Prayers');
     });
   });
 
@@ -40,8 +44,7 @@ describe('Sikher App', function() {
     });
 
     it('should automatically redirect to /view/page/{random hymn number}', function() {
-      expect(browser.getLocationAbsUrl()).toMatch("/view/page/");
-      expect(element.all(by.css('ion-nav-view[name="search"]')).first().getInnerHtml()).toMatch(/view-title=""/);
+      expect(browser.getTitle()).toContain('Page');
     });
   });
 
@@ -52,7 +55,7 @@ describe('Sikher App', function() {
     });
 
     it('should render favourites when user navigates to /favourites', function() {
-      expect(element.all(by.css('ion-nav-view[name="favourites"]')).first().getInnerHtml()).toMatch(/view-title="Favourites"/);
+        expect(browser.getTitle()).toContain('Favourites');
     });
   });
 
@@ -63,7 +66,7 @@ describe('Sikher App', function() {
     });
 
     it('should render settings when user navigates to /settings', function() {
-      expect(element.all(by.css('ion-nav-view[name="settings"]')).first().getInnerHtml()).toMatch(/view-title="Settings"/);
+      expect(browser.getTitle()).toContain('Settings');
     });
   });
 });
