@@ -2304,8 +2304,8 @@
     "page":1468,
     "line":8,
     "hymn":8920,
-    "gurmukhi":"eyk bwr ijn qumYN sMBwrw ]kwl Pws qy qwih aubwrw ]",
-    "transliteration":"Eeka Baar Jina Tumai(n) Saanbhara ॥kaal Phaas Te Taahi Aubaara ॥",
+    "gurmukhi":"eyk bwr ijn qumYN sMBwrw ] kwl Pws qy qwih aubwrw ]",
+    "transliteration":"Eeka Baar Jina Tumai(n) Saanbhara ॥ kaal Phaas Te Taahi Aubaara ॥",
     "translation":"He, who remembered Thee even once, Thou didst protect him from the noose of death;",
     "attributes":"cOpeI - cirqR 404 - 400 - sRI dsm gRMQ swihb"
   },
@@ -2341,6 +2341,116 @@
     "transliteration":"Sarab Tthoura Mo Hohu Sahaaeala ॥ Dushatt Dokha Te Lehu Bachaaeala ॥401॥",
     "translation":"Bestow Thy help on me at all places and protect me from the designs of my enemies.401.",
     "attributes":"cOpeI - cirqR 404 - 401 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94304,
+    "scripture":"dgs",
+    "page":1468,
+    "line":12,
+    "hymn":8920,
+    "gurmukhi":"ikRpw krI hm pr jgmwqw ] gRMQ krw pUrn suB rwqw ]",
+    "transliteration":"Karipaa Karee Hama Pra Jagamaata ॥ Garaantha Karaa Poorana Subha Raata ॥",
+    "translation":"The Mother of the world has been kind towards me and I have completed the book this auspicious night;",
+    "attributes":"cOpeI - cirqR 404 - 402 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94305,
+    "scripture":"dgs",
+    "page":1468,
+    "line":13,
+    "hymn":8920,
+    "gurmukhi":"iklibK skl dyh ko hrqw ] duSt doiKXn ko CY krqw ]402]",
+    "transliteration":"Kilabikha Sakala Deha Ko Harataa ॥ Dushatt Dokhiyana Ko Chhai Karataa ॥402॥",
+    "translation":"The Lord is the destroyer of all the sins of the body and all the malicious and wicked persons.402.",
+    "attributes":"cOpeI - cirqR 404 - 402 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94306,
+    "scripture":"dgs",
+    "page":1468,
+    "line":14,
+    "hymn":8920,
+    "gurmukhi":"sRI AisDuj jb Bey dXwlw ] pUrn krw gRMQ qqkwlw ]",
+    "transliteration":"Sree Asidhuja Jaba Bhaee Dayaala ॥ Poorana Karaa Garaantha Tatakaala ॥",
+    "translation":"When Mahakal became kind, He immediately caused me to complete this book;",
+    "attributes":"cOpeI - cirqR 404 - 403 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94307,
+    "scripture":"dgs",
+    "page":1469,
+    "line":1,
+    "hymn":8920,
+    "gurmukhi":"mn bWCq Pl pwvY soeI ] dUK n iqsY ibAwpq koeI ]403]",
+    "transliteration":"Mana Baachhata Phala Paavi Soeala ॥ Dookha Na Tisai Biaapata Koeala ॥403॥",
+    "translation":"He will obtain the fruit desired by the mind (who will read or listen to this book) and no suffering will occur to him.403.",
+    "attributes":"cOpeI - cirqR 404 - 403 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94308,
+    "scripture":"dgs",
+    "page":1469,
+    "line":2,
+    "hymn":8920,
+    "gurmukhi":"AiV`l ]",
+    "transliteration":"Arhi`la ॥",
+    "translation":"ARRIL",
+    "attributes":""
+  },
+  {
+    "_id":94309,
+    "scripture":"dgs",
+    "page":1469,
+    "line":3,
+    "hymn":8920,
+    "gurmukhi":"sunY guMg jo Xwih su rsnw pwveI ] sunY mUVH icq lwie cqurqw AwveI ]",
+    "transliteration":"Sunai Guang Jo Yaahi Su Rasanaa Paaveala ॥ Sunai Moorharaha Chita Laaei Chaturataa Aaveala ॥",
+    "translation":"The dumb, who will listen to it, will be blessed with the tongue to speak; the fool, who will listen to it attentively, will get wisdom;",
+    "attributes":"cOpeI - cirqR 404 - 404 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94310,
+    "scripture":"dgs",
+    "page":1469,
+    "line":4,
+    "hymn":8920,
+    "gurmukhi":"dUK drd BO inkt n iqn nr ky rhY ] ho jo XwkI eyk bwr cOpeI ko khY ]404]",
+    "transliteration":"Dookha Darada Bhou Nikatt Na Tina Nara Ke Rahai ॥ Ho Jo Yaakee Eeka Baar Chaupaee Ko Kahai ॥404॥",
+    "translation":"That person will be absolved of suffering, pain or fear, who will even once recite this Chaupai-prayer.404.",
+    "attributes":"cOpeI - cirqR 404 - 404 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94311,
+    "scripture":"dgs",
+    "page":1469,
+    "line":5,
+    "hymn":8920,
+    "gurmukhi":"cOpeI ]",
+    "transliteration":"Chaupaee ॥",
+    "translation":"CHAUPAI",
+    "attributes":""
+  },
+  {
+    "_id":94312,
+    "scripture":"dgs",
+    "page":1469,
+    "line":6,
+    "hymn":8920,
+    "gurmukhi":"sMbq s`qRh shs Bix`jY ] ArD shs Puin qIin kih`jY ]",
+    "transliteration":"Saanbata Sattraha Sahasa Bhanijjai ॥ Aradh Sahasa Phuni Teeni Kahijjai ॥",
+    "translation":"It was Bikrami Samvat 1753;",
+    "attributes":"cOpeI - cirqR 404 - 405 - sRI dsm gRMQ swihb"
+  },
+  {
+    "_id":94313,
+    "scripture":"dgs",
+    "page":1469,
+    "line":7,
+    "hymn":8920,
+    "gurmukhi":"BwdRv sudI AStmI riv vwrw ] qIr squ`dRv gRMQ suDwrw ]405]",
+    "transliteration":"Bhaadarava Sudee Ashattmee Ravi Vaara ॥ Teera Satu`darava Garaantha Sudhaara ॥405॥",
+    "translation":"This book was competed on the banks of Sutlej on Sunday, the eighth Sudi of the month of Bhadon.",
+    "attributes":"cOpeI - cirqR 404 - 405 - sRI dsm gRMQ swihb"
   },
   {
     "_id":82737,
@@ -2704,6 +2814,72 @@
     "transliteration":"Kehai Naanak Theh Sukh Hoaa Thith Ghar Anehadh Vaajae ||5||",
     "translation":"Says Nanak, they are at peace, and the unstruck sound current vibrates within their homes. ||5||",
     "attributes":"rwmklI AnMd {mÚ 3} 5:5 - gurU gRMQ swihb - AMg 917 pM 13"
+  },
+  {
+    "_id":39524,
+    "scripture":"sggs",
+    "page":922,
+    "line":17,
+    "hymn":3375,
+    "gurmukhi":"Andu suxhu vfBwgIho sgl mnorQ pUry ]",
+    "transliteration":"Anadh Sunahu Vaddabhaageeho Sagal Manorathh Poorae ||",
+    "translation":"Listen to the song of bliss, O most fortunate ones; all your longings shall be fulfilled.",
+    "attributes":"rwmklI AnMd {mÚ 3} (40):1 - gurU gRMQ swihb - AMg 922 pM 17"
+  },
+  {
+    "_id":39525,
+    "scripture":"sggs",
+    "page":922,
+    "line":17,
+    "hymn":3375,
+    "gurmukhi":"pwrbRhmu pRBu pwieAw auqry sgl ivsUry ]",
+    "transliteration":"Paarabreham Prabh Paaeiaa Outharae Sagal Visoorae ||",
+    "translation":"I have obtained the Supreme Lord God, and all sorrows have been forgotten.",
+    "attributes":"rwmklI AnMd {mÚ 3} (40):2 - gurU gRMQ swihb - AMg 922 pM 17"
+  },
+  {
+    "_id":39526,
+    "scripture":"sggs",
+    "page":922,
+    "line":18,
+    "hymn":3375,
+    "gurmukhi":"dUK rog sMqwp auqry suxI scI bwxI ]",
+    "transliteration":"Dhookh Rog Santhaap Outharae Sunee Sachee Baanee ||",
+    "translation":"Pain, illness and suffering have departed, listening to the True Bani.",
+    "attributes":"rwmklI AnMd {mÚ 3} (40):3 - gurU gRMQ swihb - AMg 922 pM 18"
+  },
+  {
+    "_id":39527,
+    "scripture":"sggs",
+    "page":922,
+    "line":18,
+    "hymn":3375,
+    "gurmukhi":"sMq swjn Bey srsy pUry gur qy jwxI ]",
+    "transliteration":"Santh Saajan Bheae Sarasae Poorae Gur Thae Jaanee ||",
+    "translation":"The Saints and their friends are in ecstasy, knowing the Perfect Guru.",
+    "attributes":"rwmklI AnMd {mÚ 3} (40):4 - gurU gRMQ swihb - AMg 922 pM 18"
+  },
+  {
+    "_id":39528,
+    "scripture":"sggs",
+    "page":922,
+    "line":18,
+    "hymn":3375,
+    "gurmukhi":"suxqy punIq khqy pivqu siqguru rihAw BrpUry ]",
+    "transliteration":"Sunathae Puneeth Kehathae Pavith Sathigur Rehiaa Bharapoorae ||",
+    "translation":"Pure are the listeners, and pure are the speakers; the True Guru is all-pervading and permeating.",
+    "attributes":"rwmklI AnMd {mÚ 3} (40):5 - gurU gRMQ swihb - AMg 922 pM 18"
+  },
+  {
+    "_id":39529,
+    "scripture":"sggs",
+    "page":922,
+    "line":19,
+    "hymn":3375,
+    "gurmukhi":"ibnvMiq nwnku gur crx lwgy vwjy Anhd qUry ]40]1]",
+    "transliteration":"Binavanth Naanak Gur Charan Laagae Vaajae Anehadh Thoorae ||40||1||",
+    "translation":"Prays Nanak, touching the Guru's Feet, the unstruck sound current of the celestial bugles vibrates and resounds. ||40||1||",
+    "attributes":"rwmklI AnMd {mÚ 3} (40):6 - gurU gRMQ swihb - AMg 922 pM 19"
   },
   {
     "_id":60557,
