@@ -1,4237 +1,3082 @@
 [
   {
     "_id":1,
-    "scripture":"sggs",
     "page":1,
-    "line":1,
     "hymn":1,
     "gurmukhi":"< siq nwmu krqw purKu inrBau inrvYru Akwl mUriq AjUnI sYBM gur pRswid ]",
     "transliteration":"Ikoankaar Sathnaam Karathaa Purakh Nirabho Niravair Akaal Moorath Ajoonee Saibhan Gurprasaadh||",
-    "translation":"One Universal Creator God, TheName Is Truth  Creative Being Personified No Fear No Hatred Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace~",
-    "attributes":""
+    "translation":"One Universal Creator God, TheName Is Truth  Creative Being Personified No Fear No Hatred Image Of The Undying, Beyond Birth, Self-Existent. By Guru's Grace~"
   },
   {
     "_id":2,
-    "scripture":"sggs",
     "page":1,
-    "line":3,
     "hymn":1,
     "gurmukhi":"] jpu ]",
     "transliteration":"|| Jap ||",
-    "translation":"Chant And Meditate:",
-    "attributes":""
+    "translation":"Chant And Meditate:"
   },
   {
     "_id":3,
-    "scripture":"sggs",
     "page":1,
-    "line":4,
     "hymn":1,
     "gurmukhi":"Awid scu jugwid scu ]",
     "transliteration":"Aadh Sach Jugaadh Sach ||",
-    "translation":"True In The Primal Beginning. True Throughout The Ages.",
-    "attributes":"jpu {mÚ 1} 1:1* - gurU gRMQ swihb - AMg 1 pM 4"
+    "translation":"True In The Primal Beginning. True Throughout The Ages."
   },
   {
     "_id":4,
-    "scripture":"sggs",
     "page":1,
-    "line":4,
     "hymn":1,
     "gurmukhi":"hY BI scu nwnk hosI BI scu ]1]",
     "transliteration":"Hai Bhee Sach Naanak Hosee Bhee Sach ||1||",
-    "translation":"True Here And Now. O Nanak, Forever And Ever True. ||1||",
-    "attributes":"jpu {mÚ 1} 1:2* - gurU gRMQ swihb - AMg 1 pM 4"
+    "translation":"True Here And Now. O Nanak, Forever And Ever True. ||1||"
   },
   {
     "_id":5,
-    "scripture":"sggs",
     "page":1,
-    "line":5,
     "hymn":1,
     "gurmukhi":"socY soic n hoveI jy socI lK vwr ]",
     "transliteration":"Sochai Soch N Hovee Jae Sochee Lakh Vaar ||",
-    "translation":"By thinking, He cannot be reduced to thought, even by thinking hundreds of thousands of times.",
-    "attributes":"jpu {mÚ 1} 1:1 - gurU gRMQ swihb - AMg 1 pM 5"
+    "translation":"By thinking, He cannot be reduced to thought, even by thinking hundreds of thousands of times."
   },
   {
     "_id":6,
-    "scripture":"sggs",
     "page":1,
-    "line":5,
     "hymn":1,
     "gurmukhi":"cupY cup n hoveI jy lwie rhw ilv qwr ]",
     "transliteration":"Chupai Chup N Hovee Jae Laae Rehaa Liv Thaar ||",
-    "translation":"By remaining silent, inner silence is not obtained, even by remaining lovingly absorbed deep within.",
-    "attributes":"jpu {mÚ 1} 1:2 - gurU gRMQ swihb - AMg 1 pM 5"
+    "translation":"By remaining silent, inner silence is not obtained, even by remaining lovingly absorbed deep within."
   },
   {
     "_id":7,
-    "scripture":"sggs",
     "page":1,
-    "line":5,
     "hymn":1,
     "gurmukhi":"BuiKAw BuK n auqrI jy bMnw purIAw Bwr ]",
     "transliteration":"Bhukhiaa Bhukh N Outharee Jae Bannaa Pureeaa Bhaar ||",
-    "translation":"The hunger of the hungry is not appeased, even by piling up loads of worldly goods.",
-    "attributes":"jpu {mÚ 1} 1:3 - gurU gRMQ swihb - AMg 1 pM 5"
+    "translation":"The hunger of the hungry is not appeased, even by piling up loads of worldly goods."
   },
   {
     "_id":8,
-    "scripture":"sggs",
     "page":1,
-    "line":6,
     "hymn":1,
     "gurmukhi":"shs isAwxpw lK hoih q iek n clY nwil ]",
     "transliteration":"Sehas Siaanapaa Lakh Hohi Th Eik N Chalai Naal ||",
-    "translation":"Hundreds of thousands of clever tricks, but not even one of them will go along with you in the end.",
-    "attributes":"jpu {mÚ 1} 1:4 - gurU gRMQ swihb - AMg 1 pM 6"
+    "translation":"Hundreds of thousands of clever tricks, but not even one of them will go along with you in the end."
   },
   {
     "_id":9,
-    "scripture":"sggs",
     "page":1,
-    "line":6,
     "hymn":1,
     "gurmukhi":"ikv sicAwrw hoeIAY ikv kUVY qutY pwil ]",
     "transliteration":"Kiv Sachiaaraa Hoeeai Kiv Koorrai Thutti Paal ||",
-    "translation":"So how can you become truthful? And how can the veil of illusion be torn away?",
-    "attributes":"jpu {mÚ 1} 1:5 - gurU gRMQ swihb - AMg 1 pM 6"
+    "translation":"So how can you become truthful? And how can the veil of illusion be torn away?"
   },
   {
     "_id":10,
-    "scripture":"sggs",
     "page":1,
-    "line":7,
     "hymn":1,
     "gurmukhi":"hukim rjweI clxw nwnk iliKAw nwil ]1]",
     "transliteration":"Hukam Rajaaee Chalanaa Naanak Likhiaa Naal ||1||",
-    "translation":"O Nanak, it is written that you shall obey the Hukam of His Command, and walk in the Way of His Will. ||1||",
-    "attributes":"jpu {mÚ 1} 1:6 - gurU gRMQ swihb - AMg 1 pM 7"
+    "translation":"O Nanak, it is written that you shall obey the Hukam of His Command, and walk in the Way of His Will. ||1||"
   },
   {
     "_id":11,
-    "scripture":"sggs",
     "page":1,
-    "line":7,
     "hymn":2,
     "gurmukhi":"hukmI hovin Awkwr hukmu n kihAw jweI ]",
     "transliteration":"Hukamee Hovan Aakaar Hukam N Kehiaa Jaaee ||",
-    "translation":"By His Command, bodies are created; His Command cannot be described.",
-    "attributes":"jpu {mÚ 1} 2:1 - gurU gRMQ swihb - AMg 1 pM 7"
+    "translation":"By His Command, bodies are created; His Command cannot be described."
   },
   {
     "_id":12,
-    "scripture":"sggs",
     "page":1,
-    "line":8,
     "hymn":2,
     "gurmukhi":"hukmI hovin jIA hukim imlY vifAweI ]",
     "transliteration":"Hukamee Hovan Jeea Hukam Milai Vaddiaaee ||",
-    "translation":"By His Command, souls come into being; by His Command, glory and greatness are obtained.",
-    "attributes":"jpu {mÚ 1} 2:2 - gurU gRMQ swihb - AMg 1 pM 8"
+    "translation":"By His Command, souls come into being; by His Command, glory and greatness are obtained."
   },
   {
     "_id":13,
-    "scripture":"sggs",
     "page":1,
-    "line":8,
     "hymn":2,
     "gurmukhi":"hukmI auqmu nIcu hukim iliK duK suK pweIAih ]",
     "transliteration":"Hukamee Outham Neech Hukam Likh Dhukh Sukh Paaeeahi ||",
-    "translation":"By His Command, some are high and some are low; by His Written Command, pain and pleasure are obtained.",
-    "attributes":"jpu {mÚ 1} 2:3 - gurU gRMQ swihb - AMg 1 pM 8"
+    "translation":"By His Command, some are high and some are low; by His Written Command, pain and pleasure are obtained."
   },
   {
     "_id":14,
-    "scripture":"sggs",
     "page":1,
-    "line":9,
     "hymn":2,
     "gurmukhi":"ieknw hukmI bKsIs ieik hukmI sdw BvweIAih ]",
     "transliteration":"Eikanaa Hukamee Bakhasees Eik Hukamee Sadha Bhavaaeeahi ||",
-    "translation":"Some, by His Command, are blessed and forgiven; others, by His Command, wander aimlessly forever.",
-    "attributes":"jpu {mÚ 1} 2:4 - gurU gRMQ swihb - AMg 1 pM 9"
+    "translation":"Some, by His Command, are blessed and forgiven; others, by His Command, wander aimlessly forever."
   },
   {
     "_id":15,
-    "scripture":"sggs",
     "page":1,
-    "line":9,
     "hymn":2,
     "gurmukhi":"hukmY AMdir sBu ko bwhir hukm n koie ]",
     "transliteration":"Hukamai Andhr Sabh Ko Baahar Hukam N Koe ||",
-    "translation":"Everyone is subject to His Command; no one is beyond His Command.",
-    "attributes":"jpu {mÚ 1} 2:5 - gurU gRMQ swihb - AMg 1 pM 9"
+    "translation":"Everyone is subject to His Command; no one is beyond His Command."
   },
   {
     "_id":16,
-    "scripture":"sggs",
     "page":1,
-    "line":10,
     "hymn":2,
     "gurmukhi":"nwnk hukmY jy buJY q haumY khY n koie ]2]",
     "transliteration":"Naanak Hukamai Jae Bujhai Th Houmai Kehai N Koe ||2||",
-    "translation":"O Nanak, one who understands His Command, does not speak in ego. ||2||",
-    "attributes":"jpu {mÚ 1} 2:6 - gurU gRMQ swihb - AMg 1 pM 10"
+    "translation":"O Nanak, one who understands His Command, does not speak in ego. ||2||"
   },
   {
     "_id":17,
-    "scripture":"sggs",
     "page":1,
-    "line":10,
     "hymn":3,
     "gurmukhi":"gwvY ko qwxu hovY iksY qwxu ]",
     "transliteration":"Gaavai Ko Thaan Hovai Kisai Thaan ||",
-    "translation":"Some sing of His Power-who has that Power?",
-    "attributes":"jpu {mÚ 1} 3:1 - gurU gRMQ swihb - AMg 1 pM 10"
+    "translation":"Some sing of His Power-who has that Power?"
   },
   {
     "_id":18,
-    "scripture":"sggs",
     "page":1,
-    "line":11,
     "hymn":3,
     "gurmukhi":"gwvY ko dwiq jwxY nIswxu ]",
     "transliteration":"Gaavai Ko Dhaath Jaanai Neesaan ||",
-    "translation":"Some sing of His Gifts, and know His Sign and Insignia.",
-    "attributes":"jpu {mÚ 1} 3:2 - gurU gRMQ swihb - AMg 1 pM 11"
+    "translation":"Some sing of His Gifts, and know His Sign and Insignia."
   },
   {
     "_id":19,
-    "scripture":"sggs",
     "page":1,
-    "line":11,
     "hymn":3,
     "gurmukhi":"gwvY ko gux vifAweIAw cwr ]",
     "transliteration":"Gaavai Ko Gun Vaddiaaeeaa Chaar ||",
-    "translation":"Some sing of His Glorious Virtues, Greatness and Beauty.",
-    "attributes":"jpu {mÚ 1} 3:3 - gurU gRMQ swihb - AMg 1 pM 11"
+    "translation":"Some sing of His Glorious Virtues, Greatness and Beauty."
   },
   {
     "_id":20,
-    "scripture":"sggs",
     "page":1,
-    "line":11,
     "hymn":3,
     "gurmukhi":"gwvY ko ividAw ivKmu vIcwru ]",
     "transliteration":"Gaavai Ko Vidhiaa Vikham Veechaar ||",
-    "translation":"Some sing of knowledge obtained of Him, through difficult philosophical studies.",
-    "attributes":"jpu {mÚ 1} 3:4 - gurU gRMQ swihb - AMg 1 pM 11"
+    "translation":"Some sing of knowledge obtained of Him, through difficult philosophical studies."
   },
   {
     "_id":21,
-    "scripture":"sggs",
     "page":1,
-    "line":12,
     "hymn":3,
     "gurmukhi":"gwvY ko swij kry qnu Kyh ]",
     "transliteration":"Gaavai Ko Saaj Karae Than Khaeh ||",
-    "translation":"Some sing that He fashions the body, and then again reduces it to dust.",
-    "attributes":"jpu {mÚ 1} 3:5 - gurU gRMQ swihb - AMg 1 pM 12"
+    "translation":"Some sing that He fashions the body, and then again reduces it to dust."
   },
   {
     "_id":22,
-    "scripture":"sggs",
     "page":1,
-    "line":12,
     "hymn":3,
     "gurmukhi":"gwvY ko jIA lY iPir dyh ]",
     "transliteration":"Gaavai Ko Jeea Lai Fir Dhaeh ||",
-    "translation":"Some sing that He takes life away, and then again restores it.",
-    "attributes":"jpu {mÚ 1} 3:6 - gurU gRMQ swihb - AMg 1 pM 12"
+    "translation":"Some sing that He takes life away, and then again restores it."
   },
   {
     "_id":23,
-    "scripture":"sggs",
     "page":1,
-    "line":12,
     "hymn":3,
     "gurmukhi":"gwvY ko jwpY idsY dUir ]",
     "transliteration":"Gaavai Ko Jaapai Dhisai Dhoor ||",
-    "translation":"Some sing that He seems so very far away.",
-    "attributes":"jpu {mÚ 1} 3:7 - gurU gRMQ swihb - AMg 1 pM 12"
+    "translation":"Some sing that He seems so very far away."
   },
   {
     "_id":24,
-    "scripture":"sggs",
     "page":2,
-    "line":1,
     "hymn":3,
     "gurmukhi":"gwvY ko vyKY hwdrw hdUir ]",
     "transliteration":"Gaavai Ko Vaekhai Haadhraa Hadhoor ||",
-    "translation":"Some sing that He watches over us, face to face, ever-present.",
-    "attributes":"jpu {mÚ 1} 3:8 - gurU gRMQ swihb - AMg 2 pM 1"
+    "translation":"Some sing that He watches over us, face to face, ever-present."
   },
   {
     "_id":25,
-    "scripture":"sggs",
     "page":2,
-    "line":1,
     "hymn":3,
     "gurmukhi":"kQnw kQI n AwvY qoit ]",
     "transliteration":"Kathhanaa Kathhee N Aavai Thott ||",
-    "translation":"There is no shortage of those who preach and teach.",
-    "attributes":"jpu {mÚ 1} 3:9 - gurU gRMQ swihb - AMg 2 pM 1"
+    "translation":"There is no shortage of those who preach and teach."
   },
   {
     "_id":26,
-    "scripture":"sggs",
     "page":2,
-    "line":1,
     "hymn":3,
     "gurmukhi":"kiQ kiQ kQI kotI koit koit ]",
     "transliteration":"Kathh Kathh Kathhee Kottee Kott Kott ||",
-    "translation":"Millions upon millions offer millions of sermons and stories.",
-    "attributes":"jpu {mÚ 1} 3:10 - gurU gRMQ swihb - AMg 2 pM 1"
+    "translation":"Millions upon millions offer millions of sermons and stories."
   },
   {
     "_id":27,
-    "scripture":"sggs",
     "page":2,
-    "line":2,
     "hymn":3,
     "gurmukhi":"dydw dy lYdy Qik pwih ]",
     "transliteration":"Dhaedhaa Dhae Laidhae Thhak Paahi ||",
-    "translation":"The Great Giver keeps on giving, while those who receive grow weary of receiving.",
-    "attributes":"jpu {mÚ 1} 3:11 - gurU gRMQ swihb - AMg 2 pM 2"
+    "translation":"The Great Giver keeps on giving, while those who receive grow weary of receiving."
   },
   {
     "_id":28,
-    "scripture":"sggs",
     "page":2,
-    "line":2,
     "hymn":3,
     "gurmukhi":"jugw jugMqir KwhI Kwih ]",
     "transliteration":"Jugaa Juganthar Khaahee Khaahi ||",
-    "translation":"Throughout the ages, consumers consume.",
-    "attributes":"jpu {mÚ 1} 3:12 - gurU gRMQ swihb - AMg 2 pM 2"
+    "translation":"Throughout the ages, consumers consume."
   },
   {
     "_id":29,
-    "scripture":"sggs",
     "page":2,
-    "line":2,
     "hymn":3,
     "gurmukhi":"hukmI hukmu clwey rwhu ]",
     "transliteration":"Hukamee Hukam Chalaaeae Raahu ||",
-    "translation":"The Commander, by His Command, leads us to walk on the Path.",
-    "attributes":"jpu {mÚ 1} 3:13 - gurU gRMQ swihb - AMg 2 pM 2"
+    "translation":"The Commander, by His Command, leads us to walk on the Path."
   },
   {
     "_id":30,
-    "scripture":"sggs",
     "page":2,
-    "line":3,
     "hymn":3,
     "gurmukhi":"nwnk ivgsY vyprvwhu ]3]",
     "transliteration":"Naanak Vigasai Vaepravaahu ||3||",
-    "translation":"O Nanak, He blossoms forth, Carefree and Untroubled. ||3||",
-    "attributes":"jpu {mÚ 1} 3:14 - gurU gRMQ swihb - AMg 2 pM 3"
+    "translation":"O Nanak, He blossoms forth, Carefree and Untroubled. ||3||"
   },
   {
     "_id":31,
-    "scripture":"sggs",
     "page":2,
-    "line":3,
     "hymn":4,
     "gurmukhi":"swcw swihbu swcu nwie BwiKAw Bwau Apwru ]",
     "transliteration":"Saachaa Saahib Saach Naae Bhaakhiaa Bhaao Apaar ||",
-    "translation":"True is the Master, True is His Name-speak it with infinite love.",
-    "attributes":"jpu {mÚ 1} 4:1 - gurU gRMQ swihb - AMg 2 pM 3"
+    "translation":"True is the Master, True is His Name-speak it with infinite love."
   },
   {
     "_id":32,
-    "scripture":"sggs",
     "page":2,
-    "line":3,
     "hymn":4,
     "gurmukhi":"AwKih mMgih dyih dyih dwiq kry dwqwru ]",
     "transliteration":"Aakhehi Mangehi Dhaehi Dhaehi Dhaath Karae Dhaathaar ||",
-    "translation":"People beg and pray, \"\"Give to us, give to us\"\", and the Great Giver gives His Gifts.",
-    "attributes":"jpu {mÚ 1} 4:2 - gurU gRMQ swihb - AMg 2 pM 3"
+    "translation":"People beg and pray, \"\"Give to us, give to us\"\", and the Great Giver gives His Gifts."
   },
   {
     "_id":33,
-    "scripture":"sggs",
     "page":2,
-    "line":4,
     "hymn":4,
     "gurmukhi":"Pyir ik AgY rKIAY ijqu idsY drbwru ]",
     "transliteration":"Faer K Agai Rakheeai Jith Dhisai Dharabaar ||",
-    "translation":"So what offering can we place before Him, by which we might see the Darbaar of His Court?",
-    "attributes":"jpu {mÚ 1} 4:3 - gurU gRMQ swihb - AMg 2 pM 4"
+    "translation":"So what offering can we place before Him, by which we might see the Darbaar of His Court?"
   },
   {
     "_id":34,
-    "scripture":"sggs",
     "page":2,
-    "line":4,
     "hymn":4,
     "gurmukhi":"muhO ik bolxu bolIAY ijqu suix Dry ipAwru ]",
     "transliteration":"Muha K Bolan Boleeai Jith Sun Dhharae Piaar ||",
-    "translation":"What words can we speak to evoke His Love?",
-    "attributes":"jpu {mÚ 1} 4:4 - gurU gRMQ swihb - AMg 2 pM 4"
+    "translation":"What words can we speak to evoke His Love?"
   },
   {
     "_id":35,
-    "scripture":"sggs",
     "page":2,
-    "line":5,
     "hymn":4,
     "gurmukhi":"AMimRq vylw scu nwau vifAweI vIcwru ]",
     "transliteration":"Anmrith Vaelaa Sach Naao Vaddiaaee Veechaar ||",
-    "translation":"In the Amrit Vaylaa, the ambrosial hours before dawn, chant the True Name, and contemplate His Glorious Greatness.",
-    "attributes":"jpu {mÚ 1} 4:5 - gurU gRMQ swihb - AMg 2 pM 5"
+    "translation":"In the Amrit Vaylaa, the ambrosial hours before dawn, chant the True Name, and contemplate His Glorious Greatness."
   },
   {
     "_id":36,
-    "scripture":"sggs",
     "page":2,
-    "line":5,
     "hymn":4,
     "gurmukhi":"krmI AwvY kpVw ndrI moKu duAwru ]",
     "transliteration":"Karamee Aavai Kaparraa Nadhree Mokh Dhuaar ||",
-    "translation":"By the karma of past actions, the robe of this physical body is obtained. By His Grace, the Gate of Liberation is found.",
-    "attributes":"jpu {mÚ 1} 4:6 - gurU gRMQ swihb - AMg 2 pM 5"
+    "translation":"By the karma of past actions, the robe of this physical body is obtained. By His Grace, the Gate of Liberation is found."
   },
   {
     "_id":37,
-    "scripture":"sggs",
     "page":2,
-    "line":6,
     "hymn":4,
     "gurmukhi":"nwnk eyvY jwxIAY sBu Awpy sicAwru ]4]",
     "transliteration":"Naanak Eaevai Jaaneeai Sabh Aapae Sachiaar ||4||",
-    "translation":"O Nanak, know this well: the True One Himself is All. ||4||",
-    "attributes":"jpu {mÚ 1} 4:7 - gurU gRMQ swihb - AMg 2 pM 6"
+    "translation":"O Nanak, know this well: the True One Himself is All. ||4||"
   },
   {
     "_id":38,
-    "scripture":"sggs",
     "page":2,
-    "line":6,
     "hymn":5,
     "gurmukhi":"QwipAw n jwie kIqw n hoie ]",
     "transliteration":"Thhaapiaa N Jaae Keethaa N Hoe ||",
-    "translation":"He cannot be established, He cannot be created.",
-    "attributes":"jpu {mÚ 1} 5:1 - gurU gRMQ swihb - AMg 2 pM 6"
+    "translation":"He cannot be established, He cannot be created."
   },
   {
     "_id":39,
-    "scripture":"sggs",
     "page":2,
-    "line":7,
     "hymn":5,
     "gurmukhi":"Awpy Awip inrMjnu soie ]",
     "transliteration":"Aapae Aap Niranjan Soe ||",
-    "translation":"He Himself is Immaculate and Pure.",
-    "attributes":"jpu {mÚ 1} 5:2 - gurU gRMQ swihb - AMg 2 pM 7"
+    "translation":"He Himself is Immaculate and Pure."
   },
   {
     "_id":40,
-    "scripture":"sggs",
     "page":2,
-    "line":7,
     "hymn":5,
     "gurmukhi":"ijin syivAw iqin pwieAw mwnu ]",
     "transliteration":"Jin Saeviaa Thin Paaeiaa Maan ||",
-    "translation":"Those who serve Him are honored.",
-    "attributes":"jpu {mÚ 1} 5:3 - gurU gRMQ swihb - AMg 2 pM 7"
+    "translation":"Those who serve Him are honored."
   },
   {
     "_id":41,
-    "scripture":"sggs",
     "page":2,
-    "line":7,
     "hymn":5,
     "gurmukhi":"nwnk gwvIAY guxI inDwnu ]",
     "transliteration":"Naanak Gaaveeai Gunee Nidhhaan ||",
-    "translation":"O Nanak, sing of the Lord, the Treasure of Excellence.",
-    "attributes":"jpu {mÚ 1} 5:4 - gurU gRMQ swihb - AMg 2 pM 7"
+    "translation":"O Nanak, sing of the Lord, the Treasure of Excellence."
   },
   {
     "_id":42,
-    "scripture":"sggs",
     "page":2,
-    "line":8,
     "hymn":5,
     "gurmukhi":"gwvIAY suxIAY min rKIAY Bwau ]",
     "transliteration":"Gaaveeai Suneeai Man Rakheeai Bhaao ||",
-    "translation":"Sing, and listen, and let your mind be filled with love.",
-    "attributes":"jpu {mÚ 1} 5:5 - gurU gRMQ swihb - AMg 2 pM 8"
+    "translation":"Sing, and listen, and let your mind be filled with love."
   },
   {
     "_id":43,
-    "scripture":"sggs",
     "page":2,
-    "line":8,
     "hymn":5,
     "gurmukhi":"duKu prhir suKu Gir lY jwie ]",
     "transliteration":"Dhukh Parehar Sukh Ghar Lai Jaae ||",
-    "translation":"Your pain shall be sent far away, and peace shall come to your home.",
-    "attributes":"jpu {mÚ 1} 5:6 - gurU gRMQ swihb - AMg 2 pM 8"
+    "translation":"Your pain shall be sent far away, and peace shall come to your home."
   },
   {
     "_id":44,
-    "scripture":"sggs",
     "page":2,
-    "line":8,
     "hymn":5,
     "gurmukhi":"gurmuiK nwdM gurmuiK vydM gurmuiK rihAw smweI ]",
     "transliteration":"Guramukh Naadhn Guramukh Vaedhan Guramukh Rehiaa Samaaee ||",
-    "translation":"The Guru's Word is the Sound-current of the Naad; the Guru's Word is the Wisdom of the Vedas; the Guru's Word is all-pervading.",
-    "attributes":"jpu {mÚ 1} 5:7 - gurU gRMQ swihb - AMg 2 pM 8"
+    "translation":"The Guru's Word is the Sound-current of the Naad; the Guru's Word is the Wisdom of the Vedas; the Guru's Word is all-pervading."
   },
   {
     "_id":45,
-    "scripture":"sggs",
     "page":2,
-    "line":9,
     "hymn":5,
     "gurmukhi":"guru eIsru guru gorKu brmw guru pwrbqI mweI ]",
     "transliteration":"Gur Eesar Gur Gorakh Baramaa Gur Paarabathee Maaee ||",
-    "translation":"The Guru is Shiva, the Guru is Vishnu and Brahma; the Guru is Paarvati and Lakhshmi.",
-    "attributes":"jpu {mÚ 1} 5:8 - gurU gRMQ swihb - AMg 2 pM 9"
+    "translation":"The Guru is Shiva, the Guru is Vishnu and Brahma; the Guru is Paarvati and Lakhshmi."
   },
   {
     "_id":46,
-    "scripture":"sggs",
     "page":2,
-    "line":9,
     "hymn":5,
     "gurmukhi":"jy hau jwxw AwKw nwhI khxw kQnu n jweI ]",
     "transliteration":"Jae Ho Jaanaa Aakhaa Naahee Kehanaa Kathhan N Jaaee ||",
-    "translation":"Even knowing God, I cannot describe Him; He cannot be described in words.",
-    "attributes":"jpu {mÚ 1} 5:9 - gurU gRMQ swihb - AMg 2 pM 9"
+    "translation":"Even knowing God, I cannot describe Him; He cannot be described in words."
   },
   {
     "_id":47,
-    "scripture":"sggs",
     "page":2,
-    "line":10,
     "hymn":5,
     "gurmukhi":"gurw iek dyih buJweI ]",
     "transliteration":"Guraa Eik Dhaehi Bujhaaee ||",
-    "translation":"The Guru has given me this one understanding:",
-    "attributes":"jpu {mÚ 1} 5:10 - gurU gRMQ swihb - AMg 2 pM 10"
+    "translation":"The Guru has given me this one understanding:"
   },
   {
     "_id":48,
-    "scripture":"sggs",
     "page":2,
-    "line":10,
     "hymn":5,
     "gurmukhi":"sBnw jIAw kw ieku dwqw so mY ivsir n jweI ]5]",
     "transliteration":"Sabhanaa Jeeaa Kaa Eik Dhaathaa So Mai Visar N Jaaee ||5||",
-    "translation":"There is only the One, the Giver of all souls. May I never forget Him! ||5||",
-    "attributes":"jpu {mÚ 1} 5:11 - gurU gRMQ swihb - AMg 2 pM 10"
+    "translation":"There is only the One, the Giver of all souls. May I never forget Him! ||5||"
   },
   {
     "_id":49,
-    "scripture":"sggs",
     "page":2,
-    "line":11,
     "hymn":6,
     "gurmukhi":"qIriQ nwvw jy iqsu Bwvw ivxu Bwxy ik nwie krI ]",
     "transliteration":"Theerathh Naavaa Jae This Bhaavaa Vin Bhaanae K Naae Karee ||",
-    "translation":"If I am pleasing to Him, then that is my pilgrimage and cleansing bath. Without pleasing Him, what good are ritual cleansings?",
-    "attributes":"jpu {mÚ 1} 6:1 - gurU gRMQ swihb - AMg 2 pM 11"
+    "translation":"If I am pleasing to Him, then that is my pilgrimage and cleansing bath. Without pleasing Him, what good are ritual cleansings?"
   },
   {
     "_id":50,
-    "scripture":"sggs",
     "page":2,
-    "line":11,
     "hymn":6,
     "gurmukhi":"jyqI isriT aupweI vyKw ivxu krmw ik imlY leI ]",
     "transliteration":"Jaethee Sirath Oupaaee Vaekhaa Vin Karamaa K Milai Lee ||",
-    "translation":"I gaze upon all the created beings: without the karma of good actions, what are they given to receive?",
-    "attributes":"jpu {mÚ 1} 6:2 - gurU gRMQ swihb - AMg 2 pM 11"
+    "translation":"I gaze upon all the created beings: without the karma of good actions, what are they given to receive?"
   },
   {
     "_id":51,
-    "scripture":"sggs",
     "page":2,
-    "line":12,
     "hymn":6,
     "gurmukhi":"miq ivic rqn jvwhr mwixk jy iek gur kI isK suxI ]",
     "transliteration":"Math Vich Rathan Javaahar Maanik Jae Eik Gur Kee Sikh Sunee ||",
-    "translation":"Within the mind are gems, jewels and rubies, if you listen to the Guru's Teachings, even once.",
-    "attributes":"jpu {mÚ 1} 6:3 - gurU gRMQ swihb - AMg 2 pM 12"
+    "translation":"Within the mind are gems, jewels and rubies, if you listen to the Guru's Teachings, even once."
   },
   {
     "_id":52,
-    "scripture":"sggs",
     "page":2,
-    "line":12,
     "hymn":6,
     "gurmukhi":"gurw iek dyih buJweI ]",
     "transliteration":"Guraa Eik Dhaehi Bujhaaee ||",
-    "translation":"The Guru has given me this one understanding:",
-    "attributes":"jpu {mÚ 1} 6:4 - gurU gRMQ swihb - AMg 2 pM 12"
+    "translation":"The Guru has given me this one understanding:"
   },
   {
     "_id":53,
-    "scripture":"sggs",
     "page":2,
-    "line":13,
     "hymn":6,
     "gurmukhi":"sBnw jIAw kw ieku dwqw so mY ivsir n jweI ]6]",
     "transliteration":"Sabhanaa Jeeaa Kaa Eik Dhaathaa So Mai Visar N Jaaee ||6||",
-    "translation":"There is only the One, the Giver of all souls. May I never forget Him! ||6||",
-    "attributes":"jpu {mÚ 1} 7:1 - gurU gRMQ swihb - AMg 2 pM 13"
+    "translation":"There is only the One, the Giver of all souls. May I never forget Him! ||6||"
   },
   {
     "_id":54,
-    "scripture":"sggs",
     "page":2,
-    "line":13,
     "hymn":7,
     "gurmukhi":"jy jug cwry Awrjw hor dsUxI hoie ]",
     "transliteration":"Jae Jug Chaarae Aarajaa Hor Dhasoonee Hoe ||",
-    "translation":"Even if you could live throughout the four ages, or even ten times more,",
-    "attributes":"jpu {mÚ 1} 7:2 - gurU gRMQ swihb - AMg 2 pM 13"
+    "translation":"Even if you could live throughout the four ages, or even ten times more,"
   },
   {
     "_id":55,
-    "scripture":"sggs",
     "page":2,
-    "line":14,
     "hymn":7,
     "gurmukhi":"nvw KMfw ivic jwxIAY nwil clY sBu koie ]",
     "transliteration":"Navaa Khanddaa Vich Jaaneeai Naal Chalai Sabh Koe ||",
-    "translation":"And even if you were known throughout the nine continents and followed by all,",
-    "attributes":"jpu {mÚ 1} 7:3 - gurU gRMQ swihb - AMg 2 pM 14"
+    "translation":"And even if you were known throughout the nine continents and followed by all,"
   },
   {
     "_id":56,
-    "scripture":"sggs",
     "page":2,
-    "line":14,
     "hymn":7,
     "gurmukhi":"cMgw nwau rKwie kY jsu kIriq jig lyie ]",
     "transliteration":"Changaa Naao Rakhaae Kai Jas Keerath Jag Laee ||",
-    "translation":"With a good name and reputation, with praise and fame throughout the world-",
-    "attributes":"jpu {mÚ 1} 7:4 - gurU gRMQ swihb - AMg 2 pM 14"
+    "translation":"With a good name and reputation, with praise and fame throughout the world-"
   },
   {
     "_id":57,
-    "scripture":"sggs",
     "page":2,
-    "line":15,
     "hymn":7,
     "gurmukhi":"jy iqsu ndir n AwveI q vwq n puCY ky ]",
     "transliteration":"Jae This Nadhr N Aavee Th Vaath N Pushhai Kae ||",
-    "translation":"Still, if the Lord does not bless you with His Glance of Grace, then who cares? What is the use?",
-    "attributes":"jpu {mÚ 1} 7:5 - gurU gRMQ swihb - AMg 2 pM 15"
+    "translation":"Still, if the Lord does not bless you with His Glance of Grace, then who cares? What is the use?"
   },
   {
     "_id":58,
-    "scripture":"sggs",
     "page":2,
-    "line":15,
     "hymn":7,
     "gurmukhi":"kItw AMdir kItu kir dosI dosu Dry ]",
     "transliteration":"Keettaa Andhr Keett Kar Dhosee Dhos Dhharae ||",
-    "translation":"Among worms, you would be considered a lowly worm, and even contemptible sinners would hold you in contempt.",
-    "attributes":"jpu {mÚ 1} 7:6 - gurU gRMQ swihb - AMg 2 pM 15"
+    "translation":"Among worms, you would be considered a lowly worm, and even contemptible sinners would hold you in contempt."
   },
   {
     "_id":59,
-    "scripture":"sggs",
     "page":2,
-    "line":15,
     "hymn":7,
     "gurmukhi":"nwnk inrguix guxu kry guxvMiqAw guxu dy ]",
     "transliteration":"Naanak Niragun Gun Karae Gunavanthiaa Gun Dhae ||",
-    "translation":"O Nanak, God blesses the unworthy with virtue, and bestows virtue on the virtuous.",
-    "attributes":"jpu {mÚ 1} 7:7 - gurU gRMQ swihb - AMg 2 pM 15"
+    "translation":"O Nanak, God blesses the unworthy with virtue, and bestows virtue on the virtuous."
   },
   {
     "_id":60,
-    "scripture":"sggs",
     "page":2,
-    "line":16,
     "hymn":7,
     "gurmukhi":"qyhw koie n suJeI ij iqsu guxu koie kry ]7]",
     "transliteration":"Thaehaa Koe N Sujhee J This Gun Koe Karae ||7||",
-    "translation":"No one can even imagine anyone who can bestow virtue upon Him. ||7||",
-    "attributes":"jpu {mÚ 1} 7:8 - gurU gRMQ swihb - AMg 2 pM 16"
+    "translation":"No one can even imagine anyone who can bestow virtue upon Him. ||7||"
   },
   {
     "_id":61,
-    "scripture":"sggs",
     "page":2,
-    "line":16,
     "hymn":8,
     "gurmukhi":"suixAY isD pIr suir nwQ ]",
     "transliteration":"Suniai Sidhh Peer Sur Naathh ||",
-    "translation":"Listening-the Siddhas, the spiritual teachers, the heroic warriors, the yogic masters.",
-    "attributes":"jpu {mÚ 1} 8:1 - gurU gRMQ swihb - AMg 2 pM 16"
+    "translation":"Listening-the Siddhas, the spiritual teachers, the heroic warriors, the yogic masters."
   },
   {
     "_id":62,
-    "scripture":"sggs",
     "page":2,
-    "line":17,
     "hymn":8,
     "gurmukhi":"suixAY Driq Dvl Awkws ]",
     "transliteration":"Suniai Dhharath Dhhaval Aakaas ||",
-    "translation":"Listening-the earth, its support and the Akaashic ethers.",
-    "attributes":"jpu {mÚ 1} 8:2 - gurU gRMQ swihb - AMg 2 pM 17"
+    "translation":"Listening-the earth, its support and the Akaashic ethers."
   },
   {
     "_id":63,
-    "scripture":"sggs",
     "page":2,
-    "line":17,
     "hymn":8,
     "gurmukhi":"suixAY dIp loA pwqwl ]",
     "transliteration":"Suniai Dheep Loa Paathaal ||",
-    "translation":"Listening-the oceans, the lands of the world and the nether regions of the underworld.",
-    "attributes":"jpu {mÚ 1} 8:3 - gurU gRMQ swihb - AMg 2 pM 17"
+    "translation":"Listening-the oceans, the lands of the world and the nether regions of the underworld."
   },
   {
     "_id":64,
-    "scripture":"sggs",
     "page":2,
-    "line":17,
     "hymn":8,
     "gurmukhi":"suixAY poih n skY kwlu ]",
     "transliteration":"Suniai Pohi N Sakai Kaal ||",
-    "translation":"Listening-Death cannot even touch you.",
-    "attributes":"jpu {mÚ 1} 8:4 - gurU gRMQ swihb - AMg 2 pM 17"
+    "translation":"Listening-Death cannot even touch you."
   },
   {
     "_id":65,
-    "scripture":"sggs",
     "page":2,
-    "line":18,
     "hymn":8,
     "gurmukhi":"nwnk Bgqw sdw ivgwsu ]",
     "transliteration":"Naanak Bhagathaa Sadha Vigaas ||",
-    "translation":"O Nanak, the devotees are forever in bliss.",
-    "attributes":"jpu {mÚ 1} 8:5 - gurU gRMQ swihb - AMg 2 pM 18"
+    "translation":"O Nanak, the devotees are forever in bliss."
   },
   {
     "_id":66,
-    "scripture":"sggs",
     "page":2,
-    "line":18,
     "hymn":8,
     "gurmukhi":"suixAY dUK pwp kw nwsu ]8]",
     "transliteration":"Suniai Dhookh Paap Kaa Naas ||8||",
-    "translation":"Listening-pain and sin are erased. ||8||",
-    "attributes":"jpu {mÚ 1} 8:6 - gurU gRMQ swihb - AMg 2 pM 18"
+    "translation":"Listening-pain and sin are erased. ||8||"
   },
   {
     "_id":67,
-    "scripture":"sggs",
     "page":2,
-    "line":18,
     "hymn":9,
     "gurmukhi":"suixAY eIsru brmw ieMdu ]",
     "transliteration":"Suniai Eesar Baramaa Eindh ||",
-    "translation":"Listening-Shiva, Brahma and Indra.",
-    "attributes":"jpu {mÚ 1} 9:1 - gurU gRMQ swihb - AMg 2 pM 18"
+    "translation":"Listening-Shiva, Brahma and Indra."
   },
   {
     "_id":68,
-    "scripture":"sggs",
     "page":2,
-    "line":19,
     "hymn":9,
     "gurmukhi":"suixAY muiK swlwhx mMdu ]",
     "transliteration":"Suniai Mukh Saalaahan Mandh ||",
-    "translation":"Listening-even foul-mouthed people praise Him.",
-    "attributes":"jpu {mÚ 1} 9:2 - gurU gRMQ swihb - AMg 2 pM 19"
+    "translation":"Listening-even foul-mouthed people praise Him."
   },
   {
     "_id":69,
-    "scripture":"sggs",
     "page":2,
-    "line":19,
     "hymn":9,
     "gurmukhi":"suixAY jog jugiq qin Byd ]",
     "transliteration":"Suniai Jog Jugath Than Bhaedh ||",
-    "translation":"Listening-the technology of Yoga and the secrets of the body.",
-    "attributes":"jpu {mÚ 1} 9:3 - gurU gRMQ swihb - AMg 2 pM 19"
+    "translation":"Listening-the technology of Yoga and the secrets of the body."
   },
   {
     "_id":70,
-    "scripture":"sggs",
     "page":2,
-    "line":19,
     "hymn":9,
     "gurmukhi":"suixAY swsq isimRiq vyd ]",
     "transliteration":"Suniai Saasath Simrith Vaedh ||",
-    "translation":"Listening-the Shaastras, the Simritees and the Vedas.",
-    "attributes":"jpu {mÚ 1} 9:4 - gurU gRMQ swihb - AMg 2 pM 19"
+    "translation":"Listening-the Shaastras, the Simritees and the Vedas."
   },
   {
     "_id":71,
-    "scripture":"sggs",
     "page":2,
-    "line":19,
     "hymn":9,
     "gurmukhi":"nwnk Bgqw sdw ivgwsu ]",
     "transliteration":"Naanak Bhagathaa Sadha Vigaas ||",
-    "translation":"O Nanak, the devotees are forever in bliss.",
-    "attributes":"jpu {mÚ 1} 9:5 - gurU gRMQ swihb - AMg 3 pM 19"
+    "translation":"O Nanak, the devotees are forever in bliss."
   },
   {
     "_id":72,
-    "scripture":"sggs",
     "page":3,
-    "line":1,
     "hymn":9,
     "gurmukhi":"suixAY dUK pwp kw nwsu ]9]",
     "transliteration":"Suniai Dhookh Paap Kaa Naas ||9||",
-    "translation":"Listening-pain and sin are erased. ||9||",
-    "attributes":"jpu {mÚ 1} 9:6 - gurU gRMQ swihb - AMg 3 pM 1"
+    "translation":"Listening-pain and sin are erased. ||9||"
   },
   {
     "_id":73,
-    "scripture":"sggs",
     "page":3,
-    "line":1,
     "hymn":10,
     "gurmukhi":"suixAY squ sMqoKu igAwnu ]",
     "transliteration":"Suniai Sath Santhokh Giaan ||",
-    "translation":"Listening-truth, contentment and spiritual wisdom.",
-    "attributes":"jpu {mÚ 1} 10:1 - gurU gRMQ swihb - AMg 3 pM 1"
+    "translation":"Listening-truth, contentment and spiritual wisdom."
   },
   {
     "_id":74,
-    "scripture":"sggs",
     "page":3,
-    "line":1,
     "hymn":10,
     "gurmukhi":"suixAY ATsiT kw iesnwnu ]",
     "transliteration":"Suniai Athasath Kaa Eisanaan ||",
-    "translation":"Listening-take your cleansing bath at the sixty-eight places of pilgrimage.",
-    "attributes":"jpu {mÚ 1} 10:2 - gurU gRMQ swihb - AMg 3 pM 1"
+    "translation":"Listening-take your cleansing bath at the sixty-eight places of pilgrimage."
   },
   {
     "_id":75,
-    "scripture":"sggs",
     "page":3,
-    "line":2,
     "hymn":10,
     "gurmukhi":"suixAY piV piV pwvih mwnu ]",
     "transliteration":"Suniai Parr Parr Paavehi Maan ||",
-    "translation":"Listening-reading and reciting, honor is obtained.",
-    "attributes":"jpu {mÚ 1} 10:3 - gurU gRMQ swihb - AMg 3 pM 2"
+    "translation":"Listening-reading and reciting, honor is obtained."
   },
   {
     "_id":76,
-    "scripture":"sggs",
     "page":3,
-    "line":2,
     "hymn":10,
     "gurmukhi":"suixAY lwgY shij iDAwnu ]",
     "transliteration":"Suniai Laagai Sehaj Dhhiaan ||",
-    "translation":"Listening-intuitively grasp the essence of meditation.",
-    "attributes":"jpu {mÚ 1} 10:4 - gurU gRMQ swihb - AMg 3 pM 2"
+    "translation":"Listening-intuitively grasp the essence of meditation."
   },
   {
     "_id":77,
-    "scripture":"sggs",
     "page":3,
-    "line":2,
     "hymn":10,
     "gurmukhi":"nwnk Bgqw sdw ivgwsu ]",
     "transliteration":"Naanak Bhagathaa Sadha Vigaas ||",
-    "translation":"O Nanak, the devotees are forever in bliss.",
-    "attributes":"jpu {mÚ 1} 10:5 - gurU gRMQ swihb - AMg 3 pM 2"
+    "translation":"O Nanak, the devotees are forever in bliss."
   },
   {
     "_id":78,
-    "scripture":"sggs",
     "page":3,
-    "line":3,
     "hymn":10,
     "gurmukhi":"suixAY dUK pwp kw nwsu ]10]",
     "transliteration":"Suniai Dhookh Paap Kaa Naas ||10||",
-    "translation":"Listening-pain and sin are erased. ||10||",
-    "attributes":"jpu {mÚ 1} 10:6 - gurU gRMQ swihb - AMg 3 pM 3"
+    "translation":"Listening-pain and sin are erased. ||10||"
   },
   {
     "_id":79,
-    "scripture":"sggs",
     "page":3,
-    "line":3,
     "hymn":11,
     "gurmukhi":"suixAY srw guxw ky gwh ]",
     "transliteration":"Suniai Saraa Gunaa Kae Gaah ||",
-    "translation":"Listening-dive deep into the ocean of virtue.",
-    "attributes":"jpu {mÚ 1} 11:1 - gurU gRMQ swihb - AMg 3 pM 3"
+    "translation":"Listening-dive deep into the ocean of virtue."
   },
   {
     "_id":80,
-    "scripture":"sggs",
     "page":3,
-    "line":3,
     "hymn":11,
     "gurmukhi":"suixAY syK pIr pwiqswh ]",
     "transliteration":"Suniai Saekh Peer Paathisaah ||",
-    "translation":"Listening-the Shaykhs, religious scholars, spiritual teachers and emperors.",
-    "attributes":"jpu {mÚ 1} 11:2 - gurU gRMQ swihb - AMg 3 pM 3"
+    "translation":"Listening-the Shaykhs, religious scholars, spiritual teachers and emperors."
   },
   {
     "_id":81,
-    "scripture":"sggs",
     "page":3,
-    "line":3,
     "hymn":11,
     "gurmukhi":"suixAY AMDy pwvih rwhu ]",
     "transliteration":"Suniai Andhhae Paavehi Raahu ||",
-    "translation":"Listening-even the blind find the Path.",
-    "attributes":"jpu {mÚ 1} 11:3 - gurU gRMQ swihb - AMg 3 pM 3"
+    "translation":"Listening-even the blind find the Path."
   },
   {
     "_id":82,
-    "scripture":"sggs",
     "page":3,
-    "line":4,
     "hymn":11,
     "gurmukhi":"suixAY hwQ hovY Asgwhu ]",
     "transliteration":"Suniai Haathh Hovai Asagaahu ||",
-    "translation":"Listening-the Unreachable comes within your grasp.",
-    "attributes":"jpu {mÚ 1} 11:4 - gurU gRMQ swihb - AMg 3 pM 4"
+    "translation":"Listening-the Unreachable comes within your grasp."
   },
   {
     "_id":83,
-    "scripture":"sggs",
     "page":3,
-    "line":4,
     "hymn":11,
     "gurmukhi":"nwnk Bgqw sdw ivgwsu ]",
     "transliteration":"Naanak Bhagathaa Sadha Vigaas ||",
-    "translation":"O Nanak, the devotees are forever in bliss.",
-    "attributes":"jpu {mÚ 1} 11:5 - gurU gRMQ swihb - AMg 3 pM 4"
+    "translation":"O Nanak, the devotees are forever in bliss."
   },
   {
     "_id":84,
-    "scripture":"sggs",
     "page":3,
-    "line":4,
     "hymn":11,
     "gurmukhi":"suixAY dUK pwp kw nwsu ]11]",
     "transliteration":"Suniai Dhookh Paap Kaa Naas ||11||",
-    "translation":"Listening-pain and sin are erased. ||11||",
-    "attributes":"jpu {mÚ 1} 11:6 - gurU gRMQ swihb - AMg 3 pM 4"
+    "translation":"Listening-pain and sin are erased. ||11||"
   },
   {
     "_id":85,
-    "scripture":"sggs",
     "page":3,
-    "line":5,
     "hymn":12,
     "gurmukhi":"mMny kI giq khI n jwie ]",
     "transliteration":"Mannae Kee Gath Kehee N Jaae ||",
-    "translation":"The state of the faithful cannot be described.",
-    "attributes":"jpu {mÚ 1} 12:1 - gurU gRMQ swihb - AMg 3 pM 5"
+    "translation":"The state of the faithful cannot be described."
   },
   {
     "_id":86,
-    "scripture":"sggs",
     "page":3,
-    "line":5,
     "hymn":12,
     "gurmukhi":"jy ko khY ipCY pCuqwie ]",
     "transliteration":"Jae Ko Kehai Pishhai Pashhuthaae ||",
-    "translation":"One who tries to describe this shall regret the attempt.",
-    "attributes":"jpu {mÚ 1} 12:2 - gurU gRMQ swihb - AMg 3 pM 5"
+    "translation":"One who tries to describe this shall regret the attempt."
   },
   {
     "_id":87,
-    "scripture":"sggs",
     "page":3,
-    "line":5,
     "hymn":12,
     "gurmukhi":"kwgid klm n ilKxhwru ]",
     "transliteration":"Kaagadh Kalam N Likhanehaar ||",
-    "translation":"No paper, no pen, no scribe",
-    "attributes":"jpu {mÚ 1} 12:3 - gurU gRMQ swihb - AMg 3 pM 5"
+    "translation":"No paper, no pen, no scribe"
   },
   {
     "_id":88,
-    "scripture":"sggs",
     "page":3,
-    "line":5,
     "hymn":12,
     "gurmukhi":"mMny kw bih krin vIcwru ]",
     "transliteration":"Mannae Kaa Behi Karan Veechaar ||",
-    "translation":"Can record the state of the faithful.",
-    "attributes":"jpu {mÚ 1} 12:4 - gurU gRMQ swihb - AMg 3 pM 5"
+    "translation":"Can record the state of the faithful."
   },
   {
     "_id":89,
-    "scripture":"sggs",
     "page":3,
-    "line":6,
     "hymn":12,
     "gurmukhi":"AYsw nwmu inrMjnu hoie ]",
     "transliteration":"Aisaa Naam Niranjan Hoe ||",
-    "translation":"Such is the Name of the Immaculate Lord.",
-    "attributes":"jpu {mÚ 1} 12:5 - gurU gRMQ swihb - AMg 3 pM 6"
+    "translation":"Such is the Name of the Immaculate Lord."
   },
   {
     "_id":90,
-    "scripture":"sggs",
     "page":3,
-    "line":6,
     "hymn":12,
     "gurmukhi":"jy ko mMin jwxY min koie ]12]",
     "transliteration":"Jae Ko Mann Jaanai Man Koe ||12||",
-    "translation":"Only one who has faith comes to know such a state of mind. ||12||",
-    "attributes":"jpu {mÚ 1} 12:6 - gurU gRMQ swihb - AMg 3 pM 6"
+    "translation":"Only one who has faith comes to know such a state of mind. ||12||"
   },
   {
     "_id":91,
-    "scripture":"sggs",
     "page":3,
-    "line":6,
     "hymn":13,
     "gurmukhi":"mMnY suriq hovY min buiD ]",
     "transliteration":"Mannai Surath Hovai Man Budhh ||",
-    "translation":"The faithful have intuitive awareness and intelligence.",
-    "attributes":"jpu {mÚ 1} 13:1 - gurU gRMQ swihb - AMg 3 pM 6"
+    "translation":"The faithful have intuitive awareness and intelligence."
   },
   {
     "_id":92,
-    "scripture":"sggs",
     "page":3,
-    "line":7,
     "hymn":13,
     "gurmukhi":"mMnY sgl Bvx kI suiD ]",
     "transliteration":"Mannai Sagal Bhavan Kee Sudhh ||",
-    "translation":"The faithful know about all worlds and realms.",
-    "attributes":"jpu {mÚ 1} 13:2 - gurU gRMQ swihb - AMg 3 pM 7"
+    "translation":"The faithful know about all worlds and realms."
   },
   {
     "_id":93,
-    "scripture":"sggs",
     "page":3,
-    "line":7,
     "hymn":13,
     "gurmukhi":"mMnY muih cotw nw Kwie ]",
     "transliteration":"Mannai Muhi Chottaa Naa Khaae ||",
-    "translation":"The faithful shall never be struck across the face.",
-    "attributes":"jpu {mÚ 1} 13:3 - gurU gRMQ swihb - AMg 3 pM 7"
+    "translation":"The faithful shall never be struck across the face."
   },
   {
     "_id":94,
-    "scripture":"sggs",
     "page":3,
-    "line":7,
     "hymn":13,
     "gurmukhi":"mMnY jm kY swiQ n jwie ]",
     "transliteration":"Mannai Jam Kai Saathh N Jaae ||",
-    "translation":"The faithful do not have to go with the Messenger of Death.",
-    "attributes":"jpu {mÚ 1} 13:4 - gurU gRMQ swihb - AMg 3 pM 7"
+    "translation":"The faithful do not have to go with the Messenger of Death."
   },
   {
     "_id":95,
-    "scripture":"sggs",
     "page":3,
-    "line":7,
     "hymn":13,
     "gurmukhi":"AYsw nwmu inrMjnu hoie ]",
     "transliteration":"Aisaa Naam Niranjan Hoe ||",
-    "translation":"Such is the Name of the Immaculate Lord.",
-    "attributes":"jpu {mÚ 1} 13:5 - gurU gRMQ swihb - AMg 3 pM 7"
+    "translation":"Such is the Name of the Immaculate Lord."
   },
   {
     "_id":96,
-    "scripture":"sggs",
     "page":3,
-    "line":8,
     "hymn":13,
     "gurmukhi":"jy ko mMin jwxY min koie ]13]",
     "transliteration":"Jae Ko Mann Jaanai Man Koe ||13||",
-    "translation":"Only one who has faith comes to know such a state of mind. ||13||",
-    "attributes":"jpu {mÚ 1} 13:6 - gurU gRMQ swihb - AMg 3 pM 8"
+    "translation":"Only one who has faith comes to know such a state of mind. ||13||"
   },
   {
     "_id":97,
-    "scripture":"sggs",
     "page":3,
-    "line":8,
     "hymn":14,
     "gurmukhi":"mMnY mwrig Twk n pwie ]",
     "transliteration":"Mannai Maarag Thaak N Paae ||",
-    "translation":"The path of the faithful shall never be blocked.",
-    "attributes":"jpu {mÚ 1} 14:1 - gurU gRMQ swihb - AMg 3 pM 8"
+    "translation":"The path of the faithful shall never be blocked."
   },
   {
     "_id":98,
-    "scripture":"sggs",
     "page":3,
-    "line":8,
     "hymn":14,
     "gurmukhi":"mMnY piq isau prgtu jwie ]",
     "transliteration":"Mannai Path Sio Pragatt Jaae ||",
-    "translation":"The faithful shall depart with honor and fame.",
-    "attributes":"jpu {mÚ 1} 14:2 - gurU gRMQ swihb - AMg 3 pM 8"
+    "translation":"The faithful shall depart with honor and fame."
   },
   {
     "_id":99,
-    "scripture":"sggs",
     "page":3,
-    "line":9,
     "hymn":14,
     "gurmukhi":"mMnY mgu n clY pMQu ]",
     "transliteration":"Mannai Mag N Chalai Panthh ||",
-    "translation":"The faithful do not follow empty religious rituals.",
-    "attributes":"jpu {mÚ 1} 14:3 - gurU gRMQ swihb - AMg 3 pM 9"
+    "translation":"The faithful do not follow empty religious rituals."
   },
   {
     "_id":100,
-    "scripture":"sggs",
     "page":3,
-    "line":9,
     "hymn":14,
     "gurmukhi":"mMnY Drm syqI snbMDu ]",
     "transliteration":"Mannai Dhharam Saethee Sanabandhh ||",
-    "translation":"The faithful are firmly bound to the Dharma.",
-    "attributes":"jpu {mÚ 1} 14:4 - gurU gRMQ swihb - AMg 3 pM 9"
+    "translation":"The faithful are firmly bound to the Dharma."
   },
   {
     "_id":101,
-    "scripture":"sggs",
     "page":3,
-    "line":9,
     "hymn":14,
     "gurmukhi":"AYsw nwmu inrMjnu hoie ]",
     "transliteration":"Aisaa Naam Niranjan Hoe ||",
-    "translation":"Such is the Name of the Immaculate Lord.",
-    "attributes":"jpu {mÚ 1} 14:5 - gurU gRMQ swihb - AMg 3 pM 9"
+    "translation":"Such is the Name of the Immaculate Lord."
   },
   {
     "_id":102,
-    "scripture":"sggs",
     "page":3,
-    "line":9,
     "hymn":14,
     "gurmukhi":"jy ko mMin jwxY min koie ]14]",
     "transliteration":"Jae Ko Mann Jaanai Man Koe ||14||",
-    "translation":"Only one who has faith comes to know such a state of mind. ||14||",
-    "attributes":"jpu {mÚ 1} 14:6 - gurU gRMQ swihb - AMg 3 pM 9"
+    "translation":"Only one who has faith comes to know such a state of mind. ||14||"
   },
   {
     "_id":103,
-    "scripture":"sggs",
     "page":3,
-    "line":10,
     "hymn":15,
     "gurmukhi":"mMnY pwvih moKu duAwru ]",
     "transliteration":"Mannai Paavehi Mokh Dhuaar ||",
-    "translation":"The faithful find the Door of Liberation.",
-    "attributes":"jpu {mÚ 1} 15:1 - gurU gRMQ swihb - AMg 3 pM 10"
+    "translation":"The faithful find the Door of Liberation."
   },
   {
     "_id":104,
-    "scripture":"sggs",
     "page":3,
-    "line":10,
     "hymn":15,
     "gurmukhi":"mMnY prvwrY swDwru ]",
     "transliteration":"Mannai Pravaarai Saadhhaar ||",
-    "translation":"The faithful uplift and redeem their family and relations.",
-    "attributes":"jpu {mÚ 1} 15:2 - gurU gRMQ swihb - AMg 3 pM 10"
+    "translation":"The faithful uplift and redeem their family and relations."
   },
   {
     "_id":105,
-    "scripture":"sggs",
     "page":3,
-    "line":10,
     "hymn":15,
     "gurmukhi":"mMnY qrY qwry guru isK ]",
     "transliteration":"Mannai Tharai Thaarae Gur Sikh ||",
-    "translation":"The faithful are saved, and carried across with the Sikhs of the Guru.",
-    "attributes":"jpu {mÚ 1} 15:3 - gurU gRMQ swihb - AMg 3 pM 10"
+    "translation":"The faithful are saved, and carried across with the Sikhs of the Guru."
   },
   {
     "_id":106,
-    "scripture":"sggs",
     "page":3,
-    "line":10,
     "hymn":15,
     "gurmukhi":"mMnY nwnk Bvih n iBK ]",
     "transliteration":"Mannai Naanak Bhavehi N Bhikh ||",
-    "translation":"The faithful, O Nanak, do not wander around begging.",
-    "attributes":"jpu {mÚ 1} 15:4 - gurU gRMQ swihb - AMg 3 pM 10"
+    "translation":"The faithful, O Nanak, do not wander around begging."
   },
   {
     "_id":107,
-    "scripture":"sggs",
     "page":3,
-    "line":11,
     "hymn":15,
     "gurmukhi":"AYsw nwmu inrMjnu hoie ]",
     "transliteration":"Aisaa Naam Niranjan Hoe ||",
-    "translation":"Such is the Name of the Immaculate Lord.",
-    "attributes":"jpu {mÚ 1} 15:5 - gurU gRMQ swihb - AMg 3 pM 11"
+    "translation":"Such is the Name of the Immaculate Lord."
   },
   {
     "_id":108,
-    "scripture":"sggs",
     "page":3,
-    "line":11,
     "hymn":15,
     "gurmukhi":"jy ko mMin jwxY min koie ]15]",
     "transliteration":"Jae Ko Mann Jaanai Man Koe ||15||",
-    "translation":"Only one who has faith comes to know such a state of mind. ||15||",
-    "attributes":"jpu {mÚ 1} 15:6 - gurU gRMQ swihb - AMg 3 pM 11"
+    "translation":"Only one who has faith comes to know such a state of mind. ||15||"
   },
   {
     "_id":109,
-    "scripture":"sggs",
     "page":3,
-    "line":11,
     "hymn":16,
     "gurmukhi":"pMc prvwx pMc prDwnu ]",
     "transliteration":"Panch Pravaan Panch Pradhhaan ||",
-    "translation":"The chosen ones, the self-elect, are accepted and approved.",
-    "attributes":"jpu {mÚ 1} 16:1 - gurU gRMQ swihb - AMg 3 pM 11"
+    "translation":"The chosen ones, the self-elect, are accepted and approved."
   },
   {
     "_id":110,
-    "scripture":"sggs",
     "page":3,
-    "line":12,
     "hymn":16,
     "gurmukhi":"pMcy pwvih drgih mwnu ]",
     "transliteration":"Panchae Paavehi Dharagehi Maan ||",
-    "translation":"The chosen ones are honored in the Court of the Lord.",
-    "attributes":"jpu {mÚ 1} 16:2 - gurU gRMQ swihb - AMg 3 pM 12"
+    "translation":"The chosen ones are honored in the Court of the Lord."
   },
   {
     "_id":111,
-    "scripture":"sggs",
     "page":3,
-    "line":12,
     "hymn":16,
     "gurmukhi":"pMcy sohih dir rwjwnu ]",
     "transliteration":"Panchae Sohehi Dhar Raajaan ||",
-    "translation":"The chosen ones look beautiful in the courts of kings.",
-    "attributes":"jpu {mÚ 1} 16:3 - gurU gRMQ swihb - AMg 3 pM 12"
+    "translation":"The chosen ones look beautiful in the courts of kings."
   },
   {
     "_id":112,
-    "scripture":"sggs",
     "page":3,
-    "line":12,
     "hymn":16,
     "gurmukhi":"pMcw kw guru eyku iDAwnu ]",
     "transliteration":"Panchaa Kaa Gur Eaek Dhhiaan ||",
-    "translation":"The chosen ones meditate single-mindedly on the Guru.",
-    "attributes":"jpu {mÚ 1} 16:4 - gurU gRMQ swihb - AMg 3 pM 12"
+    "translation":"The chosen ones meditate single-mindedly on the Guru."
   },
   {
     "_id":113,
-    "scripture":"sggs",
     "page":3,
-    "line":12,
     "hymn":16,
     "gurmukhi":"jy ko khY krY vIcwru ]",
     "transliteration":"Jae Ko Kehai Karai Veechaar ||",
-    "translation":"No matter how much anyone tries to explain and describe them,",
-    "attributes":"jpu {mÚ 1} 16:5 - gurU gRMQ swihb - AMg 3 pM 12"
+    "translation":"No matter how much anyone tries to explain and describe them,"
   },
   {
     "_id":114,
-    "scripture":"sggs",
     "page":3,
-    "line":13,
     "hymn":16,
     "gurmukhi":"krqy kY krxY nwhI sumwru ]",
     "transliteration":"Karathae Kai Karani Naahee Sumaar ||",
-    "translation":"The actions of the Creator cannot be counted.",
-    "attributes":"jpu {mÚ 1} 16:6 - gurU gRMQ swihb - AMg 3 pM 13"
+    "translation":"The actions of the Creator cannot be counted."
   },
   {
     "_id":115,
-    "scripture":"sggs",
     "page":3,
-    "line":13,
     "hymn":16,
     "gurmukhi":"DOlu Drmu dieAw kw pUqu ]",
     "transliteration":"Dhhaal Dhharam Dhaeiaa Kaa Pooth ||",
-    "translation":"The mythical bull is Dharma, the son of compassion;",
-    "attributes":"jpu {mÚ 1} 16:7 - gurU gRMQ swihb - AMg 3 pM 13"
+    "translation":"The mythical bull is Dharma, the son of compassion;"
   },
   {
     "_id":116,
-    "scripture":"sggs",
     "page":3,
-    "line":13,
     "hymn":16,
     "gurmukhi":"sMqoKu Qwip riKAw ijin sUiq ]",
     "transliteration":"Santhokh Thhaap Rakhiaa Jin Sooth ||",
-    "translation":"This is what patiently holds the earth in its place.",
-    "attributes":"jpu {mÚ 1} 16:8 - gurU gRMQ swihb - AMg 3 pM 13"
+    "translation":"This is what patiently holds the earth in its place."
   },
   {
     "_id":117,
-    "scripture":"sggs",
     "page":3,
-    "line":14,
     "hymn":16,
     "gurmukhi":"jy ko buJY hovY sicAwru ]",
     "transliteration":"Jae Ko Bujhai Hovai Sachiaar ||",
-    "translation":"One who understands this becomes truthful.",
-    "attributes":"jpu {mÚ 1} 16:9 - gurU gRMQ swihb - AMg 3 pM 14"
+    "translation":"One who understands this becomes truthful."
   },
   {
     "_id":118,
-    "scripture":"sggs",
     "page":3,
-    "line":14,
     "hymn":16,
     "gurmukhi":"DvlY aupir kyqw Bwru ]",
     "transliteration":"Dhhavalai Oupar Kaethaa Bhaar ||",
-    "translation":"What a great load there is on the bull!",
-    "attributes":"jpu {mÚ 1} 16:10 - gurU gRMQ swihb - AMg 3 pM 14"
+    "translation":"What a great load there is on the bull!"
   },
   {
     "_id":119,
-    "scripture":"sggs",
     "page":3,
-    "line":14,
     "hymn":16,
     "gurmukhi":"DrqI horu prY horu horu ]",
     "transliteration":"Dhharathee Hor Prai Hor Hor ||",
-    "translation":"So many worlds beyond this world-so very many!",
-    "attributes":"jpu {mÚ 1} 16:11 - gurU gRMQ swihb - AMg 3 pM 14"
+    "translation":"So many worlds beyond this world-so very many!"
   },
   {
     "_id":120,
-    "scripture":"sggs",
     "page":3,
-    "line":14,
     "hymn":16,
     "gurmukhi":"iqs qy Bwru qlY kvxu joru ]",
     "transliteration":"This Thae Bhaar Thalai Kavan Jor ||",
-    "translation":"What power holds them, and supports their weight?",
-    "attributes":"jpu {mÚ 1} 16:12 - gurU gRMQ swihb - AMg 3 pM 14"
+    "translation":"What power holds them, and supports their weight?"
   },
   {
     "_id":121,
-    "scripture":"sggs",
     "page":3,
-    "line":15,
     "hymn":16,
     "gurmukhi":"jIA jwiq rMgw ky nwv ]",
     "transliteration":"Jeea Jaath Rangaa Kae Naav ||",
-    "translation":"The names and the colors of the assorted species of beings",
-    "attributes":"jpu {mÚ 1} 16:13 - gurU gRMQ swihb - AMg 3 pM 15"
+    "translation":"The names and the colors of the assorted species of beings"
   },
   {
     "_id":122,
-    "scripture":"sggs",
     "page":3,
-    "line":15,
     "hymn":16,
     "gurmukhi":"sBnw iliKAw vuVI klwm ]",
     "transliteration":"Sabhanaa Likhiaa Vurree Kalaam ||",
-    "translation":"Were all inscribed by the Ever-flowing Pen of God.",
-    "attributes":"jpu {mÚ 1} 16:14 - gurU gRMQ swihb - AMg 3 pM 15"
+    "translation":"Were all inscribed by the Ever-flowing Pen of God."
   },
   {
     "_id":123,
-    "scripture":"sggs",
     "page":3,
-    "line":15,
     "hymn":16,
     "gurmukhi":"eyhu lyKw iliK jwxY koie ]",
     "transliteration":"Eaehu Laekhaa Likh Jaanai Koe ||",
-    "translation":"Who knows how to write this account?",
-    "attributes":"jpu {mÚ 1} 16:15 - gurU gRMQ swihb - AMg 3 pM 15"
+    "translation":"Who knows how to write this account?"
   },
   {
     "_id":124,
-    "scripture":"sggs",
     "page":3,
-    "line":15,
     "hymn":16,
     "gurmukhi":"lyKw iliKAw kyqw hoie ]",
     "transliteration":"Laekhaa Likhiaa Kaethaa Hoe ||",
-    "translation":"Just imagine what a huge scroll it would take!",
-    "attributes":"jpu {mÚ 1} 16:16 - gurU gRMQ swihb - AMg 3 pM 15"
+    "translation":"Just imagine what a huge scroll it would take!"
   },
   {
     "_id":125,
-    "scripture":"sggs",
     "page":3,
-    "line":16,
     "hymn":16,
     "gurmukhi":"kyqw qwxu suAwilhu rUpu ]",
     "transliteration":"Kaethaa Thaan Suaalihu Roop ||",
-    "translation":"What power! What fascinating beauty!",
-    "attributes":"jpu {mÚ 1} 16:17 - gurU gRMQ swihb - AMg 3 pM 16"
+    "translation":"What power! What fascinating beauty!"
   },
   {
     "_id":126,
-    "scripture":"sggs",
     "page":3,
-    "line":16,
     "hymn":16,
     "gurmukhi":"kyqI dwiq jwxY kOxu kUqu ]",
     "transliteration":"Kaethee Dhaath Jaanai Kaan Kooth ||",
-    "translation":"And what gifts! Who can know their extent?",
-    "attributes":"jpu {mÚ 1} 16:18 - gurU gRMQ swihb - AMg 3 pM 16"
+    "translation":"And what gifts! Who can know their extent?"
   },
   {
     "_id":127,
-    "scripture":"sggs",
     "page":3,
-    "line":16,
     "hymn":16,
     "gurmukhi":"kIqw pswau eyko kvwau ]",
     "transliteration":"Keethaa Pasaao Eaeko Kavaao ||",
-    "translation":"You created the vast expanse of the Universe with One Word!",
-    "attributes":"jpu {mÚ 1} 16:19 - gurU gRMQ swihb - AMg 3 pM 16"
+    "translation":"You created the vast expanse of the Universe with One Word!"
   },
   {
     "_id":128,
-    "scripture":"sggs",
     "page":3,
-    "line":17,
     "hymn":16,
     "gurmukhi":"iqs qy hoey lK drIAwau ]",
     "transliteration":"This Thae Hoeae Lakh Dhareeaao ||",
-    "translation":"Hundreds of thousands of rivers began to flow.",
-    "attributes":"jpu {mÚ 1} 16:20 - gurU gRMQ swihb - AMg 3 pM 17"
+    "translation":"Hundreds of thousands of rivers began to flow."
   },
   {
     "_id":129,
-    "scripture":"sggs",
     "page":3,
-    "line":17,
     "hymn":16,
     "gurmukhi":"kudriq kvx khw vIcwru ]",
     "transliteration":"Kudharath Kavan Kehaa Veechaar ||",
-    "translation":"How can Your Creative Potency be described?",
-    "attributes":"jpu {mÚ 1} 16:21 - gurU gRMQ swihb - AMg 3 pM 17"
+    "translation":"How can Your Creative Potency be described?"
   },
   {
     "_id":130,
-    "scripture":"sggs",
     "page":3,
-    "line":17,
     "hymn":16,
     "gurmukhi":"vwirAw n jwvw eyk vwr ]",
     "transliteration":"Vaariaa N Jaavaa Eaek Vaar ||",
-    "translation":"I cannot even once be a sacrifice to You.",
-    "attributes":"jpu {mÚ 1} 16:22 - gurU gRMQ swihb - AMg 3 pM 17"
+    "translation":"I cannot even once be a sacrifice to You."
   },
   {
     "_id":131,
-    "scripture":"sggs",
     "page":3,
-    "line":18,
     "hymn":16,
     "gurmukhi":"jo quDu BwvY sweI BlI kwr ]",
     "transliteration":"Jo Thudhh Bhaavai Saaee Bhalee Kaar ||",
-    "translation":"Whatever pleases You is the only good done,",
-    "attributes":"jpu {mÚ 1} 16:23 - gurU gRMQ swihb - AMg 3 pM 18"
+    "translation":"Whatever pleases You is the only good done,"
   },
   {
     "_id":132,
-    "scripture":"sggs",
     "page":3,
-    "line":18,
     "hymn":16,
     "gurmukhi":"qU sdw slwmiq inrMkwr ]16]",
     "transliteration":"Thoo Sadha Salaamath Nirankaar ||16||",
-    "translation":"You, Eternal and Formless One! ||16||",
-    "attributes":"jpu {mÚ 1} 16:24 - gurU gRMQ swihb - AMg 3 pM 18"
+    "translation":"You, Eternal and Formless One! ||16||"
   },
   {
     "_id":133,
-    "scripture":"sggs",
     "page":3,
-    "line":18,
     "hymn":17,
     "gurmukhi":"AsMK jp AsMK Bwau ]",
     "transliteration":"Asankh Jap Asankh Bhaao ||",
-    "translation":"Countless meditations, countless loves.",
-    "attributes":"jpu {mÚ 1} 17:1 - gurU gRMQ swihb - AMg 3 pM 18"
+    "translation":"Countless meditations, countless loves."
   },
   {
     "_id":134,
-    "scripture":"sggs",
     "page":3,
-    "line":19,
     "hymn":17,
     "gurmukhi":"AsMK pUjw AsMK qp qwau ]",
     "transliteration":"Asankh Poojaa Asankh Thap Thaao ||",
-    "translation":"Countless worship services, countless austere disciplines.",
-    "attributes":"jpu {mÚ 1} 17:2 - gurU gRMQ swihb - AMg 3 pM 19"
+    "translation":"Countless worship services, countless austere disciplines."
   },
   {
     "_id":135,
-    "scripture":"sggs",
     "page":3,
-    "line":19,
     "hymn":17,
     "gurmukhi":"AsMK grMQ muiK vyd pwT ]",
     "transliteration":"Asankh Garanthh Mukh Vaedh Paath ||",
-    "translation":"Countless scriptures, and ritual recitations of the Vedas.",
-    "attributes":"jpu {mÚ 1} 17:3 - gurU gRMQ swihb - AMg 3 pM 19"
+    "translation":"Countless scriptures, and ritual recitations of the Vedas."
   },
   {
     "_id":136,
-    "scripture":"sggs",
     "page":3,
-    "line":19,
     "hymn":17,
     "gurmukhi":"AsMK jog min rhih audws ]",
     "transliteration":"Asankh Jog Man Rehehi Oudhaas ||",
-    "translation":"Countless Yogis, whose minds remain detached from the world.",
-    "attributes":"jpu {mÚ 1} 17:4 - gurU gRMQ swihb - AMg 3 pM 19"
+    "translation":"Countless Yogis, whose minds remain detached from the world."
   },
   {
     "_id":137,
-    "scripture":"sggs",
     "page":4,
-    "line":1,
     "hymn":17,
     "gurmukhi":"AsMK Bgq gux igAwn vIcwr ]",
     "transliteration":"Asankh Bhagath Gun Giaan Veechaar ||",
-    "translation":"Countless devotees contemplate the Wisdom and Virtues of the Lord.",
-    "attributes":"jpu {mÚ 1} 17:5 - gurU gRMQ swihb - AMg 4 pM 1"
+    "translation":"Countless devotees contemplate the Wisdom and Virtues of the Lord."
   },
   {
     "_id":138,
-    "scripture":"sggs",
     "page":4,
-    "line":1,
     "hymn":17,
     "gurmukhi":"AsMK sqI AsMK dwqwr ]",
     "transliteration":"Asankh Sathee Asankh Dhaathaar ||",
-    "translation":"Countless the holy, countless the givers.",
-    "attributes":"jpu {mÚ 1} 17:6 - gurU gRMQ swihb - AMg 4 pM 1"
+    "translation":"Countless the holy, countless the givers."
   },
   {
     "_id":139,
-    "scripture":"sggs",
     "page":4,
-    "line":1,
     "hymn":17,
     "gurmukhi":"AsMK sUr muh BK swr ]",
     "transliteration":"Asankh Soor Muh Bhakh Saar ||",
-    "translation":"Countless heroic spiritual warriors, who bear the brunt of the attack in battle (who with their mouths eat steel).",
-    "attributes":"jpu {mÚ 1} 17:7 - gurU gRMQ swihb - AMg 4 pM 1"
+    "translation":"Countless heroic spiritual warriors, who bear the brunt of the attack in battle (who with their mouths eat steel)."
   },
   {
     "_id":140,
-    "scripture":"sggs",
     "page":4,
-    "line":2,
     "hymn":17,
     "gurmukhi":"AsMK moin ilv lwie qwr ]",
     "transliteration":"Asankh Mon Liv Laae Thaar ||",
-    "translation":"Countless silent sages, vibrating the String of His Love.",
-    "attributes":"jpu {mÚ 1} 17:8 - gurU gRMQ swihb - AMg 4 pM 2"
+    "translation":"Countless silent sages, vibrating the String of His Love."
   },
   {
     "_id":141,
-    "scripture":"sggs",
     "page":4,
-    "line":2,
     "hymn":17,
     "gurmukhi":"kudriq kvx khw vIcwru ]",
     "transliteration":"Kudharath Kavan Kehaa Veechaar ||",
-    "translation":"How can Your Creative Potency be described?",
-    "attributes":"jpu {mÚ 1} 17:9 - gurU gRMQ swihb - AMg 4 pM 2"
+    "translation":"How can Your Creative Potency be described?"
   },
   {
     "_id":142,
-    "scripture":"sggs",
     "page":4,
-    "line":2,
     "hymn":17,
     "gurmukhi":"vwirAw n jwvw eyk vwr ]",
     "transliteration":"Vaariaa N Jaavaa Eaek Vaar ||",
-    "translation":"I cannot even once be a sacrifice to You.",
-    "attributes":"jpu {mÚ 1} 17:10 - gurU gRMQ swihb - AMg 4 pM 2"
+    "translation":"I cannot even once be a sacrifice to You."
   },
   {
     "_id":143,
-    "scripture":"sggs",
     "page":4,
-    "line":2,
     "hymn":17,
     "gurmukhi":"jo quDu BwvY sweI BlI kwr ]",
     "transliteration":"Jo Thudhh Bhaavai Saaee Bhalee Kaar ||",
-    "translation":"Whatever pleases You is the only good done,",
-    "attributes":"jpu {mÚ 1} 17:11 - gurU gRMQ swihb - AMg 4 pM 2"
+    "translation":"Whatever pleases You is the only good done,"
   },
   {
     "_id":144,
-    "scripture":"sggs",
     "page":4,
-    "line":3,
     "hymn":17,
     "gurmukhi":"qU sdw slwmiq inrMkwr ]17]",
     "transliteration":"Thoo Sadha Salaamath Nirankaar ||17||",
-    "translation":"You, Eternal and Formless One. ||17||",
-    "attributes":""
+    "translation":"You, Eternal and Formless One. ||17||"
   },
   {
     "_id":145,
-    "scripture":"sggs",
     "page":4,
-    "line":3,
     "hymn":18,
     "gurmukhi":"AsMK mUrK AMD Gor ]",
     "transliteration":"Asankh Moorakh Andhh Ghor ||",
-    "translation":"Countless fools, blinded by ignorance.",
-    "attributes":"jpu {mÚ 1} 18:1 - gurU gRMQ swihb - AMg 4 pM 3"
+    "translation":"Countless fools, blinded by ignorance."
   },
   {
     "_id":146,
-    "scripture":"sggs",
     "page":4,
-    "line":3,
     "hymn":18,
     "gurmukhi":"AsMK cor hrwmKor ]",
     "transliteration":"Asankh Chor Haraamakhor ||",
-    "translation":"Countless thieves and embezzlers.",
-    "attributes":"jpu {mÚ 1} 18:2 - gurU gRMQ swihb - AMg 4 pM 3"
+    "translation":"Countless thieves and embezzlers."
   },
   {
     "_id":147,
-    "scripture":"sggs",
     "page":4,
-    "line":4,
     "hymn":18,
     "gurmukhi":"AsMK Amr kir jwih jor ]",
     "transliteration":"Asankh Amar Kar Jaahi Jor ||",
-    "translation":"Countless impose their will by force.",
-    "attributes":"jpu {mÚ 1} 18:3 - gurU gRMQ swihb - AMg 4 pM 4"
+    "translation":"Countless impose their will by force."
   },
   {
     "_id":148,
-    "scripture":"sggs",
     "page":4,
-    "line":4,
     "hymn":18,
     "gurmukhi":"AsMK glvF hiqAw kmwih ]",
     "transliteration":"Asankh Galavadt Hathiaa Kamaahi ||",
-    "translation":"Countless cut-throats and ruthless killers.",
-    "attributes":"jpu {mÚ 1} 18:4 - gurU gRMQ swihb - AMg 4 pM 4"
+    "translation":"Countless cut-throats and ruthless killers."
   },
   {
     "_id":149,
-    "scripture":"sggs",
     "page":4,
-    "line":4,
     "hymn":18,
     "gurmukhi":"AsMK pwpI pwpu kir jwih ]",
     "transliteration":"Asankh Paapee Paap Kar Jaahi ||",
-    "translation":"Countless sinners who keep on sinning.",
-    "attributes":"jpu {mÚ 1} 18:5 - gurU gRMQ swihb - AMg 4 pM 4"
+    "translation":"Countless sinners who keep on sinning."
   },
   {
     "_id":150,
-    "scripture":"sggs",
     "page":4,
-    "line":4,
     "hymn":18,
     "gurmukhi":"AsMK kUiVAwr kUVy iPrwih ]",
     "transliteration":"Asankh Koorriaar Koorrae Firaahi ||",
-    "translation":"Countless liars, wandering lost in their lies.",
-    "attributes":"jpu {mÚ 1} 18:6 - gurU gRMQ swihb - AMg 4 pM 4"
+    "translation":"Countless liars, wandering lost in their lies."
   },
   {
     "_id":151,
-    "scripture":"sggs",
     "page":4,
-    "line":5,
     "hymn":18,
     "gurmukhi":"AsMK mlyC mlu BiK Kwih ]",
     "transliteration":"Asankh Malaeshh Mal Bhakh Khaahi ||",
-    "translation":"Countless wretches, eating filth as their ration.",
-    "attributes":"jpu {mÚ 1} 18:7 - gurU gRMQ swihb - AMg 4 pM 5"
+    "translation":"Countless wretches, eating filth as their ration."
   },
   {
     "_id":152,
-    "scripture":"sggs",
     "page":4,
-    "line":5,
     "hymn":18,
     "gurmukhi":"AsMK inMdk isir krih Bwru ]",
     "transliteration":"Asankh Nindhak Sir Karehi Bhaar ||",
-    "translation":"Countless slanderers, carrying the weight of their stupid mistakes on their heads.",
-    "attributes":"jpu {mÚ 1} 18:8 - gurU gRMQ swihb - AMg 4 pM 5"
+    "translation":"Countless slanderers, carrying the weight of their stupid mistakes on their heads."
   },
   {
     "_id":153,
-    "scripture":"sggs",
     "page":4,
-    "line":5,
     "hymn":18,
     "gurmukhi":"nwnku nIcu khY vIcwru ]",
     "transliteration":"Naanak Neech Kehai Veechaar ||",
-    "translation":"Nanak describes the state of the lowly.",
-    "attributes":"jpu {mÚ 1} 18:9 - gurU gRMQ swihb - AMg 4 pM 5"
+    "translation":"Nanak describes the state of the lowly."
   },
   {
     "_id":154,
-    "scripture":"sggs",
     "page":4,
-    "line":6,
     "hymn":18,
     "gurmukhi":"vwirAw n jwvw eyk vwr ]",
     "transliteration":"Vaariaa N Jaavaa Eaek Vaar ||",
-    "translation":"I cannot even once be a sacrifice to You.",
-    "attributes":"jpu {mÚ 1} 18:10 - gurU gRMQ swihb - AMg 4 pM 6"
+    "translation":"I cannot even once be a sacrifice to You."
   },
   {
     "_id":155,
-    "scripture":"sggs",
     "page":4,
-    "line":6,
     "hymn":18,
     "gurmukhi":"jo quDu BwvY sweI BlI kwr ]",
     "transliteration":"Jo Thudhh Bhaavai Saaee Bhalee Kaar ||",
-    "translation":"Whatever pleases You is the only good done,",
-    "attributes":"jpu {mÚ 1} 18:11 - gurU gRMQ swihb - AMg 4 pM 6"
+    "translation":"Whatever pleases You is the only good done,"
   },
   {
     "_id":156,
-    "scripture":"sggs",
     "page":4,
-    "line":6,
     "hymn":18,
     "gurmukhi":"qU sdw slwmiq inrMkwr ]18]",
     "transliteration":"Thoo Sadha Salaamath Nirankaar ||18||",
-    "translation":"You, Eternal and Formless One. ||18||",
-    "attributes":"jpu {mÚ 1} 18:12 - gurU gRMQ swihb - AMg 4 pM 6"
+    "translation":"You, Eternal and Formless One. ||18||"
   },
   {
     "_id":157,
-    "scripture":"sggs",
     "page":4,
-    "line":7,
     "hymn":19,
     "gurmukhi":"AsMK nwv AsMK Qwv ]",
     "transliteration":"Asankh Naav Asankh Thhaav ||",
-    "translation":"Countless names, countless places.",
-    "attributes":"jpu {mÚ 1} 19:1 - gurU gRMQ swihb - AMg 4 pM 7"
+    "translation":"Countless names, countless places."
   },
   {
     "_id":158,
-    "scripture":"sggs",
     "page":4,
-    "line":7,
     "hymn":19,
     "gurmukhi":"AgMm AgMm AsMK loA ]",
     "transliteration":"Aganm Aganm Asankh Loa ||",
-    "translation":"Inaccessible, unapproachable, countless celestial realms.",
-    "attributes":"jpu {mÚ 1} 19:2 - gurU gRMQ swihb - AMg 4 pM 7"
+    "translation":"Inaccessible, unapproachable, countless celestial realms."
   },
   {
     "_id":159,
-    "scripture":"sggs",
     "page":4,
-    "line":7,
     "hymn":19,
     "gurmukhi":"AsMK khih isir Bwru hoie ]",
     "transliteration":"Asankh Kehehi Sir Bhaar Hoe ||",
-    "translation":"Even to call them countless is to carry the weight on your head.",
-    "attributes":"jpu {mÚ 1} 19:3 - gurU gRMQ swihb - AMg 4 pM 7"
+    "translation":"Even to call them countless is to carry the weight on your head."
   },
   {
     "_id":160,
-    "scripture":"sggs",
     "page":4,
-    "line":7,
     "hymn":19,
     "gurmukhi":"AKrI nwmu AKrI swlwh ]",
     "transliteration":"Akharee Naam Akharee Saalaah ||",
-    "translation":"From the Word, comes the Naam; from the Word, comes Your Praise.",
-    "attributes":"jpu {mÚ 1} 19:4 - gurU gRMQ swihb - AMg 4 pM 7"
+    "translation":"From the Word, comes the Naam; from the Word, comes Your Praise."
   },
   {
     "_id":161,
-    "scripture":"sggs",
     "page":4,
-    "line":8,
     "hymn":19,
     "gurmukhi":"AKrI igAwnu gIq gux gwh ]",
     "transliteration":"Akharee Giaan Geeth Gun Gaah ||",
-    "translation":"From the Word, comes spiritual wisdom, singing the Songs of Your Glory.",
-    "attributes":"jpu {mÚ 1} 19:5 - gurU gRMQ swihb - AMg 4 pM 8"
+    "translation":"From the Word, comes spiritual wisdom, singing the Songs of Your Glory."
   },
   {
     "_id":162,
-    "scripture":"sggs",
     "page":4,
-    "line":8,
     "hymn":19,
     "gurmukhi":"AKrI ilKxu bolxu bwix ]",
     "transliteration":"Akharee Likhan Bolan Baan ||",
-    "translation":"From the Word, come the written and spoken words and hymns.",
-    "attributes":"jpu {mÚ 1} 19:6 - gurU gRMQ swihb - AMg 4 pM 8"
+    "translation":"From the Word, come the written and spoken words and hymns."
   },
   {
     "_id":163,
-    "scripture":"sggs",
     "page":4,
-    "line":8,
     "hymn":19,
     "gurmukhi":"AKrw isir sMjogu vKwix ]",
     "transliteration":"Akharaa Sir Sanjog Vakhaan ||",
-    "translation":"From the Word, comes destiny, written on one's forehead.",
-    "attributes":"jpu {mÚ 1} 19:7 - gurU gRMQ swihb - AMg 4 pM 8"
+    "translation":"From the Word, comes destiny, written on one's forehead."
   },
   {
     "_id":164,
-    "scripture":"sggs",
     "page":4,
-    "line":9,
     "hymn":19,
     "gurmukhi":"ijin eyih ilKy iqsu isir nwih ]",
     "transliteration":"Jin Eaehi Likhae This Sir Naahi ||",
-    "translation":"But the One who wrote these Words of Destiny-no words are written on His Forehead.",
-    "attributes":"jpu {mÚ 1} 19:8 - gurU gRMQ swihb - AMg 4 pM 9"
+    "translation":"But the One who wrote these Words of Destiny-no words are written on His Forehead."
   },
   {
     "_id":165,
-    "scripture":"sggs",
     "page":4,
-    "line":9,
     "hymn":19,
     "gurmukhi":"ijv Purmwey iqv iqv pwih ]",
     "transliteration":"Jiv Furamaaeae Thiv Thiv Paahi ||",
-    "translation":"As He ordains, so do we receive.",
-    "attributes":"jpu {mÚ 1} 19:9 - gurU gRMQ swihb - AMg 4 pM 9"
+    "translation":"As He ordains, so do we receive."
   },
   {
     "_id":166,
-    "scripture":"sggs",
     "page":4,
-    "line":9,
     "hymn":19,
     "gurmukhi":"jyqw kIqw qyqw nwau ]",
     "transliteration":"Jaethaa Keethaa Thaethaa Naao ||",
-    "translation":"The created universe is the manifestation of Your Name.",
-    "attributes":"jpu {mÚ 1} 19:10 - gurU gRMQ swihb - AMg 4 pM 9"
+    "translation":"The created universe is the manifestation of Your Name."
   },
   {
     "_id":167,
-    "scripture":"sggs",
     "page":4,
-    "line":10,
     "hymn":19,
     "gurmukhi":"ivxu nwvY nwhI ko Qwau ]",
     "transliteration":"Vin Naavai Naahee Ko Thhaao ||",
-    "translation":"Without Your Name, there is no place at all.",
-    "attributes":"jpu {mÚ 1} 19:11 - gurU gRMQ swihb - AMg 4 pM 10"
+    "translation":"Without Your Name, there is no place at all."
   },
   {
     "_id":168,
-    "scripture":"sggs",
     "page":4,
-    "line":10,
     "hymn":19,
     "gurmukhi":"kudriq kvx khw vIcwru ]",
     "transliteration":"Kudharath Kavan Kehaa Veechaar ||",
-    "translation":"How can I describe Your Creative Power?",
-    "attributes":"jpu {mÚ 1} 19:12 - gurU gRMQ swihb - AMg 4 pM 10"
+    "translation":"How can I describe Your Creative Power?"
   },
   {
     "_id":169,
-    "scripture":"sggs",
     "page":4,
-    "line":10,
     "hymn":19,
     "gurmukhi":"vwirAw n jwvw eyk vwr ]",
     "transliteration":"Vaariaa N Jaavaa Eaek Vaar ||",
-    "translation":"I cannot even once be a sacrifice to You.",
-    "attributes":"jpu {mÚ 1} 19:13 - gurU gRMQ swihb - AMg 4 pM 10"
+    "translation":"I cannot even once be a sacrifice to You."
   },
   {
     "_id":170,
-    "scripture":"sggs",
     "page":4,
-    "line":10,
     "hymn":19,
     "gurmukhi":"jo quDu BwvY sweI BlI kwr ]",
     "transliteration":"Jo Thudhh Bhaavai Saaee Bhalee Kaar ||",
-    "translation":"Whatever pleases You is the only good done,",
-    "attributes":"jpu {mÚ 1} 19:14 - gurU gRMQ swihb - AMg 4 pM 10"
+    "translation":"Whatever pleases You is the only good done,"
   },
   {
     "_id":171,
-    "scripture":"sggs",
     "page":4,
-    "line":11,
     "hymn":19,
     "gurmukhi":"qU sdw slwmiq inrMkwr ]19]",
     "transliteration":"Thoo Sadha Salaamath Nirankaar ||19||",
-    "translation":"You, Eternal and Formless One. ||19||",
-    "attributes":"jpu {mÚ 1} 19:15 - gurU gRMQ swihb - AMg 4 pM 11"
+    "translation":"You, Eternal and Formless One. ||19||"
   },
   {
     "_id":172,
-    "scripture":"sggs",
     "page":4,
-    "line":11,
     "hymn":20,
     "gurmukhi":"BrIAY hQu pYru qnu dyh ]",
     "transliteration":"Bhareeai Hathh Pair Than Dhaeh ||",
-    "translation":"When the hands and the feet and the body are dirty,",
-    "attributes":"jpu {mÚ 1} 20:1 - gurU gRMQ swihb - AMg 4 pM 11"
+    "translation":"When the hands and the feet and the body are dirty,"
   },
   {
     "_id":173,
-    "scripture":"sggs",
     "page":4,
-    "line":11,
     "hymn":20,
     "gurmukhi":"pwxI DoqY auqrsu Kyh ]",
     "transliteration":"Paanee Dhhothai Outharas Khaeh ||",
-    "translation":"Water can wash away the dirt.",
-    "attributes":"jpu {mÚ 1} 20:2 - gurU gRMQ swihb - AMg 4 pM 11"
+    "translation":"Water can wash away the dirt."
   },
   {
     "_id":174,
-    "scripture":"sggs",
     "page":4,
-    "line":12,
     "hymn":20,
     "gurmukhi":"mUq plIqI kpVu hoie ]",
     "transliteration":"Mooth Paleethee Kaparr Hoe ||",
-    "translation":"When the clothes are soiled and stained by urine,",
-    "attributes":"jpu {mÚ 1} 20:3 - gurU gRMQ swihb - AMg 4 pM 12"
+    "translation":"When the clothes are soiled and stained by urine,"
   },
   {
     "_id":175,
-    "scripture":"sggs",
     "page":4,
-    "line":12,
     "hymn":20,
     "gurmukhi":"dy swbUxu leIAY Ehu Doie ]",
     "transliteration":"Dhae Saaboon Leeai Ouhu Dhhoe ||",
-    "translation":"Soap can wash them clean.",
-    "attributes":"jpu {mÚ 1} 20:4 - gurU gRMQ swihb - AMg 4 pM 12"
+    "translation":"Soap can wash them clean."
   },
   {
     "_id":176,
-    "scripture":"sggs",
     "page":4,
-    "line":12,
     "hymn":20,
     "gurmukhi":"BrIAY miq pwpw kY sMig ]",
     "transliteration":"Bhareeai Math Paapaa Kai Sang ||",
-    "translation":"But when the intellect is stained and polluted by sin,",
-    "attributes":"jpu {mÚ 1} 20:5 - gurU gRMQ swihb - AMg 4 pM 12"
+    "translation":"But when the intellect is stained and polluted by sin,"
   },
   {
     "_id":177,
-    "scripture":"sggs",
     "page":4,
-    "line":13,
     "hymn":20,
     "gurmukhi":"Ehu DopY nwvY kY rMig ]",
     "transliteration":"Ouhu Dhhopai Naavai Kai Rang ||",
-    "translation":"It can only be cleansed by the Love of the Name.",
-    "attributes":"jpu {mÚ 1} 20:6 - gurU gRMQ swihb - AMg 4 pM 13"
+    "translation":"It can only be cleansed by the Love of the Name."
   },
   {
     "_id":178,
-    "scripture":"sggs",
     "page":4,
-    "line":13,
     "hymn":20,
     "gurmukhi":"puMnI pwpI AwKxu nwih ]",
     "transliteration":"Punnee Paapee Aakhan Naahi ||",
-    "translation":"Virtue and vice do not come by mere words;",
-    "attributes":"jpu {mÚ 1} 20:7 - gurU gRMQ swihb - AMg 4 pM 13"
+    "translation":"Virtue and vice do not come by mere words;"
   },
   {
     "_id":179,
-    "scripture":"sggs",
     "page":4,
-    "line":13,
     "hymn":20,
     "gurmukhi":"kir kir krxw iliK lY jwhu ]",
     "transliteration":"Kar Kar Karana Likh Lai Jaahu ||",
-    "translation":"Actions repeated, over and over again, are engraved on the soul.",
-    "attributes":"jpu {mÚ 1} 20:8 - gurU gRMQ swihb - AMg 4 pM 13"
+    "translation":"Actions repeated, over and over again, are engraved on the soul."
   },
   {
     "_id":180,
-    "scripture":"sggs",
     "page":4,
-    "line":13,
     "hymn":20,
     "gurmukhi":"Awpy bIij Awpy hI Kwhu ]",
     "transliteration":"Aapae Beej Aapae Hee Khaahu ||",
-    "translation":"You shall harvest what you plant.",
-    "attributes":"jpu {mÚ 1} 20:9 - gurU gRMQ swihb - AMg 4 pM 13"
+    "translation":"You shall harvest what you plant."
   },
   {
     "_id":181,
-    "scripture":"sggs",
     "page":4,
-    "line":14,
     "hymn":20,
     "gurmukhi":"nwnk hukmI Awvhu jwhu ]20]",
     "transliteration":"Naanak Hukamee Aavahu Jaahu ||20||",
-    "translation":"O Nanak, by the Hukam of God's Command, we come and go in reincarnation. ||20||",
-    "attributes":"jpu {mÚ 1} 20:10 - gurU gRMQ swihb - AMg 4 pM 14"
+    "translation":"O Nanak, by the Hukam of God's Command, we come and go in reincarnation. ||20||"
   },
   {
     "_id":182,
-    "scripture":"sggs",
     "page":4,
-    "line":14,
     "hymn":21,
     "gurmukhi":"qIrQu qpu dieAw dqu dwnu ]",
     "transliteration":"Theerathh Thap Dhaeiaa Dhath Dhaan ||",
-    "translation":"Pilgrimages, austere discipline, compassion and charity",
-    "attributes":"jpu {mÚ 1} 21:1 - gurU gRMQ swihb - AMg 4 pM 14"
+    "translation":"Pilgrimages, austere discipline, compassion and charity"
   },
   {
     "_id":183,
-    "scripture":"sggs",
     "page":4,
-    "line":14,
     "hymn":21,
     "gurmukhi":"jy ko pwvY iql kw mwnu ]",
     "transliteration":"Jae Ko Paavai Thil Kaa Maan ||",
-    "translation":"These, by themselves, bring only an iota of merit.",
-    "attributes":"jpu {mÚ 1} 21:2 - gurU gRMQ swihb - AMg 4 pM 14"
+    "translation":"These, by themselves, bring only an iota of merit."
   },
   {
     "_id":184,
-    "scripture":"sggs",
     "page":4,
-    "line":15,
     "hymn":21,
     "gurmukhi":"suixAw mMinAw min kIqw Bwau ]",
     "transliteration":"Suniaa Manniaa Man Keethaa Bhaao ||",
-    "translation":"Listening and believing with love and humility in your mind,",
-    "attributes":"jpu {mÚ 1} 21:3 - gurU gRMQ swihb - AMg 4 pM 15"
+    "translation":"Listening and believing with love and humility in your mind,"
   },
   {
     "_id":185,
-    "scripture":"sggs",
     "page":4,
-    "line":15,
     "hymn":21,
     "gurmukhi":"AMqrgiq qIriQ mil nwau ]",
     "transliteration":"Antharagath Theerathh Mal Naao ||",
-    "translation":"Cleanse yourself with the Name, at the sacred shrine deep within.",
-    "attributes":"jpu {mÚ 1} 21:4 - gurU gRMQ swihb - AMg 4 pM 15"
+    "translation":"Cleanse yourself with the Name, at the sacred shrine deep within."
   },
   {
     "_id":186,
-    "scripture":"sggs",
     "page":4,
-    "line":15,
     "hymn":21,
     "gurmukhi":"siB gux qyry mY nwhI koie ]",
     "transliteration":"Sabh Gun Thaerae Mai Naahee Koe ||",
-    "translation":"All virtues are Yours, Lord, I have none at all.",
-    "attributes":"jpu {mÚ 1} 21:5 - gurU gRMQ swihb - AMg 4 pM 15"
+    "translation":"All virtues are Yours, Lord, I have none at all."
   },
   {
     "_id":187,
-    "scripture":"sggs",
     "page":4,
-    "line":16,
     "hymn":21,
     "gurmukhi":"ivxu gux kIqy Bgiq n hoie ]",
     "transliteration":"Vin Gun Keethae Bhagath N Hoe ||",
-    "translation":"Without virtue, there is no devotional worship.",
-    "attributes":"jpu {mÚ 1} 21:6 - gurU gRMQ swihb - AMg 4 pM 16"
+    "translation":"Without virtue, there is no devotional worship."
   },
   {
     "_id":188,
-    "scripture":"sggs",
     "page":4,
-    "line":16,
     "hymn":21,
     "gurmukhi":"suAsiq AwiQ bwxI brmwau ]",
     "transliteration":"Suasath Aathh Baanee Baramaao ||",
-    "translation":"I bow to the Lord of the World, to His Word, to Brahma the Creator.",
-    "attributes":"jpu {mÚ 1} 21:7 - gurU gRMQ swihb - AMg 4 pM 16"
+    "translation":"I bow to the Lord of the World, to His Word, to Brahma the Creator."
   },
   {
     "_id":189,
-    "scripture":"sggs",
     "page":4,
-    "line":16,
     "hymn":21,
     "gurmukhi":"siq suhwxu sdw min cwau ]",
     "transliteration":"Sath Suhaan Sadha Man Chaao ||",
-    "translation":"He is Beautiful, True and Eternally Joyful.",
-    "attributes":"jpu {mÚ 1} 21:8 - gurU gRMQ swihb - AMg 4 pM 16"
+    "translation":"He is Beautiful, True and Eternally Joyful."
   },
   {
     "_id":190,
-    "scripture":"sggs",
     "page":4,
-    "line":16,
     "hymn":21,
     "gurmukhi":"kvxu su vylw vKqu kvxu kvx iQiq kvxu vwru ]",
     "transliteration":"Kavan S Vaelaa Vakhath Kavan Kavan Thhith Kavan Vaar ||",
-    "translation":"What was that time, and what was that moment? What was that day, and what was that date?",
-    "attributes":"jpu {mÚ 1} 21:9 - gurU gRMQ swihb - AMg 4 pM 16"
+    "translation":"What was that time, and what was that moment? What was that day, and what was that date?"
   },
   {
     "_id":191,
-    "scripture":"sggs",
     "page":4,
-    "line":17,
     "hymn":21,
     "gurmukhi":"kvix is ruqI mwhu kvxu ijqu hoAw Awkwru ]",
     "transliteration":"Kavan S Ruthee Maahu Kavan Jith Hoaa Aakaar ||",
-    "translation":"What was that season, and what was that month, when the Universe was created?",
-    "attributes":"jpu {mÚ 1} 21:10 - gurU gRMQ swihb - AMg 4 pM 17"
+    "translation":"What was that season, and what was that month, when the Universe was created?"
   },
   {
     "_id":192,
-    "scripture":"sggs",
     "page":4,
-    "line":17,
     "hymn":21,
     "gurmukhi":"vyl n pweIAw pMfqI ij hovY lyKu purwxu ]",
     "transliteration":"Vael N Paaeeaa Panddathee J Hovai Laekh Puraan ||",
-    "translation":"The Pandits, the religious scholars, cannot find that time, even if it is written in the Puraanas.",
-    "attributes":"jpu {mÚ 1} 21:11 - gurU gRMQ swihb - AMg 4 pM 17"
+    "translation":"The Pandits, the religious scholars, cannot find that time, even if it is written in the Puraanas."
   },
   {
     "_id":193,
-    "scripture":"sggs",
     "page":4,
-    "line":18,
     "hymn":21,
     "gurmukhi":"vKqu n pwieE kwdIAw ij ilKin lyKu kurwxu ]",
     "transliteration":"Vakhath N Paaeiou Kaadheeaa J Likhan Laekh Kuraan ||",
-    "translation":"That time is not known to the Qazis, who study the Koran.",
-    "attributes":"jpu {mÚ 1} 21:12 - gurU gRMQ swihb - AMg 4 pM 18"
+    "translation":"That time is not known to the Qazis, who study the Koran."
   },
   {
     "_id":194,
-    "scripture":"sggs",
     "page":4,
-    "line":18,
     "hymn":21,
     "gurmukhi":"iQiq vwru nw jogI jwxY ruiq mwhu nw koeI ]",
     "transliteration":"Thhith Vaar Naa Jogee Jaanai Ruth Maahu Naa Koee ||",
-    "translation":"The day and the date are not known to the Yogis, nor is the month or the season.",
-    "attributes":"jpu {mÚ 1} 21:13 - gurU gRMQ swihb - AMg 4 pM 18"
+    "translation":"The day and the date are not known to the Yogis, nor is the month or the season."
   },
   {
     "_id":195,
-    "scripture":"sggs",
     "page":4,
-    "line":19,
     "hymn":21,
     "gurmukhi":"jw krqw isrTI kau swjy Awpy jwxY soeI ]",
     "transliteration":"Jaa Karathaa Sirathee Ko Saajae Aapae Jaanai Soee ||",
-    "translation":"The Creator who created this creation-only He Himself knows.",
-    "attributes":"jpu {mÚ 1} 21:14 - gurU gRMQ swihb - AMg 4 pM 19"
+    "translation":"The Creator who created this creation-only He Himself knows."
   },
   {
     "_id":196,
-    "scripture":"sggs",
     "page":4,
-    "line":19,
     "hymn":21,
     "gurmukhi":"ikv kir AwKw ikv swlwhI ikau vrnI ikv jwxw ]",
     "transliteration":"Kiv Kar Aakhaa Kiv Saalaahee Kio Varanee Kiv Jaanaa ||",
-    "translation":"How can we speak of Him? How can we praise Him? How can we describe Him? How can we know Him?",
-    "attributes":"jpu {mÚ 1} 21:15 - gurU gRMQ swihb - AMg 4 pM 19"
+    "translation":"How can we speak of Him? How can we praise Him? How can we describe Him? How can we know Him?"
   },
   {
     "_id":197,
-    "scripture":"sggs",
     "page":5,
-    "line":1,
     "hymn":21,
     "gurmukhi":"nwnk AwKix sBu ko AwKY iek dU ieku isAwxw ]",
     "transliteration":"Naanak Aakhan Sabh Ko Aakhai Eik Dhoo Eik Siaanaa ||",
-    "translation":"O Nanak, everyone speaks of Him, each one wiser than the rest.",
-    "attributes":"jpu {mÚ 1} 21:16 - gurU gRMQ swihb - AMg 5 pM 1"
+    "translation":"O Nanak, everyone speaks of Him, each one wiser than the rest."
   },
   {
     "_id":198,
-    "scripture":"sggs",
     "page":5,
-    "line":1,
     "hymn":21,
     "gurmukhi":"vfw swihbu vfI nweI kIqw jw kw hovY ]",
     "transliteration":"Vaddaa Saahib Vaddee Naaee Keethaa Jaa Kaa Hovai ||",
-    "translation":"Great is the Master, Great is His Name. Whatever happens is according to His Will.",
-    "attributes":"jpu {mÚ 1} 21:17 - gurU gRMQ swihb - AMg 5 pM 1"
+    "translation":"Great is the Master, Great is His Name. Whatever happens is according to His Will."
   },
   {
     "_id":199,
-    "scripture":"sggs",
     "page":5,
-    "line":2,
     "hymn":21,
     "gurmukhi":"nwnk jy ko AwpO jwxY AgY gieAw n sohY ]21]",
     "transliteration":"Naanak Jae Ko Aapa Jaanai Agai Gaeiaa N Sohai ||21||",
-    "translation":"O Nanak, one who claims to know everything shall not be decorated in the world hereafter. ||21||",
-    "attributes":"jpu {mÚ 1} 21:18 - gurU gRMQ swihb - AMg 5 pM 2"
+    "translation":"O Nanak, one who claims to know everything shall not be decorated in the world hereafter. ||21||"
   },
   {
     "_id":200,
-    "scripture":"sggs",
     "page":5,
-    "line":2,
     "hymn":22,
     "gurmukhi":"pwqwlw pwqwl lK Awgwsw Awgws ]",
     "transliteration":"Paathaalaa Paathaal Lakh Aagaasaa Aagaas ||",
-    "translation":"There are nether worlds beneath nether worlds, and hundreds of thousands of heavenly worlds above.",
-    "attributes":"jpu {mÚ 1} 22:1 - gurU gRMQ swihb - AMg 5 pM 2"
+    "translation":"There are nether worlds beneath nether worlds, and hundreds of thousands of heavenly worlds above."
   },
   {
     "_id":201,
-    "scripture":"sggs",
     "page":5,
-    "line":3,
     "hymn":22,
     "gurmukhi":"EVk EVk Bwil Qky vyd khin iek vwq ]",
     "transliteration":"Ourrak Ourrak Bhaal Thhakae Vaedh Kehan Eik Vaath ||",
-    "translation":"The Vedas say that you can search and search for them all, until you grow weary.",
-    "attributes":"jpu {mÚ 1} 22:2 - gurU gRMQ swihb - AMg 5 pM 3"
+    "translation":"The Vedas say that you can search and search for them all, until you grow weary."
   },
   {
     "_id":202,
-    "scripture":"sggs",
     "page":5,
-    "line":3,
     "hymn":22,
     "gurmukhi":"shs ATwrh khin kqybw AsulU ieku Dwqu ]",
     "transliteration":"Sehas Athaareh Kehan Kathaebaa Asuloo Eik Dhhaath ||",
-    "translation":"The scriptures say that there are 18,000 worlds, but in reality, there is only One Universe.",
-    "attributes":"jpu {mÚ 1} 22:3 - gurU gRMQ swihb - AMg 5 pM 3"
+    "translation":"The scriptures say that there are 18,000 worlds, but in reality, there is only One Universe."
   },
   {
     "_id":203,
-    "scripture":"sggs",
     "page":5,
-    "line":4,
     "hymn":22,
     "gurmukhi":"lyKw hoie q ilKIAY lyKY hoie ivxwsu ]",
     "transliteration":"Laekhaa Hoe Th Likheeai Laekhai Hoe Vinaas ||",
-    "translation":"If you try to write an account of this, you will surely finish yourself before you finish writing it.",
-    "attributes":"jpu {mÚ 1} 22:4 - gurU gRMQ swihb - AMg 5 pM 4"
+    "translation":"If you try to write an account of this, you will surely finish yourself before you finish writing it."
   },
   {
     "_id":204,
-    "scripture":"sggs",
     "page":5,
-    "line":4,
     "hymn":22,
     "gurmukhi":"nwnk vfw AwKIAY Awpy jwxY Awpu ]22]",
     "transliteration":"Naanak Vaddaa Aakheeai Aapae Jaanai Aap ||22||",
-    "translation":"O Nanak, call Him Great! He Himself knows Himself. ||22||",
-    "attributes":"jpu {mÚ 1} 22:5 - gurU gRMQ swihb - AMg 5 pM 4"
+    "translation":"O Nanak, call Him Great! He Himself knows Himself. ||22||"
   },
   {
     "_id":205,
-    "scripture":"sggs",
     "page":5,
-    "line":5,
     "hymn":23,
     "gurmukhi":"swlwhI swlwih eyqI suriq n pweIAw ]",
     "transliteration":"Saalaahee Saalaahi Eaethee Surath N Paaeeaa ||",
-    "translation":"The praisers praise the Lord, but they do not obtain intuitive understanding",
-    "attributes":"jpu {mÚ 1} 23:1 - gurU gRMQ swihb - AMg 5 pM 5"
+    "translation":"The praisers praise the Lord, but they do not obtain intuitive understanding"
   },
   {
     "_id":206,
-    "scripture":"sggs",
     "page":5,
-    "line":5,
     "hymn":23,
     "gurmukhi":"ndIAw AqY vwh pvih smuMid n jwxIAih ]",
     "transliteration":"Nadheeaa Athai Vaah Pavehi Samundh N Jaaneeahi ||",
-    "translation":"The streams and rivers flowing into the ocean do not know its vastness.",
-    "attributes":"jpu {mÚ 1} 23:2 - gurU gRMQ swihb - AMg 5 pM 5"
+    "translation":"The streams and rivers flowing into the ocean do not know its vastness."
   },
   {
     "_id":207,
-    "scripture":"sggs",
     "page":5,
-    "line":6,
     "hymn":23,
     "gurmukhi":"smuMd swh sulqwn igrhw syqI mwlu Dnu ]",
     "transliteration":"Samundh Saah Sulathaan Girehaa Saethee Maal Dhhan ||",
-    "translation":"Even kings and emperors, with mountains of property and oceans of wealth",
-    "attributes":"jpu {mÚ 1} 23:3 - gurU gRMQ swihb - AMg 5 pM 6"
+    "translation":"Even kings and emperors, with mountains of property and oceans of wealth"
   },
   {
     "_id":208,
-    "scripture":"sggs",
     "page":5,
-    "line":6,
     "hymn":23,
     "gurmukhi":"kIVI quil n hovnI jy iqsu mnhu n vIsrih ]23]",
     "transliteration":"Keerree Thul N Hovanee Jae This Manahu N Veesarehi ||23||",
-    "translation":"-these are not even equal to an ant, who does not forget God. ||23||",
-    "attributes":"jpu {mÚ 1} 23:4 - gurU gRMQ swihb - AMg 5 pM 6"
+    "translation":"-these are not even equal to an ant, who does not forget God. ||23||"
   },
   {
     "_id":209,
-    "scripture":"sggs",
     "page":5,
-    "line":6,
     "hymn":24,
     "gurmukhi":"AMqu n isPqI khix n AMqu ]",
     "transliteration":"Anth N Sifathee Kehan N Anth ||",
-    "translation":"Endless are His Praises, endless are those who speak them.",
-    "attributes":"jpu {mÚ 1} 24:1 - gurU gRMQ swihb - AMg 5 pM 6"
+    "translation":"Endless are His Praises, endless are those who speak them."
   },
   {
     "_id":210,
-    "scripture":"sggs",
     "page":5,
-    "line":7,
     "hymn":24,
     "gurmukhi":"AMqu n krxY dyix n AMqu ]",
     "transliteration":"Anth N Karani Dhaen N Anth ||",
-    "translation":"Endless are His Actions, endless are His Gifts.",
-    "attributes":"jpu {mÚ 1} 24:2 - gurU gRMQ swihb - AMg 5 pM 7"
+    "translation":"Endless are His Actions, endless are His Gifts."
   },
   {
     "_id":211,
-    "scripture":"sggs",
     "page":5,
-    "line":7,
     "hymn":24,
     "gurmukhi":"AMqu n vyKix suxix n AMqu ]",
     "transliteration":"Anth N Vaekhan Sunan N Anth ||",
-    "translation":"Endless is His Vision, endless is His Hearing.",
-    "attributes":"jpu {mÚ 1} 24:3 - gurU gRMQ swihb - AMg 5 pM 7"
+    "translation":"Endless is His Vision, endless is His Hearing."
   },
   {
     "_id":212,
-    "scripture":"sggs",
     "page":5,
-    "line":7,
     "hymn":24,
     "gurmukhi":"AMqu n jwpY ikAw min mMqu ]",
     "transliteration":"Anth N Jaapai Kiaa Man Manth ||",
-    "translation":"His limits cannot be perceived. What is the Mystery of His Mind?",
-    "attributes":"jpu {mÚ 1} 24:4 - gurU gRMQ swihb - AMg 5 pM 7"
+    "translation":"His limits cannot be perceived. What is the Mystery of His Mind?"
   },
   {
     "_id":213,
-    "scripture":"sggs",
     "page":5,
-    "line":8,
     "hymn":24,
     "gurmukhi":"AMqu n jwpY kIqw Awkwru ]",
     "transliteration":"Anth N Jaapai Keethaa Aakaar ||",
-    "translation":"The limits of the created universe cannot be perceived.",
-    "attributes":"jpu {mÚ 1} 24:5 - gurU gRMQ swihb - AMg 5 pM 8"
+    "translation":"The limits of the created universe cannot be perceived."
   },
   {
     "_id":214,
-    "scripture":"sggs",
     "page":5,
-    "line":8,
     "hymn":24,
     "gurmukhi":"AMqu n jwpY pwrwvwru ]",
     "transliteration":"Anth N Jaapai Paaraavaar ||",
-    "translation":"Its limits here and beyond cannot be perceived.",
-    "attributes":"jpu {mÚ 1} 24:6 - gurU gRMQ swihb - AMg 5 pM 8"
+    "translation":"Its limits here and beyond cannot be perceived."
   },
   {
     "_id":215,
-    "scripture":"sggs",
     "page":5,
-    "line":8,
     "hymn":24,
     "gurmukhi":"AMq kwrix kyqy ibllwih ]",
     "transliteration":"Anth Kaaran Kaethae Bilalaahi ||",
-    "translation":"Many struggle to know His limits,",
-    "attributes":"jpu {mÚ 1} 24:7 - gurU gRMQ swihb - AMg 5 pM 8"
+    "translation":"Many struggle to know His limits,"
   },
   {
     "_id":216,
-    "scripture":"sggs",
     "page":5,
-    "line":9,
     "hymn":24,
     "gurmukhi":"qw ky AMq n pwey jwih ]",
     "transliteration":"Thaa Kae Anth N Paaeae Jaahi ||",
-    "translation":"But His limits cannot be found.",
-    "attributes":"jpu {mÚ 1} 24:8 - gurU gRMQ swihb - AMg 5 pM 9"
+    "translation":"But His limits cannot be found."
   },
   {
     "_id":217,
-    "scripture":"sggs",
     "page":5,
-    "line":9,
     "hymn":24,
     "gurmukhi":"eyhu AMqu n jwxY koie ]",
     "transliteration":"Eaehu Anth N Jaanai Koe ||",
-    "translation":"No one can know these limits.",
-    "attributes":"jpu {mÚ 1} 24:9 - gurU gRMQ swihb - AMg 5 pM 9"
+    "translation":"No one can know these limits."
   },
   {
     "_id":218,
-    "scripture":"sggs",
     "page":5,
-    "line":9,
     "hymn":24,
     "gurmukhi":"bhuqw khIAY bhuqw hoie ]",
     "transliteration":"Bahuthaa Keheeai Bahuthaa Hoe ||",
-    "translation":"The more you say about them, the more there still remains to be said.",
-    "attributes":"jpu {mÚ 1} 24:10 - gurU gRMQ swihb - AMg 5 pM 9"
+    "translation":"The more you say about them, the more there still remains to be said."
   },
   {
     "_id":219,
-    "scripture":"sggs",
     "page":5,
-    "line":9,
     "hymn":24,
     "gurmukhi":"vfw swihbu aUcw Qwau ]",
     "transliteration":"Vaddaa Saahib Oochaa Thhaao ||",
-    "translation":"Great is the Master, High is His Heavenly Home.",
-    "attributes":"jpu {mÚ 1} 24:11 - gurU gRMQ swihb - AMg 5 pM 9"
+    "translation":"Great is the Master, High is His Heavenly Home."
   },
   {
     "_id":220,
-    "scripture":"sggs",
     "page":5,
-    "line":10,
     "hymn":24,
     "gurmukhi":"aUcy aupir aUcw nwau ]",
     "transliteration":"Oochae Oupar Oochaa Naao ||",
-    "translation":"Highest of the High, above all is His Name.",
-    "attributes":"jpu {mÚ 1} 24:12 - gurU gRMQ swihb - AMg 5 pM 10"
+    "translation":"Highest of the High, above all is His Name."
   },
   {
     "_id":221,
-    "scripture":"sggs",
     "page":5,
-    "line":10,
     "hymn":24,
     "gurmukhi":"eyvfu aUcw hovY koie ]",
     "transliteration":"Eaevadd Oochaa Hovai Koe ||",
-    "translation":"Only one as Great and as High as God",
-    "attributes":"jpu {mÚ 1} 24:13 - gurU gRMQ swihb - AMg 5 pM 10"
+    "translation":"Only one as Great and as High as God"
   },
   {
     "_id":222,
-    "scripture":"sggs",
     "page":5,
-    "line":10,
     "hymn":24,
     "gurmukhi":"iqsu aUcy kau jwxY soie ]",
     "transliteration":"This Oochae Ko Jaanai Soe ||",
-    "translation":"Can know His Lofty and Exalted State.",
-    "attributes":"jpu {mÚ 1} 24:14 - gurU gRMQ swihb - AMg 5 pM 10"
+    "translation":"Can know His Lofty and Exalted State."
   },
   {
     "_id":223,
-    "scripture":"sggs",
     "page":5,
-    "line":10,
     "hymn":24,
     "gurmukhi":"jyvfu Awip jwxY Awip Awip ]",
     "transliteration":"Jaevadd Aap Jaanai Aap Aap ||",
-    "translation":"Only He Himself is that Great. He Himself knows Himself.",
-    "attributes":"jpu {mÚ 1} 24:15 - gurU gRMQ swihb - AMg 5 pM 10"
+    "translation":"Only He Himself is that Great. He Himself knows Himself."
   },
   {
     "_id":224,
-    "scripture":"sggs",
     "page":5,
-    "line":11,
     "hymn":24,
     "gurmukhi":"nwnk ndrI krmI dwiq ]24]",
     "transliteration":"Naanak Nadhree Karamee Dhaath ||24||",
-    "translation":"O Nanak, by His Glance of Grace, He bestows His Blessings. ||24||",
-    "attributes":"jpu {mÚ 1} 24:16 - gurU gRMQ swihb - AMg 5 pM 11"
+    "translation":"O Nanak, by His Glance of Grace, He bestows His Blessings. ||24||"
   },
   {
     "_id":225,
-    "scripture":"sggs",
     "page":5,
-    "line":11,
     "hymn":25,
     "gurmukhi":"bhuqw krmu iliKAw nw jwie ]",
     "transliteration":"Bahuthaa Karam Likhiaa Naa Jaae ||",
-    "translation":"His Blessings are so abundant that there can be no written account of them.",
-    "attributes":"jpu {mÚ 1} 25:1 - gurU gRMQ swihb - AMg 5 pM 11"
+    "translation":"His Blessings are so abundant that there can be no written account of them."
   },
   {
     "_id":226,
-    "scripture":"sggs",
     "page":5,
-    "line":11,
     "hymn":25,
     "gurmukhi":"vfw dwqw iqlu n qmwie ]",
     "transliteration":"Vaddaa Dhaathaa Thil N Thamaae ||",
-    "translation":"The Great Giver does not hold back anything.",
-    "attributes":"jpu {mÚ 1} 25:2 - gurU gRMQ swihb - AMg 5 pM 11"
+    "translation":"The Great Giver does not hold back anything."
   },
   {
     "_id":227,
-    "scripture":"sggs",
     "page":5,
-    "line":12,
     "hymn":25,
     "gurmukhi":"kyqy mMgih joD Apwr ]",
     "transliteration":"Kaethae Mangehi Jodhh Apaar ||",
-    "translation":"There are so many great, heroic warriors begging at the Door of the Infinite Lord.",
-    "attributes":"jpu {mÚ 1} 25:3 - gurU gRMQ swihb - AMg 5 pM 12"
+    "translation":"There are so many great, heroic warriors begging at the Door of the Infinite Lord."
   },
   {
     "_id":228,
-    "scripture":"sggs",
     "page":5,
-    "line":12,
     "hymn":25,
     "gurmukhi":"kyiqAw gxq nhI vIcwru ]",
     "transliteration":"Kaethiaa Ganath Nehee Veechaar ||",
-    "translation":"So many contemplate and dwell upon Him, that they cannot be counted.",
-    "attributes":"jpu {mÚ 1} 25:4 - gurU gRMQ swihb - AMg 5 pM 12"
+    "translation":"So many contemplate and dwell upon Him, that they cannot be counted."
   },
   {
     "_id":229,
-    "scripture":"sggs",
     "page":5,
-    "line":12,
     "hymn":25,
     "gurmukhi":"kyqy Kip qutih vykwr ]",
     "transliteration":"Kaethae Khap Thuttehi Vaekaar ||",
-    "translation":"So many waste away to death engaged in corruption.",
-    "attributes":"jpu {mÚ 1} 25:5 - gurU gRMQ swihb - AMg 5 pM 12"
+    "translation":"So many waste away to death engaged in corruption."
   },
   {
     "_id":230,
-    "scripture":"sggs",
     "page":5,
-    "line":12,
     "hymn":25,
     "gurmukhi":"kyqy lY lY mukru pwih ]",
     "transliteration":"Kaethae Lai Lai Mukar Paahi ||",
-    "translation":"So many take and take again, and then deny receiving.",
-    "attributes":"jpu {mÚ 1} 25:6 - gurU gRMQ swihb - AMg 5 pM 12"
+    "translation":"So many take and take again, and then deny receiving."
   },
   {
     "_id":231,
-    "scripture":"sggs",
     "page":5,
-    "line":13,
     "hymn":25,
     "gurmukhi":"kyqy mUrK KwhI Kwih ]",
     "transliteration":"Kaethae Moorakh Khaahee Khaahi ||",
-    "translation":"So many foolish consumers keep on consuming.",
-    "attributes":"jpu {mÚ 1} 25:7 - gurU gRMQ swihb - AMg 5 pM 13"
+    "translation":"So many foolish consumers keep on consuming."
   },
   {
     "_id":232,
-    "scripture":"sggs",
     "page":5,
-    "line":13,
     "hymn":25,
     "gurmukhi":"kyiqAw dUK BUK sd mwr ]",
     "transliteration":"Kaethiaa Dhookh Bhookh Sadh Maar ||",
-    "translation":"So many endure distress, deprivation and constant abuse.",
-    "attributes":"jpu {mÚ 1} 25:8 - gurU gRMQ swihb - AMg 5 pM 13"
+    "translation":"So many endure distress, deprivation and constant abuse."
   },
   {
     "_id":233,
-    "scripture":"sggs",
     "page":5,
-    "line":13,
     "hymn":25,
     "gurmukhi":"eyih iB dwiq qyrI dwqwr ]",
     "transliteration":"Eaehi Bh Dhaath Thaeree Dhaathaar ||",
-    "translation":"Even these are Your Gifts, O Great Giver!",
-    "attributes":"jpu {mÚ 1} 25:9 - gurU gRMQ swihb - AMg 5 pM 13"
+    "translation":"Even these are Your Gifts, O Great Giver!"
   },
   {
     "_id":234,
-    "scripture":"sggs",
     "page":5,
-    "line":13,
     "hymn":25,
     "gurmukhi":"bMid KlwsI BwxY hoie ]",
     "transliteration":"Bandh Khalaasee Bhaanai Hoe ||",
-    "translation":"Liberation from bondage comes only by Your Will.",
-    "attributes":"jpu {mÚ 1} 25:10 - gurU gRMQ swihb - AMg 5 pM 13"
+    "translation":"Liberation from bondage comes only by Your Will."
   },
   {
     "_id":235,
-    "scripture":"sggs",
     "page":5,
-    "line":14,
     "hymn":25,
     "gurmukhi":"horu AwiK n skY koie ]",
     "transliteration":"Hor Aakh N Sakai Koe ||",
-    "translation":"No one else has any say in this.",
-    "attributes":"jpu {mÚ 1} 25:11 - gurU gRMQ swihb - AMg 5 pM 14"
+    "translation":"No one else has any say in this."
   },
   {
     "_id":236,
-    "scripture":"sggs",
     "page":5,
-    "line":14,
     "hymn":25,
     "gurmukhi":"jy ko Kwieku AwKix pwie ]",
     "transliteration":"Jae Ko Khaaeik Aakhan Paae ||",
-    "translation":"If some fool should presume to say that he does,",
-    "attributes":"jpu {mÚ 1} 25:12 - gurU gRMQ swihb - AMg 5 pM 14"
+    "translation":"If some fool should presume to say that he does,"
   },
   {
     "_id":237,
-    "scripture":"sggs",
     "page":5,
-    "line":14,
     "hymn":25,
     "gurmukhi":"Ehu jwxY jyqIAw muih Kwie ]",
     "transliteration":"Ouhu Jaanai Jaetheeaa Muhi Khaae ||",
-    "translation":"He shall learn, and feel the effects of his folly.",
-    "attributes":"jpu {mÚ 1} 25:13 - gurU gRMQ swihb - AMg 5 pM 14"
+    "translation":"He shall learn, and feel the effects of his folly."
   },
   {
     "_id":238,
-    "scripture":"sggs",
     "page":5,
-    "line":14,
     "hymn":25,
     "gurmukhi":"Awpy jwxY Awpy dyie ]",
     "transliteration":"Aapae Jaanai Aapae Dhaee ||",
-    "translation":"He Himself knows, He Himself gives.",
-    "attributes":"jpu {mÚ 1} 25:14 - gurU gRMQ swihb - AMg 5 pM 14"
+    "translation":"He Himself knows, He Himself gives."
   },
   {
     "_id":239,
-    "scripture":"sggs",
     "page":5,
-    "line":15,
     "hymn":25,
     "gurmukhi":"AwKih is iB kyeI kyie ]",
     "transliteration":"Aakhehi S Bh Kaeee Kaee ||",
-    "translation":"Few, very few are those who acknowledge this.",
-    "attributes":"jpu {mÚ 1} 25:15 - gurU gRMQ swihb - AMg 5 pM 15"
+    "translation":"Few, very few are those who acknowledge this."
   },
   {
     "_id":240,
-    "scripture":"sggs",
     "page":5,
-    "line":15,
     "hymn":25,
     "gurmukhi":"ijs no bKsy isPiq swlwh ]",
     "transliteration":"Jis No Bakhasae Sifath Saalaah ||",
-    "translation":"One who is blessed to sing the Praises of the Lord,",
-    "attributes":"jpu {mÚ 1} 25:16 - gurU gRMQ swihb - AMg 5 pM 15"
+    "translation":"One who is blessed to sing the Praises of the Lord,"
   },
   {
     "_id":241,
-    "scripture":"sggs",
     "page":5,
-    "line":15,
     "hymn":25,
     "gurmukhi":"nwnk pwiqswhI pwiqswhu ]25]",
     "transliteration":"Naanak Paathisaahee Paathisaahu ||25||",
-    "translation":"O Nanak, is the king of kings. ||25||",
-    "attributes":"jpu {mÚ 1} 25:17 - gurU gRMQ swihb - AMg 5 pM 15"
+    "translation":"O Nanak, is the king of kings. ||25||"
   },
   {
     "_id":242,
-    "scripture":"sggs",
     "page":5,
-    "line":16,
     "hymn":26,
     "gurmukhi":"Amul gux Amul vwpwr ]",
     "transliteration":"Amul Gun Amul Vaapaar ||",
-    "translation":"Priceless are His Virtues, Priceless are His Dealings.",
-    "attributes":"jpu {mÚ 1} 26:1 - gurU gRMQ swihb - AMg 5 pM 16"
+    "translation":"Priceless are His Virtues, Priceless are His Dealings."
   },
   {
     "_id":243,
-    "scripture":"sggs",
     "page":5,
-    "line":16,
     "hymn":26,
     "gurmukhi":"Amul vwpwrIey Amul BMfwr ]",
     "transliteration":"Amul Vaapaareeeae Amul Bhanddaar ||",
-    "translation":"Priceless are His Dealers, Priceless are His Treasures.",
-    "attributes":"jpu {mÚ 1} 26:2 - gurU gRMQ swihb - AMg 5 pM 16"
+    "translation":"Priceless are His Dealers, Priceless are His Treasures."
   },
   {
     "_id":244,
-    "scripture":"sggs",
     "page":5,
-    "line":16,
     "hymn":26,
     "gurmukhi":"Amul Awvih Amul lY jwih ]",
     "transliteration":"Amul Aavehi Amul Lai Jaahi ||",
-    "translation":"Priceless are those who come to Him, Priceless are those who buy from Him.",
-    "attributes":"jpu {mÚ 1} 26:3 - gurU gRMQ swihb - AMg 5 pM 16"
+    "translation":"Priceless are those who come to Him, Priceless are those who buy from Him."
   },
   {
     "_id":245,
-    "scripture":"sggs",
     "page":5,
-    "line":17,
     "hymn":26,
     "gurmukhi":"Amul Bwie Amulw smwih ]",
     "transliteration":"Amul Bhaae Amulaa Samaahi ||",
-    "translation":"Priceless is Love for Him, Priceless is absorption into Him.",
-    "attributes":"jpu {mÚ 1} 26:4 - gurU gRMQ swihb - AMg 5 pM 17"
+    "translation":"Priceless is Love for Him, Priceless is absorption into Him."
   },
   {
     "_id":246,
-    "scripture":"sggs",
     "page":5,
-    "line":17,
     "hymn":26,
     "gurmukhi":"Amulu Drmu Amulu dIbwxu ]",
     "transliteration":"Amul Dhharam Amul Dheebaan ||",
-    "translation":"Priceless is the Divine Law of Dharma, Priceless is the Divine Court of Justice.",
-    "attributes":"jpu {mÚ 1} 26:5 - gurU gRMQ swihb - AMg 5 pM 17"
+    "translation":"Priceless is the Divine Law of Dharma, Priceless is the Divine Court of Justice."
   },
   {
     "_id":247,
-    "scripture":"sggs",
     "page":5,
-    "line":17,
     "hymn":26,
     "gurmukhi":"Amulu qulu Amulu prvwxu ]",
     "transliteration":"Amul Thul Amul Pravaan ||",
-    "translation":"Priceless are the scales, priceless are the weights.",
-    "attributes":"jpu {mÚ 1} 26:6 - gurU gRMQ swihb - AMg 5 pM 17"
+    "translation":"Priceless are the scales, priceless are the weights."
   },
   {
     "_id":248,
-    "scripture":"sggs",
     "page":5,
-    "line":17,
     "hymn":26,
     "gurmukhi":"Amulu bKsIs Amulu nIswxu ]",
     "transliteration":"Amul Bakhasees Amul Neesaan ||",
-    "translation":"Priceless are His Blessings, Priceless is His Banner and Insignia.",
-    "attributes":"jpu {mÚ 1} 26:7 - gurU gRMQ swihb - AMg 5 pM 17"
+    "translation":"Priceless are His Blessings, Priceless is His Banner and Insignia."
   },
   {
     "_id":249,
-    "scripture":"sggs",
     "page":5,
-    "line":18,
     "hymn":26,
     "gurmukhi":"Amulu krmu Amulu Purmwxu ]",
     "transliteration":"Amul Karam Amul Furamaan ||",
-    "translation":"Priceless is His Mercy, Priceless is His Royal Command.",
-    "attributes":"jpu {mÚ 1} 26:8 - gurU gRMQ swihb - AMg 5 pM 18"
+    "translation":"Priceless is His Mercy, Priceless is His Royal Command."
   },
   {
     "_id":250,
-    "scripture":"sggs",
     "page":5,
-    "line":18,
     "hymn":26,
     "gurmukhi":"Amulo Amulu AwiKAw n jwie ]",
     "transliteration":"Amulo Amul Aakhiaa N Jaae ||",
-    "translation":"Priceless, O Priceless beyond expression!",
-    "attributes":"jpu {mÚ 1} 26:9 - gurU gRMQ swihb - AMg 5 pM 18"
+    "translation":"Priceless, O Priceless beyond expression!"
   },
   {
     "_id":251,
-    "scripture":"sggs",
     "page":5,
-    "line":18,
     "hymn":26,
     "gurmukhi":"AwiK AwiK rhy ilv lwie ]",
     "transliteration":"Aakh Aakh Rehae Liv Laae ||",
-    "translation":"Speak of Him continually, and remain absorbed in His Love.",
-    "attributes":"jpu {mÚ 1} 26:10 - gurU gRMQ swihb - AMg 5 pM 18"
+    "translation":"Speak of Him continually, and remain absorbed in His Love."
   },
   {
     "_id":252,
-    "scripture":"sggs",
     "page":5,
-    "line":19,
     "hymn":26,
     "gurmukhi":"AwKih vyd pwT purwx ]",
     "transliteration":"Aakhehi Vaedh Paath Puraan ||",
-    "translation":"The Vedas and the Puraanas speak.",
-    "attributes":"jpu {mÚ 1} 26:11 - gurU gRMQ swihb - AMg 5 pM 19"
+    "translation":"The Vedas and the Puraanas speak."
   },
   {
     "_id":253,
-    "scripture":"sggs",
     "page":5,
-    "line":19,
     "hymn":26,
     "gurmukhi":"AwKih pVy krih viKAwx ]",
     "transliteration":"Aakhehi Parrae Karehi Vakhiaan ||",
-    "translation":"The scholars speak and lecture.",
-    "attributes":"jpu {mÚ 1} 26:12 - gurU gRMQ swihb - AMg 5 pM 19"
+    "translation":"The scholars speak and lecture."
   },
   {
     "_id":254,
-    "scripture":"sggs",
     "page":5,
-    "line":19,
     "hymn":26,
     "gurmukhi":"AwKih brmy AwKih ieMd ]",
     "transliteration":"Aakhehi Baramae Aakhehi Eindh ||",
-    "translation":"Brahma speaks, Indra speaks.",
-    "attributes":"jpu {mÚ 1} 26:13 - gurU gRMQ swihb - AMg 5 pM 19"
+    "translation":"Brahma speaks, Indra speaks."
   },
   {
     "_id":255,
-    "scripture":"sggs",
     "page":6,
-    "line":1,
     "hymn":26,
     "gurmukhi":"AwKih gopI qY goivMd ]",
     "transliteration":"Aakhehi Gopee Thai Govindh ||",
-    "translation":"The Gopis and Krishna speak.",
-    "attributes":"jpu {mÚ 1} 26:14 - gurU gRMQ swihb - AMg 6 pM 1"
+    "translation":"The Gopis and Krishna speak."
   },
   {
     "_id":256,
-    "scripture":"sggs",
     "page":6,
-    "line":1,
     "hymn":26,
     "gurmukhi":"AwKih eIsr AwKih isD ]",
     "transliteration":"Aakhehi Eesar Aakhehi Sidhh ||",
-    "translation":"Shiva speaks, the Siddhas speak.",
-    "attributes":"jpu {mÚ 1} 26:15 - gurU gRMQ swihb - AMg 6 pM 1"
+    "translation":"Shiva speaks, the Siddhas speak."
   },
   {
     "_id":257,
-    "scripture":"sggs",
     "page":6,
-    "line":1,
     "hymn":26,
     "gurmukhi":"AwKih kyqy kIqy buD ]",
     "transliteration":"Aakhehi Kaethae Keethae Budhh ||",
-    "translation":"The many created Buddhas speak.",
-    "attributes":"jpu {mÚ 1} 26:16 - gurU gRMQ swihb - AMg 6 pM 1"
+    "translation":"The many created Buddhas speak."
   },
   {
     "_id":258,
-    "scripture":"sggs",
     "page":6,
-    "line":1,
     "hymn":26,
     "gurmukhi":"AwKih dwnv AwKih dyv ]",
     "transliteration":"Aakhehi Dhaanav Aakhehi Dhaev ||",
-    "translation":"The demons speak, the demi-gods speak.",
-    "attributes":"jpu {mÚ 1} 26:17 - gurU gRMQ swihb - AMg 6 pM 1"
+    "translation":"The demons speak, the demi-gods speak."
   },
   {
     "_id":259,
-    "scripture":"sggs",
     "page":6,
-    "line":2,
     "hymn":26,
     "gurmukhi":"AwKih suir nr muin jn syv ]",
     "transliteration":"Aakhehi Sur Nar Mun Jan Saev ||",
-    "translation":"The spiritual warriors, the heavenly beings, the silent sages, the humble and serviceful speak.",
-    "attributes":"jpu {mÚ 1} 26:18 - gurU gRMQ swihb - AMg 6 pM 2"
+    "translation":"The spiritual warriors, the heavenly beings, the silent sages, the humble and serviceful speak."
   },
   {
     "_id":260,
-    "scripture":"sggs",
     "page":6,
-    "line":2,
     "hymn":26,
     "gurmukhi":"kyqy AwKih AwKix pwih ]",
     "transliteration":"Kaethae Aakhehi Aakhan Paahi ||",
-    "translation":"Many speak and try to describe Him.",
-    "attributes":"jpu {mÚ 1} 26:19 - gurU gRMQ swihb - AMg 6 pM 2"
+    "translation":"Many speak and try to describe Him."
   },
   {
     "_id":261,
-    "scripture":"sggs",
     "page":6,
-    "line":2,
     "hymn":26,
     "gurmukhi":"kyqy kih kih auiT auiT jwih ]",
     "transliteration":"Kaethae Kehi Kehi Outh Outh Jaahi ||",
-    "translation":"Many have spoken of Him over and over again, and have then arisen and departed.",
-    "attributes":"jpu {mÚ 1} 26:20 - gurU gRMQ swihb - AMg 6 pM 2"
+    "translation":"Many have spoken of Him over and over again, and have then arisen and departed."
   },
   {
     "_id":262,
-    "scripture":"sggs",
     "page":6,
-    "line":3,
     "hymn":26,
     "gurmukhi":"eyqy kIqy hoir kryih ]",
     "transliteration":"Eaethae Keethae Hor Karaehi ||",
-    "translation":"If He were to create as many again as there already are,",
-    "attributes":"jpu {mÚ 1} 26:21 - gurU gRMQ swihb - AMg 6 pM 3"
+    "translation":"If He were to create as many again as there already are,"
   },
   {
     "_id":263,
-    "scripture":"sggs",
     "page":6,
-    "line":3,
     "hymn":26,
     "gurmukhi":"qw AwiK n skih kyeI kyie ]",
     "transliteration":"Thaa Aakh N Sakehi Kaeee Kaee ||",
-    "translation":"Even then, they could not describe Him.",
-    "attributes":"jpu {mÚ 1} 26:22 - gurU gRMQ swihb - AMg 6 pM 3"
+    "translation":"Even then, they could not describe Him."
   },
   {
     "_id":264,
-    "scripture":"sggs",
     "page":6,
-    "line":3,
     "hymn":26,
     "gurmukhi":"jyvfu BwvY qyvfu hoie ]",
     "transliteration":"Jaevadd Bhaavai Thaevadd Hoe ||",
-    "translation":"He is as Great as He wishes to be.",
-    "attributes":"jpu {mÚ 1} 26:23 - gurU gRMQ swihb - AMg 6 pM 3"
+    "translation":"He is as Great as He wishes to be."
   },
   {
     "_id":265,
-    "scripture":"sggs",
     "page":6,
-    "line":3,
     "hymn":26,
     "gurmukhi":"nwnk jwxY swcw soie ]",
     "transliteration":"Naanak Jaanai Saachaa Soe ||",
-    "translation":"O Nanak, the True Lord knows.",
-    "attributes":"jpu {mÚ 1} 26:24 - gurU gRMQ swihb - AMg 6 pM 3"
+    "translation":"O Nanak, the True Lord knows."
   },
   {
     "_id":266,
-    "scripture":"sggs",
     "page":6,
-    "line":4,
     "hymn":26,
     "gurmukhi":"jy ko AwKY boluivgwVu ]",
     "transliteration":"Jae Ko Aakhai Boluvigaarr ||",
-    "translation":"If anyone presumes to describe God,",
-    "attributes":"jpu {mÚ 1} 26:25 - gurU gRMQ swihb - AMg 6 pM 4"
+    "translation":"If anyone presumes to describe God,"
   },
   {
     "_id":267,
-    "scripture":"sggs",
     "page":6,
-    "line":4,
     "hymn":26,
     "gurmukhi":"qw ilKIAY isir gwvwrw gwvwru ]26]",
     "transliteration":"Thaa Likheeai Sir Gaavaaraa Gaavaar ||26||",
-    "translation":"He shall be known as the greatest fool of fools! ||26||",
-    "attributes":"jpu {mÚ 1} 26:26 - gurU gRMQ swihb - AMg 6 pM 4"
+    "translation":"He shall be known as the greatest fool of fools! ||26||"
   },
   {
     "_id":268,
-    "scripture":"sggs",
     "page":6,
-    "line":4,
     "hymn":27,
     "gurmukhi":"so dru kyhw so Gru kyhw ijqu bih srb smwly ]",
     "transliteration":"So Dhar Kaehaa So Ghar Kaehaa Jith Behi Sarab Samaalae ||",
-    "translation":"Where is that Gate, and where is that Dwelling, in which You sit and take care of all?",
-    "attributes":"jpu {mÚ 1} 27:1 - gurU gRMQ swihb - AMg 6 pM 4"
+    "translation":"Where is that Gate, and where is that Dwelling, in which You sit and take care of all?"
   },
   {
     "_id":269,
-    "scripture":"sggs",
     "page":6,
-    "line":5,
     "hymn":27,
     "gurmukhi":"vwjy nwd Anyk AsMKw kyqy vwvxhwry ]",
     "transliteration":"Vaajae Naadh Anaek Asankhaa Kaethae Vaavanehaarae ||",
-    "translation":"The Sound-current of the Naad vibrates there, and countless musicians play on all sorts of instruments there.",
-    "attributes":"jpu {mÚ 1} 27:2 - gurU gRMQ swihb - AMg 6 pM 5"
+    "translation":"The Sound-current of the Naad vibrates there, and countless musicians play on all sorts of instruments there."
   },
   {
     "_id":270,
-    "scripture":"sggs",
     "page":6,
-    "line":5,
     "hymn":27,
     "gurmukhi":"kyqy rwg prI isau khIAin kyqy gwvxhwry ]",
     "transliteration":"Kaethae Raag Paree Sio Keheean Kaethae Gaavanehaarae ||",
-    "translation":"So many Ragas, so many musicians singing there.",
-    "attributes":"jpu {mÚ 1} 27:3 - gurU gRMQ swihb - AMg 6 pM 5"
+    "translation":"So many Ragas, so many musicians singing there."
   },
   {
     "_id":271,
-    "scripture":"sggs",
     "page":6,
-    "line":6,
     "hymn":27,
     "gurmukhi":"gwvih quhno pauxu pwxI bYsMqru gwvY rwjw Drmu duAwry ]",
     "transliteration":"Gaavehi Thuhano Poun Paanee Baisanthar Gaavai Raajaa Dhharam Dhuaarae ||",
-    "translation":"The praanic wind, water and fire sing; the Righteous Judge of Dharma sings at Your Door.",
-    "attributes":"jpu {mÚ 1} 27:4 - gurU gRMQ swihb - AMg 6 pM 6"
+    "translation":"The praanic wind, water and fire sing; the Righteous Judge of Dharma sings at Your Door."
   },
   {
     "_id":272,
-    "scripture":"sggs",
     "page":6,
-    "line":6,
     "hymn":27,
     "gurmukhi":"gwvih icqu gupqu iliK jwxih iliK iliK Drmu vIcwry ]",
     "transliteration":"Gaavehi Chith Gupath Likh Jaanehi Likh Likh Dhharam Veechaarae ||",
-    "translation":"Chitr and Gupt, the angels of the conscious and the subconscious who record actions, and the Righteous Judge of Dharma who judges this record sing.",
-    "attributes":"jpu {mÚ 1} 27:5 - gurU gRMQ swihb - AMg 6 pM 6"
+    "translation":"Chitr and Gupt, the angels of the conscious and the subconscious who record actions, and the Righteous Judge of Dharma who judges this record sing."
   },
   {
     "_id":273,
-    "scripture":"sggs",
     "page":6,
-    "line":7,
     "hymn":27,
     "gurmukhi":"gwvih eIsru brmw dyvI sohin sdw svwry ]",
     "transliteration":"Gaavehi Eesar Baramaa Dhaevee Sohan Sadha Savaarae ||",
-    "translation":"Shiva, Brahma and the Goddess of Beauty, ever adorned, sing.",
-    "attributes":"jpu {mÚ 1} 27:6 - gurU gRMQ swihb - AMg 6 pM 7"
+    "translation":"Shiva, Brahma and the Goddess of Beauty, ever adorned, sing."
   },
   {
     "_id":274,
-    "scripture":"sggs",
     "page":6,
-    "line":7,
     "hymn":27,
     "gurmukhi":"gwvih ieMd iedwsix bYTy dyviqAw dir nwly ]",
     "transliteration":"Gaavehi Eindh Eidhaasan Baithae Dhaevathiaa Dhar Naalae ||",
-    "translation":"Indra, seated upon His Throne, sings with the deities at Your Door.",
-    "attributes":"jpu {mÚ 1} 27:7 - gurU gRMQ swihb - AMg 6 pM 7"
+    "translation":"Indra, seated upon His Throne, sings with the deities at Your Door."
   },
   {
     "_id":275,
-    "scripture":"sggs",
     "page":6,
-    "line":8,
     "hymn":27,
     "gurmukhi":"gwvih isD smwDI AMdir gwvin swD ivcwry ]",
     "transliteration":"Gaavehi Sidhh Samaadhhee Andhr Gaavan Saadhh Vichaarae ||",
-    "translation":"The Siddhas in Samaadhi sing; the Saadhus sing in contemplation.",
-    "attributes":"jpu {mÚ 1} 27:8 - gurU gRMQ swihb - AMg 6 pM 8"
+    "translation":"The Siddhas in Samaadhi sing; the Saadhus sing in contemplation."
   },
   {
     "_id":276,
-    "scripture":"sggs",
     "page":6,
-    "line":8,
     "hymn":27,
     "gurmukhi":"gwvin jqI sqI sMqoKI gwvih vIr krwry ]",
     "transliteration":"Gaavan Jathee Sathee Santhokhee Gaavehi Veer Karaarae ||",
-    "translation":"The celibates, the fanatics, the peacefully accepting and the fearless warriors sing.",
-    "attributes":"jpu {mÚ 1} 27:9 - gurU gRMQ swihb - AMg 6 pM 8"
+    "translation":"The celibates, the fanatics, the peacefully accepting and the fearless warriors sing."
   },
   {
     "_id":277,
-    "scripture":"sggs",
     "page":6,
-    "line":9,
     "hymn":27,
     "gurmukhi":"gwvin pMifq pVin rKIsr jugu jugu vydw nwly ]",
     "transliteration":"Gaavan Panddith Parran Rakheesar Jug Jug Vaedhaa Naalae ||",
-    "translation":"The Pandits, the religious scholars who recite the Vedas, with the supreme sages of all the ages, sing.",
-    "attributes":"jpu {mÚ 1} 27:10 - gurU gRMQ swihb - AMg 6 pM 9"
+    "translation":"The Pandits, the religious scholars who recite the Vedas, with the supreme sages of all the ages, sing."
   },
   {
     "_id":278,
-    "scripture":"sggs",
     "page":6,
-    "line":9,
     "hymn":27,
     "gurmukhi":"gwvih mohxIAw mnu mohin surgw mC pieAwly ]",
     "transliteration":"Gaavehi Mohaneeaa Man Mohan Suragaa Mashh Paeiaalae ||",
-    "translation":"The Mohinis, the enchanting heavenly beauties who entice hearts in this world, in paradise, and in the underworld of the subconscious sing.",
-    "attributes":"jpu {mÚ 1} 27:11 - gurU gRMQ swihb - AMg 6 pM 9"
+    "translation":"The Mohinis, the enchanting heavenly beauties who entice hearts in this world, in paradise, and in the underworld of the subconscious sing."
   },
   {
     "_id":279,
-    "scripture":"sggs",
     "page":6,
-    "line":10,
     "hymn":27,
     "gurmukhi":"gwvin rqn aupwey qyry ATsiT qIrQ nwly ]",
     "transliteration":"Gaavan Rathan Oupaaeae Thaerae Athasath Theerathh Naalae ||",
-    "translation":"The celestial jewels created by You, and the sixty-eight holy places of pilgrimage sing.",
-    "attributes":"jpu {mÚ 1} 27:12 - gurU gRMQ swihb - AMg 6 pM 10"
+    "translation":"The celestial jewels created by You, and the sixty-eight holy places of pilgrimage sing."
   },
   {
     "_id":280,
-    "scripture":"sggs",
     "page":6,
-    "line":10,
     "hymn":27,
     "gurmukhi":"gwvih joD mhwbl sUrw gwvih KwxI cwry ]",
     "transliteration":"Gaavehi Jodhh Mehaabal Sooraa Gaavehi Khaanee Chaarae ||",
-    "translation":"The brave and mighty warriors sing; the spiritual heroes and the four sources of creation sing.",
-    "attributes":"jpu {mÚ 1} 27:13 - gurU gRMQ swihb - AMg 6 pM 10"
+    "translation":"The brave and mighty warriors sing; the spiritual heroes and the four sources of creation sing."
   },
   {
     "_id":281,
-    "scripture":"sggs",
     "page":6,
-    "line":11,
     "hymn":27,
     "gurmukhi":"gwvih KMf mMfl vrBMfw kir kir rKy Dwry ]",
     "transliteration":"Gaavehi Khandd Manddal Varabhanddaa Kar Kar Rakhae Dhhaarae ||",
-    "translation":"The planets, solar systems and galaxies, created and arranged by Your Hand, sing.",
-    "attributes":"jpu {mÚ 1} 27:14 - gurU gRMQ swihb - AMg 6 pM 11"
+    "translation":"The planets, solar systems and galaxies, created and arranged by Your Hand, sing."
   },
   {
     "_id":282,
-    "scripture":"sggs",
     "page":6,
-    "line":11,
     "hymn":27,
     "gurmukhi":"syeI quDuno gwvih jo quDu Bwvin rqy qyry Bgq rswly ]",
     "transliteration":"Saeee Thudhhuno Gaavehi Jo Thudhh Bhaavan Rathae Thaerae Bhagath Rasaalae ||",
-    "translation":"They alone sing, who are pleasing to Your Will. Your devotees are imbued with the Nectar of Your Essence.",
-    "attributes":"jpu {mÚ 1} 28:15 - gurU gRMQ swihb - AMg 6 pM 11"
+    "translation":"They alone sing, who are pleasing to Your Will. Your devotees are imbued with the Nectar of Your Essence."
   },
   {
     "_id":283,
-    "scripture":"sggs",
     "page":6,
-    "line":12,
     "hymn":27,
     "gurmukhi":"hoir kyqy gwvin sy mY iciq n Awvin nwnku ikAw vIcwry ]",
     "transliteration":"Hor Kaethae Gaavan Sae Mai Chith N Aavan Naanak Kiaa Veechaarae ||",
-    "translation":"So many others sing, they do not come to mind. O Nanak, how can I consider them all?",
-    "attributes":"jpu {mÚ 1} 29:16 - gurU gRMQ swihb - AMg 6 pM 12"
+    "translation":"So many others sing, they do not come to mind. O Nanak, how can I consider them all?"
   },
   {
     "_id":284,
-    "scripture":"sggs",
     "page":6,
-    "line":13,
     "hymn":27,
     "gurmukhi":"soeI soeI sdw scu swihbu swcw swcI nweI ]",
     "transliteration":"Soee Soee Sadha Sach Saahib Saachaa Saachee Naaee ||",
-    "translation":"That True Lord is True, Forever True, and True is His Name.",
-    "attributes":"jpu {mÚ 1} 30:17 - gurU gRMQ swihb - AMg 6 pM 13"
+    "translation":"That True Lord is True, Forever True, and True is His Name."
   },
   {
     "_id":285,
-    "scripture":"sggs",
     "page":6,
-    "line":13,
     "hymn":27,
     "gurmukhi":"hY BI hosI jwie n jwsI rcnw ijin rcweI ]",
     "transliteration":"Hai Bhee Hosee Jaae N Jaasee Rachanaa Jin Rachaaee ||",
-    "translation":"He is, and shall always be. He shall not depart, even when this Universe which He has created departs.",
-    "attributes":"jpu {mÚ 1} 31:18 - gurU gRMQ swihb - AMg 6 pM 13"
+    "translation":"He is, and shall always be. He shall not depart, even when this Universe which He has created departs."
   },
   {
     "_id":286,
-    "scripture":"sggs",
     "page":6,
-    "line":14,
     "hymn":27,
     "gurmukhi":"rMgI rMgI BwqI kir kir ijnsI mwieAw ijin aupweI ]",
     "transliteration":"Rangee Rangee Bhaathee Kar Kar Jinasee Maaeiaa Jin Oupaaee ||",
-    "translation":"He created the world, with its various colors, species of beings, and the variety of Maya.",
-    "attributes":"jpu {mÚ 1} 32:19 - gurU gRMQ swihb - AMg 6 pM 14"
+    "translation":"He created the world, with its various colors, species of beings, and the variety of Maya."
   },
   {
     "_id":287,
-    "scripture":"sggs",
     "page":6,
-    "line":14,
     "hymn":27,
     "gurmukhi":"kir kir vyKY kIqw Awpxw ijv iqs dI vifAweI ]",
     "transliteration":"Kar Kar Vaekhai Keethaa Aapanaa Jiv This Dhee Vaddiaaee ||",
-    "translation":"Having created the creation, He watches over it Himself, by His Greatness.",
-    "attributes":"jpu {mÚ 1} 33:20 - gurU gRMQ swihb - AMg 6 pM 14"
+    "translation":"Having created the creation, He watches over it Himself, by His Greatness."
   },
   {
     "_id":288,
-    "scripture":"sggs",
     "page":6,
-    "line":15,
     "hymn":27,
     "gurmukhi":"jo iqsu BwvY soeI krsI hukmu n krxw jweI ]",
     "transliteration":"Jo This Bhaavai Soee Karasee Hukam N Karana Jaaee ||",
-    "translation":"He does whatever He pleases. No order can be issued to Him.",
-    "attributes":"jpu {mÚ 1} 34:21 - gurU gRMQ swihb - AMg 6 pM 15"
+    "translation":"He does whatever He pleases. No order can be issued to Him."
   },
   {
     "_id":289,
-    "scripture":"sggs",
     "page":6,
-    "line":15,
     "hymn":27,
     "gurmukhi":"so pwiqswhu swhw pwiqswihbu nwnk rhxu rjweI ]27]",
     "transliteration":"So Paathisaahu Saahaa Paathisaahib Naanak Rehan Rajaaee ||27||",
-    "translation":"He is the King, the King of kings, the Supreme Lord and Master of kings. Nanak remains subject to His Will. ||27||",
-    "attributes":"jpu {mÚ 1} 35:22 - gurU gRMQ swihb - AMg 6 pM 15"
+    "translation":"He is the King, the King of kings, the Supreme Lord and Master of kings. Nanak remains subject to His Will. ||27||"
   },
   {
     "_id":290,
-    "scripture":"sggs",
     "page":6,
-    "line":16,
     "hymn":28,
     "gurmukhi":"muMdw sMqoKu srmu pqu JolI iDAwn kI krih ibBUiq ]",
     "transliteration":"Mundhaa Santhokh Saram Path Jholee Dhhiaan Kee Karehi Bibhooth ||",
-    "translation":"Make contentment your ear-rings, humility your begging bowl, and meditation the ashes you apply to your body.",
-    "attributes":"jpu {mÚ 1} 28:1 - gurU gRMQ swihb - AMg 6 pM 16"
+    "translation":"Make contentment your ear-rings, humility your begging bowl, and meditation the ashes you apply to your body."
   },
   {
     "_id":291,
-    "scripture":"sggs",
     "page":6,
-    "line":16,
     "hymn":28,
     "gurmukhi":"iKMQw kwlu kuAwrI kwieAw jugiq fMfw prqIiq ]",
     "transliteration":"Khinthhaa Kaal Kuaaree Kaaeiaa Jugath Ddanddaa Pratheeth ||",
-    "translation":"Let the remembrance of death be the patched coat you wear, let the purity of virginity be your way in the world, and let faith in the Lord be your walking stick.",
-    "attributes":"jpu {mÚ 1} 28:2 - gurU gRMQ swihb - AMg 6 pM 16"
+    "translation":"Let the remembrance of death be the patched coat you wear, let the purity of virginity be your way in the world, and let faith in the Lord be your walking stick."
   },
   {
     "_id":292,
-    "scripture":"sggs",
     "page":6,
-    "line":17,
     "hymn":28,
     "gurmukhi":"AweI pMQI sgl jmwqI min jIqY jgu jIqu ]",
     "transliteration":"Aaee Panthhee Sagal Jamaathee Man Jeethai Jag Jeeth ||",
-    "translation":"See the brotherhood of all mankind as the highest order of Yogis; conquer your own mind, and conquer the world.",
-    "attributes":"jpu {mÚ 1} 28:3 - gurU gRMQ swihb - AMg 6 pM 17"
+    "translation":"See the brotherhood of all mankind as the highest order of Yogis; conquer your own mind, and conquer the world."
   },
   {
     "_id":293,
-    "scripture":"sggs",
     "page":6,
-    "line":17,
     "hymn":28,
     "gurmukhi":"Awdysu iqsY Awdysu ]",
     "transliteration":"Aadhes Thisai Aadhes ||",
-    "translation":"I bow to Him, I humbly bow.",
-    "attributes":"jpu {mÚ 1} 28:4 - gurU gRMQ swihb - AMg 6 pM 17"
+    "translation":"I bow to Him, I humbly bow."
   },
   {
     "_id":294,
-    "scripture":"sggs",
     "page":6,
-    "line":17,
     "hymn":28,
     "gurmukhi":"Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]28]",
     "transliteration":"Aadh Aneel Anaadh Anaahath Jug Jug Eaeko Vaes ||28||",
-    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||28||",
-    "attributes":"jpu {mÚ 1} 28:5 - gurU gRMQ swihb - AMg 7 pM 17"
+    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||28||"
   },
   {
     "_id":295,
-    "scripture":"sggs",
     "page":6,
-    "line":18,
     "hymn":29,
     "gurmukhi":"Bugiq igAwnu dieAw BMfwrix Git Git vwjih nwd ]",
     "transliteration":"Bhugath Giaan Dhaeiaa Bhanddaaran Ghatt Ghatt Vaajehi Naadh ||",
-    "translation":"Let spiritual wisdom be your food, and compassion your attendant. The Sound-current of the Naad vibrates in each and every heart.",
-    "attributes":"jpu {mÚ 1} 29:1 - gurU gRMQ swihb - AMg 6 pM 18"
+    "translation":"Let spiritual wisdom be your food, and compassion your attendant. The Sound-current of the Naad vibrates in each and every heart."
   },
   {
     "_id":296,
-    "scripture":"sggs",
     "page":6,
-    "line":19,
     "hymn":29,
     "gurmukhi":"Awip nwQu nwQI sB jw kI iriD isiD Avrw swd ]",
     "transliteration":"Aap Naathh Naathhee Sabh Jaa Kee Ridhh Sidhh Avaraa Saadh ||",
-    "translation":"He Himself is the Supreme Master of all; wealth and miraculous spiritual powers, and all other external tastes and pleasures, are all like beads on a string.",
-    "attributes":"jpu {mÚ 1} 29:2 - gurU gRMQ swihb - AMg 6 pM 19"
+    "translation":"He Himself is the Supreme Master of all; wealth and miraculous spiritual powers, and all other external tastes and pleasures, are all like beads on a string."
   },
   {
     "_id":297,
-    "scripture":"sggs",
     "page":6,
-    "line":19,
     "hymn":29,
     "gurmukhi":"sMjogu ivjogu duie kwr clwvih lyKy Awvih Bwg ]",
     "transliteration":"Sanjog Vijog Dhue Kaar Chalaavehi Laekhae Aavehi Bhaag ||",
-    "translation":"Union with Him, and separation from Him, come by His Will. We come to receive what is written in our destiny.",
-    "attributes":"jpu {mÚ 1} 29:3 - gurU gRMQ swihb - AMg 6 pM 19"
+    "translation":"Union with Him, and separation from Him, come by His Will. We come to receive what is written in our destiny."
   },
   {
     "_id":298,
-    "scripture":"sggs",
     "page":7,
-    "line":1,
     "hymn":29,
     "gurmukhi":"Awdysu iqsY Awdysu ]",
     "transliteration":"Aadhes Thisai Aadhes ||",
-    "translation":"I bow to Him, I humbly bow.",
-    "attributes":"jpu {mÚ 1} 29:4 - gurU gRMQ swihb - AMg 7 pM 1"
+    "translation":"I bow to Him, I humbly bow."
   },
   {
     "_id":299,
-    "scripture":"sggs",
     "page":7,
-    "line":1,
     "hymn":29,
     "gurmukhi":"Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]29]",
     "transliteration":"Aadh Aneel Anaadh Anaahath Jug Jug Eaeko Vaes ||29||",
-    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||29||",
-    "attributes":"jpu {mÚ 1} 29:5 - gurU gRMQ swihb - AMg 7 pM 1"
+    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||29||"
   },
   {
     "_id":300,
-    "scripture":"sggs",
     "page":7,
-    "line":2,
     "hymn":30,
     "gurmukhi":"eykw mweI jugiq ivAweI iqin cyly prvwxu ]",
     "transliteration":"Eaekaa Maaee Jugath Viaaee Thin Chaelae Pravaan ||",
-    "translation":"The One Divine Mother conceived and gave birth to the three deities.",
-    "attributes":"jpu {mÚ 1} 30:1 - gurU gRMQ swihb - AMg 7 pM 2"
+    "translation":"The One Divine Mother conceived and gave birth to the three deities."
   },
   {
     "_id":301,
-    "scripture":"sggs",
     "page":7,
-    "line":2,
     "hymn":30,
     "gurmukhi":"ieku sMswrI ieku BMfwrI ieku lwey dIbwxu ]",
     "transliteration":"Eik Sansaaree Eik Bhanddaaree Eik Laaeae Dheebaan ||",
-    "translation":"One, the Creator of the World; One, the Sustainer; and One, the Destroyer.",
-    "attributes":"jpu {mÚ 1} 30:2 - gurU gRMQ swihb - AMg 7 pM 2"
+    "translation":"One, the Creator of the World; One, the Sustainer; and One, the Destroyer."
   },
   {
     "_id":302,
-    "scripture":"sggs",
     "page":7,
-    "line":2,
     "hymn":30,
     "gurmukhi":"ijv iqsu BwvY iqvY clwvY ijv hovY Purmwxu ]",
     "transliteration":"Jiv This Bhaavai Thivai Chalaavai Jiv Hovai Furamaan ||",
-    "translation":"He makes things happen according to the Pleasure of His Will. Such is His Celestial Order.",
-    "attributes":"jpu {mÚ 1} 30:3 - gurU gRMQ swihb - AMg 7 pM 2"
+    "translation":"He makes things happen according to the Pleasure of His Will. Such is His Celestial Order."
   },
   {
     "_id":303,
-    "scripture":"sggs",
     "page":7,
-    "line":3,
     "hymn":30,
     "gurmukhi":"Ehu vyKY Enw ndir n AwvY bhuqw eyhu ivfwxu ]",
     "transliteration":"Ouhu Vaekhai Ounaa Nadhr N Aavai Bahuthaa Eaehu Viddaan ||",
-    "translation":"He watches over all, but none see Him. How wonderful this is!",
-    "attributes":"jpu {mÚ 1} 30:4 - gurU gRMQ swihb - AMg 7 pM 3"
+    "translation":"He watches over all, but none see Him. How wonderful this is!"
   },
   {
     "_id":304,
-    "scripture":"sggs",
     "page":7,
-    "line":3,
     "hymn":30,
     "gurmukhi":"Awdysu iqsY Awdysu ]",
     "transliteration":"Aadhes Thisai Aadhes ||",
-    "translation":"I bow to Him, I humbly bow.",
-    "attributes":"jpu {mÚ 1} 30:5 - gurU gRMQ swihb - AMg 7 pM 3"
+    "translation":"I bow to Him, I humbly bow."
   },
   {
     "_id":305,
-    "scripture":"sggs",
     "page":7,
-    "line":4,
     "hymn":30,
     "gurmukhi":"Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]30]",
     "transliteration":"Aadh Aneel Anaadh Anaahath Jug Jug Eaeko Vaes ||30||",
-    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||30||",
-    "attributes":"jpu {mÚ 1} 30:6 - gurU gRMQ swihb - AMg 7 pM 4"
+    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||30||"
   },
   {
     "_id":306,
-    "scripture":"sggs",
     "page":7,
-    "line":4,
     "hymn":31,
     "gurmukhi":"Awsxu loie loie BMfwr ]",
     "transliteration":"Aasan Loe Loe Bhanddaar ||",
-    "translation":"On world after world are His Seats of Authority and His Storehouses.",
-    "attributes":"jpu {mÚ 1} 31:1 - gurU gRMQ swihb - AMg 7 pM 4"
+    "translation":"On world after world are His Seats of Authority and His Storehouses."
   },
   {
     "_id":307,
-    "scripture":"sggs",
     "page":7,
-    "line":5,
     "hymn":31,
     "gurmukhi":"jo ikCu pwieAw su eykw vwr ]",
     "transliteration":"Jo Kishh Paaeiaa S Eaekaa Vaar ||",
-    "translation":"Whatever was put into them, was put there once and for all.",
-    "attributes":"jpu {mÚ 1} 31:2 - gurU gRMQ swihb - AMg 7 pM 5"
+    "translation":"Whatever was put into them, was put there once and for all."
   },
   {
     "_id":308,
-    "scripture":"sggs",
     "page":7,
-    "line":5,
     "hymn":31,
     "gurmukhi":"kir kir vyKY isrjxhwru ]",
     "transliteration":"Kar Kar Vaekhai Sirajanehaar ||",
-    "translation":"Having created the creation, the Creator Lord watches over it.",
-    "attributes":"jpu {mÚ 1} 31:3 - gurU gRMQ swihb - AMg 7 pM 5"
+    "translation":"Having created the creation, the Creator Lord watches over it."
   },
   {
     "_id":309,
-    "scripture":"sggs",
     "page":7,
-    "line":5,
     "hymn":31,
     "gurmukhi":"nwnk scy kI swcI kwr ]",
     "transliteration":"Naanak Sachae Kee Saachee Kaar ||",
-    "translation":"O Nanak, True is the Creation of the True Lord.",
-    "attributes":"jpu {mÚ 1} 31:4 - gurU gRMQ swihb - AMg 7 pM 5"
+    "translation":"O Nanak, True is the Creation of the True Lord."
   },
   {
     "_id":310,
-    "scripture":"sggs",
     "page":7,
-    "line":5,
     "hymn":31,
     "gurmukhi":"Awdysu iqsY Awdysu ]",
     "transliteration":"Aadhes Thisai Aadhes ||",
-    "translation":"I bow to Him, I humbly bow.",
-    "attributes":"jpu {mÚ 1} 31:5 - gurU gRMQ swihb - AMg 7 pM 5"
+    "translation":"I bow to Him, I humbly bow."
   },
   {
     "_id":311,
-    "scripture":"sggs",
     "page":7,
-    "line":6,
     "hymn":31,
     "gurmukhi":"Awid AnIlu Anwid Anwhiq jugu jugu eyko vysu ]31]",
     "transliteration":"Aadh Aneel Anaadh Anaahath Jug Jug Eaeko Vaes ||31||",
-    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||31||",
-    "attributes":"jpu {mÚ 1} 31:6 - gurU gRMQ swihb - AMg 7 pM 6"
+    "translation":"The Primal One, the Pure Light, without beginning, without end. Throughout all the ages, He is One and the Same. ||31||"
   },
   {
     "_id":312,
-    "scripture":"sggs",
     "page":7,
-    "line":6,
     "hymn":32,
     "gurmukhi":"iek dU jIBO lK hoih lK hovih lK vIs ]",
     "transliteration":"Eik Dhoo Jeebha Lakh Hohi Lakh Hovehi Lakh Vees ||",
-    "translation":"If I had 100,000 tongues, and these were then multiplied twenty times more, with each tongue,",
-    "attributes":"jpu {mÚ 1} 32:1 - gurU gRMQ swihb - AMg 7 pM 6"
+    "translation":"If I had 100,000 tongues, and these were then multiplied twenty times more, with each tongue,"
   },
   {
     "_id":313,
-    "scripture":"sggs",
     "page":7,
-    "line":7,
     "hymn":32,
     "gurmukhi":"lKu lKu gyVw AwKIAih eyku nwmu jgdIs ]",
     "transliteration":"Lakh Lakh Gaerraa Aakheeahi Eaek Naam Jagadhees ||",
-    "translation":"I would repeat, hundreds of thousands of times, the Name of the One, the Lord of the Universe.",
-    "attributes":"jpu {mÚ 1} 32:2 - gurU gRMQ swihb - AMg 7 pM 7"
+    "translation":"I would repeat, hundreds of thousands of times, the Name of the One, the Lord of the Universe."
   },
   {
     "_id":314,
-    "scripture":"sggs",
     "page":7,
-    "line":7,
     "hymn":32,
     "gurmukhi":"eyqu rwih piq pvVIAw cVIAY hoie iekIs ]",
     "transliteration":"Eaeth Raahi Path Pavarreeaa Charreeai Hoe Eikees ||",
-    "translation":"Along this path to our Husband Lord, we climb the steps of the ladder, and come to merge with Him.",
-    "attributes":"jpu {mÚ 1} 32:3 - gurU gRMQ swihb - AMg 7 pM 7"
+    "translation":"Along this path to our Husband Lord, we climb the steps of the ladder, and come to merge with Him."
   },
   {
     "_id":315,
-    "scripture":"sggs",
     "page":7,
-    "line":8,
     "hymn":32,
     "gurmukhi":"suix glw Awkws kI kItw AweI rIs ]",
     "transliteration":"Sun Galaa Aakaas Kee Keettaa Aaee Rees ||",
-    "translation":"Hearing of the etheric realms, even worms long to come back home.",
-    "attributes":"jpu {mÚ 1} 32:4 - gurU gRMQ swihb - AMg 7 pM 8"
+    "translation":"Hearing of the etheric realms, even worms long to come back home."
   },
   {
     "_id":316,
-    "scripture":"sggs",
     "page":7,
-    "line":8,
     "hymn":32,
     "gurmukhi":"nwnk ndrI pweIAY kUVI kUVY TIs ]32]",
     "transliteration":"Naanak Nadhree Paaeeai Koorree Koorrai Thees ||32||",
-    "translation":"O Nanak, by His Grace He is obtained. False are the boastings of the false. ||32||",
-    "attributes":"jpu {mÚ 1} 32:5 - gurU gRMQ swihb - AMg 7 pM 8"
+    "translation":"O Nanak, by His Grace He is obtained. False are the boastings of the false. ||32||"
   },
   {
     "_id":317,
-    "scripture":"sggs",
     "page":7,
-    "line":9,
     "hymn":33,
     "gurmukhi":"AwKix joru cupY nh joru ]",
     "transliteration":"Aakhan Jor Chupai Neh Jor ||",
-    "translation":"No power to speak, no power to keep silent.",
-    "attributes":"jpu {mÚ 1} 33:1 - gurU gRMQ swihb - AMg 7 pM 9"
+    "translation":"No power to speak, no power to keep silent."
   },
   {
     "_id":318,
-    "scripture":"sggs",
     "page":7,
-    "line":9,
     "hymn":33,
     "gurmukhi":"joru n mMgix dyix n joru ]",
     "transliteration":"Jor N Mangan Dhaen N Jor ||",
-    "translation":"No power to beg, no power to give.",
-    "attributes":"jpu {mÚ 1} 33:2 - gurU gRMQ swihb - AMg 7 pM 9"
+    "translation":"No power to beg, no power to give."
   },
   {
     "_id":319,
-    "scripture":"sggs",
     "page":7,
-    "line":9,
     "hymn":33,
     "gurmukhi":"joru n jIvix mrix nh joru ]",
     "transliteration":"Jor N Jeevan Maran Neh Jor ||",
-    "translation":"No power to live, no power to die.",
-    "attributes":"jpu {mÚ 1} 33:3 - gurU gRMQ swihb - AMg 7 pM 9"
+    "translation":"No power to live, no power to die."
   },
   {
     "_id":320,
-    "scripture":"sggs",
     "page":7,
-    "line":9,
     "hymn":33,
     "gurmukhi":"joru n rwij mwil min soru ]",
     "transliteration":"Jor N Raaj Maal Man Sor ||",
-    "translation":"No power to rule, with wealth and occult mental powers.",
-    "attributes":"jpu {mÚ 1} 33:4 - gurU gRMQ swihb - AMg 7 pM 9"
+    "translation":"No power to rule, with wealth and occult mental powers."
   },
   {
     "_id":321,
-    "scripture":"sggs",
     "page":7,
-    "line":10,
     "hymn":33,
     "gurmukhi":"joru n surqI igAwin vIcwir ]",
     "transliteration":"Jor N Surathee Giaan Veechaar ||",
-    "translation":"No power to gain intuitive understanding, spiritual wisdom and meditation.",
-    "attributes":"jpu {mÚ 1} 33:5 - gurU gRMQ swihb - AMg 7 pM 10"
+    "translation":"No power to gain intuitive understanding, spiritual wisdom and meditation."
   },
   {
     "_id":322,
-    "scripture":"sggs",
     "page":7,
-    "line":10,
     "hymn":33,
     "gurmukhi":"joru n jugqI CutY sMswru ]",
     "transliteration":"Jor N Jugathee Shhutti Sansaar ||",
-    "translation":"No power to find the way to escape from the world.",
-    "attributes":"jpu {mÚ 1} 33:6 - gurU gRMQ swihb - AMg 7 pM 10"
+    "translation":"No power to find the way to escape from the world."
   },
   {
     "_id":323,
-    "scripture":"sggs",
     "page":7,
-    "line":10,
     "hymn":33,
     "gurmukhi":"ijsu hiQ joru kir vyKY soie ]",
     "transliteration":"Jis Hathh Jor Kar Vaekhai Soe ||",
-    "translation":"He alone has the Power in His Hands. He watches over all.",
-    "attributes":"jpu {mÚ 1} 33:7 - gurU gRMQ swihb - AMg 7 pM 10"
+    "translation":"He alone has the Power in His Hands. He watches over all."
   },
   {
     "_id":324,
-    "scripture":"sggs",
     "page":7,
-    "line":11,
     "hymn":33,
     "gurmukhi":"nwnk auqmu nIcu n koie ]33]",
     "transliteration":"Naanak Outham Neech N Koe ||33||",
-    "translation":"O Nanak, no one is high or low. ||33||",
-    "attributes":"jpu {mÚ 1} 33:8 - gurU gRMQ swihb - AMg 7 pM 11"
+    "translation":"O Nanak, no one is high or low. ||33||"
   },
   {
     "_id":325,
-    "scripture":"sggs",
     "page":7,
-    "line":11,
     "hymn":34,
     "gurmukhi":"rwqI ruqI iQqI vwr ]",
     "transliteration":"Raathee Ruthee Thhithee Vaar ||",
-    "translation":"Nights, days, weeks and seasons;",
-    "attributes":"jpu {mÚ 1} 34:1 - gurU gRMQ swihb - AMg 7 pM 11"
+    "translation":"Nights, days, weeks and seasons;"
   },
   {
     "_id":326,
-    "scripture":"sggs",
     "page":7,
-    "line":11,
     "hymn":34,
     "gurmukhi":"pvx pwxI AgnI pwqwl ]",
     "transliteration":"Pavan Paanee Aganee Paathaal ||",
-    "translation":"Wind, water, fire and the nether regions",
-    "attributes":"jpu {mÚ 1} 34:2 - gurU gRMQ swihb - AMg 7 pM 11"
+    "translation":"Wind, water, fire and the nether regions"
   },
   {
     "_id":327,
-    "scripture":"sggs",
     "page":7,
-    "line":12,
     "hymn":34,
     "gurmukhi":"iqsu ivic DrqI Qwip rKI Drm swl ]",
     "transliteration":"This Vich Dhharathee Thhaap Rakhee Dhharam Saal ||",
-    "translation":"In the midst of these, He established the earth as a home for Dharma.",
-    "attributes":"jpu {mÚ 1} 34:3 - gurU gRMQ swihb - AMg 7 pM 12"
+    "translation":"In the midst of these, He established the earth as a home for Dharma."
   },
   {
     "_id":328,
-    "scripture":"sggs",
     "page":7,
-    "line":12,
     "hymn":34,
     "gurmukhi":"iqsu ivic jIA jugiq ky rMg ]",
     "transliteration":"This Vich Jeea Jugath Kae Rang ||",
-    "translation":"Upon it, He placed the various species of beings.",
-    "attributes":"jpu {mÚ 1} 34:4 - gurU gRMQ swihb - AMg 7 pM 12"
+    "translation":"Upon it, He placed the various species of beings."
   },
   {
     "_id":329,
-    "scripture":"sggs",
     "page":7,
-    "line":12,
     "hymn":34,
     "gurmukhi":"iqn ky nwm Anyk AnMq ]",
     "transliteration":"Thin Kae Naam Anaek Ananth ||",
-    "translation":"Their names are uncounted and endless.",
-    "attributes":"jpu {mÚ 1} 34:5 - gurU gRMQ swihb - AMg 7 pM 12"
+    "translation":"Their names are uncounted and endless."
   },
   {
     "_id":330,
-    "scripture":"sggs",
     "page":7,
-    "line":13,
     "hymn":34,
     "gurmukhi":"krmI krmI hoie vIcwru ]",
     "transliteration":"Karamee Karamee Hoe Veechaar ||",
-    "translation":"By their deeds and their actions, they shall be judged.",
-    "attributes":"jpu {mÚ 1} 34:6 - gurU gRMQ swihb - AMg 7 pM 13"
+    "translation":"By their deeds and their actions, they shall be judged."
   },
   {
     "_id":331,
-    "scripture":"sggs",
     "page":7,
-    "line":13,
     "hymn":34,
     "gurmukhi":"scw Awip scw drbwru ]",
     "transliteration":"Sachaa Aap Sachaa Dharabaar ||",
-    "translation":"God Himself is True, and True is His Court.",
-    "attributes":"jpu {mÚ 1} 34:7 - gurU gRMQ swihb - AMg 7 pM 13"
+    "translation":"God Himself is True, and True is His Court."
   },
   {
     "_id":332,
-    "scripture":"sggs",
     "page":7,
-    "line":13,
     "hymn":34,
     "gurmukhi":"iqQY sohin pMc prvwxu ]",
     "transliteration":"Thithhai Sohan Panch Pravaan ||",
-    "translation":"There, in perfect grace and ease, sit the self-elect, the self-realized Saints.",
-    "attributes":"jpu {mÚ 1} 34:8 - gurU gRMQ swihb - AMg 7 pM 13"
+    "translation":"There, in perfect grace and ease, sit the self-elect, the self-realized Saints."
   },
   {
     "_id":333,
-    "scripture":"sggs",
     "page":7,
-    "line":13,
     "hymn":34,
     "gurmukhi":"ndrI krim pvY nIswxu ]",
     "transliteration":"Nadhree Karam Pavai Neesaan ||",
-    "translation":"They receive the Mark of Grace from the Merciful Lord.",
-    "attributes":"jpu {mÚ 1} 34:9 - gurU gRMQ swihb - AMg 7 pM 13"
+    "translation":"They receive the Mark of Grace from the Merciful Lord."
   },
   {
     "_id":334,
-    "scripture":"sggs",
     "page":7,
-    "line":14,
     "hymn":34,
     "gurmukhi":"kc pkweI EQY pwie ]",
     "transliteration":"Kach Pakaaee Outhhai Paae ||",
-    "translation":"The ripe and the unripe, the good and the bad, shall there be judged.",
-    "attributes":"jpu {mÚ 1} 34:10 - gurU gRMQ swihb - AMg 7 pM 14"
+    "translation":"The ripe and the unripe, the good and the bad, shall there be judged."
   },
   {
     "_id":335,
-    "scripture":"sggs",
     "page":7,
-    "line":14,
     "hymn":34,
     "gurmukhi":"nwnk gieAw jwpY jwie ]34]",
     "transliteration":"Naanak Gaeiaa Jaapai Jaae ||34||",
-    "translation":"O Nanak, when you go home, you will see this. ||34||",
-    "attributes":"jpu {mÚ 1} 34:11 - gurU gRMQ swihb - AMg 7 pM 14"
+    "translation":"O Nanak, when you go home, you will see this. ||34||"
   },
   {
     "_id":336,
-    "scripture":"sggs",
     "page":7,
-    "line":14,
     "hymn":35,
     "gurmukhi":"Drm KMf kw eyho Drmu ]",
     "transliteration":"Dhharam Khandd Kaa Eaeho Dhharam ||",
-    "translation":"This is righteous living in the realm of Dharma.",
-    "attributes":"jpu {mÚ 1} 35:1 - gurU gRMQ swihb - AMg 7 pM 14"
+    "translation":"This is righteous living in the realm of Dharma."
   },
   {
     "_id":337,
-    "scripture":"sggs",
     "page":7,
-    "line":15,
     "hymn":35,
     "gurmukhi":"igAwn KMf kw AwKhu krmu ]",
     "transliteration":"Giaan Khandd Kaa Aakhahu Karam ||",
-    "translation":"And now we speak of the realm of spiritual wisdom.",
-    "attributes":"jpu {mÚ 1} 35:2 - gurU gRMQ swihb - AMg 7 pM 15"
+    "translation":"And now we speak of the realm of spiritual wisdom."
   },
   {
     "_id":338,
-    "scripture":"sggs",
     "page":7,
-    "line":15,
     "hymn":35,
     "gurmukhi":"kyqy pvx pwxI vYsMqr kyqy kwn mhys ]",
     "transliteration":"Kaethae Pavan Paanee Vaisanthar Kaethae Kaan Mehaes ||",
-    "translation":"So many winds, waters and fires; so many Krishnas and Shivas.",
-    "attributes":"jpu {mÚ 1} 35:3 - gurU gRMQ swihb - AMg 7 pM 15"
+    "translation":"So many winds, waters and fires; so many Krishnas and Shivas."
   },
   {
     "_id":339,
-    "scripture":"sggs",
     "page":7,
-    "line":15,
     "hymn":35,
     "gurmukhi":"kyqy brmy GwViq GVIAih rUp rMg ky vys ]",
     "transliteration":"Kaethae Baramae Ghaarrath Gharreeahi Roop Rang Kae Vaes ||",
-    "translation":"So many Brahmas, fashioning forms of great beauty, adorned and dressed in many colors.",
-    "attributes":"jpu {mÚ 1} 35:4 - gurU gRMQ swihb - AMg 7 pM 15"
+    "translation":"So many Brahmas, fashioning forms of great beauty, adorned and dressed in many colors."
   },
   {
     "_id":340,
-    "scripture":"sggs",
     "page":7,
-    "line":16,
     "hymn":35,
     "gurmukhi":"kyqIAw krm BUmI myr kyqy kyqy DU aupdys ]",
     "transliteration":"Kaetheeaa Karam Bhoomee Maer Kaethae Kaethae Dhhoo Oupadhes ||",
-    "translation":"So many worlds and lands for working out karma. So very many lessons to be learned!",
-    "attributes":"jpu {mÚ 1} 35:5 - gurU gRMQ swihb - AMg 7 pM 16"
+    "translation":"So many worlds and lands for working out karma. So very many lessons to be learned!"
   },
   {
     "_id":341,
-    "scripture":"sggs",
     "page":7,
-    "line":16,
     "hymn":35,
     "gurmukhi":"kyqy ieMd cMd sUr kyqy kyqy mMfl dys ]",
     "transliteration":"Kaethae Eindh Chandh Soor Kaethae Kaethae Manddal Dhaes ||",
-    "translation":"So many Indras, so many moons and suns, so many worlds and lands.",
-    "attributes":"jpu {mÚ 1} 35:6 - gurU gRMQ swihb - AMg 7 pM 16"
+    "translation":"So many Indras, so many moons and suns, so many worlds and lands."
   },
   {
     "_id":342,
-    "scripture":"sggs",
     "page":7,
-    "line":17,
     "hymn":35,
     "gurmukhi":"kyqy isD buD nwQ kyqy kyqy dyvI vys ]",
     "transliteration":"Kaethae Sidhh Budhh Naathh Kaethae Kaethae Dhaevee Vaes ||",
-    "translation":"So many Siddhas and Buddhas, so many Yogic masters. So many goddesses of various kinds.",
-    "attributes":"jpu {mÚ 1} 35:7 - gurU gRMQ swihb - AMg 7 pM 17"
+    "translation":"So many Siddhas and Buddhas, so many Yogic masters. So many goddesses of various kinds."
   },
   {
     "_id":343,
-    "scripture":"sggs",
     "page":7,
-    "line":17,
     "hymn":35,
     "gurmukhi":"kyqy dyv dwnv muin kyqy kyqy rqn smuMd ]",
     "transliteration":"Kaethae Dhaev Dhaanav Mun Kaethae Kaethae Rathan Samundh ||",
-    "translation":"So many demi-gods and demons, so many silent sages. So many oceans of jewels.",
-    "attributes":"jpu {mÚ 1} 35:8 - gurU gRMQ swihb - AMg 7 pM 17"
+    "translation":"So many demi-gods and demons, so many silent sages. So many oceans of jewels."
   },
   {
     "_id":344,
-    "scripture":"sggs",
     "page":7,
-    "line":18,
     "hymn":35,
     "gurmukhi":"kyqIAw KwxI kyqIAw bwxI kyqy pwq nirMd ]",
     "transliteration":"Kaetheeaa Khaanee Kaetheeaa Baanee Kaethae Paath Narindh ||",
-    "translation":"So many ways of life, so many languages. So many dynasties of rulers.",
-    "attributes":"jpu {mÚ 1} 35:9 - gurU gRMQ swihb - AMg 7 pM 18"
+    "translation":"So many ways of life, so many languages. So many dynasties of rulers."
   },
   {
     "_id":345,
-    "scripture":"sggs",
     "page":7,
-    "line":18,
     "hymn":35,
     "gurmukhi":"kyqIAw surqI syvk kyqy nwnk AMqu n AMqu ]35]",
     "transliteration":"Kaetheeaa Surathee Saevak Kaethae Naanak Anth N Anth ||35||",
-    "translation":"So many intuitive people, so many selfless servants. O Nanak, His limit has no limit! ||35||",
-    "attributes":"jpu {mÚ 1} 35:10 - gurU gRMQ swihb - AMg 7 pM 18"
+    "translation":"So many intuitive people, so many selfless servants. O Nanak, His limit has no limit! ||35||"
   },
   {
     "_id":346,
-    "scripture":"sggs",
     "page":7,
-    "line":19,
     "hymn":36,
     "gurmukhi":"igAwn KMf mih igAwnu prcMfu ]",
     "transliteration":"Giaan Khandd Mehi Giaan Prachandd ||",
-    "translation":"In the realm of wisdom, spiritual wisdom reigns supreme.",
-    "attributes":"jpu {mÚ 1} 36:1 - gurU gRMQ swihb - AMg 7 pM 19"
+    "translation":"In the realm of wisdom, spiritual wisdom reigns supreme."
   },
   {
     "_id":347,
-    "scripture":"sggs",
     "page":7,
-    "line":19,
     "hymn":36,
     "gurmukhi":"iqQY nwd ibnod kof AnMdu ]",
     "transliteration":"Thithhai Naadh Binodh Kodd Anandh ||",
-    "translation":"The Sound-current of the Naad vibrates there, amidst the sounds and the sights of bliss.",
-    "attributes":"jpu {mÚ 1} 36:2 - gurU gRMQ swihb - AMg 7 pM 19"
+    "translation":"The Sound-current of the Naad vibrates there, amidst the sounds and the sights of bliss."
   },
   {
     "_id":348,
-    "scripture":"sggs",
     "page":8,
-    "line":1,
     "hymn":36,
     "gurmukhi":"srm KMf kI bwxI rUpu ]",
     "transliteration":"Saram Khandd Kee Baanee Roop ||",
-    "translation":"In the realm of humility, the Word is Beauty.",
-    "attributes":"jpu {mÚ 1} 36:3 - gurU gRMQ swihb - AMg 8 pM 1"
+    "translation":"In the realm of humility, the Word is Beauty."
   },
   {
     "_id":349,
-    "scripture":"sggs",
     "page":8,
-    "line":1,
     "hymn":36,
     "gurmukhi":"iqQY GwViq GVIAY bhuqu AnUpu ]",
     "transliteration":"Thithhai Ghaarrath Gharreeai Bahuth Anoop ||",
-    "translation":"Forms of incomparable beauty are fashioned there.",
-    "attributes":"jpu {mÚ 1} 36:4 - gurU gRMQ swihb - AMg 8 pM 1"
+    "translation":"Forms of incomparable beauty are fashioned there."
   },
   {
     "_id":350,
-    "scripture":"sggs",
     "page":8,
-    "line":1,
     "hymn":36,
     "gurmukhi":"qw kIAw glw kQIAw nw jwih ]",
     "transliteration":"Thaa Keeaa Galaa Kathheeaa Naa Jaahi ||",
-    "translation":"These things cannot be described.",
-    "attributes":"jpu {mÚ 1} 36:5 - gurU gRMQ swihb - AMg 8 pM 1"
+    "translation":"These things cannot be described."
   },
   {
     "_id":351,
-    "scripture":"sggs",
     "page":8,
-    "line":1,
     "hymn":36,
     "gurmukhi":"jy ko khY ipCY pCuqwie ]",
     "transliteration":"Jae Ko Kehai Pishhai Pashhuthaae ||",
-    "translation":"One who tries to speak of these shall regret the attempt.",
-    "attributes":"jpu {mÚ 1} 36:6 - gurU gRMQ swihb - AMg 8 pM 1"
+    "translation":"One who tries to speak of these shall regret the attempt."
   },
   {
     "_id":352,
-    "scripture":"sggs",
     "page":8,
-    "line":2,
     "hymn":36,
     "gurmukhi":"iqQY GVIAY suriq miq min buiD ]",
     "transliteration":"Thithhai Gharreeai Surath Math Man Budhh ||",
-    "translation":"The intuitive consciousness, intellect and understanding of the mind are shaped there.",
-    "attributes":"jpu {mÚ 1} 36:7 - gurU gRMQ swihb - AMg 8 pM 2"
+    "translation":"The intuitive consciousness, intellect and understanding of the mind are shaped there."
   },
   {
     "_id":353,
-    "scripture":"sggs",
     "page":8,
-    "line":2,
     "hymn":36,
     "gurmukhi":"iqQY GVIAY surw isDw kI suiD ]36]",
     "transliteration":"Thithhai Gharreeai Suraa Sidhhaa Kee Sudhh ||36||",
-    "translation":"The consciousness of the spiritual warriors and the Siddhas, the beings of spiritual perfection, are shaped there. ||36||",
-    "attributes":"jpu {mÚ 1} 36:8 - gurU gRMQ swihb - AMg 8 pM 2"
+    "translation":"The consciousness of the spiritual warriors and the Siddhas, the beings of spiritual perfection, are shaped there. ||36||"
   },
   {
     "_id":354,
-    "scripture":"sggs",
     "page":8,
-    "line":3,
     "hymn":37,
     "gurmukhi":"krm KMf kI bwxI joru ]",
     "transliteration":"Karam Khandd Kee Baanee Jor ||",
-    "translation":"In the realm of karma, the Word is Power.",
-    "attributes":"jpu {mÚ 1} 37:1 - gurU gRMQ swihb - AMg 8 pM 3"
+    "translation":"In the realm of karma, the Word is Power."
   },
   {
     "_id":355,
-    "scripture":"sggs",
     "page":8,
-    "line":3,
     "hymn":37,
     "gurmukhi":"iqQY horu n koeI horu ]",
     "transliteration":"Thithhai Hor N Koee Hor ||",
-    "translation":"No one else dwells there,",
-    "attributes":"jpu {mÚ 1} 37:2 - gurU gRMQ swihb - AMg 8 pM 3"
+    "translation":"No one else dwells there,"
   },
   {
     "_id":356,
-    "scripture":"sggs",
     "page":8,
-    "line":3,
     "hymn":37,
     "gurmukhi":"iqQY joD mhwbl sUr ]",
     "transliteration":"Thithhai Jodhh Mehaabal Soor ||",
-    "translation":"Except the warriors of great power, the spiritual heroes.",
-    "attributes":"jpu {mÚ 1} 37:3 - gurU gRMQ swihb - AMg 8 pM 3"
+    "translation":"Except the warriors of great power, the spiritual heroes."
   },
   {
     "_id":357,
-    "scripture":"sggs",
     "page":8,
-    "line":3,
     "hymn":37,
     "gurmukhi":"iqn mih rwmu rihAw BrpUr ]",
     "transliteration":"Thin Mehi Raam Rehiaa Bharapoor ||",
-    "translation":"They are totally fulfilled, imbued with the Lord's Essence.",
-    "attributes":"jpu {mÚ 1} 37:4 - gurU gRMQ swihb - AMg 8 pM 3"
+    "translation":"They are totally fulfilled, imbued with the Lord's Essence."
   },
   {
     "_id":358,
-    "scripture":"sggs",
     "page":8,
-    "line":4,
     "hymn":37,
     "gurmukhi":"iqQY sIqo sIqw mihmw mwih ]",
     "transliteration":"Thithhai Seetho Seethaa Mehimaa Maahi ||",
-    "translation":"Myriads of Sitas are there, cool and calm in their majestic glory.",
-    "attributes":"jpu {mÚ 1} 37:5 - gurU gRMQ swihb - AMg 8 pM 4"
+    "translation":"Myriads of Sitas are there, cool and calm in their majestic glory."
   },
   {
     "_id":359,
-    "scripture":"sggs",
     "page":8,
-    "line":4,
     "hymn":37,
     "gurmukhi":"qw ky rUp n kQny jwih ]",
     "transliteration":"Thaa Kae Roop N Kathhanae Jaahi ||",
-    "translation":"Their beauty cannot be described.",
-    "attributes":"jpu {mÚ 1} 37:6 - gurU gRMQ swihb - AMg 8 pM 4"
+    "translation":"Their beauty cannot be described."
   },
   {
     "_id":360,
-    "scripture":"sggs",
     "page":8,
-    "line":4,
     "hymn":37,
     "gurmukhi":"nw Eih mrih n Twgy jwih ]",
     "transliteration":"Naa Ouhi Marehi N Thaagae Jaahi ||",
-    "translation":"Neither death nor deception comes to those,",
-    "attributes":"jpu {mÚ 1} 37:7 - gurU gRMQ swihb - AMg 8 pM 4"
+    "translation":"Neither death nor deception comes to those,"
   },
   {
     "_id":361,
-    "scripture":"sggs",
     "page":8,
-    "line":4,
     "hymn":37,
     "gurmukhi":"ijn kY rwmu vsY mn mwih ]",
     "transliteration":"Jin Kai Raam Vasai Man Maahi ||",
-    "translation":"Within whose minds the Lord abides.",
-    "attributes":"jpu {mÚ 1} 37:8 - gurU gRMQ swihb - AMg 8 pM 4"
+    "translation":"Within whose minds the Lord abides."
   },
   {
     "_id":362,
-    "scripture":"sggs",
     "page":8,
-    "line":5,
     "hymn":37,
     "gurmukhi":"iqQY Bgq vsih ky loA ]",
     "transliteration":"Thithhai Bhagath Vasehi Kae Loa ||",
-    "translation":"The devotees of many worlds dwell there.",
-    "attributes":"jpu {mÚ 1} 37:9 - gurU gRMQ swihb - AMg 8 pM 5"
+    "translation":"The devotees of many worlds dwell there."
   },
   {
     "_id":363,
-    "scripture":"sggs",
     "page":8,
-    "line":5,
     "hymn":37,
     "gurmukhi":"krih AnMdu scw min soie ]",
     "transliteration":"Karehi Anandh Sachaa Man Soe ||",
-    "translation":"They celebrate; their minds are imbued with the True Lord.",
-    "attributes":"jpu {mÚ 1} 37:10 - gurU gRMQ swihb - AMg 8 pM 5"
+    "translation":"They celebrate; their minds are imbued with the True Lord."
   },
   {
     "_id":364,
-    "scripture":"sggs",
     "page":8,
-    "line":5,
     "hymn":37,
     "gurmukhi":"sc KMif vsY inrMkwru ]",
     "transliteration":"Sach Khandd Vasai Nirankaar ||",
-    "translation":"In the realm of Truth, the Formless Lord abides.",
-    "attributes":"jpu {mÚ 1} 37:11 - gurU gRMQ swihb - AMg 8 pM 5"
+    "translation":"In the realm of Truth, the Formless Lord abides."
   },
   {
     "_id":365,
-    "scripture":"sggs",
     "page":8,
-    "line":6,
     "hymn":37,
     "gurmukhi":"kir kir vyKY ndir inhwl ]",
     "transliteration":"Kar Kar Vaekhai Nadhr Nihaal ||",
-    "translation":"Having created the creation, He watches over it. By His Glance of Grace, He bestows happiness.",
-    "attributes":"jpu {mÚ 1} 37:12 - gurU gRMQ swihb - AMg 8 pM 6"
+    "translation":"Having created the creation, He watches over it. By His Glance of Grace, He bestows happiness."
   },
   {
     "_id":366,
-    "scripture":"sggs",
     "page":8,
-    "line":6,
     "hymn":37,
     "gurmukhi":"iqQY KMf mMfl vrBMf ]",
     "transliteration":"Thithhai Khandd Manddal Varabhandd ||",
-    "translation":"There are planets, solar systems and galaxies.",
-    "attributes":"jpu {mÚ 1} 37:13 - gurU gRMQ swihb - AMg 8 pM 6"
+    "translation":"There are planets, solar systems and galaxies."
   },
   {
     "_id":367,
-    "scripture":"sggs",
     "page":8,
-    "line":6,
     "hymn":37,
     "gurmukhi":"jy ko kQY q AMq n AMq ]",
     "transliteration":"Jae Ko Kathhai Th Anth N Anth ||",
-    "translation":"If one speaks of them, there is no limit, no end.",
-    "attributes":"jpu {mÚ 1} 37:14 - gurU gRMQ swihb - AMg 8 pM 6"
+    "translation":"If one speaks of them, there is no limit, no end."
   },
   {
     "_id":368,
-    "scripture":"sggs",
     "page":8,
-    "line":6,
     "hymn":37,
     "gurmukhi":"iqQY loA loA Awkwr ]",
     "transliteration":"Thithhai Loa Loa Aakaar ||",
-    "translation":"There are worlds upon worlds of His Creation.",
-    "attributes":"jpu {mÚ 1} 37:15 - gurU gRMQ swihb - AMg 8 pM 6"
+    "translation":"There are worlds upon worlds of His Creation."
   },
   {
     "_id":369,
-    "scripture":"sggs",
     "page":8,
-    "line":7,
     "hymn":37,
     "gurmukhi":"ijv ijv hukmu iqvY iqv kwr ]",
     "transliteration":"Jiv Jiv Hukam Thivai Thiv Kaar ||",
-    "translation":"As He commands, so they exist.",
-    "attributes":"jpu {mÚ 1} 37:16 - gurU gRMQ swihb - AMg 8 pM 7"
+    "translation":"As He commands, so they exist."
   },
   {
     "_id":370,
-    "scripture":"sggs",
     "page":8,
-    "line":7,
     "hymn":37,
     "gurmukhi":"vyKY ivgsY kir vIcwru ]",
     "transliteration":"Vaekhai Vigasai Kar Veechaar ||",
-    "translation":"He watches over all, and contemplating the creation, He rejoices.",
-    "attributes":"jpu {mÚ 1} 37:17 - gurU gRMQ swihb - AMg 8 pM 7"
+    "translation":"He watches over all, and contemplating the creation, He rejoices."
   },
   {
     "_id":371,
-    "scripture":"sggs",
     "page":8,
-    "line":7,
     "hymn":37,
     "gurmukhi":"nwnk kQnw krVw swru ]37]",
     "transliteration":"Naanak Kathhanaa Kararraa Saar ||37||",
-    "translation":"O Nanak, to describe this is as hard as steel! ||37||",
-    "attributes":"jpu {mÚ 1} 37:18 - gurU gRMQ swihb - AMg 8 pM 7"
+    "translation":"O Nanak, to describe this is as hard as steel! ||37||"
   },
   {
     "_id":372,
-    "scripture":"sggs",
     "page":8,
-    "line":8,
     "hymn":38,
     "gurmukhi":"jqu pwhwrw DIrju suinAwru ]",
     "transliteration":"Jath Paahaaraa Dhheeraj Suniaar ||",
-    "translation":"Let self-control be the furnace, and patience the goldsmith.",
-    "attributes":"jpu {mÚ 1} 38:1 - gurU gRMQ swihb - AMg 8 pM 8"
+    "translation":"Let self-control be the furnace, and patience the goldsmith."
   },
   {
     "_id":373,
-    "scripture":"sggs",
     "page":8,
-    "line":8,
     "hymn":38,
     "gurmukhi":"Ahrix miq vydu hQIAwru ]",
     "transliteration":"Aharan Math Vaedh Hathheeaar ||",
-    "translation":"Let understanding be the anvil, and spiritual wisdom the tools.",
-    "attributes":"jpu {mÚ 1} 38:2 - gurU gRMQ swihb - AMg 8 pM 8"
+    "translation":"Let understanding be the anvil, and spiritual wisdom the tools."
   },
   {
     "_id":374,
-    "scripture":"sggs",
     "page":8,
-    "line":8,
     "hymn":38,
     "gurmukhi":"Bau Klw Agin qp qwau ]",
     "transliteration":"Bho Khalaa Agan Thap Thaao ||",
-    "translation":"With the Fear of God as the bellows, fan the flames of tapa, the body's inner heat.",
-    "attributes":"jpu {mÚ 1} 38:3 - gurU gRMQ swihb - AMg 8 pM 8"
+    "translation":"With the Fear of God as the bellows, fan the flames of tapa, the body's inner heat."
   },
   {
     "_id":375,
-    "scripture":"sggs",
     "page":8,
-    "line":9,
     "hymn":38,
     "gurmukhi":"Bwˆfw Bwau AMimRqu iqqu Fwil ]",
     "transliteration":"Bhaanddaa Bhaao Anmrith Thith Dtaal ||",
-    "translation":"In the crucible of love, melt the Nectar of the Name,",
-    "attributes":"jpu {mÚ 1} 38:4 - gurU gRMQ swihb - AMg 8 pM 9"
+    "translation":"In the crucible of love, melt the Nectar of the Name,"
   },
   {
     "_id":376,
-    "scripture":"sggs",
     "page":8,
-    "line":9,
     "hymn":38,
     "gurmukhi":"GVIAY sbdu scI tkswl ]",
     "transliteration":"Gharreeai Sabadh Sachee Ttakasaal ||",
-    "translation":"And mint the True Coin of the Shabad, the Word of God.",
-    "attributes":"jpu {mÚ 1} 38:5 - gurU gRMQ swihb - AMg 8 pM 9"
+    "translation":"And mint the True Coin of the Shabad, the Word of God."
   },
   {
     "_id":377,
-    "scripture":"sggs",
     "page":8,
-    "line":9,
     "hymn":38,
     "gurmukhi":"ijn kau ndir krmu iqn kwr ]",
     "transliteration":"Jin Ko Nadhr Karam Thin Kaar ||",
-    "translation":"Such is the karma of those upon whom He has cast His Glance of Grace.",
-    "attributes":"jpu {mÚ 1} 38:6 - gurU gRMQ swihb - AMg 8 pM 9"
+    "translation":"Such is the karma of those upon whom He has cast His Glance of Grace."
   },
   {
     "_id":378,
-    "scripture":"sggs",
     "page":8,
-    "line":10,
     "hymn":38,
     "gurmukhi":"nwnk ndrI ndir inhwl ]38]",
     "transliteration":"Naanak Nadhree Nadhr Nihaal ||38||",
-    "translation":"O Nanak, the Merciful Lord, by His Grace, uplifts and exalts them. ||38||",
-    "attributes":"jpu {mÚ 1} 38:7 - gurU gRMQ swihb - AMg 8 pM 10"
+    "translation":"O Nanak, the Merciful Lord, by His Grace, uplifts and exalts them. ||38||"
   },
   {
     "_id":379,
-    "scripture":"sggs",
     "page":8,
-    "line":10,
     "hymn":39,
     "gurmukhi":"sloku ]",
     "transliteration":"Salok ||",
-    "translation":"Shalok:",
-    "attributes":""
+    "translation":"Shalok:"
   },
   {
     "_id":380,
-    "scripture":"sggs",
     "page":8,
-    "line":10,
     "hymn":39,
     "gurmukhi":"pvxu gurU pwxI ipqw mwqw Driq mhqu ]",
     "transliteration":"Pavan Guroo Paanee Pithaa Maathaa Dhharath Mehath ||",
-    "translation":"Air is the Guru, Water is the Father, and Earth is the Great Mother of all.",
-    "attributes":"jpu {mÚ 1} (38) s. 1:1 - gurU gRMQ swihb - AMg 8 pM 10"
+    "translation":"Air is the Guru, Water is the Father, and Earth is the Great Mother of all."
   },
   {
     "_id":381,
-    "scripture":"sggs",
     "page":8,
-    "line":11,
     "hymn":39,
     "gurmukhi":"idvsu rwiq duie dweI dwieAw KylY sgl jgqu ]",
     "transliteration":"Dhivas Raath Dhue Dhaaee Dhaaeiaa Khaelai Sagal Jagath ||",
-    "translation":"Day and night are the two nurses, in whose lap all the world is at play.",
-    "attributes":"jpu {mÚ 1} (38) s. 1:2 - gurU gRMQ swihb - AMg 8 pM 11"
+    "translation":"Day and night are the two nurses, in whose lap all the world is at play."
   },
   {
     "_id":382,
-    "scripture":"sggs",
     "page":8,
-    "line":11,
     "hymn":39,
     "gurmukhi":"cMigAweIAw buirAweIAw vwcY Drmu hdUir ]",
     "transliteration":"Changiaaeeaa Buriaaeeaa Vaachai Dhharam Hadhoor ||",
-    "translation":"Good deeds and bad deeds-the record is read out in the Presence of the Lord of Dharma.",
-    "attributes":"jpu {mÚ 1} (38) s. 1:3 - gurU gRMQ swihb - AMg 8 pM 11"
+    "translation":"Good deeds and bad deeds-the record is read out in the Presence of the Lord of Dharma."
   },
   {
     "_id":383,
-    "scripture":"sggs",
     "page":8,
-    "line":12,
     "hymn":39,
     "gurmukhi":"krmI Awpo AwpxI ky nyVY ky dUir ]",
     "transliteration":"Karamee Aapo Aapanee Kae Naerrai Kae Dhoor ||",
-    "translation":"According to their own actions, some are drawn closer, and some are driven farther away.",
-    "attributes":"jpu {mÚ 1} (38) s. 1:4 - gurU gRMQ swihb - AMg 8 pM 12"
+    "translation":"According to their own actions, some are drawn closer, and some are driven farther away."
   },
   {
     "_id":384,
-    "scripture":"sggs",
     "page":8,
-    "line":12,
     "hymn":39,
     "gurmukhi":"ijnI nwmu iDAwieAw gey mskiq Gwil ]",
     "transliteration":"Jinee Naam Dhhiaaeiaa Geae Masakath Ghaal ||",
-    "translation":"Those who have meditated on the Naam, the Name of the Lord, and departed after having worked by the sweat of their brows",
-    "attributes":"jpu {mÚ 1} (38) s. 1:5 - gurU gRMQ swihb - AMg 8 pM 12"
+    "translation":"Those who have meditated on the Naam, the Name of the Lord, and departed after having worked by the sweat of their brows"
   },
   {
     "_id":385,
-    "scripture":"sggs",
     "page":8,
-    "line":12,
     "hymn":39,
     "gurmukhi":"nwnk qy muK aujly kyqI CutI nwil ]1]",
     "transliteration":"Naanak Thae Mukh Oujalae Kaethee Shhuttee Naal ||1||",
-    "translation":"-O Nanak, their faces are radiant in the Court of the Lord, and many are saved along with them! ||1||",
-    "attributes":"jpu {mÚ 1} (38) s. 1:6 - gurU gRMQ swihb - AMg 8 pM 12"
+    "translation":"-O Nanak, their faces are radiant in the Court of the Lord, and many are saved along with them! ||1||"
   }
 ]
