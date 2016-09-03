@@ -11,10 +11,13 @@
     <meta name="HandheldFriendly" content="true">
     <meta http-equiv="x-rim-auto-match" content="none">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- build:css css/app.min.css -->
     <link href="lib/ionic/release/css/ionic.css" rel="stylesheet">
     <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="dist/css/style.min.css" rel="stylesheet">
+    <!-- endbuild -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- build:js js/lib.min.js -->
     <script src="lib/ionic/release/js/ionic.min.js"></script>
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular-animate/angular-animate.min.js"></script>
@@ -25,17 +28,21 @@
     <script src="lib/isMobile/index.js"></script>
     <script src="lib/rsvp.js/rsvp.min.js"></script>
     <script src="lib/webfontloader/webfontloader.js"></script>
-    <script src="js/canvas.js"></script>
     <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+    <!-- endbuild -->
     <script src="cordova.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/directives.js"></script>
-    <script src="js/controllers.js"></script>
-    <script src="js/services.js"></script>
-    <script src="js/slicer.js"></script>
-    <script src="js/filters.js"></script>
+    <!-- build:js js/app.min.js -->
+    <script src="dist/js/canvas.js"></script>
+    <script src="dist/js/templates.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/directives.js"></script>
+    <script src="dist/js/controllers.js"></script>
+    <script src="dist/js/services.js"></script>
+    <script src="dist/js/slicer.js"></script>
+    <script src="dist/js/filters.js"></script>
+    <!-- endbuild -->
   </head>
-  <body ng-app="starter" on-key-press key-press="keyPress($event)">
+  <body ng-app="starter" ng-strict-di on-key-press key-press="keyPress($event)">
     <!--
       The nav bar that will be updated as we navigate between views.
     -->

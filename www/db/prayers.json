@@ -2,37 +2,37 @@
     "id": 0,
     "name": "Jap Ji Sahib",
     "description": "Song of the Soul",
-    "file": "db/japji.json"
+    "file": "dist/db/japji.json"
   }, {
     "id": 1,
     "name": "Jaap Sahib",
     "description": "Song of Recitation",
-    "file": "db/jaap.json"
+    "file": "dist/db/jaap.json"
   }, {
     "id": 2,
     "name": "Tav Prasad Savaiye",
     "description": "Song With Thy Grace",
-    "file": "db/tavprasad.json"
+    "file": "dist/db/tavprasad.json"
   }, {
     "id": 3,
     "name": "Chaupai Sahib",
     "description": "Song of the Poet",
-    "file": "db/chaupai.json"
+    "file": "dist/db/chaupai.json"
   }, {
     "id": 4,
     "name": "Anand Sahib",
     "description": "Song of Bliss",
-    "file": "db/anand.json"
+    "file": "dist/db/anand.json"
   },
   {
     "id": 5,
     "name": "Rehraas Sahib",
     "description": "Song of Continued Essence",
-    "file": "db/rehraas.json"
+    "file": "dist/db/rehraas.json"
   },
   {
     "id": 6,
     "name": "Kirtan Sohila",
     "description": "Song of Rest",
-    "file": "db/kirtansohila.json"
+    "file": "dist/db/kirtansohila.json"
   }]

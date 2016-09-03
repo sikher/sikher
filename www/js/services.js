@@ -230,7 +230,7 @@ return {
 .factory('Prayers', function($http, URLResolver) {
   return {
     get : function(url){
-        var url = url || 'db/prayers.json';
+        var url = url || 'dist/db/prayers.json';
         var method = 'GET';
         var cache = true;
 

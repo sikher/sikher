@@ -1,4 +1,18 @@
 {
   "name": "sikher",
-  "app_id": "5c2c02b2"
+  "app_id": "5c2c02b2",
+  "gulpStartupTasks": [
+    "clean",
+    "copyfonts",
+    "sass",
+    "jsonminify",
+    "templatecache",
+    "ng_annotate",
+    "useref",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }

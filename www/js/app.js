@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers', 'starter.services', 'starter.services.slicer', 'starter.filters', 'door3.css', 'ngCordova'])
+angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers', 'templates', 'starter.services', 'starter.services.slicer', 'starter.filters', 'door3.css', 'ngCordova'])
 
 .constant('$ionicLoadingConfig', {
   template: 'Loading...'
@@ -92,7 +92,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
   // setup an abstract state for the tabs directive
   .state('tab', {
     abstract: true,
-    templateUrl: "templates/tabs.html"
+    templateUrl: "tabs.html"
   })
 
   // Each tab has its own nav history stack:
@@ -102,7 +102,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
     url: '/search',
     views: {
       'search': {
-        templateUrl: 'templates/search.html',
+        templateUrl: 'search.html',
         controller: 'SearchCtrl'
       }
     }
@@ -113,7 +113,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
     views: {
       'search': {
         templateUrl: function ($stateParams){
-          return 'templates/view-' + $stateParams.viewAs + '.html';
+          return 'view-' + $stateParams.viewAs + '.html';
         },
         controller: 'ViewCtrl'
       }
@@ -134,7 +134,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
       url: '/favourites',
       views: {
         'favourites': {
-          templateUrl: 'templates/favourites.html',
+          templateUrl: 'favourites.html',
           controller: 'FavouritesCtrl'
         }
       }
@@ -145,7 +145,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
       url: '/prayers',
       views: {
         'prayers': {
-          templateUrl: 'templates/prayers.html',
+          templateUrl: 'prayers.html',
           controller: 'PrayersCtrl'
         }
       }
@@ -156,7 +156,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
       views: {
         'prayers': {
           templateUrl: function ($stateParams){
-            return 'templates/prayers-' + $stateParams.viewAs + '.html';
+            return 'prayers-' + $stateParams.viewAs + '.html';
           },
           controller: 'PrayersDetailCtrl'
         }
@@ -167,7 +167,7 @@ angular.module('starter', ['ionic', 'starter.directives', 'starter.controllers',
     url: '/settings',
     views: {
       'settings': {
-        templateUrl: 'templates/settings.html',
+        templateUrl: 'settings.html',
         controller: 'SettingsCtrl'
       }
     }

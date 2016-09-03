@@ -171,7 +171,7 @@ angular.module('starter.controllers', [])
   }
   else if($stateParams.viewAs === 'slides')
   {
-    $css.bind({href: 'css/view-slides.css'}, $scope);
+    $css.bind({href: 'dist/css/view-slides.min.css'}, $scope);
     $scope.closeSlideshow = function() { $state.go('tab.search'); $timeout(function(){$css.removeAll()},700); }
     $scope.nextSlide = function() { $ionicSlideBoxDelegate.next(); }
     $scope.previousSlide = function() { $ionicSlideBoxDelegate.previous(); }
@@ -244,11 +244,11 @@ angular.module('starter.controllers', [])
 
   if($stateParams.viewAs === 'hymn')
   {
-    $css.bind({href: 'css/prayers-hymn.css'}, $scope);
+    $css.bind({href: 'dist/css/prayers-hymn.min.css'}, $scope);
   }
   else if($stateParams.viewAs === 'slides')
   {
-    $css.bind({href: 'css/view-slides.css'}, $scope);
+    $css.bind({href: 'dist/css/view-slides.min.css'}, $scope);
     $scope.closePrayersSlideshow = function() { $state.go('tab.prayers'); $timeout(function(){$css.removeAll()},700); }
 
     $scope.gotoSlide = function (fullIndex) {
