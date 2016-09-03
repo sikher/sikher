@@ -1,9 +1,6 @@
 <ion-view ng-controller="PrayersDetailCtrl">
 	<ion-nav-title>{{prayer.name}}</ion-nav-title>
-	<audio class="audio-wrapper" controls preload crossorigin="anonymous" ng-if="prayer.audioURI">
-	  <source src="{{prayer.audioURI}}" type="audio/mpeg">
-	</audio>
-  <ion-content class="space-top">
+  <ion-content>
     <ion-list>
       <ion-item ng-repeat="scripture in ::prayer.data" ng-class-even="'search-even'" type="item-text-wrap">
         <p class="gurmukhi blue" ng-class="{prabhki:font()}">{{scripture.gurmukhi}}</p>
