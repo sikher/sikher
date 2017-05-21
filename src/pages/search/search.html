@@ -7,7 +7,9 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Search</ion-title>
+      <ion-toolbar color="primary">
+        <ion-searchbar (input)="getItems($event)"></ion-searchbar>
+      </ion-toolbar>
   </ion-navbar>
 
 </ion-header>
