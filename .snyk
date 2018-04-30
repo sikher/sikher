@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - grunt-download-atom-shell > github-releases > request > hawk:
+        patched: '2018-04-30T17:11:01.252Z'
+  'npm:minimatch:20160620':
+    - grunt-download-atom-shell > github-releases > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - grunt-download-atom-shell > grunt > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - grunt-download-atom-shell > grunt > glob > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - grunt-download-atom-shell > github-releases > grunt > glob > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - grunt-download-atom-shell > github-releases > grunt > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - grunt-download-atom-shell > grunt > findup-sync > glob > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - grunt-download-atom-shell > github-releases > grunt > findup-sync > glob > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-04-30T17:11:01.252Z'
+  'npm:qs:20140806-1':
+    - grunt-download-atom-shell > github-releases > request > qs:
+        patched: '2018-04-30T17:11:01.252Z'
+  'npm:request:20160119':
+    - grunt-download-atom-shell > github-releases > request:
+        patched: '2018-04-30T17:11:01.252Z'
