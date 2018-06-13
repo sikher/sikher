@@ -33,3 +33,6 @@ patch:
   'npm:request:20160119':
     - grunt-download-atom-shell > github-releases > request:
         patched: '2018-04-30T17:11:01.252Z'
+  'npm:qs:20140806':
+    - grunt-download-atom-shell > github-releases > request > qs:
+        patched: '2018-06-13T09:39:53.825Z'
