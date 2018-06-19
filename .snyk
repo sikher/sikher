@@ -36,3 +36,12 @@ patch:
   'npm:qs:20140806':
     - grunt-download-atom-shell > github-releases > request > qs:
         patched: '2018-06-13T09:39:53.825Z'
+  'npm:hoek:20180212':
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2018-06-19T05:11:36.468Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-19T05:11:36.468Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-19T05:11:36.468Z'
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-19T05:11:36.468Z'
