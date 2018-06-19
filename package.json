@@ -15,7 +15,7 @@
     "gulp-clean-css": "^2.0.4",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0",
-    "snyk": "^1.82.2"
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "bower": "^1.3.3",
@@ -43,7 +43,8 @@
   ],
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }
