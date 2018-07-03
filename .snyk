@@ -36,3 +36,6 @@ patch:
   'npm:qs:20140806':
     - grunt-download-atom-shell > github-releases > request > qs:
         patched: '2018-06-13T09:39:53.825Z'
+  'npm:http-signature:20150122':
+    - grunt-download-atom-shell > github-releases > request > http-signature:
+        patched: '2018-07-03T05:11:22.790Z'
