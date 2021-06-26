@@ -14,7 +14,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-clean-css": "^2.0.4",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.2.0",
+    "gulp-sass": "^5.0.0",
     "snyk": "^1.82.2"
   },
   "devDependencies": {
